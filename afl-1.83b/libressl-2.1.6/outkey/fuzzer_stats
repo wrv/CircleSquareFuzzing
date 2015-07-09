@@ -1,0 +1,24 @@
+start_time     : 1436290537
+last_update    : 1436379430
+fuzzer_pid     : 2336
+cycles_done    : 3
+execs_done     : 5920343
+execs_per_sec  : 97.79
+paths_total    : 690
+paths_found    : 96
+paths_imported : 0
+max_depth      : 6
+cur_path       : 226
+pending_favs   : 1
+pending_total  : 548
+variable_paths : 0
+bitmap_cvg     : 4.05%
+unique_crashes : 0
+unique_hangs   : 18
+last_path      : 1436377630
+last_crash     : 0
+last_hang      : 1436379389
+exec_timeout   : 40
+afl_banner     : openssl
+afl_version    : 1.83b
+command_line   : ../afl-fuzz -i - -o outkey /home/willy/testing/usr/local/bin/openssl x509 -in @@ -text -noout

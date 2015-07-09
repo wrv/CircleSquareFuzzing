@@ -1,0 +1,69 @@
+                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 1 days, 1 hrs, 27 min, 59 sec      │  cycles done : 3      │
+│   last new path : 0 days, 0 hrs, 29 min, 1 sec       │  total paths : 594    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 2 hrs, 1 min, 38 sec       │   uniq hangs : 52     │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 507* (85.35%)     │    map density : 2651 (4.05%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 1.56 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : interest 32/8         │ favored paths : 90 (15.15%)            │
+│ stage execs : 8364/24.5k (34.14%)   │  new edges on : 137 (23.06%)           │
+│ total execs : 7.03M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 71.65/sec (slow!)     │   total hangs : 534 (52 unique)        │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 0/327k, 0/327k, 0/327k                │    levels : 6          │
+│  byte flips : 0/41.0k, 1/30.6k, 0/30.8k             │   pending : 357        │
+│ arithmetics : 4/1.70M, 0/134k, 0/12.6k              │  pend fav : 0          │
+│  known ints : 0/189k, 0/845k, 0/1.33M               │ own finds : 82         │
+│  dictionary : 0/0, 0/0, 0/122k                      │  imported : n/a        │
+│       havoc : 72/1.56M, 0/0                         │  variable : 0          │
+│        trim : 39.94%/29.3k, 25.14%                  ├────────────────────────┘
+^C────────────────────────────────────────────────────┘             [cpu:134%]
+
++++ Testing aborted by user +++
+[+] We're done here. Have a nice day!
+
+
+willy@Ghengis3:~/Desktop/CircleSquare/afl-1.83b/libressl-2.1.6$ ../afl-fuzz -i - -o outkey -- ~/testing/usr/local/bin/openssl x509 -in @@ -text -noout^C
+
+
+                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 1 days, 0 hrs, 32 min, 50 sec      │  cycles done : 0      │
+│   last new path : 0 days, 2 hrs, 9 min, 49 sec       │  total paths : 694    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 1 hrs, 50 min, 0 sec       │   uniq hangs : 71     │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 145 (20.89%)      │    map density : 5573 (8.50%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 1.93 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : havoc                 │ favored paths : 244 (35.16%)           │
+│ stage execs : 1792/2500 (71.68%)    │  new edges on : 333 (47.98%)           │
+│ total execs : 6.64M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 121.1/sec             │   total hangs : 521 (71 unique)        │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 301/293k, 20/293k, 20/293k            │    levels : 3          │
+│  byte flips : 0/36.7k, 2/36.3k, 4/36.2k             │   pending : 640        │
+│ arithmetics : 40/2.03M, 0/32.1k, 0/0                │  pend fav : 204        │
+│  known ints : 14/225k, 1/1.02M, 4/1.59M             │ own finds : 693        │
+│  dictionary : 0/0, 0/0, 9/143k                      │  imported : n/a        │
+│       havoc : 256/589k, 0/0                         │  variable : 0          │
+│        trim : 3.68%/17.7k, 0.85%                    ├────────────────────────┘
+^C────────────────────────────────────────────────────┘             [cpu: 39%]
+
++++ Testing aborted by user +++
+
+[!] Stopped during the first cycle, results may be incomplete.
+    (For info on resuming, see /usr/local/share/doc/afl/README.)
+[+] We're done here. Have a nice day!
+
+willy@Ghengis3:~/Desktop/CircleSquare/afl-1.83b/libressl-2.1.6$ ../afl-fuzz -i incrt -o outcrt -- ~/testing/usr/local/bin/openssl x509 -in @@ -text -noout
+
+
+
+
+

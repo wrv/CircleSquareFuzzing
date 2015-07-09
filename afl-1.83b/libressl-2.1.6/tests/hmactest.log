@@ -1,0 +1,5 @@
+test 0 ok
+test 1 ok
+test 2 ok
+test 3 ok
+PASS hmactest (exit status: 0)
