@@ -19,13 +19,13 @@
 #
 #    magick.sh convert -size 640x480 gradient:black-yellow gradient.png
 
-top_srcdir='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10'
-top_builddir='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10'
+top_srcdir='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10'
+top_builddir='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10'
 
-MAGICK_CODER_MODULE_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/coders'
-MAGICK_CONFIGURE_SRC_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config'
-MAGICK_CONFIGURE_BUILD_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config'
-MAGICK_FILTER_MODULE_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/filters'
+MAGICK_CODER_MODULE_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/coders'
+MAGICK_CONFIGURE_SRC_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config'
+MAGICK_CONFIGURE_BUILD_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config'
+MAGICK_FILTER_MODULE_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/filters'
 DIRSEP=':'
 
 PATH="${top_builddir}/utilities:${PATH}"

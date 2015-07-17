@@ -379,15 +379,15 @@ Magick___lib_libMagick___la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CXXLD) \
 	$(AM_CXXFLAGS) $(CXXFLAGS) \
 	$(Magick___lib_libMagick___la_LDFLAGS) $(LDFLAGS) -o $@
-am_Magick___lib_libMagick___la_rpath =  \
-	-rpath $(libdir)
+#am_Magick___lib_libMagick___la_rpath =  \
+#	-rpath $(libdir)
 coders_art_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_art_la_OBJECTS = coders/coders_art_la-art.lo
 coders_art_la_OBJECTS = $(am_coders_art_la_OBJECTS)
 coders_art_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_art_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_art_la_rpath = -rpath $(codersdir)
+#am_coders_art_la_rpath = -rpath $(codersdir)
 am__DEPENDENCIES_1 =
 coders_avi_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
@@ -396,21 +396,21 @@ coders_avi_la_OBJECTS = $(am_coders_avi_la_OBJECTS)
 coders_avi_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_avi_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_avi_la_rpath = -rpath $(codersdir)
+#am_coders_avi_la_rpath = -rpath $(codersdir)
 coders_avs_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_avs_la_OBJECTS = coders/coders_avs_la-avs.lo
 coders_avs_la_OBJECTS = $(am_coders_avs_la_OBJECTS)
 coders_avs_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_avs_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_avs_la_rpath = -rpath $(codersdir)
+#am_coders_avs_la_rpath = -rpath $(codersdir)
 coders_bmp_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_bmp_la_OBJECTS = coders/coders_bmp_la-bmp.lo
 coders_bmp_la_OBJECTS = $(am_coders_bmp_la_OBJECTS)
 coders_bmp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_bmp_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_bmp_la_rpath = -rpath $(codersdir)
+#am_coders_bmp_la_rpath = -rpath $(codersdir)
 coders_braille_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_braille_la_OBJECTS = coders/coders_braille_la-braille.lo
 coders_braille_la_OBJECTS = $(am_coders_braille_la_OBJECTS)
@@ -418,7 +418,7 @@ coders_braille_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_braille_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_braille_la_rpath = -rpath $(codersdir)
+#am_coders_braille_la_rpath = -rpath $(codersdir)
 coders_cals_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_cals_la_OBJECTS = coders/coders_cals_la-cals.lo
 coders_cals_la_OBJECTS = $(am_coders_cals_la_OBJECTS)
@@ -426,7 +426,7 @@ coders_cals_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_cals_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_cals_la_rpath = -rpath $(codersdir)
+#am_coders_cals_la_rpath = -rpath $(codersdir)
 coders_caption_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_caption_la_OBJECTS = coders/coders_caption_la-caption.lo
 coders_caption_la_OBJECTS = $(am_coders_caption_la_OBJECTS)
@@ -434,21 +434,21 @@ coders_caption_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_caption_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_caption_la_rpath = -rpath $(codersdir)
+#am_coders_caption_la_rpath = -rpath $(codersdir)
 coders_cin_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_cin_la_OBJECTS = coders/coders_cin_la-cin.lo
 coders_cin_la_OBJECTS = $(am_coders_cin_la_OBJECTS)
 coders_cin_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_cin_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_cin_la_rpath = -rpath $(codersdir)
+#am_coders_cin_la_rpath = -rpath $(codersdir)
 coders_cip_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_cip_la_OBJECTS = coders/coders_cip_la-cip.lo
 coders_cip_la_OBJECTS = $(am_coders_cip_la_OBJECTS)
 coders_cip_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_cip_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_cip_la_rpath = -rpath $(codersdir)
+#am_coders_cip_la_rpath = -rpath $(codersdir)
 coders_clip_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_clip_la_OBJECTS = coders/coders_clip_la-clip.lo
 coders_clip_la_OBJECTS = $(am_coders_clip_la_OBJECTS)
@@ -456,7 +456,7 @@ coders_clip_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_clip_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_clip_la_rpath = -rpath $(codersdir)
+#am_coders_clip_la_rpath = -rpath $(codersdir)
 coders_clipboard_la_DEPENDENCIES = $(MAGICKCORE_LIBS) \
 	$(am__DEPENDENCIES_1)
 am_coders_clipboard_la_OBJECTS =  \
@@ -466,8 +466,8 @@ coders_clipboard_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_clipboard_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
-#am_coders_clipboard_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_clipboard_la_rpath =  \
+##	-rpath $(codersdir)
 coders_cmyk_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_cmyk_la_OBJECTS = coders/coders_cmyk_la-cmyk.lo
 coders_cmyk_la_OBJECTS = $(am_coders_cmyk_la_OBJECTS)
@@ -475,35 +475,35 @@ coders_cmyk_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_cmyk_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_cmyk_la_rpath = -rpath $(codersdir)
+#am_coders_cmyk_la_rpath = -rpath $(codersdir)
 coders_cut_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_cut_la_OBJECTS = coders/coders_cut_la-cut.lo
 coders_cut_la_OBJECTS = $(am_coders_cut_la_OBJECTS)
 coders_cut_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_cut_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_cut_la_rpath = -rpath $(codersdir)
+#am_coders_cut_la_rpath = -rpath $(codersdir)
 coders_dcm_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_dcm_la_OBJECTS = coders/coders_dcm_la-dcm.lo
 coders_dcm_la_OBJECTS = $(am_coders_dcm_la_OBJECTS)
 coders_dcm_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dcm_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dcm_la_rpath = -rpath $(codersdir)
+#am_coders_dcm_la_rpath = -rpath $(codersdir)
 coders_dds_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_dds_la_OBJECTS = coders/coders_dds_la-dds.lo
 coders_dds_la_OBJECTS = $(am_coders_dds_la_OBJECTS)
 coders_dds_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dds_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dds_la_rpath = -rpath $(codersdir)
+#am_coders_dds_la_rpath = -rpath $(codersdir)
 coders_dib_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_dib_la_OBJECTS = coders/coders_dib_la-dib.lo
 coders_dib_la_OBJECTS = $(am_coders_dib_la_OBJECTS)
 coders_dib_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dib_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dib_la_rpath = -rpath $(codersdir)
+#am_coders_dib_la_rpath = -rpath $(codersdir)
 coders_djvu_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 am_coders_djvu_la_OBJECTS = coders/coders_djvu_la-djvu.lo
@@ -512,22 +512,22 @@ coders_djvu_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_djvu_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-#am_coders_djvu_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_djvu_la_rpath =  \
+##	-rpath $(codersdir)
 coders_dng_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_dng_la_OBJECTS = coders/coders_dng_la-dng.lo
 coders_dng_la_OBJECTS = $(am_coders_dng_la_OBJECTS)
 coders_dng_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dng_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dng_la_rpath = -rpath $(codersdir)
+#am_coders_dng_la_rpath = -rpath $(codersdir)
 coders_dot_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_dot_la_OBJECTS = coders/coders_dot_la-dot.lo
 coders_dot_la_OBJECTS = $(am_coders_dot_la_OBJECTS)
 coders_dot_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dot_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dot_la_rpath = -rpath $(codersdir)
+#am_coders_dot_la_rpath = -rpath $(codersdir)
 coders_dps_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 am_coders_dps_la_OBJECTS = coders/coders_dps_la-dps.lo
@@ -535,30 +535,30 @@ coders_dps_la_OBJECTS = $(am_coders_dps_la_OBJECTS)
 coders_dps_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dps_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dps_la_rpath = -rpath $(codersdir)
+#am_coders_dps_la_rpath = -rpath $(codersdir)
 coders_dpx_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_dpx_la_OBJECTS = coders/coders_dpx_la-dpx.lo
 coders_dpx_la_OBJECTS = $(am_coders_dpx_la_OBJECTS)
 coders_dpx_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_dpx_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_dpx_la_rpath = -rpath $(codersdir)
+#am_coders_dpx_la_rpath = -rpath $(codersdir)
 coders_emf_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_emf_la_OBJECTS = coders/coders_emf_la-emf.lo
 coders_emf_la_OBJECTS = $(am_coders_emf_la_OBJECTS)
 coders_emf_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_emf_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_emf_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_emf_la_rpath =  \
+##	-rpath $(codersdir)
 coders_ept_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_ept_la_OBJECTS = coders/coders_ept_la-ept.lo
 coders_ept_la_OBJECTS = $(am_coders_ept_la_OBJECTS)
 coders_ept_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_ept_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_ept_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_ept_la_rpath =  \
+##	-rpath $(codersdir)
 coders_exr_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
 am_coders_exr_la_OBJECTS = coders/coders_exr_la-exr.lo
@@ -566,15 +566,15 @@ coders_exr_la_OBJECTS = $(am_coders_exr_la_OBJECTS)
 coders_exr_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_exr_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_exr_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_exr_la_rpath =  \
+##	-rpath $(codersdir)
 coders_fax_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_fax_la_OBJECTS = coders/coders_fax_la-fax.lo
 coders_fax_la_OBJECTS = $(am_coders_fax_la_OBJECTS)
 coders_fax_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_fax_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_fax_la_rpath = -rpath $(codersdir)
+#am_coders_fax_la_rpath = -rpath $(codersdir)
 coders_fits_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_fits_la_OBJECTS = coders/coders_fits_la-fits.lo
 coders_fits_la_OBJECTS = $(am_coders_fits_la_OBJECTS)
@@ -582,22 +582,22 @@ coders_fits_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_fits_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_fits_la_rpath = -rpath $(codersdir)
+#am_coders_fits_la_rpath = -rpath $(codersdir)
 coders_fpx_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_fpx_la_OBJECTS = coders/coders_fpx_la-fpx.lo
 coders_fpx_la_OBJECTS = $(am_coders_fpx_la_OBJECTS)
 coders_fpx_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_fpx_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_fpx_la_rpath = -rpath \
-#	$(codersdir)
+##am_coders_fpx_la_rpath = -rpath \
+##	$(codersdir)
 coders_gif_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_gif_la_OBJECTS = coders/coders_gif_la-gif.lo
 coders_gif_la_OBJECTS = $(am_coders_gif_la_OBJECTS)
 coders_gif_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_gif_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_gif_la_rpath = -rpath $(codersdir)
+#am_coders_gif_la_rpath = -rpath $(codersdir)
 coders_gradient_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_gradient_la_OBJECTS = coders/coders_gradient_la-gradient.lo
 coders_gradient_la_OBJECTS = $(am_coders_gradient_la_OBJECTS)
@@ -605,7 +605,7 @@ coders_gradient_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_gradient_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
-am_coders_gradient_la_rpath = -rpath $(codersdir)
+#am_coders_gradient_la_rpath = -rpath $(codersdir)
 coders_gray_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_gray_la_OBJECTS = coders/coders_gray_la-gray.lo
 coders_gray_la_OBJECTS = $(am_coders_gray_la_OBJECTS)
@@ -613,7 +613,7 @@ coders_gray_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_gray_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_gray_la_rpath = -rpath $(codersdir)
+#am_coders_gray_la_rpath = -rpath $(codersdir)
 coders_hald_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_hald_la_OBJECTS = coders/coders_hald_la-hald.lo
 coders_hald_la_OBJECTS = $(am_coders_hald_la_OBJECTS)
@@ -621,7 +621,7 @@ coders_hald_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_hald_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_hald_la_rpath = -rpath $(codersdir)
+#am_coders_hald_la_rpath = -rpath $(codersdir)
 coders_histogram_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_histogram_la_OBJECTS =  \
 	coders/coders_histogram_la-histogram.lo
@@ -630,14 +630,14 @@ coders_histogram_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_histogram_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
-am_coders_histogram_la_rpath = -rpath $(codersdir)
+#am_coders_histogram_la_rpath = -rpath $(codersdir)
 coders_hrz_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_hrz_la_OBJECTS = coders/coders_hrz_la-hrz.lo
 coders_hrz_la_OBJECTS = $(am_coders_hrz_la_OBJECTS)
 coders_hrz_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_hrz_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_hrz_la_rpath = -rpath $(codersdir)
+#am_coders_hrz_la_rpath = -rpath $(codersdir)
 coders_html_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_html_la_OBJECTS = coders/coders_html_la-html.lo
 coders_html_la_OBJECTS = $(am_coders_html_la_OBJECTS)
@@ -645,7 +645,7 @@ coders_html_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_html_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_html_la_rpath = -rpath $(codersdir)
+#am_coders_html_la_rpath = -rpath $(codersdir)
 coders_icon_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_icon_la_OBJECTS = coders/coders_icon_la-icon.lo
 coders_icon_la_OBJECTS = $(am_coders_icon_la_OBJECTS)
@@ -653,7 +653,7 @@ coders_icon_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_icon_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_icon_la_rpath = -rpath $(codersdir)
+#am_coders_icon_la_rpath = -rpath $(codersdir)
 coders_info_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_info_la_OBJECTS = coders/coders_info_la-info.lo
 coders_info_la_OBJECTS = $(am_coders_info_la_OBJECTS)
@@ -661,7 +661,7 @@ coders_info_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_info_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_info_la_rpath = -rpath $(codersdir)
+#am_coders_info_la_rpath = -rpath $(codersdir)
 coders_inline_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_inline_la_OBJECTS = coders/coders_inline_la-inline.lo
 coders_inline_la_OBJECTS = $(am_coders_inline_la_OBJECTS)
@@ -669,14 +669,14 @@ coders_inline_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_inline_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_inline_la_rpath = -rpath $(codersdir)
+#am_coders_inline_la_rpath = -rpath $(codersdir)
 coders_ipl_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_ipl_la_OBJECTS = coders/coders_ipl_la-ipl.lo
 coders_ipl_la_OBJECTS = $(am_coders_ipl_la_OBJECTS)
 coders_ipl_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_ipl_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_ipl_la_rpath = -rpath $(codersdir)
+#am_coders_ipl_la_rpath = -rpath $(codersdir)
 coders_jbig_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_jbig_la_OBJECTS = coders/coders_jbig_la-jbig.lo
 coders_jbig_la_OBJECTS = $(am_coders_jbig_la_OBJECTS)
@@ -684,8 +684,8 @@ coders_jbig_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_jbig_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-#am_coders_jbig_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_jbig_la_rpath =  \
+##	-rpath $(codersdir)
 coders_jp2_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 am_coders_jp2_la_OBJECTS = coders/coders_jp2_la-jp2.lo
@@ -693,8 +693,8 @@ coders_jp2_la_OBJECTS = $(am_coders_jp2_la_OBJECTS)
 coders_jp2_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_jp2_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_jp2_la_rpath = -rpath \
-#	$(codersdir)
+##am_coders_jp2_la_rpath = -rpath \
+##	$(codersdir)
 coders_jpeg_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_jpeg_la_OBJECTS = coders/coders_jpeg_la-jpeg.lo
 coders_jpeg_la_OBJECTS = $(am_coders_jpeg_la_OBJECTS)
@@ -702,8 +702,8 @@ coders_jpeg_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_jpeg_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-#am_coders_jpeg_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_jpeg_la_rpath =  \
+##	-rpath $(codersdir)
 coders_label_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_label_la_OBJECTS = coders/coders_label_la-label.lo
 coders_label_la_OBJECTS = $(am_coders_label_la_OBJECTS)
@@ -711,7 +711,7 @@ coders_label_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_label_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_label_la_rpath = -rpath $(codersdir)
+#am_coders_label_la_rpath = -rpath $(codersdir)
 coders_magick_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_magick_la_OBJECTS = coders/coders_magick_la-magick.lo
 coders_magick_la_OBJECTS = $(am_coders_magick_la_OBJECTS)
@@ -719,21 +719,21 @@ coders_magick_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_magick_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_magick_la_rpath = -rpath $(codersdir)
+#am_coders_magick_la_rpath = -rpath $(codersdir)
 coders_map_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_map_la_OBJECTS = coders/coders_map_la-map.lo
 coders_map_la_OBJECTS = $(am_coders_map_la_OBJECTS)
 coders_map_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_map_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_map_la_rpath = -rpath $(codersdir)
+#am_coders_map_la_rpath = -rpath $(codersdir)
 coders_mat_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_mat_la_OBJECTS = coders/coders_mat_la-mat.lo
 coders_mat_la_OBJECTS = $(am_coders_mat_la_OBJECTS)
 coders_mat_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_mat_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_mat_la_rpath = -rpath $(codersdir)
+#am_coders_mat_la_rpath = -rpath $(codersdir)
 coders_matte_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_matte_la_OBJECTS = coders/coders_matte_la-matte.lo
 coders_matte_la_OBJECTS = $(am_coders_matte_la_OBJECTS)
@@ -741,7 +741,7 @@ coders_matte_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_matte_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_matte_la_rpath = -rpath $(codersdir)
+#am_coders_matte_la_rpath = -rpath $(codersdir)
 coders_meta_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_meta_la_OBJECTS = coders/coders_meta_la-meta.lo
 coders_meta_la_OBJECTS = $(am_coders_meta_la_OBJECTS)
@@ -749,7 +749,7 @@ coders_meta_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_meta_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_meta_la_rpath = -rpath $(codersdir)
+#am_coders_meta_la_rpath = -rpath $(codersdir)
 coders_miff_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
 am_coders_miff_la_OBJECTS = coders/coders_miff_la-miff.lo
@@ -758,7 +758,7 @@ coders_miff_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_miff_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_miff_la_rpath = -rpath $(codersdir)
+#am_coders_miff_la_rpath = -rpath $(codersdir)
 coders_mono_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_mono_la_OBJECTS = coders/coders_mono_la-mono.lo
 coders_mono_la_OBJECTS = $(am_coders_mono_la_OBJECTS)
@@ -766,14 +766,14 @@ coders_mono_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_mono_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_mono_la_rpath = -rpath $(codersdir)
+#am_coders_mono_la_rpath = -rpath $(codersdir)
 coders_mpc_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_mpc_la_OBJECTS = coders/coders_mpc_la-mpc.lo
 coders_mpc_la_OBJECTS = $(am_coders_mpc_la_OBJECTS)
 coders_mpc_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_mpc_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_mpc_la_rpath = -rpath $(codersdir)
+#am_coders_mpc_la_rpath = -rpath $(codersdir)
 coders_mpeg_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_mpeg_la_OBJECTS = coders/coders_mpeg_la-mpeg.lo
 coders_mpeg_la_OBJECTS = $(am_coders_mpeg_la_OBJECTS)
@@ -781,14 +781,14 @@ coders_mpeg_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_mpeg_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_mpeg_la_rpath = -rpath $(codersdir)
+#am_coders_mpeg_la_rpath = -rpath $(codersdir)
 coders_mpr_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_mpr_la_OBJECTS = coders/coders_mpr_la-mpr.lo
 coders_mpr_la_OBJECTS = $(am_coders_mpr_la_OBJECTS)
 coders_mpr_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_mpr_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_mpr_la_rpath = -rpath $(codersdir)
+#am_coders_mpr_la_rpath = -rpath $(codersdir)
 coders_msl_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 am_coders_msl_la_OBJECTS = coders/coders_msl_la-msl.lo
@@ -796,21 +796,21 @@ coders_msl_la_OBJECTS = $(am_coders_msl_la_OBJECTS)
 coders_msl_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_msl_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_msl_la_rpath = -rpath $(codersdir)
+#am_coders_msl_la_rpath = -rpath $(codersdir)
 coders_mtv_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_mtv_la_OBJECTS = coders/coders_mtv_la-mtv.lo
 coders_mtv_la_OBJECTS = $(am_coders_mtv_la_OBJECTS)
 coders_mtv_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_mtv_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_mtv_la_rpath = -rpath $(codersdir)
+#am_coders_mtv_la_rpath = -rpath $(codersdir)
 coders_mvg_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_mvg_la_OBJECTS = coders/coders_mvg_la-mvg.lo
 coders_mvg_la_OBJECTS = $(am_coders_mvg_la_OBJECTS)
 coders_mvg_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_mvg_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_mvg_la_rpath = -rpath $(codersdir)
+#am_coders_mvg_la_rpath = -rpath $(codersdir)
 coders_null_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_null_la_OBJECTS = coders/coders_null_la-null.lo
 coders_null_la_OBJECTS = $(am_coders_null_la_OBJECTS)
@@ -818,14 +818,14 @@ coders_null_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_null_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_null_la_rpath = -rpath $(codersdir)
+#am_coders_null_la_rpath = -rpath $(codersdir)
 coders_otb_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_otb_la_OBJECTS = coders/coders_otb_la-otb.lo
 coders_otb_la_OBJECTS = $(am_coders_otb_la_OBJECTS)
 coders_otb_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_otb_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_otb_la_rpath = -rpath $(codersdir)
+#am_coders_otb_la_rpath = -rpath $(codersdir)
 coders_palm_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_palm_la_OBJECTS = coders/coders_palm_la-palm.lo
 coders_palm_la_OBJECTS = $(am_coders_palm_la_OBJECTS)
@@ -833,7 +833,7 @@ coders_palm_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_palm_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_palm_la_rpath = -rpath $(codersdir)
+#am_coders_palm_la_rpath = -rpath $(codersdir)
 coders_pattern_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pattern_la_OBJECTS = coders/coders_pattern_la-pattern.lo
 coders_pattern_la_OBJECTS = $(am_coders_pattern_la_OBJECTS)
@@ -841,35 +841,35 @@ coders_pattern_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_pattern_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_pattern_la_rpath = -rpath $(codersdir)
+#am_coders_pattern_la_rpath = -rpath $(codersdir)
 coders_pcd_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pcd_la_OBJECTS = coders/coders_pcd_la-pcd.lo
 coders_pcd_la_OBJECTS = $(am_coders_pcd_la_OBJECTS)
 coders_pcd_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pcd_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pcd_la_rpath = -rpath $(codersdir)
+#am_coders_pcd_la_rpath = -rpath $(codersdir)
 coders_pcl_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pcl_la_OBJECTS = coders/coders_pcl_la-pcl.lo
 coders_pcl_la_OBJECTS = $(am_coders_pcl_la_OBJECTS)
 coders_pcl_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pcl_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pcl_la_rpath = -rpath $(codersdir)
+#am_coders_pcl_la_rpath = -rpath $(codersdir)
 coders_pcx_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pcx_la_OBJECTS = coders/coders_pcx_la-pcx.lo
 coders_pcx_la_OBJECTS = $(am_coders_pcx_la_OBJECTS)
 coders_pcx_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pcx_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pcx_la_rpath = -rpath $(codersdir)
+#am_coders_pcx_la_rpath = -rpath $(codersdir)
 coders_pdb_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pdb_la_OBJECTS = coders/coders_pdb_la-pdb.lo
 coders_pdb_la_OBJECTS = $(am_coders_pdb_la_OBJECTS)
 coders_pdb_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pdb_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pdb_la_rpath = -rpath $(codersdir)
+#am_coders_pdb_la_rpath = -rpath $(codersdir)
 coders_pdf_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -879,7 +879,7 @@ coders_pdf_la_OBJECTS = $(am_coders_pdf_la_OBJECTS)
 coders_pdf_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pdf_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pdf_la_rpath = -rpath $(codersdir)
+#am_coders_pdf_la_rpath = -rpath $(codersdir)
 coders_pict_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pict_la_OBJECTS = coders/coders_pict_la-pict.lo
 coders_pict_la_OBJECTS = $(am_coders_pict_la_OBJECTS)
@@ -887,14 +887,14 @@ coders_pict_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_pict_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_pict_la_rpath = -rpath $(codersdir)
+#am_coders_pict_la_rpath = -rpath $(codersdir)
 coders_pix_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pix_la_OBJECTS = coders/coders_pix_la-pix.lo
 coders_pix_la_OBJECTS = $(am_coders_pix_la_OBJECTS)
 coders_pix_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pix_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pix_la_rpath = -rpath $(codersdir)
+#am_coders_pix_la_rpath = -rpath $(codersdir)
 coders_plasma_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_plasma_la_OBJECTS = coders/coders_plasma_la-plasma.lo
 coders_plasma_la_OBJECTS = $(am_coders_plasma_la_OBJECTS)
@@ -902,7 +902,7 @@ coders_plasma_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_plasma_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_plasma_la_rpath = -rpath $(codersdir)
+#am_coders_plasma_la_rpath = -rpath $(codersdir)
 coders_png_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
@@ -911,15 +911,15 @@ coders_png_la_OBJECTS = $(am_coders_png_la_OBJECTS)
 coders_png_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_png_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_png_la_rpath = -rpath \
-#	$(codersdir)
+##am_coders_png_la_rpath = -rpath \
+##	$(codersdir)
 coders_pnm_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pnm_la_OBJECTS = coders/coders_pnm_la-pnm.lo
 coders_pnm_la_OBJECTS = $(am_coders_pnm_la_OBJECTS)
 coders_pnm_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pnm_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pnm_la_rpath = -rpath $(codersdir)
+#am_coders_pnm_la_rpath = -rpath $(codersdir)
 coders_preview_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_preview_la_OBJECTS = coders/coders_preview_la-preview.lo
 coders_preview_la_OBJECTS = $(am_coders_preview_la_OBJECTS)
@@ -927,7 +927,7 @@ coders_preview_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_preview_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_preview_la_rpath = -rpath $(codersdir)
+#am_coders_preview_la_rpath = -rpath $(codersdir)
 coders_ps_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
 am_coders_ps_la_OBJECTS = coders/coders_ps_la-ps.lo
@@ -935,7 +935,7 @@ coders_ps_la_OBJECTS = $(am_coders_ps_la_OBJECTS)
 coders_ps_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_ps_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_ps_la_rpath = -rpath $(codersdir)
+#am_coders_ps_la_rpath = -rpath $(codersdir)
 coders_ps2_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
@@ -944,7 +944,7 @@ coders_ps2_la_OBJECTS = $(am_coders_ps2_la_OBJECTS)
 coders_ps2_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_ps2_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_ps2_la_rpath = -rpath $(codersdir)
+#am_coders_ps2_la_rpath = -rpath $(codersdir)
 coders_ps3_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
@@ -953,77 +953,77 @@ coders_ps3_la_OBJECTS = $(am_coders_ps3_la_OBJECTS)
 coders_ps3_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_ps3_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_ps3_la_rpath = -rpath $(codersdir)
+#am_coders_ps3_la_rpath = -rpath $(codersdir)
 coders_psd_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_psd_la_OBJECTS = coders/coders_psd_la-psd.lo
 coders_psd_la_OBJECTS = $(am_coders_psd_la_OBJECTS)
 coders_psd_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_psd_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_psd_la_rpath = -rpath $(codersdir)
+#am_coders_psd_la_rpath = -rpath $(codersdir)
 coders_pwp_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_pwp_la_OBJECTS = coders/coders_pwp_la-pwp.lo
 coders_pwp_la_OBJECTS = $(am_coders_pwp_la_OBJECTS)
 coders_pwp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_pwp_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_pwp_la_rpath = -rpath $(codersdir)
+#am_coders_pwp_la_rpath = -rpath $(codersdir)
 coders_raw_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_raw_la_OBJECTS = coders/coders_raw_la-raw.lo
 coders_raw_la_OBJECTS = $(am_coders_raw_la_OBJECTS)
 coders_raw_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_raw_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_raw_la_rpath = -rpath $(codersdir)
+#am_coders_raw_la_rpath = -rpath $(codersdir)
 coders_rgb_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_rgb_la_OBJECTS = coders/coders_rgb_la-rgb.lo
 coders_rgb_la_OBJECTS = $(am_coders_rgb_la_OBJECTS)
 coders_rgb_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_rgb_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_rgb_la_rpath = -rpath $(codersdir)
+#am_coders_rgb_la_rpath = -rpath $(codersdir)
 coders_rla_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_rla_la_OBJECTS = coders/coders_rla_la-rla.lo
 coders_rla_la_OBJECTS = $(am_coders_rla_la_OBJECTS)
 coders_rla_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_rla_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_rla_la_rpath = -rpath $(codersdir)
+#am_coders_rla_la_rpath = -rpath $(codersdir)
 coders_rle_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_rle_la_OBJECTS = coders/coders_rle_la-rle.lo
 coders_rle_la_OBJECTS = $(am_coders_rle_la_OBJECTS)
 coders_rle_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_rle_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_rle_la_rpath = -rpath $(codersdir)
+#am_coders_rle_la_rpath = -rpath $(codersdir)
 coders_scr_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_scr_la_OBJECTS = coders/coders_scr_la-scr.lo
 coders_scr_la_OBJECTS = $(am_coders_scr_la_OBJECTS)
 coders_scr_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_scr_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_scr_la_rpath = -rpath $(codersdir)
+#am_coders_scr_la_rpath = -rpath $(codersdir)
 coders_sct_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_sct_la_OBJECTS = coders/coders_sct_la-sct.lo
 coders_sct_la_OBJECTS = $(am_coders_sct_la_OBJECTS)
 coders_sct_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_sct_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_sct_la_rpath = -rpath $(codersdir)
+#am_coders_sct_la_rpath = -rpath $(codersdir)
 coders_sfw_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_sfw_la_OBJECTS = coders/coders_sfw_la-sfw.lo
 coders_sfw_la_OBJECTS = $(am_coders_sfw_la_OBJECTS)
 coders_sfw_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_sfw_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_sfw_la_rpath = -rpath $(codersdir)
+#am_coders_sfw_la_rpath = -rpath $(codersdir)
 coders_sgi_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_sgi_la_OBJECTS = coders/coders_sgi_la-sgi.lo
 coders_sgi_la_OBJECTS = $(am_coders_sgi_la_OBJECTS)
 coders_sgi_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_sgi_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_sgi_la_rpath = -rpath $(codersdir)
+#am_coders_sgi_la_rpath = -rpath $(codersdir)
 coders_stegano_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_stegano_la_OBJECTS = coders/coders_stegano_la-stegano.lo
 coders_stegano_la_OBJECTS = $(am_coders_stegano_la_OBJECTS)
@@ -1031,14 +1031,14 @@ coders_stegano_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_stegano_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_stegano_la_rpath = -rpath $(codersdir)
+#am_coders_stegano_la_rpath = -rpath $(codersdir)
 coders_sun_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_sun_la_OBJECTS = coders/coders_sun_la-sun.lo
 coders_sun_la_OBJECTS = $(am_coders_sun_la_OBJECTS)
 coders_sun_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_sun_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_sun_la_rpath = -rpath $(codersdir)
+#am_coders_sun_la_rpath = -rpath $(codersdir)
 coders_svg_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -1048,14 +1048,14 @@ coders_svg_la_OBJECTS = $(am_coders_svg_la_OBJECTS)
 coders_svg_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_svg_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_svg_la_rpath = -rpath $(codersdir)
+#am_coders_svg_la_rpath = -rpath $(codersdir)
 coders_tga_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_tga_la_OBJECTS = coders/coders_tga_la-tga.lo
 coders_tga_la_OBJECTS = $(am_coders_tga_la_OBJECTS)
 coders_tga_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_tga_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_tga_la_rpath = -rpath $(codersdir)
+#am_coders_tga_la_rpath = -rpath $(codersdir)
 coders_thumbnail_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_thumbnail_la_OBJECTS =  \
 	coders/coders_thumbnail_la-thumbnail.lo
@@ -1064,7 +1064,7 @@ coders_thumbnail_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_thumbnail_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
-am_coders_thumbnail_la_rpath = -rpath $(codersdir)
+#am_coders_thumbnail_la_rpath = -rpath $(codersdir)
 coders_tiff_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
@@ -1074,8 +1074,8 @@ coders_tiff_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_tiff_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-#am_coders_tiff_la_rpath =  \
-#	-rpath $(codersdir)
+##am_coders_tiff_la_rpath =  \
+##	-rpath $(codersdir)
 coders_tile_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_tile_la_OBJECTS = coders/coders_tile_la-tile.lo
 coders_tile_la_OBJECTS = $(am_coders_tile_la_OBJECTS)
@@ -1083,35 +1083,35 @@ coders_tile_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_tile_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_tile_la_rpath = -rpath $(codersdir)
+#am_coders_tile_la_rpath = -rpath $(codersdir)
 coders_tim_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_tim_la_OBJECTS = coders/coders_tim_la-tim.lo
 coders_tim_la_OBJECTS = $(am_coders_tim_la_OBJECTS)
 coders_tim_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_tim_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_tim_la_rpath = -rpath $(codersdir)
+#am_coders_tim_la_rpath = -rpath $(codersdir)
 coders_ttf_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_ttf_la_OBJECTS = coders/coders_ttf_la-ttf.lo
 coders_ttf_la_OBJECTS = $(am_coders_ttf_la_OBJECTS)
 coders_ttf_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_ttf_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_ttf_la_rpath = -rpath $(codersdir)
+#am_coders_ttf_la_rpath = -rpath $(codersdir)
 coders_txt_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_txt_la_OBJECTS = coders/coders_txt_la-txt.lo
 coders_txt_la_OBJECTS = $(am_coders_txt_la_OBJECTS)
 coders_txt_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_txt_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_txt_la_rpath = -rpath $(codersdir)
+#am_coders_txt_la_rpath = -rpath $(codersdir)
 coders_uil_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_uil_la_OBJECTS = coders/coders_uil_la-uil.lo
 coders_uil_la_OBJECTS = $(am_coders_uil_la_OBJECTS)
 coders_uil_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_uil_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_uil_la_rpath = -rpath $(codersdir)
+#am_coders_uil_la_rpath = -rpath $(codersdir)
 coders_url_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1)
 am_coders_url_la_OBJECTS = coders/coders_url_la-url.lo
@@ -1119,7 +1119,7 @@ coders_url_la_OBJECTS = $(am_coders_url_la_OBJECTS)
 coders_url_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_url_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_url_la_rpath = -rpath $(codersdir)
+#am_coders_url_la_rpath = -rpath $(codersdir)
 coders_uyvy_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_uyvy_la_OBJECTS = coders/coders_uyvy_la-uyvy.lo
 coders_uyvy_la_OBJECTS = $(am_coders_uyvy_la_OBJECTS)
@@ -1127,7 +1127,7 @@ coders_uyvy_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_uyvy_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_uyvy_la_rpath = -rpath $(codersdir)
+#am_coders_uyvy_la_rpath = -rpath $(codersdir)
 coders_vicar_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_vicar_la_OBJECTS = coders/coders_vicar_la-vicar.lo
 coders_vicar_la_OBJECTS = $(am_coders_vicar_la_OBJECTS)
@@ -1135,14 +1135,14 @@ coders_vicar_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_vicar_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_vicar_la_rpath = -rpath $(codersdir)
+#am_coders_vicar_la_rpath = -rpath $(codersdir)
 coders_vid_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_vid_la_OBJECTS = coders/coders_vid_la-vid.lo
 coders_vid_la_OBJECTS = $(am_coders_vid_la_OBJECTS)
 coders_vid_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_vid_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_vid_la_rpath = -rpath $(codersdir)
+#am_coders_vid_la_rpath = -rpath $(codersdir)
 coders_viff_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_viff_la_OBJECTS = coders/coders_viff_la-viff.lo
 coders_viff_la_OBJECTS = $(am_coders_viff_la_OBJECTS)
@@ -1150,7 +1150,7 @@ coders_viff_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_viff_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_viff_la_rpath = -rpath $(codersdir)
+#am_coders_viff_la_rpath = -rpath $(codersdir)
 coders_wbmp_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_wbmp_la_OBJECTS = coders/coders_wbmp_la-wbmp.lo
 coders_wbmp_la_OBJECTS = $(am_coders_wbmp_la_OBJECTS)
@@ -1158,7 +1158,7 @@ coders_wbmp_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_wbmp_la_LDFLAGS) $(LDFLAGS) -o \
 	$@
-am_coders_wbmp_la_rpath = -rpath $(codersdir)
+#am_coders_wbmp_la_rpath = -rpath $(codersdir)
 coders_wmf_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
 	$(am__DEPENDENCIES_1)
@@ -1167,66 +1167,66 @@ coders_wmf_la_OBJECTS = $(am_coders_wmf_la_OBJECTS)
 coders_wmf_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_wmf_la_LDFLAGS) $(LDFLAGS) -o $@
-#am_coders_wmf_la_rpath = -rpath \
-#	$(codersdir)
+##am_coders_wmf_la_rpath = -rpath \
+##	$(codersdir)
 coders_wpg_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_wpg_la_OBJECTS = coders/coders_wpg_la-wpg.lo
 coders_wpg_la_OBJECTS = $(am_coders_wpg_la_OBJECTS)
 coders_wpg_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_wpg_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_wpg_la_rpath = -rpath $(codersdir)
+#am_coders_wpg_la_rpath = -rpath $(codersdir)
 coders_x_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_x_la_OBJECTS = coders/coders_x_la-x.lo
 coders_x_la_OBJECTS = $(am_coders_x_la_OBJECTS)
 coders_x_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_x_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_x_la_rpath = -rpath \
-	$(codersdir)
+##am_coders_x_la_rpath = -rpath \
+##	$(codersdir)
 coders_xbm_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_xbm_la_OBJECTS = coders/coders_xbm_la-xbm.lo
 coders_xbm_la_OBJECTS = $(am_coders_xbm_la_OBJECTS)
 coders_xbm_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_xbm_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_xbm_la_rpath = -rpath $(codersdir)
+#am_coders_xbm_la_rpath = -rpath $(codersdir)
 coders_xc_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_xc_la_OBJECTS = coders/coders_xc_la-xc.lo
 coders_xc_la_OBJECTS = $(am_coders_xc_la_OBJECTS)
 coders_xc_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_xc_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_xc_la_rpath = -rpath $(codersdir)
+#am_coders_xc_la_rpath = -rpath $(codersdir)
 coders_xcf_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_xcf_la_OBJECTS = coders/coders_xcf_la-xcf.lo
 coders_xcf_la_OBJECTS = $(am_coders_xcf_la_OBJECTS)
 coders_xcf_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_xcf_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_xcf_la_rpath = -rpath $(codersdir)
+#am_coders_xcf_la_rpath = -rpath $(codersdir)
 coders_xpm_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_xpm_la_OBJECTS = coders/coders_xpm_la-xpm.lo
 coders_xpm_la_OBJECTS = $(am_coders_xpm_la_OBJECTS)
 coders_xpm_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_xpm_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_xpm_la_rpath = -rpath $(codersdir)
+#am_coders_xpm_la_rpath = -rpath $(codersdir)
 coders_xps_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_xps_la_OBJECTS = coders/coders_xps_la-xps.lo
 coders_xps_la_OBJECTS = $(am_coders_xps_la_OBJECTS)
 coders_xps_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_xps_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_xps_la_rpath = -rpath $(codersdir)
+#am_coders_xps_la_rpath = -rpath $(codersdir)
 coders_xwd_la_DEPENDENCIES = $(MAGICKCORE_LIBS) $(am__DEPENDENCIES_1)
 am_coders_xwd_la_OBJECTS = coders/coders_xwd_la-xwd.lo
 coders_xwd_la_OBJECTS = $(am_coders_xwd_la_OBJECTS)
 coders_xwd_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_xwd_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_xwd_la_rpath = -rpath \
-	$(codersdir)
+##am_coders_xwd_la_rpath = -rpath \
+##	$(codersdir)
 coders_ycbcr_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_ycbcr_la_OBJECTS = coders/coders_ycbcr_la-ycbcr.lo
 coders_ycbcr_la_OBJECTS = $(am_coders_ycbcr_la_OBJECTS)
@@ -1234,14 +1234,14 @@ coders_ycbcr_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(coders_ycbcr_la_LDFLAGS) $(LDFLAGS) \
 	-o $@
-am_coders_ycbcr_la_rpath = -rpath $(codersdir)
+#am_coders_ycbcr_la_rpath = -rpath $(codersdir)
 coders_yuv_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_coders_yuv_la_OBJECTS = coders/coders_yuv_la-yuv.lo
 coders_yuv_la_OBJECTS = $(am_coders_yuv_la_OBJECTS)
 coders_yuv_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
 	$(coders_yuv_la_LDFLAGS) $(LDFLAGS) -o $@
-am_coders_yuv_la_rpath = -rpath $(codersdir)
+#am_coders_yuv_la_rpath = -rpath $(codersdir)
 filters_analyze_la_DEPENDENCIES = $(MAGICKCORE_LIBS)
 am_filters_analyze_la_OBJECTS = filters/filters_analyze_la-analyze.lo
 filters_analyze_la_OBJECTS = $(am_filters_analyze_la_OBJECTS)
@@ -1249,7 +1249,7 @@ filters_analyze_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
 	$(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=link $(CCLD) \
 	$(AM_CFLAGS) $(CFLAGS) $(filters_analyze_la_LDFLAGS) \
 	$(LDFLAGS) -o $@
-am_filters_analyze_la_rpath = -rpath $(filtersdir)
+#am_filters_analyze_la_rpath = -rpath $(filtersdir)
 ltdl_dld_link_la_DEPENDENCIES =
 am_ltdl_dld_link_la_OBJECTS = ltdl/loaders/dld_link.lo
 ltdl_dld_link_la_OBJECTS = $(am_ltdl_dld_link_la_OBJECTS)
@@ -1513,9 +1513,9 @@ am__objects_2 = magick/magick_libMagickCore_la-animate.lo \
 #	coders/magick_libMagickCore_la-tiff.lo
 #am__objects_13 =  \
 #	coders/magick_libMagickCore_la-wmf.lo
-am__objects_14 =  \
-	coders/magick_libMagickCore_la-x.lo \
-	coders/magick_libMagickCore_la-xwd.lo
+#am__objects_14 =  \
+#	coders/magick_libMagickCore_la-x.lo \
+#	coders/magick_libMagickCore_la-xwd.lo
 am__objects_15 = coders/magick_libMagickCore_la-art.lo \
 	coders/magick_libMagickCore_la-avi.lo \
 	coders/magick_libMagickCore_la-avs.lo \
@@ -1618,11 +1618,11 @@ am__objects_15 = coders/magick_libMagickCore_la-art.lo \
 	$(am__objects_11) $(am__objects_12) $(am__objects_13) \
 	$(am__objects_14)
 am__objects_16 = filters/magick_libMagickCore_la-analyze.lo
-#am_magick_libMagickCore_la_OBJECTS =  \
-#	$(am__objects_2) $(am__objects_3) \
-#	$(am__objects_15) $(am__objects_16)
 am_magick_libMagickCore_la_OBJECTS =  \
-	$(am__objects_2) $(am__objects_3)
+	$(am__objects_2) $(am__objects_3) \
+	$(am__objects_15) $(am__objects_16)
+#am_magick_libMagickCore_la_OBJECTS =  \
+#	$(am__objects_2) $(am__objects_3)
 magick_libMagickCore_la_OBJECTS =  \
 	$(am_magick_libMagickCore_la_OBJECTS)
 magick_libMagickCore_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \
@@ -1681,13 +1681,13 @@ am__EXEEXT_3 = Magick++/demo/analyze$(EXEEXT) \
 	Magick++/tests/morphImages$(EXEEXT) \
 	Magick++/tests/readWriteBlob$(EXEEXT) \
 	Magick++/tests/readWriteImages$(EXEEXT)
-am__EXEEXT_4 = $(am__EXEEXT_3)
+#am__EXEEXT_4 = $(am__EXEEXT_3)
 am__EXEEXT_5 = wand/drawtest$(EXEEXT) wand/wandtest$(EXEEXT)
 PROGRAMS = $(bin_PROGRAMS)
 am_Magick___demo_analyze_OBJECTS = Magick++/demo/analyze.$(OBJEXT)
 Magick___demo_analyze_OBJECTS = $(am_Magick___demo_analyze_OBJECTS)
-am__DEPENDENCIES_3 =  \
-	Magick++/lib/libMagick++.la
+#am__DEPENDENCIES_3 =  \
+#	Magick++/lib/libMagick++.la
 Magick___demo_analyze_DEPENDENCIES = $(am__DEPENDENCIES_3)
 am_Magick___demo_button_OBJECTS = Magick++/demo/button.$(OBJEXT)
 Magick___demo_button_OBJECTS = $(am_Magick___demo_button_OBJECTS)
@@ -2160,8 +2160,8 @@ tst=$$dir$$f; log='$@'; __SAVED_TERM=$$TERM;		\
 $(TESTS_ENVIRONMENT)
 RECHECK_LOGS = $(TEST_LOGS)
 AM_RECURSIVE_TARGETS = check check-html recheck recheck-html
-am__EXEEXT_6 =  \
-	$(MAGICKPP_TEST_SCRIPTS_OPT)
+#am__EXEEXT_6 =  \
+#	$(MAGICKPP_TEST_SCRIPTS_OPT)
 am__EXEEXT_7 =
 TEST_SUITE_LOG = test-suite.log
 TEST_SUITE_HTML = $(TEST_SUITE_LOG:.log=.html)
@@ -2182,19 +2182,19 @@ DIST_ARCHIVES = $(distdir).tar.gz $(distdir).tar.bz2 \
 GZIP_ENV = --best
 distuninstallcheck_listfiles = find . -type f -print
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run aclocal-1.11
-AMTAR = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run tar
+ACLOCAL = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run aclocal-1.11
+AMTAR = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run tar
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
 ARGZ_H = 
 AS = as
-AUTOCONF = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run automake-1.11
+AUTOCONF = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run automake-1.11
 AUTOTRACE_CFLAGS = 
 AUTOTRACE_LIBS = 
 AVIDecodeDelegate = mplayer
-AWK = mawk
+AWK = gawk
 AutotraceDecodeDelegate = autotrace
 BIN_DIR = /usr/local/bin
 BZIPDelegate = bzip2
@@ -2203,32 +2203,32 @@ BlenderDecodeDelegate =
 BrowseDelegate = xdg-open
 CAIRO_SVG_CFLAGS = 
 CAIRO_SVG_LIBS = 
-CC = ../afl-gcc -std=gnu99
-CCDEPMODE = depmode=none
+CC = /home/wrv/afl-1.83b/afl-gcc -std=gnu99
+CCDEPMODE = depmode=gcc3
 CCMALLOCDelegate = 
 CFLAGS = -fopenmp -g -O2 -Wall -W -pthread
 CGMDecodeDelegate = ralcgm
 CODER_PATH = /usr/local/lib/ImageMagick-6.5.4/modules-Q16/coders
-CONFIGURE_ARGS = ./configure  'CC=../afl-gcc'
+CONFIGURE_ARGS = ./configure  '--disable-shared' 'CC=/home/wrv/afl-1.83b/afl-gcc'
 CONFIGURE_PATH = /usr/local/lib/ImageMagick-6.5.4/config/
 CONFIG_STATUS_DEPENDENCIES = $(top_srcdir)/version.sh
-CPP = ../afl-gcc -std=gnu99 -E
-CPPFLAGS = -I/usr/include/libxml2
+CPP = /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E
+CPPFLAGS = 
 CXX = g++
-CXXCPP = g++ -E
-CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -g -O2 -Wall -W -pthread
+CXXCPP = 
+CXXDEPMODE = depmode=none
+CXXFLAGS = -pthread
 CYGPATH_W = echo
 CatDelegate = cat
 ConvertDelegate = convert
 DATA_DIR = /usr/local/share
 DEFS = -DHAVE_CONFIG_H
-DELEGATES = x11 xml zlib
+DELEGATES = 
 DEPDIR = .deps
 DIRSEP = :
-DISTCHECK_CONFIG_FLAGS = 'CC=../afl-gcc' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-gslib=no --with-fontpath=
+DISTCHECK_CONFIG_FLAGS = 'CC=/home/wrv/afl-1.83b/afl-gcc' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-wmf=no --with-xml=no
 DJVU_LIBS = 
-DLLDFLAGS = -export-dynamic
+DLLDFLAGS = 
 DLLTOOL = dlltool
 DNGDecodeDelegate = ufraw-batch
 DOCUMENTATION_PATH = /usr/local/share/doc/ImageMagick-6.5.4
@@ -2240,14 +2240,14 @@ DisplayDelegate = /usr/local/bin/display
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
-EGREP = /bin/grep -E
+EGREP = /usr/bin/grep -E
 EXECUTABLE_PATH = /usr/local/bin
 EXEC_PREFIX_DIR = /usr/local
 EXEEXT = 
 EchoDelegate = echo
 EditorDelegate = xterm
 FFTW_LIBS = 
-FGREP = /bin/grep -F
+FGREP = /usr/bin/grep -F
 FIGDecodeDelegate = fig2dev
 FILTER_PATH = /usr/local/lib/ImageMagick-6.5.4/modules-Q16/filters
 FONTCONFIG_CFLAGS = 
@@ -2256,15 +2256,15 @@ FPX_LIBS =
 FREETYPE_LIBS = 
 GDI32_LIBS = 
 GOMP_LIBS = -lgomp
-GREP = /bin/grep
+GREP = /usr/bin/grep
 GSAlphaDevice = pnmraw
 GSCMYKDevice = pam
 GSColorDevice = pnmraw
 GSEPSDevice = epswrite
 GSMonoDevice = pbmraw
 GSPDFDevice = pdfwrite
-GSPSDevice = nodevice
-GSVersion = 9.10
+GSPSDevice = pswrite
+GSVersion = unknown
 GS_LIBS = 
 GVCDecodeDelegate = dot
 GVC_CFLAGS = 
@@ -2315,7 +2315,7 @@ LIPO =
 LN_S = ln -s
 LOCALSTATE_DIR = /usr/local/var
 LPDelegate = lp
-LPRDelegate = /usr/bin/lpr
+LPRDelegate = lpr
 LQR_CFLAGS = 
 LQR_LIBS = 
 LTCXXLIBOPTS = 
@@ -2331,31 +2331,31 @@ LZWEncodeDelegate = compress
 LaunchDelegate = gimp
 MAGICKCORE_PATH = /usr/local/lib
 MAGICK_CFLAGS = -fopenmp -g -O2 -Wall -W -pthread
-MAGICK_CODER_MODULE_PATH = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/coders
-MAGICK_CONFIGURE_BUILD_PATH = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config
-MAGICK_CONFIGURE_SRC_PATH = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config
+MAGICK_CODER_MODULE_PATH = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/coders
+MAGICK_CONFIGURE_BUILD_PATH = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config
+MAGICK_CONFIGURE_SRC_PATH = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config
 MAGICK_CPPFLAGS = -I/usr/local/include/ImageMagick
-MAGICK_CXXFLAGS = -g -O2 -Wall -W -pthread
-MAGICK_DEP_LIBS = -lSM -lICE -lX11 -lXt -lz -lm -lgomp -lpthread
-MAGICK_FILTER_MODULE_PATH = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/filters
+MAGICK_CXXFLAGS = -pthread
+MAGICK_DEP_LIBS = -lm -lgomp -lpthread
+MAGICK_FILTER_MODULE_PATH = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/filters
 MAGICK_HDRI = 
 MAGICK_LDFLAGS = -L/usr/local/lib 
-MAGICK_LIBLTDL = ${top_build_prefix}ltdl/libltdlc.la
+MAGICK_LIBLTDL = 
 MAGICK_LIBRARY_AGE = 0
 MAGICK_LIBRARY_CURRENT = 2
 MAGICK_LIBRARY_REVISION = 0
-MAGICK_LIBS = -lMagickCore -lSM -lICE -lX11 -lXt -lz -lm -lgomp -lpthread 
+MAGICK_LIBS = -lMagickCore -lm -lgomp -lpthread 
 MAGICK_LIB_VERSION = 0x020000
 MAGICK_LIB_VERSION_NUMBER = 2,0,0
 MAGICK_LIB_VERSION_TEXT = 6.5.4
-MAGICK_LTDLDEPS = ${top_build_prefix}ltdl/libltdlc.la
+MAGICK_LTDLDEPS = 
 MAGICK_PCFLAGS = -fopenmp
 MAINT = #
-MAKEINFO = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run makeinfo
+MAKEINFO = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/missing --run makeinfo
 MANDelegate = groff
 MAN_DIR = /usr/local/share/man
 MATH_LIBS = -lm
-MKDIR_P = /bin/mkdir -p
+MKDIR_P = /usr/bin/mkdir -p
 MODULE_EXTRA_CPPFLAGS = 
 MPEGDecodeDelegate = ffmpeg
 MPEGEncodeDelegate = ffmpeg
@@ -2368,11 +2368,11 @@ OBJEXT = o
 OPENEXR_CFLAGS = 
 OPENEXR_LIBS = 
 OPENMP_CFLAGS = -fopenmp
-OPENMP_CXXFLAGS = -fopenmp
+OPENMP_CXXFLAGS = 
 OSX_GCOV_LDFLAG = 
 OTOOL = 
 OTOOL64 = 
-P7ZIP = 7za
+P7ZIP = 
 PACKAGE = ImageMagick
 PACKAGE_BUGREPORT = http://www.imagemagick.org
 PACKAGE_CHANGE_DATE = 20090806
@@ -2381,7 +2381,7 @@ PACKAGE_LIB_VERSION = 0x654
 PACKAGE_LIB_VERSION_NUMBER = 6,5,4,10
 PACKAGE_NAME = ImageMagick
 PACKAGE_RELEASE = 10
-PACKAGE_RELEASE_DATE = 2015-07-09
+PACKAGE_RELEASE_DATE = 2015-07-16
 PACKAGE_STRING = ImageMagick 6.5.4
 PACKAGE_TARNAME = ImageMagick
 PACKAGE_VERSION = 6.5.4
@@ -2391,10 +2391,10 @@ PCLColorDevice = ppmraw
 PCLDelegate = pcl6
 PCLMonoDevice = pbmraw
 PCLVersion = unknown
-PERL = /usr/bin/perl
-PERLMAINCC = ../afl-gcc
+PERL = perl
+PERLMAINCC = /home/wrv/afl-1.83b/afl-gcc
 PERL_MAKE_OPTIONS = 
-PERL_SUPPORTS_DESTDIR = yes
+PERL_SUPPORTS_DESTDIR = 
 PERSISTINCLUDE_DIR = /usr/include
 PGPDecodeDelegate = pgpv
 PKG_CONFIG = /usr/bin/pkg-config
@@ -2403,30 +2403,30 @@ POVDelegate = povray
 POW_LIB = 
 PREFIX_DIR = /usr/local
 PSDelegate = gs
-PTHREAD_CC = ../afl-gcc -std=gnu99
+PTHREAD_CC = /home/wrv/afl-1.83b/afl-gcc -std=gnu99
 PTHREAD_CFLAGS = -pthread
 PTHREAD_CXX = g++
 PTHREAD_LIBS = -lpthread
-PrintDelegate = /usr/bin/lpr
+PrintDelegate = lpr
 QUANTUM_DEPTH = 16
 RANLIB = ranlib
 RLEEncodeDelegate = rawtorle
 RMDelegate = rm
-RPM = 
+RPM = rpm
 RSVG_CFLAGS = 
 RSVG_LIBS = 
 SBIN_DIR = /usr/local/sbin
 SCANDecodeDelegate = scanimage
-SED = /bin/sed
+SED = /usr/bin/sed
 SET_MAKE = 
 SHAREDSTATE_DIR = /usr/local/com
 SHARE_CONFIGURE_PATH = /usr/local/share/ImageMagick-6.5.4/config
 SHARE_PATH = /usr/local/share/ImageMagick-6.5.4
-SHELL = /bin/bash
+SHELL = /bin/sh
 STRIP = strip
 SYSCONF_DIR = /usr/local/etc
 ShowImageDelegate = 
-TAR = tar
+TAR = gtar
 THREAD_LIBS = -lpthread
 TIFF_LIBS = 
 TXTDelegate = enscript
@@ -2442,11 +2442,11 @@ WMFDecodeDelegate = wmf2eps
 WMF_LIBS = 
 WMF_LIBS_DEPS = 
 WWWDecodeDelegate = curl
-WinPathScript = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/winpath.sh
-X11_LIBS =  -lSM -lICE -lX11 
+WinPathScript = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/winpath.sh
+X11_LIBS = 
 XEXT_LIBS = 
 XMKMF = 
-XML_LIBS = -lxml2
+XML_LIBS = 
 XPSCMYKDevice = bmpsep8
 XPSColorDevice = ppmraw
 XPSDelegate = gxps
@@ -2455,16 +2455,16 @@ XPSVersion = unknown
 X_CFLAGS = 
 X_EXTRA_LIBS = 
 X_LIBS = 
-X_PRE_LIBS = -lSM -lICE
-ZIP = zip
-ZLIB_LIBS = -lz
+X_PRE_LIBS = 
+ZIP = 
+ZLIB_LIBS = 
 ZipDelegate = gzip
-abs_builddir = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10
-abs_srcdir = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10
-abs_top_builddir = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10
-abs_top_srcdir = /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10
-ac_ct_CC = ../afl-gcc
-ac_ct_CXX = g++
+abs_builddir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10
+abs_srcdir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10
+abs_top_builddir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10
+abs_top_srcdir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10
+ac_ct_CC = /home/wrv/afl-1.83b/afl-gcc
+ac_ct_CXX = 
 ac_ct_DUMPBIN = 
 acx_pthread_config = 
 am__include = include
@@ -2487,7 +2487,7 @@ docdir = $(SHARE_PATH)
 dvidir = ${docdir}
 exec_prefix = ${prefix}
 freetype_config = 
-ghostscript_font_dir = /usr/share/fonts/type1/gsfonts/
+ghostscript_font_dir = 
 host = x86_64-unknown-linux-gnu
 host_alias = 
 host_cpu = x86_64
@@ -2496,7 +2496,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config/install-sh
+install_sh = ${SHELL} /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -2505,7 +2505,7 @@ lt_ECHO = echo
 ltdl_LIBOBJS =  ltdl/lt__strl.o
 ltdl_LTLIBOBJS =  ltdl/lt__strl.lo
 mandir = ${datarootdir}/man
-mkdir_p = /bin/mkdir -p
+mkdir_p = /usr/bin/mkdir -p
 oldincludedir = /usr/include
 pdfdir = ${docdir}
 prefix = /usr/local
@@ -2524,9 +2524,9 @@ target_vendor = unknown
 top_build_prefix = 
 top_builddir = .
 top_srcdir = .
-type_include_files =  <include file="type-ghostscript.xml" />
+type_include_files = 
 windows_font_dir = 
-xml2_config = xml2-config
+xml2_config = 
 AUTOMAKE_OPTIONS = 1.11 subdir-objects parallel-tests color-tests dist-zip dist-bzip2 dist-lzma foreign
 topincludedir = ${prefix}/include/ImageMagick
 
@@ -2563,25 +2563,25 @@ noinst_HEADERS = \
 	$(MAGICK_NOINST_HDRS)
 
 SRCDIR = "$(srcdir)/"
-#SRCDIR = '$(shell /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/winpath.sh $(srcdir)/)'
+#SRCDIR = '$(shell /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/winpath.sh $(srcdir)/)'
 
 # Environment parameters to be used during tests
 TESTS_ENVIRONMENT = \
-  COMPARE="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities/compare" \
-  COMPOSITE="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities/composite" \
-  CONJURE="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities/conjure" \
-  CONVERT="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities/convert" \
-  DISPLAY="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities/display" \
-  MONTAGE="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities/montage" \
-  VALIDATE="$(MEMCHECK) /home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/tests/validate" \
-	LD_LIBRARY_PATH="/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/magick/.libs:${LD_LIBRARY_PATH}" \
-	MAGICK_CODER_MODULE_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/coders' \
-	MAGICK_CONFIGURE_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config:/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/config' \
-	MAGICK_FILTER_MODULE_PATH='/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/filters' \
+  COMPARE="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities/compare" \
+  COMPOSITE="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities/composite" \
+  CONJURE="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities/conjure" \
+  CONVERT="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities/convert" \
+  DISPLAY="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities/display" \
+  MONTAGE="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities/montage" \
+  VALIDATE="$(MEMCHECK) /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/tests/validate" \
+	LD_LIBRARY_PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/magick/.libs:${LD_LIBRARY_PATH}" \
+	MAGICK_CODER_MODULE_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/coders' \
+	MAGICK_CONFIGURE_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config:/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/config' \
+	MAGICK_FILTER_MODULE_PATH='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/filters' \
 	MAKE="$(MAKE)" \
 	MAKEFLAGS="$(MAKEFLAGS)" \
 	MEMCHECK="$(MEMCHECK)" \
-	PATH="/home/willy/Desktop/CircleSquare/afl-1.83b/ImageMagick-6.5.4-10/utilities:${PATH}" \
+	PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/utilities:${PATH}" \
 	SRCDIR=$(SRCDIR)
 
 
@@ -2762,8 +2762,8 @@ codersdir = $(CODER_PATH)
 #MAGICK_TIFF_SRCS = coders/ept.c coders/tiff.c
 #MAGICK_WMF_MODULES = coders/wmf.la
 #MAGICK_WMF_SRCS = coders/wmf.c
-MAGICK_X11_MODULES = coders/x.la coders/xwd.la
-MAGICK_X11_SRCS = coders/x.c coders/xwd.c
+#MAGICK_X11_MODULES = coders/x.la coders/xwd.la
+#MAGICK_X11_SRCS = coders/x.c coders/xwd.c
 MAGICK_CODER_SRCS = \
 	coders/art.c \
 	coders/avi.c \
@@ -2874,116 +2874,116 @@ MAGICK_CODER_SRCS = \
   $(MAGICK_WMF_SRCS) \
   $(MAGICK_X11_SRCS)
 
-#coders_LTLIBRARIES = 
-coders_LTLIBRARIES = \
-	coders/art.la \
-	coders/avi.la \
-	coders/avs.la \
-	coders/bmp.la \
-	coders/braille.la \
-	coders/cals.la \
-	coders/caption.la \
-	coders/cin.la \
-	coders/cip.la \
-	coders/clip.la \
-	coders/cmyk.la \
-	coders/cut.la \
-	coders/dcm.la \
-	coders/dds.la \
-	coders/dib.la \
-	coders/dng.la \
-	coders/dot.la \
-	coders/dps.la \
-	coders/dpx.la \
-	coders/fax.la \
-	coders/fits.la \
-	coders/gif.la \
-	coders/gradient.la \
-	coders/gray.la \
-	coders/hald.la \
-	coders/histogram.la \
-	coders/hrz.la \
-	coders/html.la \
-	coders/icon.la \
-	coders/info.la \
-	coders/inline.la \
-	coders/ipl.la \
-	coders/label.la \
-	coders/magick.la \
-	coders/map.la \
-	coders/mat.la \
-	coders/matte.la \
-	coders/meta.la \
-	coders/miff.la \
-	coders/mono.la \
-	coders/mpc.la \
-	coders/mpeg.la \
-	coders/mpr.la \
-	coders/msl.la \
-	coders/mtv.la \
-	coders/mvg.la \
-	coders/null.la \
-	coders/otb.la \
-	coders/palm.la \
-	coders/pattern.la \
-	coders/pcd.la \
-	coders/pcl.la \
-	coders/pcx.la \
-	coders/pdb.la \
-	coders/pdf.la \
-	coders/pict.la \
-	coders/pix.la \
-	coders/plasma.la \
-	coders/pnm.la \
-	coders/preview.la \
-	coders/ps.la \
-	coders/ps2.la \
-	coders/ps3.la \
-	coders/psd.la \
-	coders/pwp.la \
-	coders/raw.la \
-	coders/rgb.la \
-	coders/rla.la \
-	coders/rle.la \
-	coders/scr.la \
-	coders/sct.la \
-	coders/sfw.la \
-	coders/sgi.la \
-	coders/stegano.la \
-	coders/sun.la \
-	coders/svg.la \
-	coders/tga.la \
-	coders/thumbnail.la \
-	coders/tile.la \
-	coders/tim.la \
-	coders/ttf.la \
-	coders/txt.la \
-	coders/uil.la \
-	coders/url.la \
-	coders/uyvy.la \
-	coders/vicar.la \
-	coders/vid.la \
-	coders/viff.la \
-	coders/wbmp.la \
-	coders/wpg.la \
-	coders/xbm.la \
-	coders/xc.la \
-	coders/xcf.la \
-	coders/xpm.la \
-	coders/xps.la \
-	coders/ycbcr.la \
-	coders/yuv.la \
-  $(MAGICK_DJVU_MODULES) \
-  $(MAGICK_EXR_MODULES) \
-  $(MAGICK_FPX_MODULES) \
-  $(MAGICK_GDI32_MODULES)  \
-  $(MAGICK_JBIG_MODULES) \
-  $(MAGICK_JPEG_MODULES) \
-  $(MAGICK_JP2_MODULES) \
-  $(MAGICK_PNG_MODULES) \
-  $(MAGICK_TIFF_MODULES) \
-  $(MAGICK_WMF_MODULES) \
-  $(MAGICK_X11_MODULES)
+coders_LTLIBRARIES = 
+#coders_LTLIBRARIES = \
+#	coders/art.la \
+#	coders/avi.la \
+#	coders/avs.la \
+#	coders/bmp.la \
+#	coders/braille.la \
+#	coders/cals.la \
+#	coders/caption.la \
+#	coders/cin.la \
+#	coders/cip.la \
+#	coders/clip.la \
+#	coders/cmyk.la \
+#	coders/cut.la \
+#	coders/dcm.la \
+#	coders/dds.la \
+#	coders/dib.la \
+#	coders/dng.la \
+#	coders/dot.la \
+#	coders/dps.la \
+#	coders/dpx.la \
+#	coders/fax.la \
+#	coders/fits.la \
+#	coders/gif.la \
+#	coders/gradient.la \
+#	coders/gray.la \
+#	coders/hald.la \
+#	coders/histogram.la \
+#	coders/hrz.la \
+#	coders/html.la \
+#	coders/icon.la \
+#	coders/info.la \
+#	coders/inline.la \
+#	coders/ipl.la \
+#	coders/label.la \
+#	coders/magick.la \
+#	coders/map.la \
+#	coders/mat.la \
+#	coders/matte.la \
+#	coders/meta.la \
+#	coders/miff.la \
+#	coders/mono.la \
+#	coders/mpc.la \
+#	coders/mpeg.la \
+#	coders/mpr.la \
+#	coders/msl.la \
+#	coders/mtv.la \
+#	coders/mvg.la \
+#	coders/null.la \
+#	coders/otb.la \
+#	coders/palm.la \
+#	coders/pattern.la \
+#	coders/pcd.la \
+#	coders/pcl.la \
+#	coders/pcx.la \
+#	coders/pdb.la \
+#	coders/pdf.la \
+#	coders/pict.la \
+#	coders/pix.la \
+#	coders/plasma.la \
+#	coders/pnm.la \
+#	coders/preview.la \
+#	coders/ps.la \
+#	coders/ps2.la \
+#	coders/ps3.la \
+#	coders/psd.la \
+#	coders/pwp.la \
+#	coders/raw.la \
+#	coders/rgb.la \
+#	coders/rla.la \
+#	coders/rle.la \
+#	coders/scr.la \
+#	coders/sct.la \
+#	coders/sfw.la \
+#	coders/sgi.la \
+#	coders/stegano.la \
+#	coders/sun.la \
+#	coders/svg.la \
+#	coders/tga.la \
+#	coders/thumbnail.la \
+#	coders/tile.la \
+#	coders/tim.la \
+#	coders/ttf.la \
+#	coders/txt.la \
+#	coders/uil.la \
+#	coders/url.la \
+#	coders/uyvy.la \
+#	coders/vicar.la \
+#	coders/vid.la \
+#	coders/viff.la \
+#	coders/wbmp.la \
+#	coders/wpg.la \
+#	coders/xbm.la \
+#	coders/xc.la \
+#	coders/xcf.la \
+#	coders/xpm.la \
+#	coders/xps.la \
+#	coders/ycbcr.la \
+#	coders/yuv.la \
+#  $(MAGICK_DJVU_MODULES) \
+#  $(MAGICK_EXR_MODULES) \
+#  $(MAGICK_FPX_MODULES) \
+#  $(MAGICK_GDI32_MODULES)  \
+#  $(MAGICK_JBIG_MODULES) \
+#  $(MAGICK_JPEG_MODULES) \
+#  $(MAGICK_JP2_MODULES) \
+#  $(MAGICK_PNG_MODULES) \
+#  $(MAGICK_TIFF_MODULES) \
+#  $(MAGICK_WMF_MODULES) \
+#  $(MAGICK_X11_MODULES)
 
 
 # ART coder module
@@ -3670,10 +3670,10 @@ MAGICK_MANS = \
   magick/MagickCore-config.1
 
 MAGICKCORE_LIBS = magick/libMagickCore.la
-#magick_libMagickCore_la_SOURCES = $(MAGICK_BASE_SRCS) $(MAGICK_PLATFORM_SRCS) $(MAGICK_CODER_SRCS) $(MAGICK_FILTER_SRCS)
-magick_libMagickCore_la_SOURCES = $(MAGICK_BASE_SRCS) $(MAGICK_PLATFORM_SRCS)
-#magick_libMagickCore_la_LIBADD = $(MAGICK_DEP_LIBS) $(MAGICK_LIBLTDL)
+magick_libMagickCore_la_SOURCES = $(MAGICK_BASE_SRCS) $(MAGICK_PLATFORM_SRCS) $(MAGICK_CODER_SRCS) $(MAGICK_FILTER_SRCS)
+#magick_libMagickCore_la_SOURCES = $(MAGICK_BASE_SRCS) $(MAGICK_PLATFORM_SRCS)
 magick_libMagickCore_la_LIBADD = $(MAGICK_DEP_LIBS) $(MAGICK_LIBLTDL)
+#magick_libMagickCore_la_LIBADD = $(MAGICK_DEP_LIBS) $(MAGICK_LIBLTDL)
 magick_libMagickCore_la_CPPFLAGS = -I$(top_builddir)/ltdl -I$(top_srcdir)/ltdl $(LIBRARY_EXTRA_CPPFLAGS)
 magick_libMagickCore_la_LDFLAGS = -no-undefined -export-symbols-regex ".*" \
   $(OSX_GCOV_LDFLAG) -version-info \
@@ -4032,9 +4032,9 @@ filtersdir = $(FILTER_PATH)
 MAGICK_FILTER_SRCS = \
 	filters/analyze.c
 
-#filters_LTLIBRARIES = 
-filters_LTLIBRARIES = \
-	filters/analyze.la
+filters_LTLIBRARIES = 
+#filters_LTLIBRARIES = \
+#	filters/analyze.la
 
 
 # analyze filter module
@@ -4177,22 +4177,22 @@ WAND_TESTS = \
 WAND_CLEANFILES = \
 	wand/*_out.*
 
-#MAGICKPP_LIBS = 
-MAGICKPP_LIBS = Magick++/lib/libMagick++.la
-#MAGICKPP_CHECK_PGRMS = 
-MAGICKPP_CHECK_PGRMS = $(MAGICKPP_CHECK_PGRMS_OPT)
-#MAGICKPP_MANS = 
-MAGICKPP_MANS = $(MAGICKPP_MANS_OPT)
-#MAGICKPP_PKGCONFIG = 
-MAGICKPP_PKGCONFIG = $(MAGICKPP_PKGCONFIG_OPT)
-#MAGICKPP_SCRPTS = 
-MAGICKPP_SCRPTS = $(MAGICKPP_SCRIPTS_OPT)
-#MAGICKPP_TESTS = 
-MAGICKPP_TESTS = $(MAGICKPP_TEST_SCRIPTS_OPT)
-#MAGICKPP_TOP_INCHEADERS = 
-MAGICKPP_TOP_INCHEADERS = $(MAGICKPP_TOP_INCHEADERS_OPT)
-#MAGICKPP_INCHEADERS = 
-MAGICKPP_INCHEADERS = $(MAGICKPP_INCHEADERS_OPT)
+MAGICKPP_LIBS = 
+#MAGICKPP_LIBS = Magick++/lib/libMagick++.la
+MAGICKPP_CHECK_PGRMS = 
+#MAGICKPP_CHECK_PGRMS = $(MAGICKPP_CHECK_PGRMS_OPT)
+MAGICKPP_MANS = 
+#MAGICKPP_MANS = $(MAGICKPP_MANS_OPT)
+MAGICKPP_PKGCONFIG = 
+#MAGICKPP_PKGCONFIG = $(MAGICKPP_PKGCONFIG_OPT)
+MAGICKPP_SCRPTS = 
+#MAGICKPP_SCRPTS = $(MAGICKPP_SCRIPTS_OPT)
+MAGICKPP_TESTS = 
+#MAGICKPP_TESTS = $(MAGICKPP_TEST_SCRIPTS_OPT)
+MAGICKPP_TOP_INCHEADERS = 
+#MAGICKPP_TOP_INCHEADERS = $(MAGICKPP_TOP_INCHEADERS_OPT)
+MAGICKPP_INCHEADERS = 
+#MAGICKPP_INCHEADERS = $(MAGICKPP_INCHEADERS_OPT)
 MAGICKPP_SCRIPTS_OPT = \
 	Magick++/bin/Magick++-config
 
@@ -4499,17 +4499,17 @@ TESTS_EXTRA_DIST = \
 	$(TESTS_TESTS)
 
 TESTS_CLEANFILES = 
-PERLMAGICK = PerlMagick
-PERLMAKEMAKER = $(PERLMAGICK)/Makefile.PL
-PERLMAKEFILE = $(PERLMAGICK)/Makefile
-PERLMAGICK_ALL_LOCAL_TARGETS = all-perl
-PERLMAGICK_INSTALL_EXEC_LOCAL_TARGETS = install-exec-perl
-PERLMAGICK_INSTALL_DATA_LOCAL_TARGETS = 
-PERLMAGICK_UNINSTALL_LOCAL_TARGETS = uninstall-exec-perl
-PERLMAGICK_CLEAN_LOCAL_TARGETS = clean-perl
-PERLMAGICK_DISTCLEAN_LOCAL_TARGETS = clean-perl
-PERLMAGICK_MAINTAINER_CLEAN_LOCAL_TARGETS = distclean-local
-PERLMAGICK_TESTS = PerlMagick/check.sh
+#PERLMAGICK = PerlMagick
+#PERLMAKEMAKER = $(PERLMAGICK)/Makefile.PL
+#PERLMAKEFILE = $(PERLMAGICK)/Makefile
+#PERLMAGICK_ALL_LOCAL_TARGETS = all-perl
+#PERLMAGICK_INSTALL_EXEC_LOCAL_TARGETS = install-exec-perl
+#PERLMAGICK_INSTALL_DATA_LOCAL_TARGETS = 
+#PERLMAGICK_UNINSTALL_LOCAL_TARGETS = uninstall-exec-perl
+#PERLMAGICK_CLEAN_LOCAL_TARGETS = clean-perl
+#PERLMAGICK_DISTCLEAN_LOCAL_TARGETS = clean-perl
+#PERLMAGICK_MAINTAINER_CLEAN_LOCAL_TARGETS = distclean-local
+#PERLMAGICK_TESTS = PerlMagick/check.sh
 ##PERLSTATICNAME = PerlMagick
 ##PERLMAGICK_CHECKSCRIPTS = perl-build
 
@@ -4551,28 +4551,28 @@ HTML_INSTALL_DATA_TARGETS = install-data-html
 
 # Uninstall HTML files
 HTML_UNINSTALL_DATA_TARGETS = uninstall-data-html
-#DIST_WINDOWS_SRC_ZIP = 
+DIST_WINDOWS_SRC_ZIP = 
 
 #
 # Build Windows source Zip and 7Zip balls
 #
-DIST_WINDOWS_SRC_ZIP = $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-windows.zip
-#DIST_WINDOWS_SRC_7ZIP = 
-DIST_WINDOWS_SRC_7ZIP = $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-windows.7z
+#DIST_WINDOWS_SRC_ZIP = $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-windows.zip
+DIST_WINDOWS_SRC_7ZIP = 
+#DIST_WINDOWS_SRC_7ZIP = $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-windows.7z
 
 #
 # RPM build support
 #
-#DIST_ARCHIVE_SRPM = $(distdir)-$(PACKAGE_RELEASE).src.rpm
-#RPMDIR = redhat
-#RPMARCH = i386
-DIST_ARCHIVE_RPM = 
-#DIST_ARCHIVE_RPM = \
-#	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
-#	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-c++-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
-#	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-c++-devel-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
-#	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-devel-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
-#	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-perl-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm
+DIST_ARCHIVE_SRPM = $(distdir)-$(PACKAGE_RELEASE).src.rpm
+RPMDIR = redhat
+RPMARCH = i386
+#DIST_ARCHIVE_RPM = 
+DIST_ARCHIVE_RPM = \
+	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
+	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-c++-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
+	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-c++-devel-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
+	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-devel-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm \
+	$(RPMDIR)/$(RPMARCH)/$(PACKAGE_NAME)-perl-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)-$(PACKAGE_RELEASE).$(RPMARCH).rpm
 
 all: $(BUILT_SOURCES)
 	$(MAKE) $(AM_MAKEFLAGS) all-am
@@ -7270,2786 +7270,2786 @@ include wand/$(DEPDIR)/wand_libMagickWand_la-wand.Plo
 include wand/$(DEPDIR)/wandtest.Po
 
 .c.o:
-#	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
-#	$(COMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
-#	$(am__mv) $$depbase.Tpo $$depbase.Po
-	$(AM_V_CC) \
-	source='$<' object='$@' libtool=no \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(COMPILE) -c -o $@ $<
+	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
+	$(COMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Po
+#	$(AM_V_CC) \
+#	source='$<' object='$@' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(COMPILE) -c -o $@ $<
 
 .c.obj:
-#	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
-#	$(COMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
-#	$(am__mv) $$depbase.Tpo $$depbase.Po
-	$(AM_V_CC) \
-	source='$<' object='$@' libtool=no \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(COMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
+	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
+	$(COMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Po
+#	$(AM_V_CC) \
+#	source='$<' object='$@' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(COMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
 
 .c.lo:
-#	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
-#	$(LTCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
-#	$(am__mv) $$depbase.Tpo $$depbase.Plo
-	$(AM_V_CC) \
-	source='$<' object='$@' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LTCOMPILE) -c -o $@ $<
+	$(AM_V_CC)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
+	$(LTCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+	$(am__mv) $$depbase.Tpo $$depbase.Plo
+#	$(AM_V_CC) \
+#	source='$<' object='$@' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LTCOMPILE) -c -o $@ $<
 
 coders/coders_art_la-art.lo: coders/art.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_art_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_art_la-art.lo -MD -MP -MF coders/$(DEPDIR)/coders_art_la-art.Tpo -c -o coders/coders_art_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_art_la-art.Tpo coders/$(DEPDIR)/coders_art_la-art.Plo
-	$(AM_V_CC) \
-	source='coders/art.c' object='coders/coders_art_la-art.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_art_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_art_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_art_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_art_la-art.lo -MD -MP -MF coders/$(DEPDIR)/coders_art_la-art.Tpo -c -o coders/coders_art_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_art_la-art.Tpo coders/$(DEPDIR)/coders_art_la-art.Plo
+#	$(AM_V_CC) \
+#	source='coders/art.c' object='coders/coders_art_la-art.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_art_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_art_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
 
 coders/coders_avi_la-avi.lo: coders/avi.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_avi_la-avi.lo -MD -MP -MF coders/$(DEPDIR)/coders_avi_la-avi.Tpo -c -o coders/coders_avi_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_avi_la-avi.Tpo coders/$(DEPDIR)/coders_avi_la-avi.Plo
-	$(AM_V_CC) \
-	source='coders/avi.c' object='coders/coders_avi_la-avi.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_avi_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_avi_la-avi.lo -MD -MP -MF coders/$(DEPDIR)/coders_avi_la-avi.Tpo -c -o coders/coders_avi_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_avi_la-avi.Tpo coders/$(DEPDIR)/coders_avi_la-avi.Plo
+#	$(AM_V_CC) \
+#	source='coders/avi.c' object='coders/coders_avi_la-avi.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_avi_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
 
 coders/coders_avs_la-avs.lo: coders/avs.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avs_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_avs_la-avs.lo -MD -MP -MF coders/$(DEPDIR)/coders_avs_la-avs.Tpo -c -o coders/coders_avs_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_avs_la-avs.Tpo coders/$(DEPDIR)/coders_avs_la-avs.Plo
-	$(AM_V_CC) \
-	source='coders/avs.c' object='coders/coders_avs_la-avs.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avs_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_avs_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avs_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_avs_la-avs.lo -MD -MP -MF coders/$(DEPDIR)/coders_avs_la-avs.Tpo -c -o coders/coders_avs_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_avs_la-avs.Tpo coders/$(DEPDIR)/coders_avs_la-avs.Plo
+#	$(AM_V_CC) \
+#	source='coders/avs.c' object='coders/coders_avs_la-avs.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_avs_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_avs_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
 
 coders/coders_bmp_la-bmp.lo: coders/bmp.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_bmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_bmp_la-bmp.lo -MD -MP -MF coders/$(DEPDIR)/coders_bmp_la-bmp.Tpo -c -o coders/coders_bmp_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_bmp_la-bmp.Tpo coders/$(DEPDIR)/coders_bmp_la-bmp.Plo
-	$(AM_V_CC) \
-	source='coders/bmp.c' object='coders/coders_bmp_la-bmp.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_bmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_bmp_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_bmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_bmp_la-bmp.lo -MD -MP -MF coders/$(DEPDIR)/coders_bmp_la-bmp.Tpo -c -o coders/coders_bmp_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_bmp_la-bmp.Tpo coders/$(DEPDIR)/coders_bmp_la-bmp.Plo
+#	$(AM_V_CC) \
+#	source='coders/bmp.c' object='coders/coders_bmp_la-bmp.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_bmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_bmp_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
 
 coders/coders_braille_la-braille.lo: coders/braille.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_braille_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_braille_la-braille.lo -MD -MP -MF coders/$(DEPDIR)/coders_braille_la-braille.Tpo -c -o coders/coders_braille_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_braille_la-braille.Tpo coders/$(DEPDIR)/coders_braille_la-braille.Plo
-	$(AM_V_CC) \
-	source='coders/braille.c' object='coders/coders_braille_la-braille.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_braille_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_braille_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_braille_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_braille_la-braille.lo -MD -MP -MF coders/$(DEPDIR)/coders_braille_la-braille.Tpo -c -o coders/coders_braille_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_braille_la-braille.Tpo coders/$(DEPDIR)/coders_braille_la-braille.Plo
+#	$(AM_V_CC) \
+#	source='coders/braille.c' object='coders/coders_braille_la-braille.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_braille_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_braille_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
 
 coders/coders_cals_la-cals.lo: coders/cals.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cals_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cals_la-cals.lo -MD -MP -MF coders/$(DEPDIR)/coders_cals_la-cals.Tpo -c -o coders/coders_cals_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cals_la-cals.Tpo coders/$(DEPDIR)/coders_cals_la-cals.Plo
-	$(AM_V_CC) \
-	source='coders/cals.c' object='coders/coders_cals_la-cals.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cals_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cals_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cals_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cals_la-cals.lo -MD -MP -MF coders/$(DEPDIR)/coders_cals_la-cals.Tpo -c -o coders/coders_cals_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cals_la-cals.Tpo coders/$(DEPDIR)/coders_cals_la-cals.Plo
+#	$(AM_V_CC) \
+#	source='coders/cals.c' object='coders/coders_cals_la-cals.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cals_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cals_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
 
 coders/coders_caption_la-caption.lo: coders/caption.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_caption_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_caption_la-caption.lo -MD -MP -MF coders/$(DEPDIR)/coders_caption_la-caption.Tpo -c -o coders/coders_caption_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_caption_la-caption.Tpo coders/$(DEPDIR)/coders_caption_la-caption.Plo
-	$(AM_V_CC) \
-	source='coders/caption.c' object='coders/coders_caption_la-caption.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_caption_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_caption_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_caption_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_caption_la-caption.lo -MD -MP -MF coders/$(DEPDIR)/coders_caption_la-caption.Tpo -c -o coders/coders_caption_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_caption_la-caption.Tpo coders/$(DEPDIR)/coders_caption_la-caption.Plo
+#	$(AM_V_CC) \
+#	source='coders/caption.c' object='coders/coders_caption_la-caption.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_caption_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_caption_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
 
 coders/coders_cin_la-cin.lo: coders/cin.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cin_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cin_la-cin.lo -MD -MP -MF coders/$(DEPDIR)/coders_cin_la-cin.Tpo -c -o coders/coders_cin_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cin_la-cin.Tpo coders/$(DEPDIR)/coders_cin_la-cin.Plo
-	$(AM_V_CC) \
-	source='coders/cin.c' object='coders/coders_cin_la-cin.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cin_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cin_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cin_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cin_la-cin.lo -MD -MP -MF coders/$(DEPDIR)/coders_cin_la-cin.Tpo -c -o coders/coders_cin_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cin_la-cin.Tpo coders/$(DEPDIR)/coders_cin_la-cin.Plo
+#	$(AM_V_CC) \
+#	source='coders/cin.c' object='coders/coders_cin_la-cin.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cin_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cin_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
 
 coders/coders_cip_la-cip.lo: coders/cip.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cip_la-cip.lo -MD -MP -MF coders/$(DEPDIR)/coders_cip_la-cip.Tpo -c -o coders/coders_cip_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cip_la-cip.Tpo coders/$(DEPDIR)/coders_cip_la-cip.Plo
-	$(AM_V_CC) \
-	source='coders/cip.c' object='coders/coders_cip_la-cip.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cip_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cip_la-cip.lo -MD -MP -MF coders/$(DEPDIR)/coders_cip_la-cip.Tpo -c -o coders/coders_cip_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cip_la-cip.Tpo coders/$(DEPDIR)/coders_cip_la-cip.Plo
+#	$(AM_V_CC) \
+#	source='coders/cip.c' object='coders/coders_cip_la-cip.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cip_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
 
 coders/coders_clip_la-clip.lo: coders/clip.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_clip_la-clip.lo -MD -MP -MF coders/$(DEPDIR)/coders_clip_la-clip.Tpo -c -o coders/coders_clip_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_clip_la-clip.Tpo coders/$(DEPDIR)/coders_clip_la-clip.Plo
-	$(AM_V_CC) \
-	source='coders/clip.c' object='coders/coders_clip_la-clip.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_clip_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_clip_la-clip.lo -MD -MP -MF coders/$(DEPDIR)/coders_clip_la-clip.Tpo -c -o coders/coders_clip_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_clip_la-clip.Tpo coders/$(DEPDIR)/coders_clip_la-clip.Plo
+#	$(AM_V_CC) \
+#	source='coders/clip.c' object='coders/coders_clip_la-clip.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clip_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_clip_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
 
 coders/coders_clipboard_la-clipboard.lo: coders/clipboard.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clipboard_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_clipboard_la-clipboard.lo -MD -MP -MF coders/$(DEPDIR)/coders_clipboard_la-clipboard.Tpo -c -o coders/coders_clipboard_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_clipboard_la-clipboard.Tpo coders/$(DEPDIR)/coders_clipboard_la-clipboard.Plo
-	$(AM_V_CC) \
-	source='coders/clipboard.c' object='coders/coders_clipboard_la-clipboard.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clipboard_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_clipboard_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clipboard_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_clipboard_la-clipboard.lo -MD -MP -MF coders/$(DEPDIR)/coders_clipboard_la-clipboard.Tpo -c -o coders/coders_clipboard_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_clipboard_la-clipboard.Tpo coders/$(DEPDIR)/coders_clipboard_la-clipboard.Plo
+#	$(AM_V_CC) \
+#	source='coders/clipboard.c' object='coders/coders_clipboard_la-clipboard.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_clipboard_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_clipboard_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
 
 coders/coders_cmyk_la-cmyk.lo: coders/cmyk.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cmyk_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cmyk_la-cmyk.lo -MD -MP -MF coders/$(DEPDIR)/coders_cmyk_la-cmyk.Tpo -c -o coders/coders_cmyk_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cmyk_la-cmyk.Tpo coders/$(DEPDIR)/coders_cmyk_la-cmyk.Plo
-	$(AM_V_CC) \
-	source='coders/cmyk.c' object='coders/coders_cmyk_la-cmyk.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cmyk_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cmyk_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cmyk_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cmyk_la-cmyk.lo -MD -MP -MF coders/$(DEPDIR)/coders_cmyk_la-cmyk.Tpo -c -o coders/coders_cmyk_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cmyk_la-cmyk.Tpo coders/$(DEPDIR)/coders_cmyk_la-cmyk.Plo
+#	$(AM_V_CC) \
+#	source='coders/cmyk.c' object='coders/coders_cmyk_la-cmyk.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cmyk_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cmyk_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
 
 coders/coders_cut_la-cut.lo: coders/cut.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cut_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cut_la-cut.lo -MD -MP -MF coders/$(DEPDIR)/coders_cut_la-cut.Tpo -c -o coders/coders_cut_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cut_la-cut.Tpo coders/$(DEPDIR)/coders_cut_la-cut.Plo
-	$(AM_V_CC) \
-	source='coders/cut.c' object='coders/coders_cut_la-cut.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cut_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cut_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cut_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_cut_la-cut.lo -MD -MP -MF coders/$(DEPDIR)/coders_cut_la-cut.Tpo -c -o coders/coders_cut_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_cut_la-cut.Tpo coders/$(DEPDIR)/coders_cut_la-cut.Plo
+#	$(AM_V_CC) \
+#	source='coders/cut.c' object='coders/coders_cut_la-cut.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_cut_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_cut_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
 
 coders/coders_dcm_la-dcm.lo: coders/dcm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dcm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dcm_la-dcm.lo -MD -MP -MF coders/$(DEPDIR)/coders_dcm_la-dcm.Tpo -c -o coders/coders_dcm_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dcm_la-dcm.Tpo coders/$(DEPDIR)/coders_dcm_la-dcm.Plo
-	$(AM_V_CC) \
-	source='coders/dcm.c' object='coders/coders_dcm_la-dcm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dcm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dcm_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dcm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dcm_la-dcm.lo -MD -MP -MF coders/$(DEPDIR)/coders_dcm_la-dcm.Tpo -c -o coders/coders_dcm_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dcm_la-dcm.Tpo coders/$(DEPDIR)/coders_dcm_la-dcm.Plo
+#	$(AM_V_CC) \
+#	source='coders/dcm.c' object='coders/coders_dcm_la-dcm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dcm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dcm_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
 
 coders/coders_dds_la-dds.lo: coders/dds.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dds_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dds_la-dds.lo -MD -MP -MF coders/$(DEPDIR)/coders_dds_la-dds.Tpo -c -o coders/coders_dds_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dds_la-dds.Tpo coders/$(DEPDIR)/coders_dds_la-dds.Plo
-	$(AM_V_CC) \
-	source='coders/dds.c' object='coders/coders_dds_la-dds.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dds_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dds_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dds_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dds_la-dds.lo -MD -MP -MF coders/$(DEPDIR)/coders_dds_la-dds.Tpo -c -o coders/coders_dds_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dds_la-dds.Tpo coders/$(DEPDIR)/coders_dds_la-dds.Plo
+#	$(AM_V_CC) \
+#	source='coders/dds.c' object='coders/coders_dds_la-dds.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dds_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dds_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
 
 coders/coders_dib_la-dib.lo: coders/dib.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dib_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dib_la-dib.lo -MD -MP -MF coders/$(DEPDIR)/coders_dib_la-dib.Tpo -c -o coders/coders_dib_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dib_la-dib.Tpo coders/$(DEPDIR)/coders_dib_la-dib.Plo
-	$(AM_V_CC) \
-	source='coders/dib.c' object='coders/coders_dib_la-dib.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dib_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dib_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dib_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dib_la-dib.lo -MD -MP -MF coders/$(DEPDIR)/coders_dib_la-dib.Tpo -c -o coders/coders_dib_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dib_la-dib.Tpo coders/$(DEPDIR)/coders_dib_la-dib.Plo
+#	$(AM_V_CC) \
+#	source='coders/dib.c' object='coders/coders_dib_la-dib.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dib_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dib_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
 
 coders/coders_djvu_la-djvu.lo: coders/djvu.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_djvu_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_djvu_la-djvu.lo -MD -MP -MF coders/$(DEPDIR)/coders_djvu_la-djvu.Tpo -c -o coders/coders_djvu_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_djvu_la-djvu.Tpo coders/$(DEPDIR)/coders_djvu_la-djvu.Plo
-	$(AM_V_CC) \
-	source='coders/djvu.c' object='coders/coders_djvu_la-djvu.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_djvu_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_djvu_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_djvu_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_djvu_la-djvu.lo -MD -MP -MF coders/$(DEPDIR)/coders_djvu_la-djvu.Tpo -c -o coders/coders_djvu_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_djvu_la-djvu.Tpo coders/$(DEPDIR)/coders_djvu_la-djvu.Plo
+#	$(AM_V_CC) \
+#	source='coders/djvu.c' object='coders/coders_djvu_la-djvu.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_djvu_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_djvu_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
 
 coders/coders_dng_la-dng.lo: coders/dng.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dng_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dng_la-dng.lo -MD -MP -MF coders/$(DEPDIR)/coders_dng_la-dng.Tpo -c -o coders/coders_dng_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dng_la-dng.Tpo coders/$(DEPDIR)/coders_dng_la-dng.Plo
-	$(AM_V_CC) \
-	source='coders/dng.c' object='coders/coders_dng_la-dng.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dng_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dng_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dng_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dng_la-dng.lo -MD -MP -MF coders/$(DEPDIR)/coders_dng_la-dng.Tpo -c -o coders/coders_dng_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dng_la-dng.Tpo coders/$(DEPDIR)/coders_dng_la-dng.Plo
+#	$(AM_V_CC) \
+#	source='coders/dng.c' object='coders/coders_dng_la-dng.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dng_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dng_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
 
 coders/coders_dot_la-dot.lo: coders/dot.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dot_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dot_la-dot.lo -MD -MP -MF coders/$(DEPDIR)/coders_dot_la-dot.Tpo -c -o coders/coders_dot_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dot_la-dot.Tpo coders/$(DEPDIR)/coders_dot_la-dot.Plo
-	$(AM_V_CC) \
-	source='coders/dot.c' object='coders/coders_dot_la-dot.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dot_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dot_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dot_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dot_la-dot.lo -MD -MP -MF coders/$(DEPDIR)/coders_dot_la-dot.Tpo -c -o coders/coders_dot_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dot_la-dot.Tpo coders/$(DEPDIR)/coders_dot_la-dot.Plo
+#	$(AM_V_CC) \
+#	source='coders/dot.c' object='coders/coders_dot_la-dot.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dot_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dot_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
 
 coders/coders_dps_la-dps.lo: coders/dps.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dps_la-dps.lo -MD -MP -MF coders/$(DEPDIR)/coders_dps_la-dps.Tpo -c -o coders/coders_dps_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dps_la-dps.Tpo coders/$(DEPDIR)/coders_dps_la-dps.Plo
-	$(AM_V_CC) \
-	source='coders/dps.c' object='coders/coders_dps_la-dps.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dps_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dps_la-dps.lo -MD -MP -MF coders/$(DEPDIR)/coders_dps_la-dps.Tpo -c -o coders/coders_dps_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dps_la-dps.Tpo coders/$(DEPDIR)/coders_dps_la-dps.Plo
+#	$(AM_V_CC) \
+#	source='coders/dps.c' object='coders/coders_dps_la-dps.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dps_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
 
 coders/coders_dpx_la-dpx.lo: coders/dpx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dpx_la-dpx.lo -MD -MP -MF coders/$(DEPDIR)/coders_dpx_la-dpx.Tpo -c -o coders/coders_dpx_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dpx_la-dpx.Tpo coders/$(DEPDIR)/coders_dpx_la-dpx.Plo
-	$(AM_V_CC) \
-	source='coders/dpx.c' object='coders/coders_dpx_la-dpx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dpx_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_dpx_la-dpx.lo -MD -MP -MF coders/$(DEPDIR)/coders_dpx_la-dpx.Tpo -c -o coders/coders_dpx_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_dpx_la-dpx.Tpo coders/$(DEPDIR)/coders_dpx_la-dpx.Plo
+#	$(AM_V_CC) \
+#	source='coders/dpx.c' object='coders/coders_dpx_la-dpx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_dpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_dpx_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
 
 coders/coders_emf_la-emf.lo: coders/emf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_emf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_emf_la-emf.lo -MD -MP -MF coders/$(DEPDIR)/coders_emf_la-emf.Tpo -c -o coders/coders_emf_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_emf_la-emf.Tpo coders/$(DEPDIR)/coders_emf_la-emf.Plo
-	$(AM_V_CC) \
-	source='coders/emf.c' object='coders/coders_emf_la-emf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_emf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_emf_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_emf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_emf_la-emf.lo -MD -MP -MF coders/$(DEPDIR)/coders_emf_la-emf.Tpo -c -o coders/coders_emf_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_emf_la-emf.Tpo coders/$(DEPDIR)/coders_emf_la-emf.Plo
+#	$(AM_V_CC) \
+#	source='coders/emf.c' object='coders/coders_emf_la-emf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_emf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_emf_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
 
 coders/coders_ept_la-ept.lo: coders/ept.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ept_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ept_la-ept.lo -MD -MP -MF coders/$(DEPDIR)/coders_ept_la-ept.Tpo -c -o coders/coders_ept_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ept_la-ept.Tpo coders/$(DEPDIR)/coders_ept_la-ept.Plo
-	$(AM_V_CC) \
-	source='coders/ept.c' object='coders/coders_ept_la-ept.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ept_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ept_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ept_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ept_la-ept.lo -MD -MP -MF coders/$(DEPDIR)/coders_ept_la-ept.Tpo -c -o coders/coders_ept_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ept_la-ept.Tpo coders/$(DEPDIR)/coders_ept_la-ept.Plo
+#	$(AM_V_CC) \
+#	source='coders/ept.c' object='coders/coders_ept_la-ept.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ept_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ept_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
 
 coders/coders_exr_la-exr.lo: coders/exr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_exr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_exr_la-exr.lo -MD -MP -MF coders/$(DEPDIR)/coders_exr_la-exr.Tpo -c -o coders/coders_exr_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_exr_la-exr.Tpo coders/$(DEPDIR)/coders_exr_la-exr.Plo
-	$(AM_V_CC) \
-	source='coders/exr.c' object='coders/coders_exr_la-exr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_exr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_exr_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_exr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_exr_la-exr.lo -MD -MP -MF coders/$(DEPDIR)/coders_exr_la-exr.Tpo -c -o coders/coders_exr_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_exr_la-exr.Tpo coders/$(DEPDIR)/coders_exr_la-exr.Plo
+#	$(AM_V_CC) \
+#	source='coders/exr.c' object='coders/coders_exr_la-exr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_exr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_exr_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
 
 coders/coders_fax_la-fax.lo: coders/fax.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fax_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_fax_la-fax.lo -MD -MP -MF coders/$(DEPDIR)/coders_fax_la-fax.Tpo -c -o coders/coders_fax_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_fax_la-fax.Tpo coders/$(DEPDIR)/coders_fax_la-fax.Plo
-	$(AM_V_CC) \
-	source='coders/fax.c' object='coders/coders_fax_la-fax.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fax_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_fax_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fax_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_fax_la-fax.lo -MD -MP -MF coders/$(DEPDIR)/coders_fax_la-fax.Tpo -c -o coders/coders_fax_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_fax_la-fax.Tpo coders/$(DEPDIR)/coders_fax_la-fax.Plo
+#	$(AM_V_CC) \
+#	source='coders/fax.c' object='coders/coders_fax_la-fax.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fax_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_fax_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
 
 coders/coders_fits_la-fits.lo: coders/fits.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fits_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_fits_la-fits.lo -MD -MP -MF coders/$(DEPDIR)/coders_fits_la-fits.Tpo -c -o coders/coders_fits_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_fits_la-fits.Tpo coders/$(DEPDIR)/coders_fits_la-fits.Plo
-	$(AM_V_CC) \
-	source='coders/fits.c' object='coders/coders_fits_la-fits.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fits_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_fits_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fits_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_fits_la-fits.lo -MD -MP -MF coders/$(DEPDIR)/coders_fits_la-fits.Tpo -c -o coders/coders_fits_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_fits_la-fits.Tpo coders/$(DEPDIR)/coders_fits_la-fits.Plo
+#	$(AM_V_CC) \
+#	source='coders/fits.c' object='coders/coders_fits_la-fits.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fits_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_fits_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
 
 coders/coders_fpx_la-fpx.lo: coders/fpx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_fpx_la-fpx.lo -MD -MP -MF coders/$(DEPDIR)/coders_fpx_la-fpx.Tpo -c -o coders/coders_fpx_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_fpx_la-fpx.Tpo coders/$(DEPDIR)/coders_fpx_la-fpx.Plo
-	$(AM_V_CC) \
-	source='coders/fpx.c' object='coders/coders_fpx_la-fpx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_fpx_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_fpx_la-fpx.lo -MD -MP -MF coders/$(DEPDIR)/coders_fpx_la-fpx.Tpo -c -o coders/coders_fpx_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_fpx_la-fpx.Tpo coders/$(DEPDIR)/coders_fpx_la-fpx.Plo
+#	$(AM_V_CC) \
+#	source='coders/fpx.c' object='coders/coders_fpx_la-fpx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_fpx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_fpx_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
 
 coders/coders_gif_la-gif.lo: coders/gif.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gif_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_gif_la-gif.lo -MD -MP -MF coders/$(DEPDIR)/coders_gif_la-gif.Tpo -c -o coders/coders_gif_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_gif_la-gif.Tpo coders/$(DEPDIR)/coders_gif_la-gif.Plo
-	$(AM_V_CC) \
-	source='coders/gif.c' object='coders/coders_gif_la-gif.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gif_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_gif_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gif_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_gif_la-gif.lo -MD -MP -MF coders/$(DEPDIR)/coders_gif_la-gif.Tpo -c -o coders/coders_gif_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_gif_la-gif.Tpo coders/$(DEPDIR)/coders_gif_la-gif.Plo
+#	$(AM_V_CC) \
+#	source='coders/gif.c' object='coders/coders_gif_la-gif.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gif_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_gif_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
 
 coders/coders_gradient_la-gradient.lo: coders/gradient.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gradient_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_gradient_la-gradient.lo -MD -MP -MF coders/$(DEPDIR)/coders_gradient_la-gradient.Tpo -c -o coders/coders_gradient_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_gradient_la-gradient.Tpo coders/$(DEPDIR)/coders_gradient_la-gradient.Plo
-	$(AM_V_CC) \
-	source='coders/gradient.c' object='coders/coders_gradient_la-gradient.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gradient_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_gradient_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gradient_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_gradient_la-gradient.lo -MD -MP -MF coders/$(DEPDIR)/coders_gradient_la-gradient.Tpo -c -o coders/coders_gradient_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_gradient_la-gradient.Tpo coders/$(DEPDIR)/coders_gradient_la-gradient.Plo
+#	$(AM_V_CC) \
+#	source='coders/gradient.c' object='coders/coders_gradient_la-gradient.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gradient_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_gradient_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
 
 coders/coders_gray_la-gray.lo: coders/gray.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gray_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_gray_la-gray.lo -MD -MP -MF coders/$(DEPDIR)/coders_gray_la-gray.Tpo -c -o coders/coders_gray_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_gray_la-gray.Tpo coders/$(DEPDIR)/coders_gray_la-gray.Plo
-	$(AM_V_CC) \
-	source='coders/gray.c' object='coders/coders_gray_la-gray.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gray_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_gray_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gray_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_gray_la-gray.lo -MD -MP -MF coders/$(DEPDIR)/coders_gray_la-gray.Tpo -c -o coders/coders_gray_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_gray_la-gray.Tpo coders/$(DEPDIR)/coders_gray_la-gray.Plo
+#	$(AM_V_CC) \
+#	source='coders/gray.c' object='coders/coders_gray_la-gray.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_gray_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_gray_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
 
 coders/coders_hald_la-hald.lo: coders/hald.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hald_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_hald_la-hald.lo -MD -MP -MF coders/$(DEPDIR)/coders_hald_la-hald.Tpo -c -o coders/coders_hald_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_hald_la-hald.Tpo coders/$(DEPDIR)/coders_hald_la-hald.Plo
-	$(AM_V_CC) \
-	source='coders/hald.c' object='coders/coders_hald_la-hald.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hald_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_hald_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hald_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_hald_la-hald.lo -MD -MP -MF coders/$(DEPDIR)/coders_hald_la-hald.Tpo -c -o coders/coders_hald_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_hald_la-hald.Tpo coders/$(DEPDIR)/coders_hald_la-hald.Plo
+#	$(AM_V_CC) \
+#	source='coders/hald.c' object='coders/coders_hald_la-hald.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hald_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_hald_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
 
 coders/coders_histogram_la-histogram.lo: coders/histogram.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_histogram_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_histogram_la-histogram.lo -MD -MP -MF coders/$(DEPDIR)/coders_histogram_la-histogram.Tpo -c -o coders/coders_histogram_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_histogram_la-histogram.Tpo coders/$(DEPDIR)/coders_histogram_la-histogram.Plo
-	$(AM_V_CC) \
-	source='coders/histogram.c' object='coders/coders_histogram_la-histogram.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_histogram_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_histogram_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_histogram_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_histogram_la-histogram.lo -MD -MP -MF coders/$(DEPDIR)/coders_histogram_la-histogram.Tpo -c -o coders/coders_histogram_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_histogram_la-histogram.Tpo coders/$(DEPDIR)/coders_histogram_la-histogram.Plo
+#	$(AM_V_CC) \
+#	source='coders/histogram.c' object='coders/coders_histogram_la-histogram.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_histogram_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_histogram_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
 
 coders/coders_hrz_la-hrz.lo: coders/hrz.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hrz_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_hrz_la-hrz.lo -MD -MP -MF coders/$(DEPDIR)/coders_hrz_la-hrz.Tpo -c -o coders/coders_hrz_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_hrz_la-hrz.Tpo coders/$(DEPDIR)/coders_hrz_la-hrz.Plo
-	$(AM_V_CC) \
-	source='coders/hrz.c' object='coders/coders_hrz_la-hrz.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hrz_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_hrz_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hrz_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_hrz_la-hrz.lo -MD -MP -MF coders/$(DEPDIR)/coders_hrz_la-hrz.Tpo -c -o coders/coders_hrz_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_hrz_la-hrz.Tpo coders/$(DEPDIR)/coders_hrz_la-hrz.Plo
+#	$(AM_V_CC) \
+#	source='coders/hrz.c' object='coders/coders_hrz_la-hrz.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_hrz_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_hrz_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
 
 coders/coders_html_la-html.lo: coders/html.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_html_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_html_la-html.lo -MD -MP -MF coders/$(DEPDIR)/coders_html_la-html.Tpo -c -o coders/coders_html_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_html_la-html.Tpo coders/$(DEPDIR)/coders_html_la-html.Plo
-	$(AM_V_CC) \
-	source='coders/html.c' object='coders/coders_html_la-html.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_html_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_html_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_html_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_html_la-html.lo -MD -MP -MF coders/$(DEPDIR)/coders_html_la-html.Tpo -c -o coders/coders_html_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_html_la-html.Tpo coders/$(DEPDIR)/coders_html_la-html.Plo
+#	$(AM_V_CC) \
+#	source='coders/html.c' object='coders/coders_html_la-html.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_html_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_html_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
 
 coders/coders_icon_la-icon.lo: coders/icon.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_icon_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_icon_la-icon.lo -MD -MP -MF coders/$(DEPDIR)/coders_icon_la-icon.Tpo -c -o coders/coders_icon_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_icon_la-icon.Tpo coders/$(DEPDIR)/coders_icon_la-icon.Plo
-	$(AM_V_CC) \
-	source='coders/icon.c' object='coders/coders_icon_la-icon.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_icon_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_icon_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_icon_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_icon_la-icon.lo -MD -MP -MF coders/$(DEPDIR)/coders_icon_la-icon.Tpo -c -o coders/coders_icon_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_icon_la-icon.Tpo coders/$(DEPDIR)/coders_icon_la-icon.Plo
+#	$(AM_V_CC) \
+#	source='coders/icon.c' object='coders/coders_icon_la-icon.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_icon_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_icon_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
 
 coders/coders_info_la-info.lo: coders/info.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_info_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_info_la-info.lo -MD -MP -MF coders/$(DEPDIR)/coders_info_la-info.Tpo -c -o coders/coders_info_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_info_la-info.Tpo coders/$(DEPDIR)/coders_info_la-info.Plo
-	$(AM_V_CC) \
-	source='coders/info.c' object='coders/coders_info_la-info.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_info_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_info_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_info_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_info_la-info.lo -MD -MP -MF coders/$(DEPDIR)/coders_info_la-info.Tpo -c -o coders/coders_info_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_info_la-info.Tpo coders/$(DEPDIR)/coders_info_la-info.Plo
+#	$(AM_V_CC) \
+#	source='coders/info.c' object='coders/coders_info_la-info.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_info_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_info_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
 
 coders/coders_inline_la-inline.lo: coders/inline.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_inline_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_inline_la-inline.lo -MD -MP -MF coders/$(DEPDIR)/coders_inline_la-inline.Tpo -c -o coders/coders_inline_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_inline_la-inline.Tpo coders/$(DEPDIR)/coders_inline_la-inline.Plo
-	$(AM_V_CC) \
-	source='coders/inline.c' object='coders/coders_inline_la-inline.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_inline_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_inline_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_inline_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_inline_la-inline.lo -MD -MP -MF coders/$(DEPDIR)/coders_inline_la-inline.Tpo -c -o coders/coders_inline_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_inline_la-inline.Tpo coders/$(DEPDIR)/coders_inline_la-inline.Plo
+#	$(AM_V_CC) \
+#	source='coders/inline.c' object='coders/coders_inline_la-inline.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_inline_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_inline_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
 
 coders/coders_ipl_la-ipl.lo: coders/ipl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ipl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ipl_la-ipl.lo -MD -MP -MF coders/$(DEPDIR)/coders_ipl_la-ipl.Tpo -c -o coders/coders_ipl_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ipl_la-ipl.Tpo coders/$(DEPDIR)/coders_ipl_la-ipl.Plo
-	$(AM_V_CC) \
-	source='coders/ipl.c' object='coders/coders_ipl_la-ipl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ipl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ipl_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ipl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ipl_la-ipl.lo -MD -MP -MF coders/$(DEPDIR)/coders_ipl_la-ipl.Tpo -c -o coders/coders_ipl_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ipl_la-ipl.Tpo coders/$(DEPDIR)/coders_ipl_la-ipl.Plo
+#	$(AM_V_CC) \
+#	source='coders/ipl.c' object='coders/coders_ipl_la-ipl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ipl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ipl_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
 
 coders/coders_jbig_la-jbig.lo: coders/jbig.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jbig_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_jbig_la-jbig.lo -MD -MP -MF coders/$(DEPDIR)/coders_jbig_la-jbig.Tpo -c -o coders/coders_jbig_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_jbig_la-jbig.Tpo coders/$(DEPDIR)/coders_jbig_la-jbig.Plo
-	$(AM_V_CC) \
-	source='coders/jbig.c' object='coders/coders_jbig_la-jbig.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jbig_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_jbig_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jbig_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_jbig_la-jbig.lo -MD -MP -MF coders/$(DEPDIR)/coders_jbig_la-jbig.Tpo -c -o coders/coders_jbig_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_jbig_la-jbig.Tpo coders/$(DEPDIR)/coders_jbig_la-jbig.Plo
+#	$(AM_V_CC) \
+#	source='coders/jbig.c' object='coders/coders_jbig_la-jbig.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jbig_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_jbig_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
 
 coders/coders_jp2_la-jp2.lo: coders/jp2.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jp2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_jp2_la-jp2.lo -MD -MP -MF coders/$(DEPDIR)/coders_jp2_la-jp2.Tpo -c -o coders/coders_jp2_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_jp2_la-jp2.Tpo coders/$(DEPDIR)/coders_jp2_la-jp2.Plo
-	$(AM_V_CC) \
-	source='coders/jp2.c' object='coders/coders_jp2_la-jp2.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jp2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_jp2_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jp2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_jp2_la-jp2.lo -MD -MP -MF coders/$(DEPDIR)/coders_jp2_la-jp2.Tpo -c -o coders/coders_jp2_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_jp2_la-jp2.Tpo coders/$(DEPDIR)/coders_jp2_la-jp2.Plo
+#	$(AM_V_CC) \
+#	source='coders/jp2.c' object='coders/coders_jp2_la-jp2.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jp2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_jp2_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
 
 coders/coders_jpeg_la-jpeg.lo: coders/jpeg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_jpeg_la-jpeg.lo -MD -MP -MF coders/$(DEPDIR)/coders_jpeg_la-jpeg.Tpo -c -o coders/coders_jpeg_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_jpeg_la-jpeg.Tpo coders/$(DEPDIR)/coders_jpeg_la-jpeg.Plo
-	$(AM_V_CC) \
-	source='coders/jpeg.c' object='coders/coders_jpeg_la-jpeg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_jpeg_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_jpeg_la-jpeg.lo -MD -MP -MF coders/$(DEPDIR)/coders_jpeg_la-jpeg.Tpo -c -o coders/coders_jpeg_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_jpeg_la-jpeg.Tpo coders/$(DEPDIR)/coders_jpeg_la-jpeg.Plo
+#	$(AM_V_CC) \
+#	source='coders/jpeg.c' object='coders/coders_jpeg_la-jpeg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_jpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_jpeg_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
 
 coders/coders_label_la-label.lo: coders/label.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_label_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_label_la-label.lo -MD -MP -MF coders/$(DEPDIR)/coders_label_la-label.Tpo -c -o coders/coders_label_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_label_la-label.Tpo coders/$(DEPDIR)/coders_label_la-label.Plo
-	$(AM_V_CC) \
-	source='coders/label.c' object='coders/coders_label_la-label.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_label_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_label_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_label_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_label_la-label.lo -MD -MP -MF coders/$(DEPDIR)/coders_label_la-label.Tpo -c -o coders/coders_label_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_label_la-label.Tpo coders/$(DEPDIR)/coders_label_la-label.Plo
+#	$(AM_V_CC) \
+#	source='coders/label.c' object='coders/coders_label_la-label.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_label_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_label_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
 
 coders/coders_magick_la-magick.lo: coders/magick.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_magick_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_magick_la-magick.lo -MD -MP -MF coders/$(DEPDIR)/coders_magick_la-magick.Tpo -c -o coders/coders_magick_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_magick_la-magick.Tpo coders/$(DEPDIR)/coders_magick_la-magick.Plo
-	$(AM_V_CC) \
-	source='coders/magick.c' object='coders/coders_magick_la-magick.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_magick_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_magick_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_magick_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_magick_la-magick.lo -MD -MP -MF coders/$(DEPDIR)/coders_magick_la-magick.Tpo -c -o coders/coders_magick_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_magick_la-magick.Tpo coders/$(DEPDIR)/coders_magick_la-magick.Plo
+#	$(AM_V_CC) \
+#	source='coders/magick.c' object='coders/coders_magick_la-magick.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_magick_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_magick_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
 
 coders/coders_map_la-map.lo: coders/map.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_map_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_map_la-map.lo -MD -MP -MF coders/$(DEPDIR)/coders_map_la-map.Tpo -c -o coders/coders_map_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_map_la-map.Tpo coders/$(DEPDIR)/coders_map_la-map.Plo
-	$(AM_V_CC) \
-	source='coders/map.c' object='coders/coders_map_la-map.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_map_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_map_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_map_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_map_la-map.lo -MD -MP -MF coders/$(DEPDIR)/coders_map_la-map.Tpo -c -o coders/coders_map_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_map_la-map.Tpo coders/$(DEPDIR)/coders_map_la-map.Plo
+#	$(AM_V_CC) \
+#	source='coders/map.c' object='coders/coders_map_la-map.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_map_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_map_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
 
 coders/coders_mat_la-mat.lo: coders/mat.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mat_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mat_la-mat.lo -MD -MP -MF coders/$(DEPDIR)/coders_mat_la-mat.Tpo -c -o coders/coders_mat_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mat_la-mat.Tpo coders/$(DEPDIR)/coders_mat_la-mat.Plo
-	$(AM_V_CC) \
-	source='coders/mat.c' object='coders/coders_mat_la-mat.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mat_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mat_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mat_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mat_la-mat.lo -MD -MP -MF coders/$(DEPDIR)/coders_mat_la-mat.Tpo -c -o coders/coders_mat_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mat_la-mat.Tpo coders/$(DEPDIR)/coders_mat_la-mat.Plo
+#	$(AM_V_CC) \
+#	source='coders/mat.c' object='coders/coders_mat_la-mat.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mat_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mat_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
 
 coders/coders_matte_la-matte.lo: coders/matte.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_matte_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_matte_la-matte.lo -MD -MP -MF coders/$(DEPDIR)/coders_matte_la-matte.Tpo -c -o coders/coders_matte_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_matte_la-matte.Tpo coders/$(DEPDIR)/coders_matte_la-matte.Plo
-	$(AM_V_CC) \
-	source='coders/matte.c' object='coders/coders_matte_la-matte.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_matte_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_matte_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_matte_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_matte_la-matte.lo -MD -MP -MF coders/$(DEPDIR)/coders_matte_la-matte.Tpo -c -o coders/coders_matte_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_matte_la-matte.Tpo coders/$(DEPDIR)/coders_matte_la-matte.Plo
+#	$(AM_V_CC) \
+#	source='coders/matte.c' object='coders/coders_matte_la-matte.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_matte_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_matte_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
 
 coders/coders_meta_la-meta.lo: coders/meta.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_meta_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_meta_la-meta.lo -MD -MP -MF coders/$(DEPDIR)/coders_meta_la-meta.Tpo -c -o coders/coders_meta_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_meta_la-meta.Tpo coders/$(DEPDIR)/coders_meta_la-meta.Plo
-	$(AM_V_CC) \
-	source='coders/meta.c' object='coders/coders_meta_la-meta.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_meta_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_meta_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_meta_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_meta_la-meta.lo -MD -MP -MF coders/$(DEPDIR)/coders_meta_la-meta.Tpo -c -o coders/coders_meta_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_meta_la-meta.Tpo coders/$(DEPDIR)/coders_meta_la-meta.Plo
+#	$(AM_V_CC) \
+#	source='coders/meta.c' object='coders/coders_meta_la-meta.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_meta_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_meta_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
 
 coders/coders_miff_la-miff.lo: coders/miff.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_miff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_miff_la-miff.lo -MD -MP -MF coders/$(DEPDIR)/coders_miff_la-miff.Tpo -c -o coders/coders_miff_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_miff_la-miff.Tpo coders/$(DEPDIR)/coders_miff_la-miff.Plo
-	$(AM_V_CC) \
-	source='coders/miff.c' object='coders/coders_miff_la-miff.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_miff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_miff_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_miff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_miff_la-miff.lo -MD -MP -MF coders/$(DEPDIR)/coders_miff_la-miff.Tpo -c -o coders/coders_miff_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_miff_la-miff.Tpo coders/$(DEPDIR)/coders_miff_la-miff.Plo
+#	$(AM_V_CC) \
+#	source='coders/miff.c' object='coders/coders_miff_la-miff.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_miff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_miff_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
 
 coders/coders_mono_la-mono.lo: coders/mono.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mono_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mono_la-mono.lo -MD -MP -MF coders/$(DEPDIR)/coders_mono_la-mono.Tpo -c -o coders/coders_mono_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mono_la-mono.Tpo coders/$(DEPDIR)/coders_mono_la-mono.Plo
-	$(AM_V_CC) \
-	source='coders/mono.c' object='coders/coders_mono_la-mono.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mono_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mono_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mono_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mono_la-mono.lo -MD -MP -MF coders/$(DEPDIR)/coders_mono_la-mono.Tpo -c -o coders/coders_mono_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mono_la-mono.Tpo coders/$(DEPDIR)/coders_mono_la-mono.Plo
+#	$(AM_V_CC) \
+#	source='coders/mono.c' object='coders/coders_mono_la-mono.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mono_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mono_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
 
 coders/coders_mpc_la-mpc.lo: coders/mpc.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mpc_la-mpc.lo -MD -MP -MF coders/$(DEPDIR)/coders_mpc_la-mpc.Tpo -c -o coders/coders_mpc_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mpc_la-mpc.Tpo coders/$(DEPDIR)/coders_mpc_la-mpc.Plo
-	$(AM_V_CC) \
-	source='coders/mpc.c' object='coders/coders_mpc_la-mpc.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mpc_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mpc_la-mpc.lo -MD -MP -MF coders/$(DEPDIR)/coders_mpc_la-mpc.Tpo -c -o coders/coders_mpc_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mpc_la-mpc.Tpo coders/$(DEPDIR)/coders_mpc_la-mpc.Plo
+#	$(AM_V_CC) \
+#	source='coders/mpc.c' object='coders/coders_mpc_la-mpc.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mpc_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
 
 coders/coders_mpeg_la-mpeg.lo: coders/mpeg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mpeg_la-mpeg.lo -MD -MP -MF coders/$(DEPDIR)/coders_mpeg_la-mpeg.Tpo -c -o coders/coders_mpeg_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mpeg_la-mpeg.Tpo coders/$(DEPDIR)/coders_mpeg_la-mpeg.Plo
-	$(AM_V_CC) \
-	source='coders/mpeg.c' object='coders/coders_mpeg_la-mpeg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mpeg_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mpeg_la-mpeg.lo -MD -MP -MF coders/$(DEPDIR)/coders_mpeg_la-mpeg.Tpo -c -o coders/coders_mpeg_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mpeg_la-mpeg.Tpo coders/$(DEPDIR)/coders_mpeg_la-mpeg.Plo
+#	$(AM_V_CC) \
+#	source='coders/mpeg.c' object='coders/coders_mpeg_la-mpeg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpeg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mpeg_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
 
 coders/coders_mpr_la-mpr.lo: coders/mpr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mpr_la-mpr.lo -MD -MP -MF coders/$(DEPDIR)/coders_mpr_la-mpr.Tpo -c -o coders/coders_mpr_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mpr_la-mpr.Tpo coders/$(DEPDIR)/coders_mpr_la-mpr.Plo
-	$(AM_V_CC) \
-	source='coders/mpr.c' object='coders/coders_mpr_la-mpr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mpr_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mpr_la-mpr.lo -MD -MP -MF coders/$(DEPDIR)/coders_mpr_la-mpr.Tpo -c -o coders/coders_mpr_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mpr_la-mpr.Tpo coders/$(DEPDIR)/coders_mpr_la-mpr.Plo
+#	$(AM_V_CC) \
+#	source='coders/mpr.c' object='coders/coders_mpr_la-mpr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mpr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mpr_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
 
 coders/coders_msl_la-msl.lo: coders/msl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_msl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_msl_la-msl.lo -MD -MP -MF coders/$(DEPDIR)/coders_msl_la-msl.Tpo -c -o coders/coders_msl_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_msl_la-msl.Tpo coders/$(DEPDIR)/coders_msl_la-msl.Plo
-	$(AM_V_CC) \
-	source='coders/msl.c' object='coders/coders_msl_la-msl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_msl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_msl_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_msl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_msl_la-msl.lo -MD -MP -MF coders/$(DEPDIR)/coders_msl_la-msl.Tpo -c -o coders/coders_msl_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_msl_la-msl.Tpo coders/$(DEPDIR)/coders_msl_la-msl.Plo
+#	$(AM_V_CC) \
+#	source='coders/msl.c' object='coders/coders_msl_la-msl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_msl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_msl_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
 
 coders/coders_mtv_la-mtv.lo: coders/mtv.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mtv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mtv_la-mtv.lo -MD -MP -MF coders/$(DEPDIR)/coders_mtv_la-mtv.Tpo -c -o coders/coders_mtv_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mtv_la-mtv.Tpo coders/$(DEPDIR)/coders_mtv_la-mtv.Plo
-	$(AM_V_CC) \
-	source='coders/mtv.c' object='coders/coders_mtv_la-mtv.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mtv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mtv_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mtv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mtv_la-mtv.lo -MD -MP -MF coders/$(DEPDIR)/coders_mtv_la-mtv.Tpo -c -o coders/coders_mtv_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mtv_la-mtv.Tpo coders/$(DEPDIR)/coders_mtv_la-mtv.Plo
+#	$(AM_V_CC) \
+#	source='coders/mtv.c' object='coders/coders_mtv_la-mtv.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mtv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mtv_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
 
 coders/coders_mvg_la-mvg.lo: coders/mvg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mvg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mvg_la-mvg.lo -MD -MP -MF coders/$(DEPDIR)/coders_mvg_la-mvg.Tpo -c -o coders/coders_mvg_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mvg_la-mvg.Tpo coders/$(DEPDIR)/coders_mvg_la-mvg.Plo
-	$(AM_V_CC) \
-	source='coders/mvg.c' object='coders/coders_mvg_la-mvg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mvg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mvg_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mvg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_mvg_la-mvg.lo -MD -MP -MF coders/$(DEPDIR)/coders_mvg_la-mvg.Tpo -c -o coders/coders_mvg_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_mvg_la-mvg.Tpo coders/$(DEPDIR)/coders_mvg_la-mvg.Plo
+#	$(AM_V_CC) \
+#	source='coders/mvg.c' object='coders/coders_mvg_la-mvg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_mvg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_mvg_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
 
 coders/coders_null_la-null.lo: coders/null.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_null_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_null_la-null.lo -MD -MP -MF coders/$(DEPDIR)/coders_null_la-null.Tpo -c -o coders/coders_null_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_null_la-null.Tpo coders/$(DEPDIR)/coders_null_la-null.Plo
-	$(AM_V_CC) \
-	source='coders/null.c' object='coders/coders_null_la-null.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_null_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_null_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_null_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_null_la-null.lo -MD -MP -MF coders/$(DEPDIR)/coders_null_la-null.Tpo -c -o coders/coders_null_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_null_la-null.Tpo coders/$(DEPDIR)/coders_null_la-null.Plo
+#	$(AM_V_CC) \
+#	source='coders/null.c' object='coders/coders_null_la-null.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_null_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_null_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
 
 coders/coders_otb_la-otb.lo: coders/otb.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_otb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_otb_la-otb.lo -MD -MP -MF coders/$(DEPDIR)/coders_otb_la-otb.Tpo -c -o coders/coders_otb_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_otb_la-otb.Tpo coders/$(DEPDIR)/coders_otb_la-otb.Plo
-	$(AM_V_CC) \
-	source='coders/otb.c' object='coders/coders_otb_la-otb.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_otb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_otb_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_otb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_otb_la-otb.lo -MD -MP -MF coders/$(DEPDIR)/coders_otb_la-otb.Tpo -c -o coders/coders_otb_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_otb_la-otb.Tpo coders/$(DEPDIR)/coders_otb_la-otb.Plo
+#	$(AM_V_CC) \
+#	source='coders/otb.c' object='coders/coders_otb_la-otb.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_otb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_otb_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
 
 coders/coders_palm_la-palm.lo: coders/palm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_palm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_palm_la-palm.lo -MD -MP -MF coders/$(DEPDIR)/coders_palm_la-palm.Tpo -c -o coders/coders_palm_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_palm_la-palm.Tpo coders/$(DEPDIR)/coders_palm_la-palm.Plo
-	$(AM_V_CC) \
-	source='coders/palm.c' object='coders/coders_palm_la-palm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_palm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_palm_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_palm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_palm_la-palm.lo -MD -MP -MF coders/$(DEPDIR)/coders_palm_la-palm.Tpo -c -o coders/coders_palm_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_palm_la-palm.Tpo coders/$(DEPDIR)/coders_palm_la-palm.Plo
+#	$(AM_V_CC) \
+#	source='coders/palm.c' object='coders/coders_palm_la-palm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_palm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_palm_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
 
 coders/coders_pattern_la-pattern.lo: coders/pattern.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pattern_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pattern_la-pattern.lo -MD -MP -MF coders/$(DEPDIR)/coders_pattern_la-pattern.Tpo -c -o coders/coders_pattern_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pattern_la-pattern.Tpo coders/$(DEPDIR)/coders_pattern_la-pattern.Plo
-	$(AM_V_CC) \
-	source='coders/pattern.c' object='coders/coders_pattern_la-pattern.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pattern_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pattern_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pattern_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pattern_la-pattern.lo -MD -MP -MF coders/$(DEPDIR)/coders_pattern_la-pattern.Tpo -c -o coders/coders_pattern_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pattern_la-pattern.Tpo coders/$(DEPDIR)/coders_pattern_la-pattern.Plo
+#	$(AM_V_CC) \
+#	source='coders/pattern.c' object='coders/coders_pattern_la-pattern.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pattern_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pattern_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
 
 coders/coders_pcd_la-pcd.lo: coders/pcd.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pcd_la-pcd.lo -MD -MP -MF coders/$(DEPDIR)/coders_pcd_la-pcd.Tpo -c -o coders/coders_pcd_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pcd_la-pcd.Tpo coders/$(DEPDIR)/coders_pcd_la-pcd.Plo
-	$(AM_V_CC) \
-	source='coders/pcd.c' object='coders/coders_pcd_la-pcd.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pcd_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pcd_la-pcd.lo -MD -MP -MF coders/$(DEPDIR)/coders_pcd_la-pcd.Tpo -c -o coders/coders_pcd_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pcd_la-pcd.Tpo coders/$(DEPDIR)/coders_pcd_la-pcd.Plo
+#	$(AM_V_CC) \
+#	source='coders/pcd.c' object='coders/coders_pcd_la-pcd.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pcd_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
 
 coders/coders_pcl_la-pcl.lo: coders/pcl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pcl_la-pcl.lo -MD -MP -MF coders/$(DEPDIR)/coders_pcl_la-pcl.Tpo -c -o coders/coders_pcl_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pcl_la-pcl.Tpo coders/$(DEPDIR)/coders_pcl_la-pcl.Plo
-	$(AM_V_CC) \
-	source='coders/pcl.c' object='coders/coders_pcl_la-pcl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pcl_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pcl_la-pcl.lo -MD -MP -MF coders/$(DEPDIR)/coders_pcl_la-pcl.Tpo -c -o coders/coders_pcl_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pcl_la-pcl.Tpo coders/$(DEPDIR)/coders_pcl_la-pcl.Plo
+#	$(AM_V_CC) \
+#	source='coders/pcl.c' object='coders/coders_pcl_la-pcl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pcl_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
 
 coders/coders_pcx_la-pcx.lo: coders/pcx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pcx_la-pcx.lo -MD -MP -MF coders/$(DEPDIR)/coders_pcx_la-pcx.Tpo -c -o coders/coders_pcx_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pcx_la-pcx.Tpo coders/$(DEPDIR)/coders_pcx_la-pcx.Plo
-	$(AM_V_CC) \
-	source='coders/pcx.c' object='coders/coders_pcx_la-pcx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pcx_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pcx_la-pcx.lo -MD -MP -MF coders/$(DEPDIR)/coders_pcx_la-pcx.Tpo -c -o coders/coders_pcx_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pcx_la-pcx.Tpo coders/$(DEPDIR)/coders_pcx_la-pcx.Plo
+#	$(AM_V_CC) \
+#	source='coders/pcx.c' object='coders/coders_pcx_la-pcx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pcx_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pcx_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
 
 coders/coders_pdb_la-pdb.lo: coders/pdb.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pdb_la-pdb.lo -MD -MP -MF coders/$(DEPDIR)/coders_pdb_la-pdb.Tpo -c -o coders/coders_pdb_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pdb_la-pdb.Tpo coders/$(DEPDIR)/coders_pdb_la-pdb.Plo
-	$(AM_V_CC) \
-	source='coders/pdb.c' object='coders/coders_pdb_la-pdb.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pdb_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pdb_la-pdb.lo -MD -MP -MF coders/$(DEPDIR)/coders_pdb_la-pdb.Tpo -c -o coders/coders_pdb_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pdb_la-pdb.Tpo coders/$(DEPDIR)/coders_pdb_la-pdb.Plo
+#	$(AM_V_CC) \
+#	source='coders/pdb.c' object='coders/coders_pdb_la-pdb.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pdb_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
 
 coders/coders_pdf_la-pdf.lo: coders/pdf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pdf_la-pdf.lo -MD -MP -MF coders/$(DEPDIR)/coders_pdf_la-pdf.Tpo -c -o coders/coders_pdf_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pdf_la-pdf.Tpo coders/$(DEPDIR)/coders_pdf_la-pdf.Plo
-	$(AM_V_CC) \
-	source='coders/pdf.c' object='coders/coders_pdf_la-pdf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pdf_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pdf_la-pdf.lo -MD -MP -MF coders/$(DEPDIR)/coders_pdf_la-pdf.Tpo -c -o coders/coders_pdf_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pdf_la-pdf.Tpo coders/$(DEPDIR)/coders_pdf_la-pdf.Plo
+#	$(AM_V_CC) \
+#	source='coders/pdf.c' object='coders/coders_pdf_la-pdf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pdf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pdf_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
 
 coders/coders_pict_la-pict.lo: coders/pict.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pict_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pict_la-pict.lo -MD -MP -MF coders/$(DEPDIR)/coders_pict_la-pict.Tpo -c -o coders/coders_pict_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pict_la-pict.Tpo coders/$(DEPDIR)/coders_pict_la-pict.Plo
-	$(AM_V_CC) \
-	source='coders/pict.c' object='coders/coders_pict_la-pict.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pict_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pict_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pict_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pict_la-pict.lo -MD -MP -MF coders/$(DEPDIR)/coders_pict_la-pict.Tpo -c -o coders/coders_pict_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pict_la-pict.Tpo coders/$(DEPDIR)/coders_pict_la-pict.Plo
+#	$(AM_V_CC) \
+#	source='coders/pict.c' object='coders/coders_pict_la-pict.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pict_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pict_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
 
 coders/coders_pix_la-pix.lo: coders/pix.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pix_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pix_la-pix.lo -MD -MP -MF coders/$(DEPDIR)/coders_pix_la-pix.Tpo -c -o coders/coders_pix_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pix_la-pix.Tpo coders/$(DEPDIR)/coders_pix_la-pix.Plo
-	$(AM_V_CC) \
-	source='coders/pix.c' object='coders/coders_pix_la-pix.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pix_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pix_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pix_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pix_la-pix.lo -MD -MP -MF coders/$(DEPDIR)/coders_pix_la-pix.Tpo -c -o coders/coders_pix_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pix_la-pix.Tpo coders/$(DEPDIR)/coders_pix_la-pix.Plo
+#	$(AM_V_CC) \
+#	source='coders/pix.c' object='coders/coders_pix_la-pix.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pix_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pix_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
 
 coders/coders_plasma_la-plasma.lo: coders/plasma.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_plasma_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_plasma_la-plasma.lo -MD -MP -MF coders/$(DEPDIR)/coders_plasma_la-plasma.Tpo -c -o coders/coders_plasma_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_plasma_la-plasma.Tpo coders/$(DEPDIR)/coders_plasma_la-plasma.Plo
-	$(AM_V_CC) \
-	source='coders/plasma.c' object='coders/coders_plasma_la-plasma.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_plasma_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_plasma_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_plasma_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_plasma_la-plasma.lo -MD -MP -MF coders/$(DEPDIR)/coders_plasma_la-plasma.Tpo -c -o coders/coders_plasma_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_plasma_la-plasma.Tpo coders/$(DEPDIR)/coders_plasma_la-plasma.Plo
+#	$(AM_V_CC) \
+#	source='coders/plasma.c' object='coders/coders_plasma_la-plasma.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_plasma_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_plasma_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
 
 coders/coders_png_la-png.lo: coders/png.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_png_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_png_la-png.lo -MD -MP -MF coders/$(DEPDIR)/coders_png_la-png.Tpo -c -o coders/coders_png_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_png_la-png.Tpo coders/$(DEPDIR)/coders_png_la-png.Plo
-	$(AM_V_CC) \
-	source='coders/png.c' object='coders/coders_png_la-png.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_png_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_png_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_png_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_png_la-png.lo -MD -MP -MF coders/$(DEPDIR)/coders_png_la-png.Tpo -c -o coders/coders_png_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_png_la-png.Tpo coders/$(DEPDIR)/coders_png_la-png.Plo
+#	$(AM_V_CC) \
+#	source='coders/png.c' object='coders/coders_png_la-png.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_png_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_png_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
 
 coders/coders_pnm_la-pnm.lo: coders/pnm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pnm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pnm_la-pnm.lo -MD -MP -MF coders/$(DEPDIR)/coders_pnm_la-pnm.Tpo -c -o coders/coders_pnm_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pnm_la-pnm.Tpo coders/$(DEPDIR)/coders_pnm_la-pnm.Plo
-	$(AM_V_CC) \
-	source='coders/pnm.c' object='coders/coders_pnm_la-pnm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pnm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pnm_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pnm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pnm_la-pnm.lo -MD -MP -MF coders/$(DEPDIR)/coders_pnm_la-pnm.Tpo -c -o coders/coders_pnm_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pnm_la-pnm.Tpo coders/$(DEPDIR)/coders_pnm_la-pnm.Plo
+#	$(AM_V_CC) \
+#	source='coders/pnm.c' object='coders/coders_pnm_la-pnm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pnm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pnm_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
 
 coders/coders_preview_la-preview.lo: coders/preview.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_preview_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_preview_la-preview.lo -MD -MP -MF coders/$(DEPDIR)/coders_preview_la-preview.Tpo -c -o coders/coders_preview_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_preview_la-preview.Tpo coders/$(DEPDIR)/coders_preview_la-preview.Plo
-	$(AM_V_CC) \
-	source='coders/preview.c' object='coders/coders_preview_la-preview.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_preview_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_preview_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_preview_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_preview_la-preview.lo -MD -MP -MF coders/$(DEPDIR)/coders_preview_la-preview.Tpo -c -o coders/coders_preview_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_preview_la-preview.Tpo coders/$(DEPDIR)/coders_preview_la-preview.Plo
+#	$(AM_V_CC) \
+#	source='coders/preview.c' object='coders/coders_preview_la-preview.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_preview_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_preview_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
 
 coders/coders_ps_la-ps.lo: coders/ps.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ps_la-ps.lo -MD -MP -MF coders/$(DEPDIR)/coders_ps_la-ps.Tpo -c -o coders/coders_ps_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ps_la-ps.Tpo coders/$(DEPDIR)/coders_ps_la-ps.Plo
-	$(AM_V_CC) \
-	source='coders/ps.c' object='coders/coders_ps_la-ps.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ps_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ps_la-ps.lo -MD -MP -MF coders/$(DEPDIR)/coders_ps_la-ps.Tpo -c -o coders/coders_ps_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ps_la-ps.Tpo coders/$(DEPDIR)/coders_ps_la-ps.Plo
+#	$(AM_V_CC) \
+#	source='coders/ps.c' object='coders/coders_ps_la-ps.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ps_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
 
 coders/coders_ps2_la-ps2.lo: coders/ps2.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ps2_la-ps2.lo -MD -MP -MF coders/$(DEPDIR)/coders_ps2_la-ps2.Tpo -c -o coders/coders_ps2_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ps2_la-ps2.Tpo coders/$(DEPDIR)/coders_ps2_la-ps2.Plo
-	$(AM_V_CC) \
-	source='coders/ps2.c' object='coders/coders_ps2_la-ps2.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ps2_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ps2_la-ps2.lo -MD -MP -MF coders/$(DEPDIR)/coders_ps2_la-ps2.Tpo -c -o coders/coders_ps2_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ps2_la-ps2.Tpo coders/$(DEPDIR)/coders_ps2_la-ps2.Plo
+#	$(AM_V_CC) \
+#	source='coders/ps2.c' object='coders/coders_ps2_la-ps2.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps2_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ps2_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
 
 coders/coders_ps3_la-ps3.lo: coders/ps3.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps3_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ps3_la-ps3.lo -MD -MP -MF coders/$(DEPDIR)/coders_ps3_la-ps3.Tpo -c -o coders/coders_ps3_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ps3_la-ps3.Tpo coders/$(DEPDIR)/coders_ps3_la-ps3.Plo
-	$(AM_V_CC) \
-	source='coders/ps3.c' object='coders/coders_ps3_la-ps3.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps3_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ps3_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps3_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ps3_la-ps3.lo -MD -MP -MF coders/$(DEPDIR)/coders_ps3_la-ps3.Tpo -c -o coders/coders_ps3_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ps3_la-ps3.Tpo coders/$(DEPDIR)/coders_ps3_la-ps3.Plo
+#	$(AM_V_CC) \
+#	source='coders/ps3.c' object='coders/coders_ps3_la-ps3.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ps3_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ps3_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
 
 coders/coders_psd_la-psd.lo: coders/psd.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_psd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_psd_la-psd.lo -MD -MP -MF coders/$(DEPDIR)/coders_psd_la-psd.Tpo -c -o coders/coders_psd_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_psd_la-psd.Tpo coders/$(DEPDIR)/coders_psd_la-psd.Plo
-	$(AM_V_CC) \
-	source='coders/psd.c' object='coders/coders_psd_la-psd.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_psd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_psd_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_psd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_psd_la-psd.lo -MD -MP -MF coders/$(DEPDIR)/coders_psd_la-psd.Tpo -c -o coders/coders_psd_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_psd_la-psd.Tpo coders/$(DEPDIR)/coders_psd_la-psd.Plo
+#	$(AM_V_CC) \
+#	source='coders/psd.c' object='coders/coders_psd_la-psd.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_psd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_psd_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
 
 coders/coders_pwp_la-pwp.lo: coders/pwp.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pwp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pwp_la-pwp.lo -MD -MP -MF coders/$(DEPDIR)/coders_pwp_la-pwp.Tpo -c -o coders/coders_pwp_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pwp_la-pwp.Tpo coders/$(DEPDIR)/coders_pwp_la-pwp.Plo
-	$(AM_V_CC) \
-	source='coders/pwp.c' object='coders/coders_pwp_la-pwp.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pwp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pwp_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pwp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_pwp_la-pwp.lo -MD -MP -MF coders/$(DEPDIR)/coders_pwp_la-pwp.Tpo -c -o coders/coders_pwp_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_pwp_la-pwp.Tpo coders/$(DEPDIR)/coders_pwp_la-pwp.Plo
+#	$(AM_V_CC) \
+#	source='coders/pwp.c' object='coders/coders_pwp_la-pwp.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_pwp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_pwp_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
 
 coders/coders_raw_la-raw.lo: coders/raw.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_raw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_raw_la-raw.lo -MD -MP -MF coders/$(DEPDIR)/coders_raw_la-raw.Tpo -c -o coders/coders_raw_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_raw_la-raw.Tpo coders/$(DEPDIR)/coders_raw_la-raw.Plo
-	$(AM_V_CC) \
-	source='coders/raw.c' object='coders/coders_raw_la-raw.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_raw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_raw_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_raw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_raw_la-raw.lo -MD -MP -MF coders/$(DEPDIR)/coders_raw_la-raw.Tpo -c -o coders/coders_raw_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_raw_la-raw.Tpo coders/$(DEPDIR)/coders_raw_la-raw.Plo
+#	$(AM_V_CC) \
+#	source='coders/raw.c' object='coders/coders_raw_la-raw.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_raw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_raw_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
 
 coders/coders_rgb_la-rgb.lo: coders/rgb.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rgb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_rgb_la-rgb.lo -MD -MP -MF coders/$(DEPDIR)/coders_rgb_la-rgb.Tpo -c -o coders/coders_rgb_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_rgb_la-rgb.Tpo coders/$(DEPDIR)/coders_rgb_la-rgb.Plo
-	$(AM_V_CC) \
-	source='coders/rgb.c' object='coders/coders_rgb_la-rgb.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rgb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_rgb_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rgb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_rgb_la-rgb.lo -MD -MP -MF coders/$(DEPDIR)/coders_rgb_la-rgb.Tpo -c -o coders/coders_rgb_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_rgb_la-rgb.Tpo coders/$(DEPDIR)/coders_rgb_la-rgb.Plo
+#	$(AM_V_CC) \
+#	source='coders/rgb.c' object='coders/coders_rgb_la-rgb.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rgb_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_rgb_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
 
 coders/coders_rla_la-rla.lo: coders/rla.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rla_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_rla_la-rla.lo -MD -MP -MF coders/$(DEPDIR)/coders_rla_la-rla.Tpo -c -o coders/coders_rla_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_rla_la-rla.Tpo coders/$(DEPDIR)/coders_rla_la-rla.Plo
-	$(AM_V_CC) \
-	source='coders/rla.c' object='coders/coders_rla_la-rla.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rla_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_rla_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rla_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_rla_la-rla.lo -MD -MP -MF coders/$(DEPDIR)/coders_rla_la-rla.Tpo -c -o coders/coders_rla_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_rla_la-rla.Tpo coders/$(DEPDIR)/coders_rla_la-rla.Plo
+#	$(AM_V_CC) \
+#	source='coders/rla.c' object='coders/coders_rla_la-rla.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rla_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_rla_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
 
 coders/coders_rle_la-rle.lo: coders/rle.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rle_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_rle_la-rle.lo -MD -MP -MF coders/$(DEPDIR)/coders_rle_la-rle.Tpo -c -o coders/coders_rle_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_rle_la-rle.Tpo coders/$(DEPDIR)/coders_rle_la-rle.Plo
-	$(AM_V_CC) \
-	source='coders/rle.c' object='coders/coders_rle_la-rle.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rle_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_rle_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rle_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_rle_la-rle.lo -MD -MP -MF coders/$(DEPDIR)/coders_rle_la-rle.Tpo -c -o coders/coders_rle_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_rle_la-rle.Tpo coders/$(DEPDIR)/coders_rle_la-rle.Plo
+#	$(AM_V_CC) \
+#	source='coders/rle.c' object='coders/coders_rle_la-rle.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_rle_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_rle_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
 
 coders/coders_scr_la-scr.lo: coders/scr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_scr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_scr_la-scr.lo -MD -MP -MF coders/$(DEPDIR)/coders_scr_la-scr.Tpo -c -o coders/coders_scr_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_scr_la-scr.Tpo coders/$(DEPDIR)/coders_scr_la-scr.Plo
-	$(AM_V_CC) \
-	source='coders/scr.c' object='coders/coders_scr_la-scr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_scr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_scr_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_scr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_scr_la-scr.lo -MD -MP -MF coders/$(DEPDIR)/coders_scr_la-scr.Tpo -c -o coders/coders_scr_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_scr_la-scr.Tpo coders/$(DEPDIR)/coders_scr_la-scr.Plo
+#	$(AM_V_CC) \
+#	source='coders/scr.c' object='coders/coders_scr_la-scr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_scr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_scr_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
 
 coders/coders_sct_la-sct.lo: coders/sct.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sct_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sct_la-sct.lo -MD -MP -MF coders/$(DEPDIR)/coders_sct_la-sct.Tpo -c -o coders/coders_sct_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sct_la-sct.Tpo coders/$(DEPDIR)/coders_sct_la-sct.Plo
-	$(AM_V_CC) \
-	source='coders/sct.c' object='coders/coders_sct_la-sct.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sct_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sct_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sct_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sct_la-sct.lo -MD -MP -MF coders/$(DEPDIR)/coders_sct_la-sct.Tpo -c -o coders/coders_sct_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sct_la-sct.Tpo coders/$(DEPDIR)/coders_sct_la-sct.Plo
+#	$(AM_V_CC) \
+#	source='coders/sct.c' object='coders/coders_sct_la-sct.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sct_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sct_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
 
 coders/coders_sfw_la-sfw.lo: coders/sfw.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sfw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sfw_la-sfw.lo -MD -MP -MF coders/$(DEPDIR)/coders_sfw_la-sfw.Tpo -c -o coders/coders_sfw_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sfw_la-sfw.Tpo coders/$(DEPDIR)/coders_sfw_la-sfw.Plo
-	$(AM_V_CC) \
-	source='coders/sfw.c' object='coders/coders_sfw_la-sfw.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sfw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sfw_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sfw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sfw_la-sfw.lo -MD -MP -MF coders/$(DEPDIR)/coders_sfw_la-sfw.Tpo -c -o coders/coders_sfw_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sfw_la-sfw.Tpo coders/$(DEPDIR)/coders_sfw_la-sfw.Plo
+#	$(AM_V_CC) \
+#	source='coders/sfw.c' object='coders/coders_sfw_la-sfw.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sfw_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sfw_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
 
 coders/coders_sgi_la-sgi.lo: coders/sgi.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sgi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sgi_la-sgi.lo -MD -MP -MF coders/$(DEPDIR)/coders_sgi_la-sgi.Tpo -c -o coders/coders_sgi_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sgi_la-sgi.Tpo coders/$(DEPDIR)/coders_sgi_la-sgi.Plo
-	$(AM_V_CC) \
-	source='coders/sgi.c' object='coders/coders_sgi_la-sgi.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sgi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sgi_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sgi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sgi_la-sgi.lo -MD -MP -MF coders/$(DEPDIR)/coders_sgi_la-sgi.Tpo -c -o coders/coders_sgi_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sgi_la-sgi.Tpo coders/$(DEPDIR)/coders_sgi_la-sgi.Plo
+#	$(AM_V_CC) \
+#	source='coders/sgi.c' object='coders/coders_sgi_la-sgi.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sgi_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sgi_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
 
 coders/coders_stegano_la-stegano.lo: coders/stegano.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_stegano_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_stegano_la-stegano.lo -MD -MP -MF coders/$(DEPDIR)/coders_stegano_la-stegano.Tpo -c -o coders/coders_stegano_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_stegano_la-stegano.Tpo coders/$(DEPDIR)/coders_stegano_la-stegano.Plo
-	$(AM_V_CC) \
-	source='coders/stegano.c' object='coders/coders_stegano_la-stegano.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_stegano_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_stegano_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_stegano_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_stegano_la-stegano.lo -MD -MP -MF coders/$(DEPDIR)/coders_stegano_la-stegano.Tpo -c -o coders/coders_stegano_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_stegano_la-stegano.Tpo coders/$(DEPDIR)/coders_stegano_la-stegano.Plo
+#	$(AM_V_CC) \
+#	source='coders/stegano.c' object='coders/coders_stegano_la-stegano.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_stegano_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_stegano_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
 
 coders/coders_sun_la-sun.lo: coders/sun.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sun_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sun_la-sun.lo -MD -MP -MF coders/$(DEPDIR)/coders_sun_la-sun.Tpo -c -o coders/coders_sun_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sun_la-sun.Tpo coders/$(DEPDIR)/coders_sun_la-sun.Plo
-	$(AM_V_CC) \
-	source='coders/sun.c' object='coders/coders_sun_la-sun.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sun_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sun_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sun_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_sun_la-sun.lo -MD -MP -MF coders/$(DEPDIR)/coders_sun_la-sun.Tpo -c -o coders/coders_sun_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_sun_la-sun.Tpo coders/$(DEPDIR)/coders_sun_la-sun.Plo
+#	$(AM_V_CC) \
+#	source='coders/sun.c' object='coders/coders_sun_la-sun.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_sun_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_sun_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
 
 coders/coders_svg_la-svg.lo: coders/svg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_svg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_svg_la-svg.lo -MD -MP -MF coders/$(DEPDIR)/coders_svg_la-svg.Tpo -c -o coders/coders_svg_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_svg_la-svg.Tpo coders/$(DEPDIR)/coders_svg_la-svg.Plo
-	$(AM_V_CC) \
-	source='coders/svg.c' object='coders/coders_svg_la-svg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_svg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_svg_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_svg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_svg_la-svg.lo -MD -MP -MF coders/$(DEPDIR)/coders_svg_la-svg.Tpo -c -o coders/coders_svg_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_svg_la-svg.Tpo coders/$(DEPDIR)/coders_svg_la-svg.Plo
+#	$(AM_V_CC) \
+#	source='coders/svg.c' object='coders/coders_svg_la-svg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_svg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_svg_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
 
 coders/coders_tga_la-tga.lo: coders/tga.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tga_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tga_la-tga.lo -MD -MP -MF coders/$(DEPDIR)/coders_tga_la-tga.Tpo -c -o coders/coders_tga_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tga_la-tga.Tpo coders/$(DEPDIR)/coders_tga_la-tga.Plo
-	$(AM_V_CC) \
-	source='coders/tga.c' object='coders/coders_tga_la-tga.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tga_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tga_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tga_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tga_la-tga.lo -MD -MP -MF coders/$(DEPDIR)/coders_tga_la-tga.Tpo -c -o coders/coders_tga_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tga_la-tga.Tpo coders/$(DEPDIR)/coders_tga_la-tga.Plo
+#	$(AM_V_CC) \
+#	source='coders/tga.c' object='coders/coders_tga_la-tga.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tga_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tga_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
 
 coders/coders_thumbnail_la-thumbnail.lo: coders/thumbnail.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_thumbnail_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_thumbnail_la-thumbnail.lo -MD -MP -MF coders/$(DEPDIR)/coders_thumbnail_la-thumbnail.Tpo -c -o coders/coders_thumbnail_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_thumbnail_la-thumbnail.Tpo coders/$(DEPDIR)/coders_thumbnail_la-thumbnail.Plo
-	$(AM_V_CC) \
-	source='coders/thumbnail.c' object='coders/coders_thumbnail_la-thumbnail.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_thumbnail_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_thumbnail_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_thumbnail_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_thumbnail_la-thumbnail.lo -MD -MP -MF coders/$(DEPDIR)/coders_thumbnail_la-thumbnail.Tpo -c -o coders/coders_thumbnail_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_thumbnail_la-thumbnail.Tpo coders/$(DEPDIR)/coders_thumbnail_la-thumbnail.Plo
+#	$(AM_V_CC) \
+#	source='coders/thumbnail.c' object='coders/coders_thumbnail_la-thumbnail.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_thumbnail_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_thumbnail_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
 
 coders/coders_tiff_la-tiff.lo: coders/tiff.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tiff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tiff_la-tiff.lo -MD -MP -MF coders/$(DEPDIR)/coders_tiff_la-tiff.Tpo -c -o coders/coders_tiff_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tiff_la-tiff.Tpo coders/$(DEPDIR)/coders_tiff_la-tiff.Plo
-	$(AM_V_CC) \
-	source='coders/tiff.c' object='coders/coders_tiff_la-tiff.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tiff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tiff_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tiff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tiff_la-tiff.lo -MD -MP -MF coders/$(DEPDIR)/coders_tiff_la-tiff.Tpo -c -o coders/coders_tiff_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tiff_la-tiff.Tpo coders/$(DEPDIR)/coders_tiff_la-tiff.Plo
+#	$(AM_V_CC) \
+#	source='coders/tiff.c' object='coders/coders_tiff_la-tiff.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tiff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tiff_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
 
 coders/coders_tile_la-tile.lo: coders/tile.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tile_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tile_la-tile.lo -MD -MP -MF coders/$(DEPDIR)/coders_tile_la-tile.Tpo -c -o coders/coders_tile_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tile_la-tile.Tpo coders/$(DEPDIR)/coders_tile_la-tile.Plo
-	$(AM_V_CC) \
-	source='coders/tile.c' object='coders/coders_tile_la-tile.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tile_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tile_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tile_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tile_la-tile.lo -MD -MP -MF coders/$(DEPDIR)/coders_tile_la-tile.Tpo -c -o coders/coders_tile_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tile_la-tile.Tpo coders/$(DEPDIR)/coders_tile_la-tile.Plo
+#	$(AM_V_CC) \
+#	source='coders/tile.c' object='coders/coders_tile_la-tile.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tile_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tile_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
 
 coders/coders_tim_la-tim.lo: coders/tim.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tim_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tim_la-tim.lo -MD -MP -MF coders/$(DEPDIR)/coders_tim_la-tim.Tpo -c -o coders/coders_tim_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tim_la-tim.Tpo coders/$(DEPDIR)/coders_tim_la-tim.Plo
-	$(AM_V_CC) \
-	source='coders/tim.c' object='coders/coders_tim_la-tim.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tim_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tim_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tim_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_tim_la-tim.lo -MD -MP -MF coders/$(DEPDIR)/coders_tim_la-tim.Tpo -c -o coders/coders_tim_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_tim_la-tim.Tpo coders/$(DEPDIR)/coders_tim_la-tim.Plo
+#	$(AM_V_CC) \
+#	source='coders/tim.c' object='coders/coders_tim_la-tim.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_tim_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_tim_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
 
 coders/coders_ttf_la-ttf.lo: coders/ttf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ttf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ttf_la-ttf.lo -MD -MP -MF coders/$(DEPDIR)/coders_ttf_la-ttf.Tpo -c -o coders/coders_ttf_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ttf_la-ttf.Tpo coders/$(DEPDIR)/coders_ttf_la-ttf.Plo
-	$(AM_V_CC) \
-	source='coders/ttf.c' object='coders/coders_ttf_la-ttf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ttf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ttf_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ttf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ttf_la-ttf.lo -MD -MP -MF coders/$(DEPDIR)/coders_ttf_la-ttf.Tpo -c -o coders/coders_ttf_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ttf_la-ttf.Tpo coders/$(DEPDIR)/coders_ttf_la-ttf.Plo
+#	$(AM_V_CC) \
+#	source='coders/ttf.c' object='coders/coders_ttf_la-ttf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ttf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ttf_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
 
 coders/coders_txt_la-txt.lo: coders/txt.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_txt_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_txt_la-txt.lo -MD -MP -MF coders/$(DEPDIR)/coders_txt_la-txt.Tpo -c -o coders/coders_txt_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_txt_la-txt.Tpo coders/$(DEPDIR)/coders_txt_la-txt.Plo
-	$(AM_V_CC) \
-	source='coders/txt.c' object='coders/coders_txt_la-txt.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_txt_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_txt_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_txt_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_txt_la-txt.lo -MD -MP -MF coders/$(DEPDIR)/coders_txt_la-txt.Tpo -c -o coders/coders_txt_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_txt_la-txt.Tpo coders/$(DEPDIR)/coders_txt_la-txt.Plo
+#	$(AM_V_CC) \
+#	source='coders/txt.c' object='coders/coders_txt_la-txt.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_txt_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_txt_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
 
 coders/coders_uil_la-uil.lo: coders/uil.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uil_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_uil_la-uil.lo -MD -MP -MF coders/$(DEPDIR)/coders_uil_la-uil.Tpo -c -o coders/coders_uil_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_uil_la-uil.Tpo coders/$(DEPDIR)/coders_uil_la-uil.Plo
-	$(AM_V_CC) \
-	source='coders/uil.c' object='coders/coders_uil_la-uil.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uil_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_uil_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uil_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_uil_la-uil.lo -MD -MP -MF coders/$(DEPDIR)/coders_uil_la-uil.Tpo -c -o coders/coders_uil_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_uil_la-uil.Tpo coders/$(DEPDIR)/coders_uil_la-uil.Plo
+#	$(AM_V_CC) \
+#	source='coders/uil.c' object='coders/coders_uil_la-uil.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uil_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_uil_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
 
 coders/coders_url_la-url.lo: coders/url.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_url_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_url_la-url.lo -MD -MP -MF coders/$(DEPDIR)/coders_url_la-url.Tpo -c -o coders/coders_url_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_url_la-url.Tpo coders/$(DEPDIR)/coders_url_la-url.Plo
-	$(AM_V_CC) \
-	source='coders/url.c' object='coders/coders_url_la-url.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_url_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_url_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_url_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_url_la-url.lo -MD -MP -MF coders/$(DEPDIR)/coders_url_la-url.Tpo -c -o coders/coders_url_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_url_la-url.Tpo coders/$(DEPDIR)/coders_url_la-url.Plo
+#	$(AM_V_CC) \
+#	source='coders/url.c' object='coders/coders_url_la-url.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_url_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_url_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
 
 coders/coders_uyvy_la-uyvy.lo: coders/uyvy.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uyvy_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_uyvy_la-uyvy.lo -MD -MP -MF coders/$(DEPDIR)/coders_uyvy_la-uyvy.Tpo -c -o coders/coders_uyvy_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_uyvy_la-uyvy.Tpo coders/$(DEPDIR)/coders_uyvy_la-uyvy.Plo
-	$(AM_V_CC) \
-	source='coders/uyvy.c' object='coders/coders_uyvy_la-uyvy.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uyvy_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_uyvy_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uyvy_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_uyvy_la-uyvy.lo -MD -MP -MF coders/$(DEPDIR)/coders_uyvy_la-uyvy.Tpo -c -o coders/coders_uyvy_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_uyvy_la-uyvy.Tpo coders/$(DEPDIR)/coders_uyvy_la-uyvy.Plo
+#	$(AM_V_CC) \
+#	source='coders/uyvy.c' object='coders/coders_uyvy_la-uyvy.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_uyvy_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_uyvy_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
 
 coders/coders_vicar_la-vicar.lo: coders/vicar.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vicar_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_vicar_la-vicar.lo -MD -MP -MF coders/$(DEPDIR)/coders_vicar_la-vicar.Tpo -c -o coders/coders_vicar_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_vicar_la-vicar.Tpo coders/$(DEPDIR)/coders_vicar_la-vicar.Plo
-	$(AM_V_CC) \
-	source='coders/vicar.c' object='coders/coders_vicar_la-vicar.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vicar_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_vicar_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vicar_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_vicar_la-vicar.lo -MD -MP -MF coders/$(DEPDIR)/coders_vicar_la-vicar.Tpo -c -o coders/coders_vicar_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_vicar_la-vicar.Tpo coders/$(DEPDIR)/coders_vicar_la-vicar.Plo
+#	$(AM_V_CC) \
+#	source='coders/vicar.c' object='coders/coders_vicar_la-vicar.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vicar_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_vicar_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
 
 coders/coders_vid_la-vid.lo: coders/vid.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vid_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_vid_la-vid.lo -MD -MP -MF coders/$(DEPDIR)/coders_vid_la-vid.Tpo -c -o coders/coders_vid_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_vid_la-vid.Tpo coders/$(DEPDIR)/coders_vid_la-vid.Plo
-	$(AM_V_CC) \
-	source='coders/vid.c' object='coders/coders_vid_la-vid.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vid_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_vid_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vid_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_vid_la-vid.lo -MD -MP -MF coders/$(DEPDIR)/coders_vid_la-vid.Tpo -c -o coders/coders_vid_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_vid_la-vid.Tpo coders/$(DEPDIR)/coders_vid_la-vid.Plo
+#	$(AM_V_CC) \
+#	source='coders/vid.c' object='coders/coders_vid_la-vid.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_vid_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_vid_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
 
 coders/coders_viff_la-viff.lo: coders/viff.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_viff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_viff_la-viff.lo -MD -MP -MF coders/$(DEPDIR)/coders_viff_la-viff.Tpo -c -o coders/coders_viff_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_viff_la-viff.Tpo coders/$(DEPDIR)/coders_viff_la-viff.Plo
-	$(AM_V_CC) \
-	source='coders/viff.c' object='coders/coders_viff_la-viff.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_viff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_viff_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_viff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_viff_la-viff.lo -MD -MP -MF coders/$(DEPDIR)/coders_viff_la-viff.Tpo -c -o coders/coders_viff_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_viff_la-viff.Tpo coders/$(DEPDIR)/coders_viff_la-viff.Plo
+#	$(AM_V_CC) \
+#	source='coders/viff.c' object='coders/coders_viff_la-viff.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_viff_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_viff_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
 
 coders/coders_wbmp_la-wbmp.lo: coders/wbmp.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wbmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_wbmp_la-wbmp.lo -MD -MP -MF coders/$(DEPDIR)/coders_wbmp_la-wbmp.Tpo -c -o coders/coders_wbmp_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_wbmp_la-wbmp.Tpo coders/$(DEPDIR)/coders_wbmp_la-wbmp.Plo
-	$(AM_V_CC) \
-	source='coders/wbmp.c' object='coders/coders_wbmp_la-wbmp.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wbmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_wbmp_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wbmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_wbmp_la-wbmp.lo -MD -MP -MF coders/$(DEPDIR)/coders_wbmp_la-wbmp.Tpo -c -o coders/coders_wbmp_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_wbmp_la-wbmp.Tpo coders/$(DEPDIR)/coders_wbmp_la-wbmp.Plo
+#	$(AM_V_CC) \
+#	source='coders/wbmp.c' object='coders/coders_wbmp_la-wbmp.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wbmp_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_wbmp_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
 
 coders/coders_wmf_la-wmf.lo: coders/wmf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wmf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_wmf_la-wmf.lo -MD -MP -MF coders/$(DEPDIR)/coders_wmf_la-wmf.Tpo -c -o coders/coders_wmf_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_wmf_la-wmf.Tpo coders/$(DEPDIR)/coders_wmf_la-wmf.Plo
-	$(AM_V_CC) \
-	source='coders/wmf.c' object='coders/coders_wmf_la-wmf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wmf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_wmf_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wmf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_wmf_la-wmf.lo -MD -MP -MF coders/$(DEPDIR)/coders_wmf_la-wmf.Tpo -c -o coders/coders_wmf_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_wmf_la-wmf.Tpo coders/$(DEPDIR)/coders_wmf_la-wmf.Plo
+#	$(AM_V_CC) \
+#	source='coders/wmf.c' object='coders/coders_wmf_la-wmf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wmf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_wmf_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
 
 coders/coders_wpg_la-wpg.lo: coders/wpg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wpg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_wpg_la-wpg.lo -MD -MP -MF coders/$(DEPDIR)/coders_wpg_la-wpg.Tpo -c -o coders/coders_wpg_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_wpg_la-wpg.Tpo coders/$(DEPDIR)/coders_wpg_la-wpg.Plo
-	$(AM_V_CC) \
-	source='coders/wpg.c' object='coders/coders_wpg_la-wpg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wpg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_wpg_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wpg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_wpg_la-wpg.lo -MD -MP -MF coders/$(DEPDIR)/coders_wpg_la-wpg.Tpo -c -o coders/coders_wpg_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_wpg_la-wpg.Tpo coders/$(DEPDIR)/coders_wpg_la-wpg.Plo
+#	$(AM_V_CC) \
+#	source='coders/wpg.c' object='coders/coders_wpg_la-wpg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_wpg_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_wpg_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
 
 coders/coders_x_la-x.lo: coders/x.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_x_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_x_la-x.lo -MD -MP -MF coders/$(DEPDIR)/coders_x_la-x.Tpo -c -o coders/coders_x_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_x_la-x.Tpo coders/$(DEPDIR)/coders_x_la-x.Plo
-	$(AM_V_CC) \
-	source='coders/x.c' object='coders/coders_x_la-x.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_x_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_x_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_x_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_x_la-x.lo -MD -MP -MF coders/$(DEPDIR)/coders_x_la-x.Tpo -c -o coders/coders_x_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_x_la-x.Tpo coders/$(DEPDIR)/coders_x_la-x.Plo
+#	$(AM_V_CC) \
+#	source='coders/x.c' object='coders/coders_x_la-x.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_x_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_x_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
 
 coders/coders_xbm_la-xbm.lo: coders/xbm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xbm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xbm_la-xbm.lo -MD -MP -MF coders/$(DEPDIR)/coders_xbm_la-xbm.Tpo -c -o coders/coders_xbm_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xbm_la-xbm.Tpo coders/$(DEPDIR)/coders_xbm_la-xbm.Plo
-	$(AM_V_CC) \
-	source='coders/xbm.c' object='coders/coders_xbm_la-xbm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xbm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xbm_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xbm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xbm_la-xbm.lo -MD -MP -MF coders/$(DEPDIR)/coders_xbm_la-xbm.Tpo -c -o coders/coders_xbm_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xbm_la-xbm.Tpo coders/$(DEPDIR)/coders_xbm_la-xbm.Plo
+#	$(AM_V_CC) \
+#	source='coders/xbm.c' object='coders/coders_xbm_la-xbm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xbm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xbm_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
 
 coders/coders_xc_la-xc.lo: coders/xc.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xc_la-xc.lo -MD -MP -MF coders/$(DEPDIR)/coders_xc_la-xc.Tpo -c -o coders/coders_xc_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xc_la-xc.Tpo coders/$(DEPDIR)/coders_xc_la-xc.Plo
-	$(AM_V_CC) \
-	source='coders/xc.c' object='coders/coders_xc_la-xc.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xc_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xc_la-xc.lo -MD -MP -MF coders/$(DEPDIR)/coders_xc_la-xc.Tpo -c -o coders/coders_xc_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xc_la-xc.Tpo coders/$(DEPDIR)/coders_xc_la-xc.Plo
+#	$(AM_V_CC) \
+#	source='coders/xc.c' object='coders/coders_xc_la-xc.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xc_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
 
 coders/coders_xcf_la-xcf.lo: coders/xcf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xcf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xcf_la-xcf.lo -MD -MP -MF coders/$(DEPDIR)/coders_xcf_la-xcf.Tpo -c -o coders/coders_xcf_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xcf_la-xcf.Tpo coders/$(DEPDIR)/coders_xcf_la-xcf.Plo
-	$(AM_V_CC) \
-	source='coders/xcf.c' object='coders/coders_xcf_la-xcf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xcf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xcf_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xcf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xcf_la-xcf.lo -MD -MP -MF coders/$(DEPDIR)/coders_xcf_la-xcf.Tpo -c -o coders/coders_xcf_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xcf_la-xcf.Tpo coders/$(DEPDIR)/coders_xcf_la-xcf.Plo
+#	$(AM_V_CC) \
+#	source='coders/xcf.c' object='coders/coders_xcf_la-xcf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xcf_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xcf_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
 
 coders/coders_xpm_la-xpm.lo: coders/xpm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xpm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xpm_la-xpm.lo -MD -MP -MF coders/$(DEPDIR)/coders_xpm_la-xpm.Tpo -c -o coders/coders_xpm_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xpm_la-xpm.Tpo coders/$(DEPDIR)/coders_xpm_la-xpm.Plo
-	$(AM_V_CC) \
-	source='coders/xpm.c' object='coders/coders_xpm_la-xpm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xpm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xpm_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xpm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xpm_la-xpm.lo -MD -MP -MF coders/$(DEPDIR)/coders_xpm_la-xpm.Tpo -c -o coders/coders_xpm_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xpm_la-xpm.Tpo coders/$(DEPDIR)/coders_xpm_la-xpm.Plo
+#	$(AM_V_CC) \
+#	source='coders/xpm.c' object='coders/coders_xpm_la-xpm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xpm_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xpm_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
 
 coders/coders_xps_la-xps.lo: coders/xps.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xps_la-xps.lo -MD -MP -MF coders/$(DEPDIR)/coders_xps_la-xps.Tpo -c -o coders/coders_xps_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xps_la-xps.Tpo coders/$(DEPDIR)/coders_xps_la-xps.Plo
-	$(AM_V_CC) \
-	source='coders/xps.c' object='coders/coders_xps_la-xps.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xps_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xps_la-xps.lo -MD -MP -MF coders/$(DEPDIR)/coders_xps_la-xps.Tpo -c -o coders/coders_xps_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xps_la-xps.Tpo coders/$(DEPDIR)/coders_xps_la-xps.Plo
+#	$(AM_V_CC) \
+#	source='coders/xps.c' object='coders/coders_xps_la-xps.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xps_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xps_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
 
 coders/coders_xwd_la-xwd.lo: coders/xwd.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xwd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xwd_la-xwd.lo -MD -MP -MF coders/$(DEPDIR)/coders_xwd_la-xwd.Tpo -c -o coders/coders_xwd_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xwd_la-xwd.Tpo coders/$(DEPDIR)/coders_xwd_la-xwd.Plo
-	$(AM_V_CC) \
-	source='coders/xwd.c' object='coders/coders_xwd_la-xwd.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xwd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xwd_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xwd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_xwd_la-xwd.lo -MD -MP -MF coders/$(DEPDIR)/coders_xwd_la-xwd.Tpo -c -o coders/coders_xwd_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_xwd_la-xwd.Tpo coders/$(DEPDIR)/coders_xwd_la-xwd.Plo
+#	$(AM_V_CC) \
+#	source='coders/xwd.c' object='coders/coders_xwd_la-xwd.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_xwd_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_xwd_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
 
 coders/coders_ycbcr_la-ycbcr.lo: coders/ycbcr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ycbcr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ycbcr_la-ycbcr.lo -MD -MP -MF coders/$(DEPDIR)/coders_ycbcr_la-ycbcr.Tpo -c -o coders/coders_ycbcr_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ycbcr_la-ycbcr.Tpo coders/$(DEPDIR)/coders_ycbcr_la-ycbcr.Plo
-	$(AM_V_CC) \
-	source='coders/ycbcr.c' object='coders/coders_ycbcr_la-ycbcr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ycbcr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ycbcr_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ycbcr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_ycbcr_la-ycbcr.lo -MD -MP -MF coders/$(DEPDIR)/coders_ycbcr_la-ycbcr.Tpo -c -o coders/coders_ycbcr_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_ycbcr_la-ycbcr.Tpo coders/$(DEPDIR)/coders_ycbcr_la-ycbcr.Plo
+#	$(AM_V_CC) \
+#	source='coders/ycbcr.c' object='coders/coders_ycbcr_la-ycbcr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_ycbcr_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_ycbcr_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
 
 coders/coders_yuv_la-yuv.lo: coders/yuv.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_yuv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_yuv_la-yuv.lo -MD -MP -MF coders/$(DEPDIR)/coders_yuv_la-yuv.Tpo -c -o coders/coders_yuv_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_yuv_la-yuv.Tpo coders/$(DEPDIR)/coders_yuv_la-yuv.Plo
-	$(AM_V_CC) \
-	source='coders/yuv.c' object='coders/coders_yuv_la-yuv.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_yuv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_yuv_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_yuv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/coders_yuv_la-yuv.lo -MD -MP -MF coders/$(DEPDIR)/coders_yuv_la-yuv.Tpo -c -o coders/coders_yuv_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/coders_yuv_la-yuv.Tpo coders/$(DEPDIR)/coders_yuv_la-yuv.Plo
+#	$(AM_V_CC) \
+#	source='coders/yuv.c' object='coders/coders_yuv_la-yuv.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(coders_yuv_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/coders_yuv_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
 
 filters/filters_analyze_la-analyze.lo: filters/analyze.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(filters_analyze_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT filters/filters_analyze_la-analyze.lo -MD -MP -MF filters/$(DEPDIR)/filters_analyze_la-analyze.Tpo -c -o filters/filters_analyze_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
-#	$(AM_V_at)$(am__mv) filters/$(DEPDIR)/filters_analyze_la-analyze.Tpo filters/$(DEPDIR)/filters_analyze_la-analyze.Plo
-	$(AM_V_CC) \
-	source='filters/analyze.c' object='filters/filters_analyze_la-analyze.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(filters_analyze_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o filters/filters_analyze_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(filters_analyze_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT filters/filters_analyze_la-analyze.lo -MD -MP -MF filters/$(DEPDIR)/filters_analyze_la-analyze.Tpo -c -o filters/filters_analyze_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
+	$(AM_V_at)$(am__mv) filters/$(DEPDIR)/filters_analyze_la-analyze.Tpo filters/$(DEPDIR)/filters_analyze_la-analyze.Plo
+#	$(AM_V_CC) \
+#	source='filters/analyze.c' object='filters/filters_analyze_la-analyze.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(filters_analyze_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o filters/filters_analyze_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
 
 ltdl/loaders/ltdl_libltdl_la-preopen.lo: ltdl/loaders/preopen.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/loaders/ltdl_libltdl_la-preopen.lo -MD -MP -MF ltdl/loaders/$(DEPDIR)/ltdl_libltdl_la-preopen.Tpo -c -o ltdl/loaders/ltdl_libltdl_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
-#	$(AM_V_at)$(am__mv) ltdl/loaders/$(DEPDIR)/ltdl_libltdl_la-preopen.Tpo ltdl/loaders/$(DEPDIR)/ltdl_libltdl_la-preopen.Plo
-	$(AM_V_CC) \
-	source='ltdl/loaders/preopen.c' object='ltdl/loaders/ltdl_libltdl_la-preopen.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/loaders/ltdl_libltdl_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/loaders/ltdl_libltdl_la-preopen.lo -MD -MP -MF ltdl/loaders/$(DEPDIR)/ltdl_libltdl_la-preopen.Tpo -c -o ltdl/loaders/ltdl_libltdl_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
+	$(AM_V_at)$(am__mv) ltdl/loaders/$(DEPDIR)/ltdl_libltdl_la-preopen.Tpo ltdl/loaders/$(DEPDIR)/ltdl_libltdl_la-preopen.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/loaders/preopen.c' object='ltdl/loaders/ltdl_libltdl_la-preopen.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/loaders/ltdl_libltdl_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
 
 ltdl/ltdl_libltdl_la-lt__alloc.lo: ltdl/lt__alloc.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-lt__alloc.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-lt__alloc.Tpo -c -o ltdl/ltdl_libltdl_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-lt__alloc.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-lt__alloc.Plo
-	$(AM_V_CC) \
-	source='ltdl/lt__alloc.c' object='ltdl/ltdl_libltdl_la-lt__alloc.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-lt__alloc.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-lt__alloc.Tpo -c -o ltdl/ltdl_libltdl_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-lt__alloc.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-lt__alloc.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/lt__alloc.c' object='ltdl/ltdl_libltdl_la-lt__alloc.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
 
 ltdl/ltdl_libltdl_la-lt_dlloader.lo: ltdl/lt_dlloader.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-lt_dlloader.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_dlloader.Tpo -c -o ltdl/ltdl_libltdl_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_dlloader.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_dlloader.Plo
-	$(AM_V_CC) \
-	source='ltdl/lt_dlloader.c' object='ltdl/ltdl_libltdl_la-lt_dlloader.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-lt_dlloader.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_dlloader.Tpo -c -o ltdl/ltdl_libltdl_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_dlloader.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_dlloader.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/lt_dlloader.c' object='ltdl/ltdl_libltdl_la-lt_dlloader.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
 
 ltdl/ltdl_libltdl_la-lt_error.lo: ltdl/lt_error.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-lt_error.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_error.Tpo -c -o ltdl/ltdl_libltdl_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_error.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_error.Plo
-	$(AM_V_CC) \
-	source='ltdl/lt_error.c' object='ltdl/ltdl_libltdl_la-lt_error.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-lt_error.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_error.Tpo -c -o ltdl/ltdl_libltdl_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_error.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-lt_error.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/lt_error.c' object='ltdl/ltdl_libltdl_la-lt_error.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
 
 ltdl/ltdl_libltdl_la-ltdl.lo: ltdl/ltdl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-ltdl.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-ltdl.Tpo -c -o ltdl/ltdl_libltdl_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-ltdl.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-ltdl.Plo
-	$(AM_V_CC) \
-	source='ltdl/ltdl.c' object='ltdl/ltdl_libltdl_la-ltdl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-ltdl.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-ltdl.Tpo -c -o ltdl/ltdl_libltdl_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-ltdl.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-ltdl.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/ltdl.c' object='ltdl/ltdl_libltdl_la-ltdl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
 
 ltdl/ltdl_libltdl_la-slist.lo: ltdl/slist.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-slist.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-slist.Tpo -c -o ltdl/ltdl_libltdl_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-slist.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-slist.Plo
-	$(AM_V_CC) \
-	source='ltdl/slist.c' object='ltdl/ltdl_libltdl_la-slist.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdl_la-slist.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdl_la-slist.Tpo -c -o ltdl/ltdl_libltdl_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdl_la-slist.Tpo ltdl/$(DEPDIR)/ltdl_libltdl_la-slist.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/slist.c' object='ltdl/ltdl_libltdl_la-slist.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdl_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdl_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
 
 ltdl/loaders/ltdl_libltdlc_la-preopen.lo: ltdl/loaders/preopen.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/loaders/ltdl_libltdlc_la-preopen.lo -MD -MP -MF ltdl/loaders/$(DEPDIR)/ltdl_libltdlc_la-preopen.Tpo -c -o ltdl/loaders/ltdl_libltdlc_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
-#	$(AM_V_at)$(am__mv) ltdl/loaders/$(DEPDIR)/ltdl_libltdlc_la-preopen.Tpo ltdl/loaders/$(DEPDIR)/ltdl_libltdlc_la-preopen.Plo
-	$(AM_V_CC) \
-	source='ltdl/loaders/preopen.c' object='ltdl/loaders/ltdl_libltdlc_la-preopen.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/loaders/ltdl_libltdlc_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/loaders/ltdl_libltdlc_la-preopen.lo -MD -MP -MF ltdl/loaders/$(DEPDIR)/ltdl_libltdlc_la-preopen.Tpo -c -o ltdl/loaders/ltdl_libltdlc_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
+	$(AM_V_at)$(am__mv) ltdl/loaders/$(DEPDIR)/ltdl_libltdlc_la-preopen.Tpo ltdl/loaders/$(DEPDIR)/ltdl_libltdlc_la-preopen.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/loaders/preopen.c' object='ltdl/loaders/ltdl_libltdlc_la-preopen.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/loaders/ltdl_libltdlc_la-preopen.lo `test -f 'ltdl/loaders/preopen.c' || echo '$(srcdir)/'`ltdl/loaders/preopen.c
 
 ltdl/ltdl_libltdlc_la-lt__alloc.lo: ltdl/lt__alloc.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-lt__alloc.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt__alloc.Tpo -c -o ltdl/ltdl_libltdlc_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt__alloc.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt__alloc.Plo
-	$(AM_V_CC) \
-	source='ltdl/lt__alloc.c' object='ltdl/ltdl_libltdlc_la-lt__alloc.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-lt__alloc.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt__alloc.Tpo -c -o ltdl/ltdl_libltdlc_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt__alloc.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt__alloc.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/lt__alloc.c' object='ltdl/ltdl_libltdlc_la-lt__alloc.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-lt__alloc.lo `test -f 'ltdl/lt__alloc.c' || echo '$(srcdir)/'`ltdl/lt__alloc.c
 
 ltdl/ltdl_libltdlc_la-lt_dlloader.lo: ltdl/lt_dlloader.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-lt_dlloader.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_dlloader.Tpo -c -o ltdl/ltdl_libltdlc_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_dlloader.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_dlloader.Plo
-	$(AM_V_CC) \
-	source='ltdl/lt_dlloader.c' object='ltdl/ltdl_libltdlc_la-lt_dlloader.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-lt_dlloader.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_dlloader.Tpo -c -o ltdl/ltdl_libltdlc_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_dlloader.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_dlloader.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/lt_dlloader.c' object='ltdl/ltdl_libltdlc_la-lt_dlloader.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-lt_dlloader.lo `test -f 'ltdl/lt_dlloader.c' || echo '$(srcdir)/'`ltdl/lt_dlloader.c
 
 ltdl/ltdl_libltdlc_la-lt_error.lo: ltdl/lt_error.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-lt_error.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_error.Tpo -c -o ltdl/ltdl_libltdlc_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_error.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_error.Plo
-	$(AM_V_CC) \
-	source='ltdl/lt_error.c' object='ltdl/ltdl_libltdlc_la-lt_error.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-lt_error.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_error.Tpo -c -o ltdl/ltdl_libltdlc_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_error.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-lt_error.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/lt_error.c' object='ltdl/ltdl_libltdlc_la-lt_error.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-lt_error.lo `test -f 'ltdl/lt_error.c' || echo '$(srcdir)/'`ltdl/lt_error.c
 
 ltdl/ltdl_libltdlc_la-ltdl.lo: ltdl/ltdl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-ltdl.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-ltdl.Tpo -c -o ltdl/ltdl_libltdlc_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-ltdl.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-ltdl.Plo
-	$(AM_V_CC) \
-	source='ltdl/ltdl.c' object='ltdl/ltdl_libltdlc_la-ltdl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-ltdl.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-ltdl.Tpo -c -o ltdl/ltdl_libltdlc_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-ltdl.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-ltdl.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/ltdl.c' object='ltdl/ltdl_libltdlc_la-ltdl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-ltdl.lo `test -f 'ltdl/ltdl.c' || echo '$(srcdir)/'`ltdl/ltdl.c
 
 ltdl/ltdl_libltdlc_la-slist.lo: ltdl/slist.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-slist.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-slist.Tpo -c -o ltdl/ltdl_libltdlc_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
-#	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-slist.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-slist.Plo
-	$(AM_V_CC) \
-	source='ltdl/slist.c' object='ltdl/ltdl_libltdlc_la-slist.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT ltdl/ltdl_libltdlc_la-slist.lo -MD -MP -MF ltdl/$(DEPDIR)/ltdl_libltdlc_la-slist.Tpo -c -o ltdl/ltdl_libltdlc_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
+	$(AM_V_at)$(am__mv) ltdl/$(DEPDIR)/ltdl_libltdlc_la-slist.Tpo ltdl/$(DEPDIR)/ltdl_libltdlc_la-slist.Plo
+#	$(AM_V_CC) \
+#	source='ltdl/slist.c' object='ltdl/ltdl_libltdlc_la-slist.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(ltdl_libltdlc_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o ltdl/ltdl_libltdlc_la-slist.lo `test -f 'ltdl/slist.c' || echo '$(srcdir)/'`ltdl/slist.c
 
 magick/magick_libMagickCore_la-animate.lo: magick/animate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-animate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-animate.Tpo -c -o magick/magick_libMagickCore_la-animate.lo `test -f 'magick/animate.c' || echo '$(srcdir)/'`magick/animate.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-animate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-animate.Plo
-	$(AM_V_CC) \
-	source='magick/animate.c' object='magick/magick_libMagickCore_la-animate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-animate.lo `test -f 'magick/animate.c' || echo '$(srcdir)/'`magick/animate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-animate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-animate.Tpo -c -o magick/magick_libMagickCore_la-animate.lo `test -f 'magick/animate.c' || echo '$(srcdir)/'`magick/animate.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-animate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-animate.Plo
+#	$(AM_V_CC) \
+#	source='magick/animate.c' object='magick/magick_libMagickCore_la-animate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-animate.lo `test -f 'magick/animate.c' || echo '$(srcdir)/'`magick/animate.c
 
 magick/magick_libMagickCore_la-annotate.lo: magick/annotate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-annotate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-annotate.Tpo -c -o magick/magick_libMagickCore_la-annotate.lo `test -f 'magick/annotate.c' || echo '$(srcdir)/'`magick/annotate.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-annotate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-annotate.Plo
-	$(AM_V_CC) \
-	source='magick/annotate.c' object='magick/magick_libMagickCore_la-annotate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-annotate.lo `test -f 'magick/annotate.c' || echo '$(srcdir)/'`magick/annotate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-annotate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-annotate.Tpo -c -o magick/magick_libMagickCore_la-annotate.lo `test -f 'magick/annotate.c' || echo '$(srcdir)/'`magick/annotate.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-annotate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-annotate.Plo
+#	$(AM_V_CC) \
+#	source='magick/annotate.c' object='magick/magick_libMagickCore_la-annotate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-annotate.lo `test -f 'magick/annotate.c' || echo '$(srcdir)/'`magick/annotate.c
 
 magick/magick_libMagickCore_la-artifact.lo: magick/artifact.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-artifact.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-artifact.Tpo -c -o magick/magick_libMagickCore_la-artifact.lo `test -f 'magick/artifact.c' || echo '$(srcdir)/'`magick/artifact.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-artifact.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-artifact.Plo
-	$(AM_V_CC) \
-	source='magick/artifact.c' object='magick/magick_libMagickCore_la-artifact.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-artifact.lo `test -f 'magick/artifact.c' || echo '$(srcdir)/'`magick/artifact.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-artifact.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-artifact.Tpo -c -o magick/magick_libMagickCore_la-artifact.lo `test -f 'magick/artifact.c' || echo '$(srcdir)/'`magick/artifact.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-artifact.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-artifact.Plo
+#	$(AM_V_CC) \
+#	source='magick/artifact.c' object='magick/magick_libMagickCore_la-artifact.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-artifact.lo `test -f 'magick/artifact.c' || echo '$(srcdir)/'`magick/artifact.c
 
 magick/magick_libMagickCore_la-blob.lo: magick/blob.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-blob.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-blob.Tpo -c -o magick/magick_libMagickCore_la-blob.lo `test -f 'magick/blob.c' || echo '$(srcdir)/'`magick/blob.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-blob.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-blob.Plo
-	$(AM_V_CC) \
-	source='magick/blob.c' object='magick/magick_libMagickCore_la-blob.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-blob.lo `test -f 'magick/blob.c' || echo '$(srcdir)/'`magick/blob.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-blob.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-blob.Tpo -c -o magick/magick_libMagickCore_la-blob.lo `test -f 'magick/blob.c' || echo '$(srcdir)/'`magick/blob.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-blob.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-blob.Plo
+#	$(AM_V_CC) \
+#	source='magick/blob.c' object='magick/magick_libMagickCore_la-blob.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-blob.lo `test -f 'magick/blob.c' || echo '$(srcdir)/'`magick/blob.c
 
 magick/magick_libMagickCore_la-cache.lo: magick/cache.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-cache.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-cache.Tpo -c -o magick/magick_libMagickCore_la-cache.lo `test -f 'magick/cache.c' || echo '$(srcdir)/'`magick/cache.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-cache.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-cache.Plo
-	$(AM_V_CC) \
-	source='magick/cache.c' object='magick/magick_libMagickCore_la-cache.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-cache.lo `test -f 'magick/cache.c' || echo '$(srcdir)/'`magick/cache.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-cache.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-cache.Tpo -c -o magick/magick_libMagickCore_la-cache.lo `test -f 'magick/cache.c' || echo '$(srcdir)/'`magick/cache.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-cache.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-cache.Plo
+#	$(AM_V_CC) \
+#	source='magick/cache.c' object='magick/magick_libMagickCore_la-cache.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-cache.lo `test -f 'magick/cache.c' || echo '$(srcdir)/'`magick/cache.c
 
 magick/magick_libMagickCore_la-cache-view.lo: magick/cache-view.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-cache-view.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-cache-view.Tpo -c -o magick/magick_libMagickCore_la-cache-view.lo `test -f 'magick/cache-view.c' || echo '$(srcdir)/'`magick/cache-view.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-cache-view.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-cache-view.Plo
-	$(AM_V_CC) \
-	source='magick/cache-view.c' object='magick/magick_libMagickCore_la-cache-view.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-cache-view.lo `test -f 'magick/cache-view.c' || echo '$(srcdir)/'`magick/cache-view.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-cache-view.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-cache-view.Tpo -c -o magick/magick_libMagickCore_la-cache-view.lo `test -f 'magick/cache-view.c' || echo '$(srcdir)/'`magick/cache-view.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-cache-view.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-cache-view.Plo
+#	$(AM_V_CC) \
+#	source='magick/cache-view.c' object='magick/magick_libMagickCore_la-cache-view.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-cache-view.lo `test -f 'magick/cache-view.c' || echo '$(srcdir)/'`magick/cache-view.c
 
 magick/magick_libMagickCore_la-cipher.lo: magick/cipher.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-cipher.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-cipher.Tpo -c -o magick/magick_libMagickCore_la-cipher.lo `test -f 'magick/cipher.c' || echo '$(srcdir)/'`magick/cipher.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-cipher.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-cipher.Plo
-	$(AM_V_CC) \
-	source='magick/cipher.c' object='magick/magick_libMagickCore_la-cipher.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-cipher.lo `test -f 'magick/cipher.c' || echo '$(srcdir)/'`magick/cipher.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-cipher.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-cipher.Tpo -c -o magick/magick_libMagickCore_la-cipher.lo `test -f 'magick/cipher.c' || echo '$(srcdir)/'`magick/cipher.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-cipher.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-cipher.Plo
+#	$(AM_V_CC) \
+#	source='magick/cipher.c' object='magick/magick_libMagickCore_la-cipher.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-cipher.lo `test -f 'magick/cipher.c' || echo '$(srcdir)/'`magick/cipher.c
 
 magick/magick_libMagickCore_la-client.lo: magick/client.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-client.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-client.Tpo -c -o magick/magick_libMagickCore_la-client.lo `test -f 'magick/client.c' || echo '$(srcdir)/'`magick/client.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-client.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-client.Plo
-	$(AM_V_CC) \
-	source='magick/client.c' object='magick/magick_libMagickCore_la-client.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-client.lo `test -f 'magick/client.c' || echo '$(srcdir)/'`magick/client.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-client.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-client.Tpo -c -o magick/magick_libMagickCore_la-client.lo `test -f 'magick/client.c' || echo '$(srcdir)/'`magick/client.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-client.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-client.Plo
+#	$(AM_V_CC) \
+#	source='magick/client.c' object='magick/magick_libMagickCore_la-client.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-client.lo `test -f 'magick/client.c' || echo '$(srcdir)/'`magick/client.c
 
 magick/magick_libMagickCore_la-coder.lo: magick/coder.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-coder.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-coder.Tpo -c -o magick/magick_libMagickCore_la-coder.lo `test -f 'magick/coder.c' || echo '$(srcdir)/'`magick/coder.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-coder.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-coder.Plo
-	$(AM_V_CC) \
-	source='magick/coder.c' object='magick/magick_libMagickCore_la-coder.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-coder.lo `test -f 'magick/coder.c' || echo '$(srcdir)/'`magick/coder.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-coder.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-coder.Tpo -c -o magick/magick_libMagickCore_la-coder.lo `test -f 'magick/coder.c' || echo '$(srcdir)/'`magick/coder.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-coder.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-coder.Plo
+#	$(AM_V_CC) \
+#	source='magick/coder.c' object='magick/magick_libMagickCore_la-coder.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-coder.lo `test -f 'magick/coder.c' || echo '$(srcdir)/'`magick/coder.c
 
 magick/magick_libMagickCore_la-color.lo: magick/color.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-color.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-color.Tpo -c -o magick/magick_libMagickCore_la-color.lo `test -f 'magick/color.c' || echo '$(srcdir)/'`magick/color.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-color.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-color.Plo
-	$(AM_V_CC) \
-	source='magick/color.c' object='magick/magick_libMagickCore_la-color.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-color.lo `test -f 'magick/color.c' || echo '$(srcdir)/'`magick/color.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-color.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-color.Tpo -c -o magick/magick_libMagickCore_la-color.lo `test -f 'magick/color.c' || echo '$(srcdir)/'`magick/color.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-color.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-color.Plo
+#	$(AM_V_CC) \
+#	source='magick/color.c' object='magick/magick_libMagickCore_la-color.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-color.lo `test -f 'magick/color.c' || echo '$(srcdir)/'`magick/color.c
 
 magick/magick_libMagickCore_la-colorspace.lo: magick/colorspace.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-colorspace.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-colorspace.Tpo -c -o magick/magick_libMagickCore_la-colorspace.lo `test -f 'magick/colorspace.c' || echo '$(srcdir)/'`magick/colorspace.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-colorspace.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-colorspace.Plo
-	$(AM_V_CC) \
-	source='magick/colorspace.c' object='magick/magick_libMagickCore_la-colorspace.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-colorspace.lo `test -f 'magick/colorspace.c' || echo '$(srcdir)/'`magick/colorspace.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-colorspace.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-colorspace.Tpo -c -o magick/magick_libMagickCore_la-colorspace.lo `test -f 'magick/colorspace.c' || echo '$(srcdir)/'`magick/colorspace.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-colorspace.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-colorspace.Plo
+#	$(AM_V_CC) \
+#	source='magick/colorspace.c' object='magick/magick_libMagickCore_la-colorspace.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-colorspace.lo `test -f 'magick/colorspace.c' || echo '$(srcdir)/'`magick/colorspace.c
 
 magick/magick_libMagickCore_la-compare.lo: magick/compare.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-compare.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-compare.Tpo -c -o magick/magick_libMagickCore_la-compare.lo `test -f 'magick/compare.c' || echo '$(srcdir)/'`magick/compare.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-compare.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-compare.Plo
-	$(AM_V_CC) \
-	source='magick/compare.c' object='magick/magick_libMagickCore_la-compare.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-compare.lo `test -f 'magick/compare.c' || echo '$(srcdir)/'`magick/compare.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-compare.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-compare.Tpo -c -o magick/magick_libMagickCore_la-compare.lo `test -f 'magick/compare.c' || echo '$(srcdir)/'`magick/compare.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-compare.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-compare.Plo
+#	$(AM_V_CC) \
+#	source='magick/compare.c' object='magick/magick_libMagickCore_la-compare.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-compare.lo `test -f 'magick/compare.c' || echo '$(srcdir)/'`magick/compare.c
 
 magick/magick_libMagickCore_la-composite.lo: magick/composite.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-composite.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-composite.Tpo -c -o magick/magick_libMagickCore_la-composite.lo `test -f 'magick/composite.c' || echo '$(srcdir)/'`magick/composite.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-composite.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-composite.Plo
-	$(AM_V_CC) \
-	source='magick/composite.c' object='magick/magick_libMagickCore_la-composite.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-composite.lo `test -f 'magick/composite.c' || echo '$(srcdir)/'`magick/composite.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-composite.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-composite.Tpo -c -o magick/magick_libMagickCore_la-composite.lo `test -f 'magick/composite.c' || echo '$(srcdir)/'`magick/composite.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-composite.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-composite.Plo
+#	$(AM_V_CC) \
+#	source='magick/composite.c' object='magick/magick_libMagickCore_la-composite.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-composite.lo `test -f 'magick/composite.c' || echo '$(srcdir)/'`magick/composite.c
 
 magick/magick_libMagickCore_la-compress.lo: magick/compress.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-compress.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-compress.Tpo -c -o magick/magick_libMagickCore_la-compress.lo `test -f 'magick/compress.c' || echo '$(srcdir)/'`magick/compress.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-compress.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-compress.Plo
-	$(AM_V_CC) \
-	source='magick/compress.c' object='magick/magick_libMagickCore_la-compress.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-compress.lo `test -f 'magick/compress.c' || echo '$(srcdir)/'`magick/compress.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-compress.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-compress.Tpo -c -o magick/magick_libMagickCore_la-compress.lo `test -f 'magick/compress.c' || echo '$(srcdir)/'`magick/compress.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-compress.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-compress.Plo
+#	$(AM_V_CC) \
+#	source='magick/compress.c' object='magick/magick_libMagickCore_la-compress.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-compress.lo `test -f 'magick/compress.c' || echo '$(srcdir)/'`magick/compress.c
 
 magick/magick_libMagickCore_la-configure.lo: magick/configure.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-configure.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-configure.Tpo -c -o magick/magick_libMagickCore_la-configure.lo `test -f 'magick/configure.c' || echo '$(srcdir)/'`magick/configure.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-configure.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-configure.Plo
-	$(AM_V_CC) \
-	source='magick/configure.c' object='magick/magick_libMagickCore_la-configure.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-configure.lo `test -f 'magick/configure.c' || echo '$(srcdir)/'`magick/configure.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-configure.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-configure.Tpo -c -o magick/magick_libMagickCore_la-configure.lo `test -f 'magick/configure.c' || echo '$(srcdir)/'`magick/configure.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-configure.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-configure.Plo
+#	$(AM_V_CC) \
+#	source='magick/configure.c' object='magick/magick_libMagickCore_la-configure.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-configure.lo `test -f 'magick/configure.c' || echo '$(srcdir)/'`magick/configure.c
 
 magick/magick_libMagickCore_la-constitute.lo: magick/constitute.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-constitute.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-constitute.Tpo -c -o magick/magick_libMagickCore_la-constitute.lo `test -f 'magick/constitute.c' || echo '$(srcdir)/'`magick/constitute.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-constitute.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-constitute.Plo
-	$(AM_V_CC) \
-	source='magick/constitute.c' object='magick/magick_libMagickCore_la-constitute.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-constitute.lo `test -f 'magick/constitute.c' || echo '$(srcdir)/'`magick/constitute.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-constitute.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-constitute.Tpo -c -o magick/magick_libMagickCore_la-constitute.lo `test -f 'magick/constitute.c' || echo '$(srcdir)/'`magick/constitute.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-constitute.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-constitute.Plo
+#	$(AM_V_CC) \
+#	source='magick/constitute.c' object='magick/magick_libMagickCore_la-constitute.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-constitute.lo `test -f 'magick/constitute.c' || echo '$(srcdir)/'`magick/constitute.c
 
 magick/magick_libMagickCore_la-decorate.lo: magick/decorate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-decorate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-decorate.Tpo -c -o magick/magick_libMagickCore_la-decorate.lo `test -f 'magick/decorate.c' || echo '$(srcdir)/'`magick/decorate.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-decorate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-decorate.Plo
-	$(AM_V_CC) \
-	source='magick/decorate.c' object='magick/magick_libMagickCore_la-decorate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-decorate.lo `test -f 'magick/decorate.c' || echo '$(srcdir)/'`magick/decorate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-decorate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-decorate.Tpo -c -o magick/magick_libMagickCore_la-decorate.lo `test -f 'magick/decorate.c' || echo '$(srcdir)/'`magick/decorate.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-decorate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-decorate.Plo
+#	$(AM_V_CC) \
+#	source='magick/decorate.c' object='magick/magick_libMagickCore_la-decorate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-decorate.lo `test -f 'magick/decorate.c' || echo '$(srcdir)/'`magick/decorate.c
 
 magick/magick_libMagickCore_la-delegate.lo: magick/delegate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-delegate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-delegate.Tpo -c -o magick/magick_libMagickCore_la-delegate.lo `test -f 'magick/delegate.c' || echo '$(srcdir)/'`magick/delegate.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-delegate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-delegate.Plo
-	$(AM_V_CC) \
-	source='magick/delegate.c' object='magick/magick_libMagickCore_la-delegate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-delegate.lo `test -f 'magick/delegate.c' || echo '$(srcdir)/'`magick/delegate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-delegate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-delegate.Tpo -c -o magick/magick_libMagickCore_la-delegate.lo `test -f 'magick/delegate.c' || echo '$(srcdir)/'`magick/delegate.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-delegate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-delegate.Plo
+#	$(AM_V_CC) \
+#	source='magick/delegate.c' object='magick/magick_libMagickCore_la-delegate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-delegate.lo `test -f 'magick/delegate.c' || echo '$(srcdir)/'`magick/delegate.c
 
 magick/magick_libMagickCore_la-deprecate.lo: magick/deprecate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-deprecate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-deprecate.Tpo -c -o magick/magick_libMagickCore_la-deprecate.lo `test -f 'magick/deprecate.c' || echo '$(srcdir)/'`magick/deprecate.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-deprecate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-deprecate.Plo
-	$(AM_V_CC) \
-	source='magick/deprecate.c' object='magick/magick_libMagickCore_la-deprecate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-deprecate.lo `test -f 'magick/deprecate.c' || echo '$(srcdir)/'`magick/deprecate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-deprecate.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-deprecate.Tpo -c -o magick/magick_libMagickCore_la-deprecate.lo `test -f 'magick/deprecate.c' || echo '$(srcdir)/'`magick/deprecate.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-deprecate.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-deprecate.Plo
+#	$(AM_V_CC) \
+#	source='magick/deprecate.c' object='magick/magick_libMagickCore_la-deprecate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-deprecate.lo `test -f 'magick/deprecate.c' || echo '$(srcdir)/'`magick/deprecate.c
 
 magick/magick_libMagickCore_la-display.lo: magick/display.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-display.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-display.Tpo -c -o magick/magick_libMagickCore_la-display.lo `test -f 'magick/display.c' || echo '$(srcdir)/'`magick/display.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-display.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-display.Plo
-	$(AM_V_CC) \
-	source='magick/display.c' object='magick/magick_libMagickCore_la-display.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-display.lo `test -f 'magick/display.c' || echo '$(srcdir)/'`magick/display.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-display.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-display.Tpo -c -o magick/magick_libMagickCore_la-display.lo `test -f 'magick/display.c' || echo '$(srcdir)/'`magick/display.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-display.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-display.Plo
+#	$(AM_V_CC) \
+#	source='magick/display.c' object='magick/magick_libMagickCore_la-display.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-display.lo `test -f 'magick/display.c' || echo '$(srcdir)/'`magick/display.c
 
 magick/magick_libMagickCore_la-distort.lo: magick/distort.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-distort.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-distort.Tpo -c -o magick/magick_libMagickCore_la-distort.lo `test -f 'magick/distort.c' || echo '$(srcdir)/'`magick/distort.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-distort.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-distort.Plo
-	$(AM_V_CC) \
-	source='magick/distort.c' object='magick/magick_libMagickCore_la-distort.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-distort.lo `test -f 'magick/distort.c' || echo '$(srcdir)/'`magick/distort.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-distort.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-distort.Tpo -c -o magick/magick_libMagickCore_la-distort.lo `test -f 'magick/distort.c' || echo '$(srcdir)/'`magick/distort.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-distort.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-distort.Plo
+#	$(AM_V_CC) \
+#	source='magick/distort.c' object='magick/magick_libMagickCore_la-distort.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-distort.lo `test -f 'magick/distort.c' || echo '$(srcdir)/'`magick/distort.c
 
 magick/magick_libMagickCore_la-draw.lo: magick/draw.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-draw.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-draw.Tpo -c -o magick/magick_libMagickCore_la-draw.lo `test -f 'magick/draw.c' || echo '$(srcdir)/'`magick/draw.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-draw.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-draw.Plo
-	$(AM_V_CC) \
-	source='magick/draw.c' object='magick/magick_libMagickCore_la-draw.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-draw.lo `test -f 'magick/draw.c' || echo '$(srcdir)/'`magick/draw.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-draw.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-draw.Tpo -c -o magick/magick_libMagickCore_la-draw.lo `test -f 'magick/draw.c' || echo '$(srcdir)/'`magick/draw.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-draw.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-draw.Plo
+#	$(AM_V_CC) \
+#	source='magick/draw.c' object='magick/magick_libMagickCore_la-draw.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-draw.lo `test -f 'magick/draw.c' || echo '$(srcdir)/'`magick/draw.c
 
 magick/magick_libMagickCore_la-effect.lo: magick/effect.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-effect.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-effect.Tpo -c -o magick/magick_libMagickCore_la-effect.lo `test -f 'magick/effect.c' || echo '$(srcdir)/'`magick/effect.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-effect.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-effect.Plo
-	$(AM_V_CC) \
-	source='magick/effect.c' object='magick/magick_libMagickCore_la-effect.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-effect.lo `test -f 'magick/effect.c' || echo '$(srcdir)/'`magick/effect.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-effect.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-effect.Tpo -c -o magick/magick_libMagickCore_la-effect.lo `test -f 'magick/effect.c' || echo '$(srcdir)/'`magick/effect.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-effect.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-effect.Plo
+#	$(AM_V_CC) \
+#	source='magick/effect.c' object='magick/magick_libMagickCore_la-effect.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-effect.lo `test -f 'magick/effect.c' || echo '$(srcdir)/'`magick/effect.c
 
 magick/magick_libMagickCore_la-enhance.lo: magick/enhance.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-enhance.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-enhance.Tpo -c -o magick/magick_libMagickCore_la-enhance.lo `test -f 'magick/enhance.c' || echo '$(srcdir)/'`magick/enhance.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-enhance.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-enhance.Plo
-	$(AM_V_CC) \
-	source='magick/enhance.c' object='magick/magick_libMagickCore_la-enhance.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-enhance.lo `test -f 'magick/enhance.c' || echo '$(srcdir)/'`magick/enhance.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-enhance.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-enhance.Tpo -c -o magick/magick_libMagickCore_la-enhance.lo `test -f 'magick/enhance.c' || echo '$(srcdir)/'`magick/enhance.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-enhance.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-enhance.Plo
+#	$(AM_V_CC) \
+#	source='magick/enhance.c' object='magick/magick_libMagickCore_la-enhance.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-enhance.lo `test -f 'magick/enhance.c' || echo '$(srcdir)/'`magick/enhance.c
 
 magick/magick_libMagickCore_la-exception.lo: magick/exception.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-exception.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-exception.Tpo -c -o magick/magick_libMagickCore_la-exception.lo `test -f 'magick/exception.c' || echo '$(srcdir)/'`magick/exception.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-exception.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-exception.Plo
-	$(AM_V_CC) \
-	source='magick/exception.c' object='magick/magick_libMagickCore_la-exception.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-exception.lo `test -f 'magick/exception.c' || echo '$(srcdir)/'`magick/exception.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-exception.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-exception.Tpo -c -o magick/magick_libMagickCore_la-exception.lo `test -f 'magick/exception.c' || echo '$(srcdir)/'`magick/exception.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-exception.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-exception.Plo
+#	$(AM_V_CC) \
+#	source='magick/exception.c' object='magick/magick_libMagickCore_la-exception.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-exception.lo `test -f 'magick/exception.c' || echo '$(srcdir)/'`magick/exception.c
 
 magick/magick_libMagickCore_la-fourier.lo: magick/fourier.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-fourier.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-fourier.Tpo -c -o magick/magick_libMagickCore_la-fourier.lo `test -f 'magick/fourier.c' || echo '$(srcdir)/'`magick/fourier.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-fourier.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-fourier.Plo
-	$(AM_V_CC) \
-	source='magick/fourier.c' object='magick/magick_libMagickCore_la-fourier.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-fourier.lo `test -f 'magick/fourier.c' || echo '$(srcdir)/'`magick/fourier.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-fourier.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-fourier.Tpo -c -o magick/magick_libMagickCore_la-fourier.lo `test -f 'magick/fourier.c' || echo '$(srcdir)/'`magick/fourier.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-fourier.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-fourier.Plo
+#	$(AM_V_CC) \
+#	source='magick/fourier.c' object='magick/magick_libMagickCore_la-fourier.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-fourier.lo `test -f 'magick/fourier.c' || echo '$(srcdir)/'`magick/fourier.c
 
 magick/magick_libMagickCore_la-fx.lo: magick/fx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-fx.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-fx.Tpo -c -o magick/magick_libMagickCore_la-fx.lo `test -f 'magick/fx.c' || echo '$(srcdir)/'`magick/fx.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-fx.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-fx.Plo
-	$(AM_V_CC) \
-	source='magick/fx.c' object='magick/magick_libMagickCore_la-fx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-fx.lo `test -f 'magick/fx.c' || echo '$(srcdir)/'`magick/fx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-fx.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-fx.Tpo -c -o magick/magick_libMagickCore_la-fx.lo `test -f 'magick/fx.c' || echo '$(srcdir)/'`magick/fx.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-fx.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-fx.Plo
+#	$(AM_V_CC) \
+#	source='magick/fx.c' object='magick/magick_libMagickCore_la-fx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-fx.lo `test -f 'magick/fx.c' || echo '$(srcdir)/'`magick/fx.c
 
 magick/magick_libMagickCore_la-gem.lo: magick/gem.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-gem.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-gem.Tpo -c -o magick/magick_libMagickCore_la-gem.lo `test -f 'magick/gem.c' || echo '$(srcdir)/'`magick/gem.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-gem.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-gem.Plo
-	$(AM_V_CC) \
-	source='magick/gem.c' object='magick/magick_libMagickCore_la-gem.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-gem.lo `test -f 'magick/gem.c' || echo '$(srcdir)/'`magick/gem.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-gem.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-gem.Tpo -c -o magick/magick_libMagickCore_la-gem.lo `test -f 'magick/gem.c' || echo '$(srcdir)/'`magick/gem.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-gem.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-gem.Plo
+#	$(AM_V_CC) \
+#	source='magick/gem.c' object='magick/magick_libMagickCore_la-gem.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-gem.lo `test -f 'magick/gem.c' || echo '$(srcdir)/'`magick/gem.c
 
 magick/magick_libMagickCore_la-geometry.lo: magick/geometry.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-geometry.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-geometry.Tpo -c -o magick/magick_libMagickCore_la-geometry.lo `test -f 'magick/geometry.c' || echo '$(srcdir)/'`magick/geometry.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-geometry.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-geometry.Plo
-	$(AM_V_CC) \
-	source='magick/geometry.c' object='magick/magick_libMagickCore_la-geometry.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-geometry.lo `test -f 'magick/geometry.c' || echo '$(srcdir)/'`magick/geometry.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-geometry.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-geometry.Tpo -c -o magick/magick_libMagickCore_la-geometry.lo `test -f 'magick/geometry.c' || echo '$(srcdir)/'`magick/geometry.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-geometry.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-geometry.Plo
+#	$(AM_V_CC) \
+#	source='magick/geometry.c' object='magick/magick_libMagickCore_la-geometry.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-geometry.lo `test -f 'magick/geometry.c' || echo '$(srcdir)/'`magick/geometry.c
 
 magick/magick_libMagickCore_la-hashmap.lo: magick/hashmap.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-hashmap.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-hashmap.Tpo -c -o magick/magick_libMagickCore_la-hashmap.lo `test -f 'magick/hashmap.c' || echo '$(srcdir)/'`magick/hashmap.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-hashmap.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-hashmap.Plo
-	$(AM_V_CC) \
-	source='magick/hashmap.c' object='magick/magick_libMagickCore_la-hashmap.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-hashmap.lo `test -f 'magick/hashmap.c' || echo '$(srcdir)/'`magick/hashmap.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-hashmap.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-hashmap.Tpo -c -o magick/magick_libMagickCore_la-hashmap.lo `test -f 'magick/hashmap.c' || echo '$(srcdir)/'`magick/hashmap.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-hashmap.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-hashmap.Plo
+#	$(AM_V_CC) \
+#	source='magick/hashmap.c' object='magick/magick_libMagickCore_la-hashmap.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-hashmap.lo `test -f 'magick/hashmap.c' || echo '$(srcdir)/'`magick/hashmap.c
 
 magick/magick_libMagickCore_la-identify.lo: magick/identify.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-identify.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-identify.Tpo -c -o magick/magick_libMagickCore_la-identify.lo `test -f 'magick/identify.c' || echo '$(srcdir)/'`magick/identify.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-identify.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-identify.Plo
-	$(AM_V_CC) \
-	source='magick/identify.c' object='magick/magick_libMagickCore_la-identify.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-identify.lo `test -f 'magick/identify.c' || echo '$(srcdir)/'`magick/identify.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-identify.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-identify.Tpo -c -o magick/magick_libMagickCore_la-identify.lo `test -f 'magick/identify.c' || echo '$(srcdir)/'`magick/identify.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-identify.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-identify.Plo
+#	$(AM_V_CC) \
+#	source='magick/identify.c' object='magick/magick_libMagickCore_la-identify.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-identify.lo `test -f 'magick/identify.c' || echo '$(srcdir)/'`magick/identify.c
 
 magick/magick_libMagickCore_la-image.lo: magick/image.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-image.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-image.Tpo -c -o magick/magick_libMagickCore_la-image.lo `test -f 'magick/image.c' || echo '$(srcdir)/'`magick/image.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-image.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-image.Plo
-	$(AM_V_CC) \
-	source='magick/image.c' object='magick/magick_libMagickCore_la-image.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-image.lo `test -f 'magick/image.c' || echo '$(srcdir)/'`magick/image.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-image.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-image.Tpo -c -o magick/magick_libMagickCore_la-image.lo `test -f 'magick/image.c' || echo '$(srcdir)/'`magick/image.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-image.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-image.Plo
+#	$(AM_V_CC) \
+#	source='magick/image.c' object='magick/magick_libMagickCore_la-image.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-image.lo `test -f 'magick/image.c' || echo '$(srcdir)/'`magick/image.c
 
 magick/magick_libMagickCore_la-layer.lo: magick/layer.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-layer.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-layer.Tpo -c -o magick/magick_libMagickCore_la-layer.lo `test -f 'magick/layer.c' || echo '$(srcdir)/'`magick/layer.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-layer.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-layer.Plo
-	$(AM_V_CC) \
-	source='magick/layer.c' object='magick/magick_libMagickCore_la-layer.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-layer.lo `test -f 'magick/layer.c' || echo '$(srcdir)/'`magick/layer.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-layer.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-layer.Tpo -c -o magick/magick_libMagickCore_la-layer.lo `test -f 'magick/layer.c' || echo '$(srcdir)/'`magick/layer.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-layer.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-layer.Plo
+#	$(AM_V_CC) \
+#	source='magick/layer.c' object='magick/magick_libMagickCore_la-layer.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-layer.lo `test -f 'magick/layer.c' || echo '$(srcdir)/'`magick/layer.c
 
 magick/magick_libMagickCore_la-list.lo: magick/list.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-list.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-list.Tpo -c -o magick/magick_libMagickCore_la-list.lo `test -f 'magick/list.c' || echo '$(srcdir)/'`magick/list.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-list.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-list.Plo
-	$(AM_V_CC) \
-	source='magick/list.c' object='magick/magick_libMagickCore_la-list.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-list.lo `test -f 'magick/list.c' || echo '$(srcdir)/'`magick/list.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-list.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-list.Tpo -c -o magick/magick_libMagickCore_la-list.lo `test -f 'magick/list.c' || echo '$(srcdir)/'`magick/list.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-list.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-list.Plo
+#	$(AM_V_CC) \
+#	source='magick/list.c' object='magick/magick_libMagickCore_la-list.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-list.lo `test -f 'magick/list.c' || echo '$(srcdir)/'`magick/list.c
 
 magick/magick_libMagickCore_la-locale.lo: magick/locale.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-locale.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-locale.Tpo -c -o magick/magick_libMagickCore_la-locale.lo `test -f 'magick/locale.c' || echo '$(srcdir)/'`magick/locale.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-locale.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-locale.Plo
-	$(AM_V_CC) \
-	source='magick/locale.c' object='magick/magick_libMagickCore_la-locale.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-locale.lo `test -f 'magick/locale.c' || echo '$(srcdir)/'`magick/locale.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-locale.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-locale.Tpo -c -o magick/magick_libMagickCore_la-locale.lo `test -f 'magick/locale.c' || echo '$(srcdir)/'`magick/locale.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-locale.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-locale.Plo
+#	$(AM_V_CC) \
+#	source='magick/locale.c' object='magick/magick_libMagickCore_la-locale.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-locale.lo `test -f 'magick/locale.c' || echo '$(srcdir)/'`magick/locale.c
 
 magick/magick_libMagickCore_la-log.lo: magick/log.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-log.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-log.Tpo -c -o magick/magick_libMagickCore_la-log.lo `test -f 'magick/log.c' || echo '$(srcdir)/'`magick/log.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-log.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-log.Plo
-	$(AM_V_CC) \
-	source='magick/log.c' object='magick/magick_libMagickCore_la-log.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-log.lo `test -f 'magick/log.c' || echo '$(srcdir)/'`magick/log.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-log.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-log.Tpo -c -o magick/magick_libMagickCore_la-log.lo `test -f 'magick/log.c' || echo '$(srcdir)/'`magick/log.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-log.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-log.Plo
+#	$(AM_V_CC) \
+#	source='magick/log.c' object='magick/magick_libMagickCore_la-log.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-log.lo `test -f 'magick/log.c' || echo '$(srcdir)/'`magick/log.c
 
 magick/magick_libMagickCore_la-magic.lo: magick/magic.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-magic.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-magic.Tpo -c -o magick/magick_libMagickCore_la-magic.lo `test -f 'magick/magic.c' || echo '$(srcdir)/'`magick/magic.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-magic.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-magic.Plo
-	$(AM_V_CC) \
-	source='magick/magic.c' object='magick/magick_libMagickCore_la-magic.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-magic.lo `test -f 'magick/magic.c' || echo '$(srcdir)/'`magick/magic.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-magic.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-magic.Tpo -c -o magick/magick_libMagickCore_la-magic.lo `test -f 'magick/magic.c' || echo '$(srcdir)/'`magick/magic.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-magic.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-magic.Plo
+#	$(AM_V_CC) \
+#	source='magick/magic.c' object='magick/magick_libMagickCore_la-magic.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-magic.lo `test -f 'magick/magic.c' || echo '$(srcdir)/'`magick/magic.c
 
 magick/magick_libMagickCore_la-magick.lo: magick/magick.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-magick.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo -c -o magick/magick_libMagickCore_la-magick.lo `test -f 'magick/magick.c' || echo '$(srcdir)/'`magick/magick.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-magick.Plo
-	$(AM_V_CC) \
-	source='magick/magick.c' object='magick/magick_libMagickCore_la-magick.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-magick.lo `test -f 'magick/magick.c' || echo '$(srcdir)/'`magick/magick.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-magick.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo -c -o magick/magick_libMagickCore_la-magick.lo `test -f 'magick/magick.c' || echo '$(srcdir)/'`magick/magick.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-magick.Plo
+#	$(AM_V_CC) \
+#	source='magick/magick.c' object='magick/magick_libMagickCore_la-magick.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-magick.lo `test -f 'magick/magick.c' || echo '$(srcdir)/'`magick/magick.c
 
 magick/magick_libMagickCore_la-matrix.lo: magick/matrix.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-matrix.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-matrix.Tpo -c -o magick/magick_libMagickCore_la-matrix.lo `test -f 'magick/matrix.c' || echo '$(srcdir)/'`magick/matrix.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-matrix.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-matrix.Plo
-	$(AM_V_CC) \
-	source='magick/matrix.c' object='magick/magick_libMagickCore_la-matrix.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-matrix.lo `test -f 'magick/matrix.c' || echo '$(srcdir)/'`magick/matrix.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-matrix.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-matrix.Tpo -c -o magick/magick_libMagickCore_la-matrix.lo `test -f 'magick/matrix.c' || echo '$(srcdir)/'`magick/matrix.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-matrix.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-matrix.Plo
+#	$(AM_V_CC) \
+#	source='magick/matrix.c' object='magick/magick_libMagickCore_la-matrix.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-matrix.lo `test -f 'magick/matrix.c' || echo '$(srcdir)/'`magick/matrix.c
 
 magick/magick_libMagickCore_la-memory.lo: magick/memory.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-memory.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-memory.Tpo -c -o magick/magick_libMagickCore_la-memory.lo `test -f 'magick/memory.c' || echo '$(srcdir)/'`magick/memory.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-memory.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-memory.Plo
-	$(AM_V_CC) \
-	source='magick/memory.c' object='magick/magick_libMagickCore_la-memory.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-memory.lo `test -f 'magick/memory.c' || echo '$(srcdir)/'`magick/memory.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-memory.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-memory.Tpo -c -o magick/magick_libMagickCore_la-memory.lo `test -f 'magick/memory.c' || echo '$(srcdir)/'`magick/memory.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-memory.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-memory.Plo
+#	$(AM_V_CC) \
+#	source='magick/memory.c' object='magick/magick_libMagickCore_la-memory.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-memory.lo `test -f 'magick/memory.c' || echo '$(srcdir)/'`magick/memory.c
 
 magick/magick_libMagickCore_la-mime.lo: magick/mime.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-mime.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-mime.Tpo -c -o magick/magick_libMagickCore_la-mime.lo `test -f 'magick/mime.c' || echo '$(srcdir)/'`magick/mime.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-mime.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-mime.Plo
-	$(AM_V_CC) \
-	source='magick/mime.c' object='magick/magick_libMagickCore_la-mime.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-mime.lo `test -f 'magick/mime.c' || echo '$(srcdir)/'`magick/mime.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-mime.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-mime.Tpo -c -o magick/magick_libMagickCore_la-mime.lo `test -f 'magick/mime.c' || echo '$(srcdir)/'`magick/mime.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-mime.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-mime.Plo
+#	$(AM_V_CC) \
+#	source='magick/mime.c' object='magick/magick_libMagickCore_la-mime.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-mime.lo `test -f 'magick/mime.c' || echo '$(srcdir)/'`magick/mime.c
 
 magick/magick_libMagickCore_la-module.lo: magick/module.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-module.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-module.Tpo -c -o magick/magick_libMagickCore_la-module.lo `test -f 'magick/module.c' || echo '$(srcdir)/'`magick/module.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-module.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-module.Plo
-	$(AM_V_CC) \
-	source='magick/module.c' object='magick/magick_libMagickCore_la-module.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-module.lo `test -f 'magick/module.c' || echo '$(srcdir)/'`magick/module.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-module.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-module.Tpo -c -o magick/magick_libMagickCore_la-module.lo `test -f 'magick/module.c' || echo '$(srcdir)/'`magick/module.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-module.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-module.Plo
+#	$(AM_V_CC) \
+#	source='magick/module.c' object='magick/magick_libMagickCore_la-module.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-module.lo `test -f 'magick/module.c' || echo '$(srcdir)/'`magick/module.c
 
 magick/magick_libMagickCore_la-monitor.lo: magick/monitor.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-monitor.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-monitor.Tpo -c -o magick/magick_libMagickCore_la-monitor.lo `test -f 'magick/monitor.c' || echo '$(srcdir)/'`magick/monitor.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-monitor.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-monitor.Plo
-	$(AM_V_CC) \
-	source='magick/monitor.c' object='magick/magick_libMagickCore_la-monitor.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-monitor.lo `test -f 'magick/monitor.c' || echo '$(srcdir)/'`magick/monitor.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-monitor.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-monitor.Tpo -c -o magick/magick_libMagickCore_la-monitor.lo `test -f 'magick/monitor.c' || echo '$(srcdir)/'`magick/monitor.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-monitor.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-monitor.Plo
+#	$(AM_V_CC) \
+#	source='magick/monitor.c' object='magick/magick_libMagickCore_la-monitor.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-monitor.lo `test -f 'magick/monitor.c' || echo '$(srcdir)/'`magick/monitor.c
 
 magick/magick_libMagickCore_la-montage.lo: magick/montage.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-montage.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-montage.Tpo -c -o magick/magick_libMagickCore_la-montage.lo `test -f 'magick/montage.c' || echo '$(srcdir)/'`magick/montage.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-montage.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-montage.Plo
-	$(AM_V_CC) \
-	source='magick/montage.c' object='magick/magick_libMagickCore_la-montage.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-montage.lo `test -f 'magick/montage.c' || echo '$(srcdir)/'`magick/montage.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-montage.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-montage.Tpo -c -o magick/magick_libMagickCore_la-montage.lo `test -f 'magick/montage.c' || echo '$(srcdir)/'`magick/montage.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-montage.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-montage.Plo
+#	$(AM_V_CC) \
+#	source='magick/montage.c' object='magick/magick_libMagickCore_la-montage.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-montage.lo `test -f 'magick/montage.c' || echo '$(srcdir)/'`magick/montage.c
 
 magick/magick_libMagickCore_la-option.lo: magick/option.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-option.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-option.Tpo -c -o magick/magick_libMagickCore_la-option.lo `test -f 'magick/option.c' || echo '$(srcdir)/'`magick/option.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-option.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-option.Plo
-	$(AM_V_CC) \
-	source='magick/option.c' object='magick/magick_libMagickCore_la-option.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-option.lo `test -f 'magick/option.c' || echo '$(srcdir)/'`magick/option.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-option.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-option.Tpo -c -o magick/magick_libMagickCore_la-option.lo `test -f 'magick/option.c' || echo '$(srcdir)/'`magick/option.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-option.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-option.Plo
+#	$(AM_V_CC) \
+#	source='magick/option.c' object='magick/magick_libMagickCore_la-option.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-option.lo `test -f 'magick/option.c' || echo '$(srcdir)/'`magick/option.c
 
 magick/magick_libMagickCore_la-paint.lo: magick/paint.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-paint.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-paint.Tpo -c -o magick/magick_libMagickCore_la-paint.lo `test -f 'magick/paint.c' || echo '$(srcdir)/'`magick/paint.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-paint.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-paint.Plo
-	$(AM_V_CC) \
-	source='magick/paint.c' object='magick/magick_libMagickCore_la-paint.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-paint.lo `test -f 'magick/paint.c' || echo '$(srcdir)/'`magick/paint.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-paint.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-paint.Tpo -c -o magick/magick_libMagickCore_la-paint.lo `test -f 'magick/paint.c' || echo '$(srcdir)/'`magick/paint.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-paint.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-paint.Plo
+#	$(AM_V_CC) \
+#	source='magick/paint.c' object='magick/magick_libMagickCore_la-paint.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-paint.lo `test -f 'magick/paint.c' || echo '$(srcdir)/'`magick/paint.c
 
 magick/magick_libMagickCore_la-pixel.lo: magick/pixel.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-pixel.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-pixel.Tpo -c -o magick/magick_libMagickCore_la-pixel.lo `test -f 'magick/pixel.c' || echo '$(srcdir)/'`magick/pixel.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-pixel.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-pixel.Plo
-	$(AM_V_CC) \
-	source='magick/pixel.c' object='magick/magick_libMagickCore_la-pixel.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-pixel.lo `test -f 'magick/pixel.c' || echo '$(srcdir)/'`magick/pixel.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-pixel.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-pixel.Tpo -c -o magick/magick_libMagickCore_la-pixel.lo `test -f 'magick/pixel.c' || echo '$(srcdir)/'`magick/pixel.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-pixel.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-pixel.Plo
+#	$(AM_V_CC) \
+#	source='magick/pixel.c' object='magick/magick_libMagickCore_la-pixel.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-pixel.lo `test -f 'magick/pixel.c' || echo '$(srcdir)/'`magick/pixel.c
 
 magick/magick_libMagickCore_la-policy.lo: magick/policy.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-policy.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-policy.Tpo -c -o magick/magick_libMagickCore_la-policy.lo `test -f 'magick/policy.c' || echo '$(srcdir)/'`magick/policy.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-policy.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-policy.Plo
-	$(AM_V_CC) \
-	source='magick/policy.c' object='magick/magick_libMagickCore_la-policy.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-policy.lo `test -f 'magick/policy.c' || echo '$(srcdir)/'`magick/policy.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-policy.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-policy.Tpo -c -o magick/magick_libMagickCore_la-policy.lo `test -f 'magick/policy.c' || echo '$(srcdir)/'`magick/policy.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-policy.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-policy.Plo
+#	$(AM_V_CC) \
+#	source='magick/policy.c' object='magick/magick_libMagickCore_la-policy.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-policy.lo `test -f 'magick/policy.c' || echo '$(srcdir)/'`magick/policy.c
 
 magick/magick_libMagickCore_la-PreRvIcccm.lo: magick/PreRvIcccm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-PreRvIcccm.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-PreRvIcccm.Tpo -c -o magick/magick_libMagickCore_la-PreRvIcccm.lo `test -f 'magick/PreRvIcccm.c' || echo '$(srcdir)/'`magick/PreRvIcccm.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-PreRvIcccm.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-PreRvIcccm.Plo
-	$(AM_V_CC) \
-	source='magick/PreRvIcccm.c' object='magick/magick_libMagickCore_la-PreRvIcccm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-PreRvIcccm.lo `test -f 'magick/PreRvIcccm.c' || echo '$(srcdir)/'`magick/PreRvIcccm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-PreRvIcccm.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-PreRvIcccm.Tpo -c -o magick/magick_libMagickCore_la-PreRvIcccm.lo `test -f 'magick/PreRvIcccm.c' || echo '$(srcdir)/'`magick/PreRvIcccm.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-PreRvIcccm.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-PreRvIcccm.Plo
+#	$(AM_V_CC) \
+#	source='magick/PreRvIcccm.c' object='magick/magick_libMagickCore_la-PreRvIcccm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-PreRvIcccm.lo `test -f 'magick/PreRvIcccm.c' || echo '$(srcdir)/'`magick/PreRvIcccm.c
 
 magick/magick_libMagickCore_la-prepress.lo: magick/prepress.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-prepress.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-prepress.Tpo -c -o magick/magick_libMagickCore_la-prepress.lo `test -f 'magick/prepress.c' || echo '$(srcdir)/'`magick/prepress.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-prepress.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-prepress.Plo
-	$(AM_V_CC) \
-	source='magick/prepress.c' object='magick/magick_libMagickCore_la-prepress.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-prepress.lo `test -f 'magick/prepress.c' || echo '$(srcdir)/'`magick/prepress.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-prepress.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-prepress.Tpo -c -o magick/magick_libMagickCore_la-prepress.lo `test -f 'magick/prepress.c' || echo '$(srcdir)/'`magick/prepress.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-prepress.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-prepress.Plo
+#	$(AM_V_CC) \
+#	source='magick/prepress.c' object='magick/magick_libMagickCore_la-prepress.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-prepress.lo `test -f 'magick/prepress.c' || echo '$(srcdir)/'`magick/prepress.c
 
 magick/magick_libMagickCore_la-property.lo: magick/property.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-property.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-property.Tpo -c -o magick/magick_libMagickCore_la-property.lo `test -f 'magick/property.c' || echo '$(srcdir)/'`magick/property.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-property.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-property.Plo
-	$(AM_V_CC) \
-	source='magick/property.c' object='magick/magick_libMagickCore_la-property.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-property.lo `test -f 'magick/property.c' || echo '$(srcdir)/'`magick/property.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-property.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-property.Tpo -c -o magick/magick_libMagickCore_la-property.lo `test -f 'magick/property.c' || echo '$(srcdir)/'`magick/property.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-property.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-property.Plo
+#	$(AM_V_CC) \
+#	source='magick/property.c' object='magick/magick_libMagickCore_la-property.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-property.lo `test -f 'magick/property.c' || echo '$(srcdir)/'`magick/property.c
 
 magick/magick_libMagickCore_la-profile.lo: magick/profile.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-profile.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-profile.Tpo -c -o magick/magick_libMagickCore_la-profile.lo `test -f 'magick/profile.c' || echo '$(srcdir)/'`magick/profile.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-profile.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-profile.Plo
-	$(AM_V_CC) \
-	source='magick/profile.c' object='magick/magick_libMagickCore_la-profile.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-profile.lo `test -f 'magick/profile.c' || echo '$(srcdir)/'`magick/profile.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-profile.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-profile.Tpo -c -o magick/magick_libMagickCore_la-profile.lo `test -f 'magick/profile.c' || echo '$(srcdir)/'`magick/profile.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-profile.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-profile.Plo
+#	$(AM_V_CC) \
+#	source='magick/profile.c' object='magick/magick_libMagickCore_la-profile.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-profile.lo `test -f 'magick/profile.c' || echo '$(srcdir)/'`magick/profile.c
 
 magick/magick_libMagickCore_la-quantize.lo: magick/quantize.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantize.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantize.Tpo -c -o magick/magick_libMagickCore_la-quantize.lo `test -f 'magick/quantize.c' || echo '$(srcdir)/'`magick/quantize.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantize.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantize.Plo
-	$(AM_V_CC) \
-	source='magick/quantize.c' object='magick/magick_libMagickCore_la-quantize.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantize.lo `test -f 'magick/quantize.c' || echo '$(srcdir)/'`magick/quantize.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantize.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantize.Tpo -c -o magick/magick_libMagickCore_la-quantize.lo `test -f 'magick/quantize.c' || echo '$(srcdir)/'`magick/quantize.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantize.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantize.Plo
+#	$(AM_V_CC) \
+#	source='magick/quantize.c' object='magick/magick_libMagickCore_la-quantize.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantize.lo `test -f 'magick/quantize.c' || echo '$(srcdir)/'`magick/quantize.c
 
 magick/magick_libMagickCore_la-quantum.lo: magick/quantum.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantum.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantum.Tpo -c -o magick/magick_libMagickCore_la-quantum.lo `test -f 'magick/quantum.c' || echo '$(srcdir)/'`magick/quantum.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantum.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantum.Plo
-	$(AM_V_CC) \
-	source='magick/quantum.c' object='magick/magick_libMagickCore_la-quantum.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantum.lo `test -f 'magick/quantum.c' || echo '$(srcdir)/'`magick/quantum.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantum.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantum.Tpo -c -o magick/magick_libMagickCore_la-quantum.lo `test -f 'magick/quantum.c' || echo '$(srcdir)/'`magick/quantum.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantum.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantum.Plo
+#	$(AM_V_CC) \
+#	source='magick/quantum.c' object='magick/magick_libMagickCore_la-quantum.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantum.lo `test -f 'magick/quantum.c' || echo '$(srcdir)/'`magick/quantum.c
 
 magick/magick_libMagickCore_la-quantum-export.lo: magick/quantum-export.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantum-export.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantum-export.Tpo -c -o magick/magick_libMagickCore_la-quantum-export.lo `test -f 'magick/quantum-export.c' || echo '$(srcdir)/'`magick/quantum-export.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantum-export.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantum-export.Plo
-	$(AM_V_CC) \
-	source='magick/quantum-export.c' object='magick/magick_libMagickCore_la-quantum-export.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantum-export.lo `test -f 'magick/quantum-export.c' || echo '$(srcdir)/'`magick/quantum-export.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantum-export.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantum-export.Tpo -c -o magick/magick_libMagickCore_la-quantum-export.lo `test -f 'magick/quantum-export.c' || echo '$(srcdir)/'`magick/quantum-export.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantum-export.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantum-export.Plo
+#	$(AM_V_CC) \
+#	source='magick/quantum-export.c' object='magick/magick_libMagickCore_la-quantum-export.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantum-export.lo `test -f 'magick/quantum-export.c' || echo '$(srcdir)/'`magick/quantum-export.c
 
 magick/magick_libMagickCore_la-quantum-import.lo: magick/quantum-import.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantum-import.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantum-import.Tpo -c -o magick/magick_libMagickCore_la-quantum-import.lo `test -f 'magick/quantum-import.c' || echo '$(srcdir)/'`magick/quantum-import.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantum-import.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantum-import.Plo
-	$(AM_V_CC) \
-	source='magick/quantum-import.c' object='magick/magick_libMagickCore_la-quantum-import.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantum-import.lo `test -f 'magick/quantum-import.c' || echo '$(srcdir)/'`magick/quantum-import.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-quantum-import.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-quantum-import.Tpo -c -o magick/magick_libMagickCore_la-quantum-import.lo `test -f 'magick/quantum-import.c' || echo '$(srcdir)/'`magick/quantum-import.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-quantum-import.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-quantum-import.Plo
+#	$(AM_V_CC) \
+#	source='magick/quantum-import.c' object='magick/magick_libMagickCore_la-quantum-import.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-quantum-import.lo `test -f 'magick/quantum-import.c' || echo '$(srcdir)/'`magick/quantum-import.c
 
 magick/magick_libMagickCore_la-random.lo: magick/random.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-random.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-random.Tpo -c -o magick/magick_libMagickCore_la-random.lo `test -f 'magick/random.c' || echo '$(srcdir)/'`magick/random.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-random.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-random.Plo
-	$(AM_V_CC) \
-	source='magick/random.c' object='magick/magick_libMagickCore_la-random.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-random.lo `test -f 'magick/random.c' || echo '$(srcdir)/'`magick/random.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-random.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-random.Tpo -c -o magick/magick_libMagickCore_la-random.lo `test -f 'magick/random.c' || echo '$(srcdir)/'`magick/random.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-random.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-random.Plo
+#	$(AM_V_CC) \
+#	source='magick/random.c' object='magick/magick_libMagickCore_la-random.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-random.lo `test -f 'magick/random.c' || echo '$(srcdir)/'`magick/random.c
 
 magick/magick_libMagickCore_la-registry.lo: magick/registry.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-registry.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-registry.Tpo -c -o magick/magick_libMagickCore_la-registry.lo `test -f 'magick/registry.c' || echo '$(srcdir)/'`magick/registry.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-registry.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-registry.Plo
-	$(AM_V_CC) \
-	source='magick/registry.c' object='magick/magick_libMagickCore_la-registry.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-registry.lo `test -f 'magick/registry.c' || echo '$(srcdir)/'`magick/registry.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-registry.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-registry.Tpo -c -o magick/magick_libMagickCore_la-registry.lo `test -f 'magick/registry.c' || echo '$(srcdir)/'`magick/registry.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-registry.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-registry.Plo
+#	$(AM_V_CC) \
+#	source='magick/registry.c' object='magick/magick_libMagickCore_la-registry.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-registry.lo `test -f 'magick/registry.c' || echo '$(srcdir)/'`magick/registry.c
 
 magick/magick_libMagickCore_la-resample.lo: magick/resample.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-resample.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-resample.Tpo -c -o magick/magick_libMagickCore_la-resample.lo `test -f 'magick/resample.c' || echo '$(srcdir)/'`magick/resample.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-resample.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-resample.Plo
-	$(AM_V_CC) \
-	source='magick/resample.c' object='magick/magick_libMagickCore_la-resample.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-resample.lo `test -f 'magick/resample.c' || echo '$(srcdir)/'`magick/resample.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-resample.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-resample.Tpo -c -o magick/magick_libMagickCore_la-resample.lo `test -f 'magick/resample.c' || echo '$(srcdir)/'`magick/resample.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-resample.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-resample.Plo
+#	$(AM_V_CC) \
+#	source='magick/resample.c' object='magick/magick_libMagickCore_la-resample.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-resample.lo `test -f 'magick/resample.c' || echo '$(srcdir)/'`magick/resample.c
 
 magick/magick_libMagickCore_la-resize.lo: magick/resize.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-resize.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-resize.Tpo -c -o magick/magick_libMagickCore_la-resize.lo `test -f 'magick/resize.c' || echo '$(srcdir)/'`magick/resize.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-resize.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-resize.Plo
-	$(AM_V_CC) \
-	source='magick/resize.c' object='magick/magick_libMagickCore_la-resize.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-resize.lo `test -f 'magick/resize.c' || echo '$(srcdir)/'`magick/resize.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-resize.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-resize.Tpo -c -o magick/magick_libMagickCore_la-resize.lo `test -f 'magick/resize.c' || echo '$(srcdir)/'`magick/resize.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-resize.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-resize.Plo
+#	$(AM_V_CC) \
+#	source='magick/resize.c' object='magick/magick_libMagickCore_la-resize.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-resize.lo `test -f 'magick/resize.c' || echo '$(srcdir)/'`magick/resize.c
 
 magick/magick_libMagickCore_la-resource.lo: magick/resource.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-resource.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-resource.Tpo -c -o magick/magick_libMagickCore_la-resource.lo `test -f 'magick/resource.c' || echo '$(srcdir)/'`magick/resource.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-resource.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-resource.Plo
-	$(AM_V_CC) \
-	source='magick/resource.c' object='magick/magick_libMagickCore_la-resource.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-resource.lo `test -f 'magick/resource.c' || echo '$(srcdir)/'`magick/resource.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-resource.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-resource.Tpo -c -o magick/magick_libMagickCore_la-resource.lo `test -f 'magick/resource.c' || echo '$(srcdir)/'`magick/resource.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-resource.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-resource.Plo
+#	$(AM_V_CC) \
+#	source='magick/resource.c' object='magick/magick_libMagickCore_la-resource.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-resource.lo `test -f 'magick/resource.c' || echo '$(srcdir)/'`magick/resource.c
 
 magick/magick_libMagickCore_la-segment.lo: magick/segment.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-segment.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-segment.Tpo -c -o magick/magick_libMagickCore_la-segment.lo `test -f 'magick/segment.c' || echo '$(srcdir)/'`magick/segment.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-segment.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-segment.Plo
-	$(AM_V_CC) \
-	source='magick/segment.c' object='magick/magick_libMagickCore_la-segment.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-segment.lo `test -f 'magick/segment.c' || echo '$(srcdir)/'`magick/segment.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-segment.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-segment.Tpo -c -o magick/magick_libMagickCore_la-segment.lo `test -f 'magick/segment.c' || echo '$(srcdir)/'`magick/segment.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-segment.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-segment.Plo
+#	$(AM_V_CC) \
+#	source='magick/segment.c' object='magick/magick_libMagickCore_la-segment.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-segment.lo `test -f 'magick/segment.c' || echo '$(srcdir)/'`magick/segment.c
 
 magick/magick_libMagickCore_la-semaphore.lo: magick/semaphore.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-semaphore.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-semaphore.Tpo -c -o magick/magick_libMagickCore_la-semaphore.lo `test -f 'magick/semaphore.c' || echo '$(srcdir)/'`magick/semaphore.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-semaphore.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-semaphore.Plo
-	$(AM_V_CC) \
-	source='magick/semaphore.c' object='magick/magick_libMagickCore_la-semaphore.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-semaphore.lo `test -f 'magick/semaphore.c' || echo '$(srcdir)/'`magick/semaphore.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-semaphore.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-semaphore.Tpo -c -o magick/magick_libMagickCore_la-semaphore.lo `test -f 'magick/semaphore.c' || echo '$(srcdir)/'`magick/semaphore.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-semaphore.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-semaphore.Plo
+#	$(AM_V_CC) \
+#	source='magick/semaphore.c' object='magick/magick_libMagickCore_la-semaphore.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-semaphore.lo `test -f 'magick/semaphore.c' || echo '$(srcdir)/'`magick/semaphore.c
 
 magick/magick_libMagickCore_la-shear.lo: magick/shear.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-shear.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-shear.Tpo -c -o magick/magick_libMagickCore_la-shear.lo `test -f 'magick/shear.c' || echo '$(srcdir)/'`magick/shear.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-shear.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-shear.Plo
-	$(AM_V_CC) \
-	source='magick/shear.c' object='magick/magick_libMagickCore_la-shear.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-shear.lo `test -f 'magick/shear.c' || echo '$(srcdir)/'`magick/shear.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-shear.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-shear.Tpo -c -o magick/magick_libMagickCore_la-shear.lo `test -f 'magick/shear.c' || echo '$(srcdir)/'`magick/shear.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-shear.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-shear.Plo
+#	$(AM_V_CC) \
+#	source='magick/shear.c' object='magick/magick_libMagickCore_la-shear.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-shear.lo `test -f 'magick/shear.c' || echo '$(srcdir)/'`magick/shear.c
 
 magick/magick_libMagickCore_la-signature.lo: magick/signature.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-signature.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-signature.Tpo -c -o magick/magick_libMagickCore_la-signature.lo `test -f 'magick/signature.c' || echo '$(srcdir)/'`magick/signature.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-signature.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-signature.Plo
-	$(AM_V_CC) \
-	source='magick/signature.c' object='magick/magick_libMagickCore_la-signature.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-signature.lo `test -f 'magick/signature.c' || echo '$(srcdir)/'`magick/signature.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-signature.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-signature.Tpo -c -o magick/magick_libMagickCore_la-signature.lo `test -f 'magick/signature.c' || echo '$(srcdir)/'`magick/signature.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-signature.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-signature.Plo
+#	$(AM_V_CC) \
+#	source='magick/signature.c' object='magick/magick_libMagickCore_la-signature.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-signature.lo `test -f 'magick/signature.c' || echo '$(srcdir)/'`magick/signature.c
 
 magick/magick_libMagickCore_la-splay-tree.lo: magick/splay-tree.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-splay-tree.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-splay-tree.Tpo -c -o magick/magick_libMagickCore_la-splay-tree.lo `test -f 'magick/splay-tree.c' || echo '$(srcdir)/'`magick/splay-tree.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-splay-tree.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-splay-tree.Plo
-	$(AM_V_CC) \
-	source='magick/splay-tree.c' object='magick/magick_libMagickCore_la-splay-tree.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-splay-tree.lo `test -f 'magick/splay-tree.c' || echo '$(srcdir)/'`magick/splay-tree.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-splay-tree.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-splay-tree.Tpo -c -o magick/magick_libMagickCore_la-splay-tree.lo `test -f 'magick/splay-tree.c' || echo '$(srcdir)/'`magick/splay-tree.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-splay-tree.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-splay-tree.Plo
+#	$(AM_V_CC) \
+#	source='magick/splay-tree.c' object='magick/magick_libMagickCore_la-splay-tree.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-splay-tree.lo `test -f 'magick/splay-tree.c' || echo '$(srcdir)/'`magick/splay-tree.c
 
 magick/magick_libMagickCore_la-static.lo: magick/static.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-static.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-static.Tpo -c -o magick/magick_libMagickCore_la-static.lo `test -f 'magick/static.c' || echo '$(srcdir)/'`magick/static.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-static.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-static.Plo
-	$(AM_V_CC) \
-	source='magick/static.c' object='magick/magick_libMagickCore_la-static.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-static.lo `test -f 'magick/static.c' || echo '$(srcdir)/'`magick/static.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-static.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-static.Tpo -c -o magick/magick_libMagickCore_la-static.lo `test -f 'magick/static.c' || echo '$(srcdir)/'`magick/static.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-static.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-static.Plo
+#	$(AM_V_CC) \
+#	source='magick/static.c' object='magick/magick_libMagickCore_la-static.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-static.lo `test -f 'magick/static.c' || echo '$(srcdir)/'`magick/static.c
 
 magick/magick_libMagickCore_la-statistic.lo: magick/statistic.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-statistic.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-statistic.Tpo -c -o magick/magick_libMagickCore_la-statistic.lo `test -f 'magick/statistic.c' || echo '$(srcdir)/'`magick/statistic.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-statistic.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-statistic.Plo
-	$(AM_V_CC) \
-	source='magick/statistic.c' object='magick/magick_libMagickCore_la-statistic.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-statistic.lo `test -f 'magick/statistic.c' || echo '$(srcdir)/'`magick/statistic.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-statistic.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-statistic.Tpo -c -o magick/magick_libMagickCore_la-statistic.lo `test -f 'magick/statistic.c' || echo '$(srcdir)/'`magick/statistic.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-statistic.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-statistic.Plo
+#	$(AM_V_CC) \
+#	source='magick/statistic.c' object='magick/magick_libMagickCore_la-statistic.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-statistic.lo `test -f 'magick/statistic.c' || echo '$(srcdir)/'`magick/statistic.c
 
 magick/magick_libMagickCore_la-stream.lo: magick/stream.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-stream.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-stream.Tpo -c -o magick/magick_libMagickCore_la-stream.lo `test -f 'magick/stream.c' || echo '$(srcdir)/'`magick/stream.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-stream.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-stream.Plo
-	$(AM_V_CC) \
-	source='magick/stream.c' object='magick/magick_libMagickCore_la-stream.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-stream.lo `test -f 'magick/stream.c' || echo '$(srcdir)/'`magick/stream.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-stream.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-stream.Tpo -c -o magick/magick_libMagickCore_la-stream.lo `test -f 'magick/stream.c' || echo '$(srcdir)/'`magick/stream.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-stream.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-stream.Plo
+#	$(AM_V_CC) \
+#	source='magick/stream.c' object='magick/magick_libMagickCore_la-stream.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-stream.lo `test -f 'magick/stream.c' || echo '$(srcdir)/'`magick/stream.c
 
 magick/magick_libMagickCore_la-string.lo: magick/string.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-string.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-string.Tpo -c -o magick/magick_libMagickCore_la-string.lo `test -f 'magick/string.c' || echo '$(srcdir)/'`magick/string.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-string.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-string.Plo
-	$(AM_V_CC) \
-	source='magick/string.c' object='magick/magick_libMagickCore_la-string.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-string.lo `test -f 'magick/string.c' || echo '$(srcdir)/'`magick/string.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-string.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-string.Tpo -c -o magick/magick_libMagickCore_la-string.lo `test -f 'magick/string.c' || echo '$(srcdir)/'`magick/string.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-string.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-string.Plo
+#	$(AM_V_CC) \
+#	source='magick/string.c' object='magick/magick_libMagickCore_la-string.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-string.lo `test -f 'magick/string.c' || echo '$(srcdir)/'`magick/string.c
 
 magick/magick_libMagickCore_la-thread.lo: magick/thread.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-thread.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-thread.Tpo -c -o magick/magick_libMagickCore_la-thread.lo `test -f 'magick/thread.c' || echo '$(srcdir)/'`magick/thread.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-thread.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-thread.Plo
-	$(AM_V_CC) \
-	source='magick/thread.c' object='magick/magick_libMagickCore_la-thread.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-thread.lo `test -f 'magick/thread.c' || echo '$(srcdir)/'`magick/thread.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-thread.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-thread.Tpo -c -o magick/magick_libMagickCore_la-thread.lo `test -f 'magick/thread.c' || echo '$(srcdir)/'`magick/thread.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-thread.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-thread.Plo
+#	$(AM_V_CC) \
+#	source='magick/thread.c' object='magick/magick_libMagickCore_la-thread.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-thread.lo `test -f 'magick/thread.c' || echo '$(srcdir)/'`magick/thread.c
 
 magick/magick_libMagickCore_la-timer.lo: magick/timer.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-timer.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-timer.Tpo -c -o magick/magick_libMagickCore_la-timer.lo `test -f 'magick/timer.c' || echo '$(srcdir)/'`magick/timer.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-timer.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-timer.Plo
-	$(AM_V_CC) \
-	source='magick/timer.c' object='magick/magick_libMagickCore_la-timer.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-timer.lo `test -f 'magick/timer.c' || echo '$(srcdir)/'`magick/timer.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-timer.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-timer.Tpo -c -o magick/magick_libMagickCore_la-timer.lo `test -f 'magick/timer.c' || echo '$(srcdir)/'`magick/timer.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-timer.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-timer.Plo
+#	$(AM_V_CC) \
+#	source='magick/timer.c' object='magick/magick_libMagickCore_la-timer.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-timer.lo `test -f 'magick/timer.c' || echo '$(srcdir)/'`magick/timer.c
 
 magick/magick_libMagickCore_la-token.lo: magick/token.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-token.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-token.Tpo -c -o magick/magick_libMagickCore_la-token.lo `test -f 'magick/token.c' || echo '$(srcdir)/'`magick/token.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-token.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-token.Plo
-	$(AM_V_CC) \
-	source='magick/token.c' object='magick/magick_libMagickCore_la-token.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-token.lo `test -f 'magick/token.c' || echo '$(srcdir)/'`magick/token.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-token.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-token.Tpo -c -o magick/magick_libMagickCore_la-token.lo `test -f 'magick/token.c' || echo '$(srcdir)/'`magick/token.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-token.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-token.Plo
+#	$(AM_V_CC) \
+#	source='magick/token.c' object='magick/magick_libMagickCore_la-token.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-token.lo `test -f 'magick/token.c' || echo '$(srcdir)/'`magick/token.c
 
 magick/magick_libMagickCore_la-transform.lo: magick/transform.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-transform.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-transform.Tpo -c -o magick/magick_libMagickCore_la-transform.lo `test -f 'magick/transform.c' || echo '$(srcdir)/'`magick/transform.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-transform.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-transform.Plo
-	$(AM_V_CC) \
-	source='magick/transform.c' object='magick/magick_libMagickCore_la-transform.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-transform.lo `test -f 'magick/transform.c' || echo '$(srcdir)/'`magick/transform.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-transform.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-transform.Tpo -c -o magick/magick_libMagickCore_la-transform.lo `test -f 'magick/transform.c' || echo '$(srcdir)/'`magick/transform.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-transform.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-transform.Plo
+#	$(AM_V_CC) \
+#	source='magick/transform.c' object='magick/magick_libMagickCore_la-transform.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-transform.lo `test -f 'magick/transform.c' || echo '$(srcdir)/'`magick/transform.c
 
 magick/magick_libMagickCore_la-threshold.lo: magick/threshold.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-threshold.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-threshold.Tpo -c -o magick/magick_libMagickCore_la-threshold.lo `test -f 'magick/threshold.c' || echo '$(srcdir)/'`magick/threshold.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-threshold.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-threshold.Plo
-	$(AM_V_CC) \
-	source='magick/threshold.c' object='magick/magick_libMagickCore_la-threshold.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-threshold.lo `test -f 'magick/threshold.c' || echo '$(srcdir)/'`magick/threshold.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-threshold.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-threshold.Tpo -c -o magick/magick_libMagickCore_la-threshold.lo `test -f 'magick/threshold.c' || echo '$(srcdir)/'`magick/threshold.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-threshold.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-threshold.Plo
+#	$(AM_V_CC) \
+#	source='magick/threshold.c' object='magick/magick_libMagickCore_la-threshold.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-threshold.lo `test -f 'magick/threshold.c' || echo '$(srcdir)/'`magick/threshold.c
 
 magick/magick_libMagickCore_la-type.lo: magick/type.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-type.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-type.Tpo -c -o magick/magick_libMagickCore_la-type.lo `test -f 'magick/type.c' || echo '$(srcdir)/'`magick/type.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-type.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-type.Plo
-	$(AM_V_CC) \
-	source='magick/type.c' object='magick/magick_libMagickCore_la-type.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-type.lo `test -f 'magick/type.c' || echo '$(srcdir)/'`magick/type.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-type.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-type.Tpo -c -o magick/magick_libMagickCore_la-type.lo `test -f 'magick/type.c' || echo '$(srcdir)/'`magick/type.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-type.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-type.Plo
+#	$(AM_V_CC) \
+#	source='magick/type.c' object='magick/magick_libMagickCore_la-type.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-type.lo `test -f 'magick/type.c' || echo '$(srcdir)/'`magick/type.c
 
 magick/magick_libMagickCore_la-utility.lo: magick/utility.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-utility.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-utility.Tpo -c -o magick/magick_libMagickCore_la-utility.lo `test -f 'magick/utility.c' || echo '$(srcdir)/'`magick/utility.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-utility.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-utility.Plo
-	$(AM_V_CC) \
-	source='magick/utility.c' object='magick/magick_libMagickCore_la-utility.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-utility.lo `test -f 'magick/utility.c' || echo '$(srcdir)/'`magick/utility.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-utility.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-utility.Tpo -c -o magick/magick_libMagickCore_la-utility.lo `test -f 'magick/utility.c' || echo '$(srcdir)/'`magick/utility.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-utility.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-utility.Plo
+#	$(AM_V_CC) \
+#	source='magick/utility.c' object='magick/magick_libMagickCore_la-utility.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-utility.lo `test -f 'magick/utility.c' || echo '$(srcdir)/'`magick/utility.c
 
 magick/magick_libMagickCore_la-version.lo: magick/version.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-version.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-version.Tpo -c -o magick/magick_libMagickCore_la-version.lo `test -f 'magick/version.c' || echo '$(srcdir)/'`magick/version.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-version.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-version.Plo
-	$(AM_V_CC) \
-	source='magick/version.c' object='magick/magick_libMagickCore_la-version.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-version.lo `test -f 'magick/version.c' || echo '$(srcdir)/'`magick/version.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-version.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-version.Tpo -c -o magick/magick_libMagickCore_la-version.lo `test -f 'magick/version.c' || echo '$(srcdir)/'`magick/version.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-version.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-version.Plo
+#	$(AM_V_CC) \
+#	source='magick/version.c' object='magick/magick_libMagickCore_la-version.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-version.lo `test -f 'magick/version.c' || echo '$(srcdir)/'`magick/version.c
 
 magick/magick_libMagickCore_la-widget.lo: magick/widget.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-widget.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-widget.Tpo -c -o magick/magick_libMagickCore_la-widget.lo `test -f 'magick/widget.c' || echo '$(srcdir)/'`magick/widget.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-widget.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-widget.Plo
-	$(AM_V_CC) \
-	source='magick/widget.c' object='magick/magick_libMagickCore_la-widget.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-widget.lo `test -f 'magick/widget.c' || echo '$(srcdir)/'`magick/widget.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-widget.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-widget.Tpo -c -o magick/magick_libMagickCore_la-widget.lo `test -f 'magick/widget.c' || echo '$(srcdir)/'`magick/widget.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-widget.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-widget.Plo
+#	$(AM_V_CC) \
+#	source='magick/widget.c' object='magick/magick_libMagickCore_la-widget.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-widget.lo `test -f 'magick/widget.c' || echo '$(srcdir)/'`magick/widget.c
 
 magick/magick_libMagickCore_la-xml-tree.lo: magick/xml-tree.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-xml-tree.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-xml-tree.Tpo -c -o magick/magick_libMagickCore_la-xml-tree.lo `test -f 'magick/xml-tree.c' || echo '$(srcdir)/'`magick/xml-tree.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-xml-tree.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-xml-tree.Plo
-	$(AM_V_CC) \
-	source='magick/xml-tree.c' object='magick/magick_libMagickCore_la-xml-tree.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-xml-tree.lo `test -f 'magick/xml-tree.c' || echo '$(srcdir)/'`magick/xml-tree.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-xml-tree.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-xml-tree.Tpo -c -o magick/magick_libMagickCore_la-xml-tree.lo `test -f 'magick/xml-tree.c' || echo '$(srcdir)/'`magick/xml-tree.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-xml-tree.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-xml-tree.Plo
+#	$(AM_V_CC) \
+#	source='magick/xml-tree.c' object='magick/magick_libMagickCore_la-xml-tree.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-xml-tree.lo `test -f 'magick/xml-tree.c' || echo '$(srcdir)/'`magick/xml-tree.c
 
 magick/magick_libMagickCore_la-xwindow.lo: magick/xwindow.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-xwindow.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-xwindow.Tpo -c -o magick/magick_libMagickCore_la-xwindow.lo `test -f 'magick/xwindow.c' || echo '$(srcdir)/'`magick/xwindow.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-xwindow.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-xwindow.Plo
-	$(AM_V_CC) \
-	source='magick/xwindow.c' object='magick/magick_libMagickCore_la-xwindow.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-xwindow.lo `test -f 'magick/xwindow.c' || echo '$(srcdir)/'`magick/xwindow.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-xwindow.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-xwindow.Tpo -c -o magick/magick_libMagickCore_la-xwindow.lo `test -f 'magick/xwindow.c' || echo '$(srcdir)/'`magick/xwindow.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-xwindow.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-xwindow.Plo
+#	$(AM_V_CC) \
+#	source='magick/xwindow.c' object='magick/magick_libMagickCore_la-xwindow.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-xwindow.lo `test -f 'magick/xwindow.c' || echo '$(srcdir)/'`magick/xwindow.c
 
 magick/magick_libMagickCore_la-nt-feature.lo: magick/nt-feature.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-nt-feature.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-nt-feature.Tpo -c -o magick/magick_libMagickCore_la-nt-feature.lo `test -f 'magick/nt-feature.c' || echo '$(srcdir)/'`magick/nt-feature.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-nt-feature.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-nt-feature.Plo
-	$(AM_V_CC) \
-	source='magick/nt-feature.c' object='magick/magick_libMagickCore_la-nt-feature.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-nt-feature.lo `test -f 'magick/nt-feature.c' || echo '$(srcdir)/'`magick/nt-feature.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-nt-feature.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-nt-feature.Tpo -c -o magick/magick_libMagickCore_la-nt-feature.lo `test -f 'magick/nt-feature.c' || echo '$(srcdir)/'`magick/nt-feature.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-nt-feature.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-nt-feature.Plo
+#	$(AM_V_CC) \
+#	source='magick/nt-feature.c' object='magick/magick_libMagickCore_la-nt-feature.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-nt-feature.lo `test -f 'magick/nt-feature.c' || echo '$(srcdir)/'`magick/nt-feature.c
 
 magick/magick_libMagickCore_la-nt-base.lo: magick/nt-base.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-nt-base.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-nt-base.Tpo -c -o magick/magick_libMagickCore_la-nt-base.lo `test -f 'magick/nt-base.c' || echo '$(srcdir)/'`magick/nt-base.c
-#	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-nt-base.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-nt-base.Plo
-	$(AM_V_CC) \
-	source='magick/nt-base.c' object='magick/magick_libMagickCore_la-nt-base.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-nt-base.lo `test -f 'magick/nt-base.c' || echo '$(srcdir)/'`magick/nt-base.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT magick/magick_libMagickCore_la-nt-base.lo -MD -MP -MF magick/$(DEPDIR)/magick_libMagickCore_la-nt-base.Tpo -c -o magick/magick_libMagickCore_la-nt-base.lo `test -f 'magick/nt-base.c' || echo '$(srcdir)/'`magick/nt-base.c
+	$(AM_V_at)$(am__mv) magick/$(DEPDIR)/magick_libMagickCore_la-nt-base.Tpo magick/$(DEPDIR)/magick_libMagickCore_la-nt-base.Plo
+#	$(AM_V_CC) \
+#	source='magick/nt-base.c' object='magick/magick_libMagickCore_la-nt-base.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o magick/magick_libMagickCore_la-nt-base.lo `test -f 'magick/nt-base.c' || echo '$(srcdir)/'`magick/nt-base.c
 
 coders/magick_libMagickCore_la-art.lo: coders/art.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-art.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-art.Tpo -c -o coders/magick_libMagickCore_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-art.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-art.Plo
-	$(AM_V_CC) \
-	source='coders/art.c' object='coders/magick_libMagickCore_la-art.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-art.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-art.Tpo -c -o coders/magick_libMagickCore_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-art.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-art.Plo
+#	$(AM_V_CC) \
+#	source='coders/art.c' object='coders/magick_libMagickCore_la-art.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-art.lo `test -f 'coders/art.c' || echo '$(srcdir)/'`coders/art.c
 
 coders/magick_libMagickCore_la-avi.lo: coders/avi.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-avi.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-avi.Tpo -c -o coders/magick_libMagickCore_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-avi.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-avi.Plo
-	$(AM_V_CC) \
-	source='coders/avi.c' object='coders/magick_libMagickCore_la-avi.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-avi.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-avi.Tpo -c -o coders/magick_libMagickCore_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-avi.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-avi.Plo
+#	$(AM_V_CC) \
+#	source='coders/avi.c' object='coders/magick_libMagickCore_la-avi.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-avi.lo `test -f 'coders/avi.c' || echo '$(srcdir)/'`coders/avi.c
 
 coders/magick_libMagickCore_la-avs.lo: coders/avs.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-avs.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-avs.Tpo -c -o coders/magick_libMagickCore_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-avs.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-avs.Plo
-	$(AM_V_CC) \
-	source='coders/avs.c' object='coders/magick_libMagickCore_la-avs.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-avs.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-avs.Tpo -c -o coders/magick_libMagickCore_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-avs.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-avs.Plo
+#	$(AM_V_CC) \
+#	source='coders/avs.c' object='coders/magick_libMagickCore_la-avs.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-avs.lo `test -f 'coders/avs.c' || echo '$(srcdir)/'`coders/avs.c
 
 coders/magick_libMagickCore_la-bmp.lo: coders/bmp.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-bmp.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-bmp.Tpo -c -o coders/magick_libMagickCore_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-bmp.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-bmp.Plo
-	$(AM_V_CC) \
-	source='coders/bmp.c' object='coders/magick_libMagickCore_la-bmp.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-bmp.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-bmp.Tpo -c -o coders/magick_libMagickCore_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-bmp.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-bmp.Plo
+#	$(AM_V_CC) \
+#	source='coders/bmp.c' object='coders/magick_libMagickCore_la-bmp.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-bmp.lo `test -f 'coders/bmp.c' || echo '$(srcdir)/'`coders/bmp.c
 
 coders/magick_libMagickCore_la-braille.lo: coders/braille.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-braille.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-braille.Tpo -c -o coders/magick_libMagickCore_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-braille.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-braille.Plo
-	$(AM_V_CC) \
-	source='coders/braille.c' object='coders/magick_libMagickCore_la-braille.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-braille.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-braille.Tpo -c -o coders/magick_libMagickCore_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-braille.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-braille.Plo
+#	$(AM_V_CC) \
+#	source='coders/braille.c' object='coders/magick_libMagickCore_la-braille.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-braille.lo `test -f 'coders/braille.c' || echo '$(srcdir)/'`coders/braille.c
 
 coders/magick_libMagickCore_la-cals.lo: coders/cals.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cals.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cals.Tpo -c -o coders/magick_libMagickCore_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cals.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cals.Plo
-	$(AM_V_CC) \
-	source='coders/cals.c' object='coders/magick_libMagickCore_la-cals.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cals.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cals.Tpo -c -o coders/magick_libMagickCore_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cals.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cals.Plo
+#	$(AM_V_CC) \
+#	source='coders/cals.c' object='coders/magick_libMagickCore_la-cals.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cals.lo `test -f 'coders/cals.c' || echo '$(srcdir)/'`coders/cals.c
 
 coders/magick_libMagickCore_la-caption.lo: coders/caption.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-caption.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-caption.Tpo -c -o coders/magick_libMagickCore_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-caption.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-caption.Plo
-	$(AM_V_CC) \
-	source='coders/caption.c' object='coders/magick_libMagickCore_la-caption.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-caption.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-caption.Tpo -c -o coders/magick_libMagickCore_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-caption.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-caption.Plo
+#	$(AM_V_CC) \
+#	source='coders/caption.c' object='coders/magick_libMagickCore_la-caption.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-caption.lo `test -f 'coders/caption.c' || echo '$(srcdir)/'`coders/caption.c
 
 coders/magick_libMagickCore_la-cin.lo: coders/cin.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cin.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cin.Tpo -c -o coders/magick_libMagickCore_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cin.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cin.Plo
-	$(AM_V_CC) \
-	source='coders/cin.c' object='coders/magick_libMagickCore_la-cin.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cin.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cin.Tpo -c -o coders/magick_libMagickCore_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cin.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cin.Plo
+#	$(AM_V_CC) \
+#	source='coders/cin.c' object='coders/magick_libMagickCore_la-cin.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cin.lo `test -f 'coders/cin.c' || echo '$(srcdir)/'`coders/cin.c
 
 coders/magick_libMagickCore_la-cip.lo: coders/cip.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cip.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cip.Tpo -c -o coders/magick_libMagickCore_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cip.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cip.Plo
-	$(AM_V_CC) \
-	source='coders/cip.c' object='coders/magick_libMagickCore_la-cip.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cip.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cip.Tpo -c -o coders/magick_libMagickCore_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cip.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cip.Plo
+#	$(AM_V_CC) \
+#	source='coders/cip.c' object='coders/magick_libMagickCore_la-cip.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cip.lo `test -f 'coders/cip.c' || echo '$(srcdir)/'`coders/cip.c
 
 coders/magick_libMagickCore_la-clip.lo: coders/clip.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-clip.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-clip.Tpo -c -o coders/magick_libMagickCore_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-clip.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-clip.Plo
-	$(AM_V_CC) \
-	source='coders/clip.c' object='coders/magick_libMagickCore_la-clip.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-clip.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-clip.Tpo -c -o coders/magick_libMagickCore_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-clip.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-clip.Plo
+#	$(AM_V_CC) \
+#	source='coders/clip.c' object='coders/magick_libMagickCore_la-clip.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-clip.lo `test -f 'coders/clip.c' || echo '$(srcdir)/'`coders/clip.c
 
 coders/magick_libMagickCore_la-cmyk.lo: coders/cmyk.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cmyk.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cmyk.Tpo -c -o coders/magick_libMagickCore_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cmyk.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cmyk.Plo
-	$(AM_V_CC) \
-	source='coders/cmyk.c' object='coders/magick_libMagickCore_la-cmyk.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cmyk.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cmyk.Tpo -c -o coders/magick_libMagickCore_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cmyk.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cmyk.Plo
+#	$(AM_V_CC) \
+#	source='coders/cmyk.c' object='coders/magick_libMagickCore_la-cmyk.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cmyk.lo `test -f 'coders/cmyk.c' || echo '$(srcdir)/'`coders/cmyk.c
 
 coders/magick_libMagickCore_la-cut.lo: coders/cut.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cut.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cut.Tpo -c -o coders/magick_libMagickCore_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cut.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cut.Plo
-	$(AM_V_CC) \
-	source='coders/cut.c' object='coders/magick_libMagickCore_la-cut.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-cut.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-cut.Tpo -c -o coders/magick_libMagickCore_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-cut.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-cut.Plo
+#	$(AM_V_CC) \
+#	source='coders/cut.c' object='coders/magick_libMagickCore_la-cut.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-cut.lo `test -f 'coders/cut.c' || echo '$(srcdir)/'`coders/cut.c
 
 coders/magick_libMagickCore_la-dcm.lo: coders/dcm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dcm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dcm.Tpo -c -o coders/magick_libMagickCore_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dcm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dcm.Plo
-	$(AM_V_CC) \
-	source='coders/dcm.c' object='coders/magick_libMagickCore_la-dcm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dcm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dcm.Tpo -c -o coders/magick_libMagickCore_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dcm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dcm.Plo
+#	$(AM_V_CC) \
+#	source='coders/dcm.c' object='coders/magick_libMagickCore_la-dcm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dcm.lo `test -f 'coders/dcm.c' || echo '$(srcdir)/'`coders/dcm.c
 
 coders/magick_libMagickCore_la-dds.lo: coders/dds.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dds.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dds.Tpo -c -o coders/magick_libMagickCore_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dds.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dds.Plo
-	$(AM_V_CC) \
-	source='coders/dds.c' object='coders/magick_libMagickCore_la-dds.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dds.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dds.Tpo -c -o coders/magick_libMagickCore_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dds.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dds.Plo
+#	$(AM_V_CC) \
+#	source='coders/dds.c' object='coders/magick_libMagickCore_la-dds.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dds.lo `test -f 'coders/dds.c' || echo '$(srcdir)/'`coders/dds.c
 
 coders/magick_libMagickCore_la-dib.lo: coders/dib.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dib.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dib.Tpo -c -o coders/magick_libMagickCore_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dib.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dib.Plo
-	$(AM_V_CC) \
-	source='coders/dib.c' object='coders/magick_libMagickCore_la-dib.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dib.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dib.Tpo -c -o coders/magick_libMagickCore_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dib.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dib.Plo
+#	$(AM_V_CC) \
+#	source='coders/dib.c' object='coders/magick_libMagickCore_la-dib.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dib.lo `test -f 'coders/dib.c' || echo '$(srcdir)/'`coders/dib.c
 
 coders/magick_libMagickCore_la-dng.lo: coders/dng.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dng.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dng.Tpo -c -o coders/magick_libMagickCore_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dng.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dng.Plo
-	$(AM_V_CC) \
-	source='coders/dng.c' object='coders/magick_libMagickCore_la-dng.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dng.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dng.Tpo -c -o coders/magick_libMagickCore_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dng.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dng.Plo
+#	$(AM_V_CC) \
+#	source='coders/dng.c' object='coders/magick_libMagickCore_la-dng.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dng.lo `test -f 'coders/dng.c' || echo '$(srcdir)/'`coders/dng.c
 
 coders/magick_libMagickCore_la-dot.lo: coders/dot.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dot.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dot.Tpo -c -o coders/magick_libMagickCore_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dot.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dot.Plo
-	$(AM_V_CC) \
-	source='coders/dot.c' object='coders/magick_libMagickCore_la-dot.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dot.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dot.Tpo -c -o coders/magick_libMagickCore_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dot.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dot.Plo
+#	$(AM_V_CC) \
+#	source='coders/dot.c' object='coders/magick_libMagickCore_la-dot.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dot.lo `test -f 'coders/dot.c' || echo '$(srcdir)/'`coders/dot.c
 
 coders/magick_libMagickCore_la-dps.lo: coders/dps.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dps.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dps.Tpo -c -o coders/magick_libMagickCore_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dps.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dps.Plo
-	$(AM_V_CC) \
-	source='coders/dps.c' object='coders/magick_libMagickCore_la-dps.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dps.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dps.Tpo -c -o coders/magick_libMagickCore_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dps.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dps.Plo
+#	$(AM_V_CC) \
+#	source='coders/dps.c' object='coders/magick_libMagickCore_la-dps.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dps.lo `test -f 'coders/dps.c' || echo '$(srcdir)/'`coders/dps.c
 
 coders/magick_libMagickCore_la-dpx.lo: coders/dpx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dpx.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dpx.Tpo -c -o coders/magick_libMagickCore_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dpx.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dpx.Plo
-	$(AM_V_CC) \
-	source='coders/dpx.c' object='coders/magick_libMagickCore_la-dpx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-dpx.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-dpx.Tpo -c -o coders/magick_libMagickCore_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-dpx.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-dpx.Plo
+#	$(AM_V_CC) \
+#	source='coders/dpx.c' object='coders/magick_libMagickCore_la-dpx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-dpx.lo `test -f 'coders/dpx.c' || echo '$(srcdir)/'`coders/dpx.c
 
 coders/magick_libMagickCore_la-fax.lo: coders/fax.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-fax.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-fax.Tpo -c -o coders/magick_libMagickCore_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-fax.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-fax.Plo
-	$(AM_V_CC) \
-	source='coders/fax.c' object='coders/magick_libMagickCore_la-fax.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-fax.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-fax.Tpo -c -o coders/magick_libMagickCore_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-fax.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-fax.Plo
+#	$(AM_V_CC) \
+#	source='coders/fax.c' object='coders/magick_libMagickCore_la-fax.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-fax.lo `test -f 'coders/fax.c' || echo '$(srcdir)/'`coders/fax.c
 
 coders/magick_libMagickCore_la-fits.lo: coders/fits.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-fits.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-fits.Tpo -c -o coders/magick_libMagickCore_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-fits.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-fits.Plo
-	$(AM_V_CC) \
-	source='coders/fits.c' object='coders/magick_libMagickCore_la-fits.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-fits.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-fits.Tpo -c -o coders/magick_libMagickCore_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-fits.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-fits.Plo
+#	$(AM_V_CC) \
+#	source='coders/fits.c' object='coders/magick_libMagickCore_la-fits.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-fits.lo `test -f 'coders/fits.c' || echo '$(srcdir)/'`coders/fits.c
 
 coders/magick_libMagickCore_la-gif.lo: coders/gif.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-gif.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-gif.Tpo -c -o coders/magick_libMagickCore_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-gif.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-gif.Plo
-	$(AM_V_CC) \
-	source='coders/gif.c' object='coders/magick_libMagickCore_la-gif.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-gif.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-gif.Tpo -c -o coders/magick_libMagickCore_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-gif.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-gif.Plo
+#	$(AM_V_CC) \
+#	source='coders/gif.c' object='coders/magick_libMagickCore_la-gif.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-gif.lo `test -f 'coders/gif.c' || echo '$(srcdir)/'`coders/gif.c
 
 coders/magick_libMagickCore_la-gradient.lo: coders/gradient.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-gradient.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-gradient.Tpo -c -o coders/magick_libMagickCore_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-gradient.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-gradient.Plo
-	$(AM_V_CC) \
-	source='coders/gradient.c' object='coders/magick_libMagickCore_la-gradient.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-gradient.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-gradient.Tpo -c -o coders/magick_libMagickCore_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-gradient.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-gradient.Plo
+#	$(AM_V_CC) \
+#	source='coders/gradient.c' object='coders/magick_libMagickCore_la-gradient.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-gradient.lo `test -f 'coders/gradient.c' || echo '$(srcdir)/'`coders/gradient.c
 
 coders/magick_libMagickCore_la-gray.lo: coders/gray.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-gray.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-gray.Tpo -c -o coders/magick_libMagickCore_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-gray.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-gray.Plo
-	$(AM_V_CC) \
-	source='coders/gray.c' object='coders/magick_libMagickCore_la-gray.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-gray.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-gray.Tpo -c -o coders/magick_libMagickCore_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-gray.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-gray.Plo
+#	$(AM_V_CC) \
+#	source='coders/gray.c' object='coders/magick_libMagickCore_la-gray.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-gray.lo `test -f 'coders/gray.c' || echo '$(srcdir)/'`coders/gray.c
 
 coders/magick_libMagickCore_la-hald.lo: coders/hald.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-hald.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-hald.Tpo -c -o coders/magick_libMagickCore_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-hald.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-hald.Plo
-	$(AM_V_CC) \
-	source='coders/hald.c' object='coders/magick_libMagickCore_la-hald.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-hald.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-hald.Tpo -c -o coders/magick_libMagickCore_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-hald.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-hald.Plo
+#	$(AM_V_CC) \
+#	source='coders/hald.c' object='coders/magick_libMagickCore_la-hald.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-hald.lo `test -f 'coders/hald.c' || echo '$(srcdir)/'`coders/hald.c
 
 coders/magick_libMagickCore_la-histogram.lo: coders/histogram.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-histogram.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-histogram.Tpo -c -o coders/magick_libMagickCore_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-histogram.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-histogram.Plo
-	$(AM_V_CC) \
-	source='coders/histogram.c' object='coders/magick_libMagickCore_la-histogram.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-histogram.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-histogram.Tpo -c -o coders/magick_libMagickCore_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-histogram.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-histogram.Plo
+#	$(AM_V_CC) \
+#	source='coders/histogram.c' object='coders/magick_libMagickCore_la-histogram.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-histogram.lo `test -f 'coders/histogram.c' || echo '$(srcdir)/'`coders/histogram.c
 
 coders/magick_libMagickCore_la-hrz.lo: coders/hrz.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-hrz.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-hrz.Tpo -c -o coders/magick_libMagickCore_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-hrz.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-hrz.Plo
-	$(AM_V_CC) \
-	source='coders/hrz.c' object='coders/magick_libMagickCore_la-hrz.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-hrz.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-hrz.Tpo -c -o coders/magick_libMagickCore_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-hrz.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-hrz.Plo
+#	$(AM_V_CC) \
+#	source='coders/hrz.c' object='coders/magick_libMagickCore_la-hrz.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-hrz.lo `test -f 'coders/hrz.c' || echo '$(srcdir)/'`coders/hrz.c
 
 coders/magick_libMagickCore_la-html.lo: coders/html.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-html.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-html.Tpo -c -o coders/magick_libMagickCore_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-html.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-html.Plo
-	$(AM_V_CC) \
-	source='coders/html.c' object='coders/magick_libMagickCore_la-html.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-html.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-html.Tpo -c -o coders/magick_libMagickCore_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-html.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-html.Plo
+#	$(AM_V_CC) \
+#	source='coders/html.c' object='coders/magick_libMagickCore_la-html.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-html.lo `test -f 'coders/html.c' || echo '$(srcdir)/'`coders/html.c
 
 coders/magick_libMagickCore_la-icon.lo: coders/icon.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-icon.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-icon.Tpo -c -o coders/magick_libMagickCore_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-icon.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-icon.Plo
-	$(AM_V_CC) \
-	source='coders/icon.c' object='coders/magick_libMagickCore_la-icon.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-icon.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-icon.Tpo -c -o coders/magick_libMagickCore_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-icon.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-icon.Plo
+#	$(AM_V_CC) \
+#	source='coders/icon.c' object='coders/magick_libMagickCore_la-icon.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-icon.lo `test -f 'coders/icon.c' || echo '$(srcdir)/'`coders/icon.c
 
 coders/magick_libMagickCore_la-info.lo: coders/info.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-info.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-info.Tpo -c -o coders/magick_libMagickCore_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-info.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-info.Plo
-	$(AM_V_CC) \
-	source='coders/info.c' object='coders/magick_libMagickCore_la-info.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-info.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-info.Tpo -c -o coders/magick_libMagickCore_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-info.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-info.Plo
+#	$(AM_V_CC) \
+#	source='coders/info.c' object='coders/magick_libMagickCore_la-info.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-info.lo `test -f 'coders/info.c' || echo '$(srcdir)/'`coders/info.c
 
 coders/magick_libMagickCore_la-inline.lo: coders/inline.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-inline.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-inline.Tpo -c -o coders/magick_libMagickCore_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-inline.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-inline.Plo
-	$(AM_V_CC) \
-	source='coders/inline.c' object='coders/magick_libMagickCore_la-inline.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-inline.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-inline.Tpo -c -o coders/magick_libMagickCore_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-inline.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-inline.Plo
+#	$(AM_V_CC) \
+#	source='coders/inline.c' object='coders/magick_libMagickCore_la-inline.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-inline.lo `test -f 'coders/inline.c' || echo '$(srcdir)/'`coders/inline.c
 
 coders/magick_libMagickCore_la-ipl.lo: coders/ipl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ipl.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ipl.Tpo -c -o coders/magick_libMagickCore_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ipl.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ipl.Plo
-	$(AM_V_CC) \
-	source='coders/ipl.c' object='coders/magick_libMagickCore_la-ipl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ipl.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ipl.Tpo -c -o coders/magick_libMagickCore_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ipl.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ipl.Plo
+#	$(AM_V_CC) \
+#	source='coders/ipl.c' object='coders/magick_libMagickCore_la-ipl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ipl.lo `test -f 'coders/ipl.c' || echo '$(srcdir)/'`coders/ipl.c
 
 coders/magick_libMagickCore_la-label.lo: coders/label.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-label.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-label.Tpo -c -o coders/magick_libMagickCore_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-label.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-label.Plo
-	$(AM_V_CC) \
-	source='coders/label.c' object='coders/magick_libMagickCore_la-label.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-label.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-label.Tpo -c -o coders/magick_libMagickCore_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-label.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-label.Plo
+#	$(AM_V_CC) \
+#	source='coders/label.c' object='coders/magick_libMagickCore_la-label.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-label.lo `test -f 'coders/label.c' || echo '$(srcdir)/'`coders/label.c
 
 coders/magick_libMagickCore_la-magick.lo: coders/magick.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-magick.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo -c -o coders/magick_libMagickCore_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-magick.Plo
-	$(AM_V_CC) \
-	source='coders/magick.c' object='coders/magick_libMagickCore_la-magick.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-magick.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo -c -o coders/magick_libMagickCore_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-magick.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-magick.Plo
+#	$(AM_V_CC) \
+#	source='coders/magick.c' object='coders/magick_libMagickCore_la-magick.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-magick.lo `test -f 'coders/magick.c' || echo '$(srcdir)/'`coders/magick.c
 
 coders/magick_libMagickCore_la-map.lo: coders/map.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-map.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-map.Tpo -c -o coders/magick_libMagickCore_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-map.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-map.Plo
-	$(AM_V_CC) \
-	source='coders/map.c' object='coders/magick_libMagickCore_la-map.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-map.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-map.Tpo -c -o coders/magick_libMagickCore_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-map.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-map.Plo
+#	$(AM_V_CC) \
+#	source='coders/map.c' object='coders/magick_libMagickCore_la-map.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-map.lo `test -f 'coders/map.c' || echo '$(srcdir)/'`coders/map.c
 
 coders/magick_libMagickCore_la-mat.lo: coders/mat.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mat.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mat.Tpo -c -o coders/magick_libMagickCore_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mat.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mat.Plo
-	$(AM_V_CC) \
-	source='coders/mat.c' object='coders/magick_libMagickCore_la-mat.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mat.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mat.Tpo -c -o coders/magick_libMagickCore_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mat.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mat.Plo
+#	$(AM_V_CC) \
+#	source='coders/mat.c' object='coders/magick_libMagickCore_la-mat.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mat.lo `test -f 'coders/mat.c' || echo '$(srcdir)/'`coders/mat.c
 
 coders/magick_libMagickCore_la-matte.lo: coders/matte.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-matte.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-matte.Tpo -c -o coders/magick_libMagickCore_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-matte.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-matte.Plo
-	$(AM_V_CC) \
-	source='coders/matte.c' object='coders/magick_libMagickCore_la-matte.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-matte.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-matte.Tpo -c -o coders/magick_libMagickCore_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-matte.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-matte.Plo
+#	$(AM_V_CC) \
+#	source='coders/matte.c' object='coders/magick_libMagickCore_la-matte.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-matte.lo `test -f 'coders/matte.c' || echo '$(srcdir)/'`coders/matte.c
 
 coders/magick_libMagickCore_la-meta.lo: coders/meta.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-meta.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-meta.Tpo -c -o coders/magick_libMagickCore_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-meta.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-meta.Plo
-	$(AM_V_CC) \
-	source='coders/meta.c' object='coders/magick_libMagickCore_la-meta.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-meta.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-meta.Tpo -c -o coders/magick_libMagickCore_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-meta.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-meta.Plo
+#	$(AM_V_CC) \
+#	source='coders/meta.c' object='coders/magick_libMagickCore_la-meta.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-meta.lo `test -f 'coders/meta.c' || echo '$(srcdir)/'`coders/meta.c
 
 coders/magick_libMagickCore_la-miff.lo: coders/miff.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-miff.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-miff.Tpo -c -o coders/magick_libMagickCore_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-miff.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-miff.Plo
-	$(AM_V_CC) \
-	source='coders/miff.c' object='coders/magick_libMagickCore_la-miff.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-miff.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-miff.Tpo -c -o coders/magick_libMagickCore_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-miff.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-miff.Plo
+#	$(AM_V_CC) \
+#	source='coders/miff.c' object='coders/magick_libMagickCore_la-miff.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-miff.lo `test -f 'coders/miff.c' || echo '$(srcdir)/'`coders/miff.c
 
 coders/magick_libMagickCore_la-mono.lo: coders/mono.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mono.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mono.Tpo -c -o coders/magick_libMagickCore_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mono.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mono.Plo
-	$(AM_V_CC) \
-	source='coders/mono.c' object='coders/magick_libMagickCore_la-mono.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mono.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mono.Tpo -c -o coders/magick_libMagickCore_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mono.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mono.Plo
+#	$(AM_V_CC) \
+#	source='coders/mono.c' object='coders/magick_libMagickCore_la-mono.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mono.lo `test -f 'coders/mono.c' || echo '$(srcdir)/'`coders/mono.c
 
 coders/magick_libMagickCore_la-mpc.lo: coders/mpc.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mpc.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mpc.Tpo -c -o coders/magick_libMagickCore_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mpc.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mpc.Plo
-	$(AM_V_CC) \
-	source='coders/mpc.c' object='coders/magick_libMagickCore_la-mpc.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mpc.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mpc.Tpo -c -o coders/magick_libMagickCore_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mpc.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mpc.Plo
+#	$(AM_V_CC) \
+#	source='coders/mpc.c' object='coders/magick_libMagickCore_la-mpc.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mpc.lo `test -f 'coders/mpc.c' || echo '$(srcdir)/'`coders/mpc.c
 
 coders/magick_libMagickCore_la-mpeg.lo: coders/mpeg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mpeg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mpeg.Tpo -c -o coders/magick_libMagickCore_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mpeg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mpeg.Plo
-	$(AM_V_CC) \
-	source='coders/mpeg.c' object='coders/magick_libMagickCore_la-mpeg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mpeg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mpeg.Tpo -c -o coders/magick_libMagickCore_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mpeg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mpeg.Plo
+#	$(AM_V_CC) \
+#	source='coders/mpeg.c' object='coders/magick_libMagickCore_la-mpeg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mpeg.lo `test -f 'coders/mpeg.c' || echo '$(srcdir)/'`coders/mpeg.c
 
 coders/magick_libMagickCore_la-mpr.lo: coders/mpr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mpr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mpr.Tpo -c -o coders/magick_libMagickCore_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mpr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mpr.Plo
-	$(AM_V_CC) \
-	source='coders/mpr.c' object='coders/magick_libMagickCore_la-mpr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mpr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mpr.Tpo -c -o coders/magick_libMagickCore_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mpr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mpr.Plo
+#	$(AM_V_CC) \
+#	source='coders/mpr.c' object='coders/magick_libMagickCore_la-mpr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mpr.lo `test -f 'coders/mpr.c' || echo '$(srcdir)/'`coders/mpr.c
 
 coders/magick_libMagickCore_la-msl.lo: coders/msl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-msl.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-msl.Tpo -c -o coders/magick_libMagickCore_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-msl.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-msl.Plo
-	$(AM_V_CC) \
-	source='coders/msl.c' object='coders/magick_libMagickCore_la-msl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-msl.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-msl.Tpo -c -o coders/magick_libMagickCore_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-msl.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-msl.Plo
+#	$(AM_V_CC) \
+#	source='coders/msl.c' object='coders/magick_libMagickCore_la-msl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-msl.lo `test -f 'coders/msl.c' || echo '$(srcdir)/'`coders/msl.c
 
 coders/magick_libMagickCore_la-mtv.lo: coders/mtv.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mtv.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mtv.Tpo -c -o coders/magick_libMagickCore_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mtv.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mtv.Plo
-	$(AM_V_CC) \
-	source='coders/mtv.c' object='coders/magick_libMagickCore_la-mtv.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mtv.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mtv.Tpo -c -o coders/magick_libMagickCore_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mtv.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mtv.Plo
+#	$(AM_V_CC) \
+#	source='coders/mtv.c' object='coders/magick_libMagickCore_la-mtv.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mtv.lo `test -f 'coders/mtv.c' || echo '$(srcdir)/'`coders/mtv.c
 
 coders/magick_libMagickCore_la-mvg.lo: coders/mvg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mvg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mvg.Tpo -c -o coders/magick_libMagickCore_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mvg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mvg.Plo
-	$(AM_V_CC) \
-	source='coders/mvg.c' object='coders/magick_libMagickCore_la-mvg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-mvg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-mvg.Tpo -c -o coders/magick_libMagickCore_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-mvg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-mvg.Plo
+#	$(AM_V_CC) \
+#	source='coders/mvg.c' object='coders/magick_libMagickCore_la-mvg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-mvg.lo `test -f 'coders/mvg.c' || echo '$(srcdir)/'`coders/mvg.c
 
 coders/magick_libMagickCore_la-null.lo: coders/null.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-null.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-null.Tpo -c -o coders/magick_libMagickCore_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-null.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-null.Plo
-	$(AM_V_CC) \
-	source='coders/null.c' object='coders/magick_libMagickCore_la-null.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-null.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-null.Tpo -c -o coders/magick_libMagickCore_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-null.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-null.Plo
+#	$(AM_V_CC) \
+#	source='coders/null.c' object='coders/magick_libMagickCore_la-null.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-null.lo `test -f 'coders/null.c' || echo '$(srcdir)/'`coders/null.c
 
 coders/magick_libMagickCore_la-otb.lo: coders/otb.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-otb.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-otb.Tpo -c -o coders/magick_libMagickCore_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-otb.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-otb.Plo
-	$(AM_V_CC) \
-	source='coders/otb.c' object='coders/magick_libMagickCore_la-otb.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-otb.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-otb.Tpo -c -o coders/magick_libMagickCore_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-otb.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-otb.Plo
+#	$(AM_V_CC) \
+#	source='coders/otb.c' object='coders/magick_libMagickCore_la-otb.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-otb.lo `test -f 'coders/otb.c' || echo '$(srcdir)/'`coders/otb.c
 
 coders/magick_libMagickCore_la-palm.lo: coders/palm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-palm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-palm.Tpo -c -o coders/magick_libMagickCore_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-palm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-palm.Plo
-	$(AM_V_CC) \
-	source='coders/palm.c' object='coders/magick_libMagickCore_la-palm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-palm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-palm.Tpo -c -o coders/magick_libMagickCore_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-palm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-palm.Plo
+#	$(AM_V_CC) \
+#	source='coders/palm.c' object='coders/magick_libMagickCore_la-palm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-palm.lo `test -f 'coders/palm.c' || echo '$(srcdir)/'`coders/palm.c
 
 coders/magick_libMagickCore_la-pattern.lo: coders/pattern.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pattern.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pattern.Tpo -c -o coders/magick_libMagickCore_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pattern.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pattern.Plo
-	$(AM_V_CC) \
-	source='coders/pattern.c' object='coders/magick_libMagickCore_la-pattern.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pattern.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pattern.Tpo -c -o coders/magick_libMagickCore_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pattern.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pattern.Plo
+#	$(AM_V_CC) \
+#	source='coders/pattern.c' object='coders/magick_libMagickCore_la-pattern.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pattern.lo `test -f 'coders/pattern.c' || echo '$(srcdir)/'`coders/pattern.c
 
 coders/magick_libMagickCore_la-pcd.lo: coders/pcd.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pcd.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pcd.Tpo -c -o coders/magick_libMagickCore_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pcd.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pcd.Plo
-	$(AM_V_CC) \
-	source='coders/pcd.c' object='coders/magick_libMagickCore_la-pcd.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pcd.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pcd.Tpo -c -o coders/magick_libMagickCore_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pcd.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pcd.Plo
+#	$(AM_V_CC) \
+#	source='coders/pcd.c' object='coders/magick_libMagickCore_la-pcd.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pcd.lo `test -f 'coders/pcd.c' || echo '$(srcdir)/'`coders/pcd.c
 
 coders/magick_libMagickCore_la-pcl.lo: coders/pcl.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pcl.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pcl.Tpo -c -o coders/magick_libMagickCore_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pcl.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pcl.Plo
-	$(AM_V_CC) \
-	source='coders/pcl.c' object='coders/magick_libMagickCore_la-pcl.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pcl.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pcl.Tpo -c -o coders/magick_libMagickCore_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pcl.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pcl.Plo
+#	$(AM_V_CC) \
+#	source='coders/pcl.c' object='coders/magick_libMagickCore_la-pcl.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pcl.lo `test -f 'coders/pcl.c' || echo '$(srcdir)/'`coders/pcl.c
 
 coders/magick_libMagickCore_la-pcx.lo: coders/pcx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pcx.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pcx.Tpo -c -o coders/magick_libMagickCore_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pcx.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pcx.Plo
-	$(AM_V_CC) \
-	source='coders/pcx.c' object='coders/magick_libMagickCore_la-pcx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pcx.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pcx.Tpo -c -o coders/magick_libMagickCore_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pcx.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pcx.Plo
+#	$(AM_V_CC) \
+#	source='coders/pcx.c' object='coders/magick_libMagickCore_la-pcx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pcx.lo `test -f 'coders/pcx.c' || echo '$(srcdir)/'`coders/pcx.c
 
 coders/magick_libMagickCore_la-pdb.lo: coders/pdb.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pdb.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pdb.Tpo -c -o coders/magick_libMagickCore_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pdb.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pdb.Plo
-	$(AM_V_CC) \
-	source='coders/pdb.c' object='coders/magick_libMagickCore_la-pdb.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pdb.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pdb.Tpo -c -o coders/magick_libMagickCore_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pdb.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pdb.Plo
+#	$(AM_V_CC) \
+#	source='coders/pdb.c' object='coders/magick_libMagickCore_la-pdb.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pdb.lo `test -f 'coders/pdb.c' || echo '$(srcdir)/'`coders/pdb.c
 
 coders/magick_libMagickCore_la-pdf.lo: coders/pdf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pdf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pdf.Tpo -c -o coders/magick_libMagickCore_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pdf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pdf.Plo
-	$(AM_V_CC) \
-	source='coders/pdf.c' object='coders/magick_libMagickCore_la-pdf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pdf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pdf.Tpo -c -o coders/magick_libMagickCore_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pdf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pdf.Plo
+#	$(AM_V_CC) \
+#	source='coders/pdf.c' object='coders/magick_libMagickCore_la-pdf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pdf.lo `test -f 'coders/pdf.c' || echo '$(srcdir)/'`coders/pdf.c
 
 coders/magick_libMagickCore_la-pict.lo: coders/pict.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pict.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pict.Tpo -c -o coders/magick_libMagickCore_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pict.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pict.Plo
-	$(AM_V_CC) \
-	source='coders/pict.c' object='coders/magick_libMagickCore_la-pict.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pict.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pict.Tpo -c -o coders/magick_libMagickCore_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pict.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pict.Plo
+#	$(AM_V_CC) \
+#	source='coders/pict.c' object='coders/magick_libMagickCore_la-pict.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pict.lo `test -f 'coders/pict.c' || echo '$(srcdir)/'`coders/pict.c
 
 coders/magick_libMagickCore_la-pix.lo: coders/pix.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pix.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pix.Tpo -c -o coders/magick_libMagickCore_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pix.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pix.Plo
-	$(AM_V_CC) \
-	source='coders/pix.c' object='coders/magick_libMagickCore_la-pix.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pix.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pix.Tpo -c -o coders/magick_libMagickCore_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pix.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pix.Plo
+#	$(AM_V_CC) \
+#	source='coders/pix.c' object='coders/magick_libMagickCore_la-pix.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pix.lo `test -f 'coders/pix.c' || echo '$(srcdir)/'`coders/pix.c
 
 coders/magick_libMagickCore_la-plasma.lo: coders/plasma.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-plasma.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-plasma.Tpo -c -o coders/magick_libMagickCore_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-plasma.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-plasma.Plo
-	$(AM_V_CC) \
-	source='coders/plasma.c' object='coders/magick_libMagickCore_la-plasma.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-plasma.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-plasma.Tpo -c -o coders/magick_libMagickCore_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-plasma.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-plasma.Plo
+#	$(AM_V_CC) \
+#	source='coders/plasma.c' object='coders/magick_libMagickCore_la-plasma.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-plasma.lo `test -f 'coders/plasma.c' || echo '$(srcdir)/'`coders/plasma.c
 
 coders/magick_libMagickCore_la-pnm.lo: coders/pnm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pnm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pnm.Tpo -c -o coders/magick_libMagickCore_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pnm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pnm.Plo
-	$(AM_V_CC) \
-	source='coders/pnm.c' object='coders/magick_libMagickCore_la-pnm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pnm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pnm.Tpo -c -o coders/magick_libMagickCore_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pnm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pnm.Plo
+#	$(AM_V_CC) \
+#	source='coders/pnm.c' object='coders/magick_libMagickCore_la-pnm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pnm.lo `test -f 'coders/pnm.c' || echo '$(srcdir)/'`coders/pnm.c
 
 coders/magick_libMagickCore_la-preview.lo: coders/preview.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-preview.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-preview.Tpo -c -o coders/magick_libMagickCore_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-preview.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-preview.Plo
-	$(AM_V_CC) \
-	source='coders/preview.c' object='coders/magick_libMagickCore_la-preview.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-preview.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-preview.Tpo -c -o coders/magick_libMagickCore_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-preview.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-preview.Plo
+#	$(AM_V_CC) \
+#	source='coders/preview.c' object='coders/magick_libMagickCore_la-preview.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-preview.lo `test -f 'coders/preview.c' || echo '$(srcdir)/'`coders/preview.c
 
 coders/magick_libMagickCore_la-ps.lo: coders/ps.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ps.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ps.Tpo -c -o coders/magick_libMagickCore_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ps.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ps.Plo
-	$(AM_V_CC) \
-	source='coders/ps.c' object='coders/magick_libMagickCore_la-ps.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ps.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ps.Tpo -c -o coders/magick_libMagickCore_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ps.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ps.Plo
+#	$(AM_V_CC) \
+#	source='coders/ps.c' object='coders/magick_libMagickCore_la-ps.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ps.lo `test -f 'coders/ps.c' || echo '$(srcdir)/'`coders/ps.c
 
 coders/magick_libMagickCore_la-ps2.lo: coders/ps2.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ps2.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ps2.Tpo -c -o coders/magick_libMagickCore_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ps2.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ps2.Plo
-	$(AM_V_CC) \
-	source='coders/ps2.c' object='coders/magick_libMagickCore_la-ps2.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ps2.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ps2.Tpo -c -o coders/magick_libMagickCore_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ps2.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ps2.Plo
+#	$(AM_V_CC) \
+#	source='coders/ps2.c' object='coders/magick_libMagickCore_la-ps2.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ps2.lo `test -f 'coders/ps2.c' || echo '$(srcdir)/'`coders/ps2.c
 
 coders/magick_libMagickCore_la-ps3.lo: coders/ps3.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ps3.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ps3.Tpo -c -o coders/magick_libMagickCore_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ps3.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ps3.Plo
-	$(AM_V_CC) \
-	source='coders/ps3.c' object='coders/magick_libMagickCore_la-ps3.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ps3.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ps3.Tpo -c -o coders/magick_libMagickCore_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ps3.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ps3.Plo
+#	$(AM_V_CC) \
+#	source='coders/ps3.c' object='coders/magick_libMagickCore_la-ps3.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ps3.lo `test -f 'coders/ps3.c' || echo '$(srcdir)/'`coders/ps3.c
 
 coders/magick_libMagickCore_la-psd.lo: coders/psd.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-psd.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-psd.Tpo -c -o coders/magick_libMagickCore_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-psd.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-psd.Plo
-	$(AM_V_CC) \
-	source='coders/psd.c' object='coders/magick_libMagickCore_la-psd.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-psd.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-psd.Tpo -c -o coders/magick_libMagickCore_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-psd.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-psd.Plo
+#	$(AM_V_CC) \
+#	source='coders/psd.c' object='coders/magick_libMagickCore_la-psd.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-psd.lo `test -f 'coders/psd.c' || echo '$(srcdir)/'`coders/psd.c
 
 coders/magick_libMagickCore_la-pwp.lo: coders/pwp.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pwp.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pwp.Tpo -c -o coders/magick_libMagickCore_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pwp.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pwp.Plo
-	$(AM_V_CC) \
-	source='coders/pwp.c' object='coders/magick_libMagickCore_la-pwp.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-pwp.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-pwp.Tpo -c -o coders/magick_libMagickCore_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-pwp.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-pwp.Plo
+#	$(AM_V_CC) \
+#	source='coders/pwp.c' object='coders/magick_libMagickCore_la-pwp.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-pwp.lo `test -f 'coders/pwp.c' || echo '$(srcdir)/'`coders/pwp.c
 
 coders/magick_libMagickCore_la-raw.lo: coders/raw.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-raw.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-raw.Tpo -c -o coders/magick_libMagickCore_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-raw.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-raw.Plo
-	$(AM_V_CC) \
-	source='coders/raw.c' object='coders/magick_libMagickCore_la-raw.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-raw.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-raw.Tpo -c -o coders/magick_libMagickCore_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-raw.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-raw.Plo
+#	$(AM_V_CC) \
+#	source='coders/raw.c' object='coders/magick_libMagickCore_la-raw.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-raw.lo `test -f 'coders/raw.c' || echo '$(srcdir)/'`coders/raw.c
 
 coders/magick_libMagickCore_la-rgb.lo: coders/rgb.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-rgb.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-rgb.Tpo -c -o coders/magick_libMagickCore_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-rgb.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-rgb.Plo
-	$(AM_V_CC) \
-	source='coders/rgb.c' object='coders/magick_libMagickCore_la-rgb.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-rgb.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-rgb.Tpo -c -o coders/magick_libMagickCore_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-rgb.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-rgb.Plo
+#	$(AM_V_CC) \
+#	source='coders/rgb.c' object='coders/magick_libMagickCore_la-rgb.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-rgb.lo `test -f 'coders/rgb.c' || echo '$(srcdir)/'`coders/rgb.c
 
 coders/magick_libMagickCore_la-rla.lo: coders/rla.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-rla.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-rla.Tpo -c -o coders/magick_libMagickCore_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-rla.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-rla.Plo
-	$(AM_V_CC) \
-	source='coders/rla.c' object='coders/magick_libMagickCore_la-rla.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-rla.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-rla.Tpo -c -o coders/magick_libMagickCore_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-rla.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-rla.Plo
+#	$(AM_V_CC) \
+#	source='coders/rla.c' object='coders/magick_libMagickCore_la-rla.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-rla.lo `test -f 'coders/rla.c' || echo '$(srcdir)/'`coders/rla.c
 
 coders/magick_libMagickCore_la-rle.lo: coders/rle.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-rle.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-rle.Tpo -c -o coders/magick_libMagickCore_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-rle.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-rle.Plo
-	$(AM_V_CC) \
-	source='coders/rle.c' object='coders/magick_libMagickCore_la-rle.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-rle.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-rle.Tpo -c -o coders/magick_libMagickCore_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-rle.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-rle.Plo
+#	$(AM_V_CC) \
+#	source='coders/rle.c' object='coders/magick_libMagickCore_la-rle.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-rle.lo `test -f 'coders/rle.c' || echo '$(srcdir)/'`coders/rle.c
 
 coders/magick_libMagickCore_la-scr.lo: coders/scr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-scr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-scr.Tpo -c -o coders/magick_libMagickCore_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-scr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-scr.Plo
-	$(AM_V_CC) \
-	source='coders/scr.c' object='coders/magick_libMagickCore_la-scr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-scr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-scr.Tpo -c -o coders/magick_libMagickCore_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-scr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-scr.Plo
+#	$(AM_V_CC) \
+#	source='coders/scr.c' object='coders/magick_libMagickCore_la-scr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-scr.lo `test -f 'coders/scr.c' || echo '$(srcdir)/'`coders/scr.c
 
 coders/magick_libMagickCore_la-sct.lo: coders/sct.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sct.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sct.Tpo -c -o coders/magick_libMagickCore_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sct.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sct.Plo
-	$(AM_V_CC) \
-	source='coders/sct.c' object='coders/magick_libMagickCore_la-sct.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sct.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sct.Tpo -c -o coders/magick_libMagickCore_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sct.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sct.Plo
+#	$(AM_V_CC) \
+#	source='coders/sct.c' object='coders/magick_libMagickCore_la-sct.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sct.lo `test -f 'coders/sct.c' || echo '$(srcdir)/'`coders/sct.c
 
 coders/magick_libMagickCore_la-sfw.lo: coders/sfw.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sfw.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sfw.Tpo -c -o coders/magick_libMagickCore_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sfw.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sfw.Plo
-	$(AM_V_CC) \
-	source='coders/sfw.c' object='coders/magick_libMagickCore_la-sfw.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sfw.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sfw.Tpo -c -o coders/magick_libMagickCore_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sfw.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sfw.Plo
+#	$(AM_V_CC) \
+#	source='coders/sfw.c' object='coders/magick_libMagickCore_la-sfw.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sfw.lo `test -f 'coders/sfw.c' || echo '$(srcdir)/'`coders/sfw.c
 
 coders/magick_libMagickCore_la-sgi.lo: coders/sgi.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sgi.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sgi.Tpo -c -o coders/magick_libMagickCore_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sgi.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sgi.Plo
-	$(AM_V_CC) \
-	source='coders/sgi.c' object='coders/magick_libMagickCore_la-sgi.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sgi.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sgi.Tpo -c -o coders/magick_libMagickCore_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sgi.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sgi.Plo
+#	$(AM_V_CC) \
+#	source='coders/sgi.c' object='coders/magick_libMagickCore_la-sgi.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sgi.lo `test -f 'coders/sgi.c' || echo '$(srcdir)/'`coders/sgi.c
 
 coders/magick_libMagickCore_la-stegano.lo: coders/stegano.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-stegano.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-stegano.Tpo -c -o coders/magick_libMagickCore_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-stegano.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-stegano.Plo
-	$(AM_V_CC) \
-	source='coders/stegano.c' object='coders/magick_libMagickCore_la-stegano.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-stegano.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-stegano.Tpo -c -o coders/magick_libMagickCore_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-stegano.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-stegano.Plo
+#	$(AM_V_CC) \
+#	source='coders/stegano.c' object='coders/magick_libMagickCore_la-stegano.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-stegano.lo `test -f 'coders/stegano.c' || echo '$(srcdir)/'`coders/stegano.c
 
 coders/magick_libMagickCore_la-sun.lo: coders/sun.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sun.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sun.Tpo -c -o coders/magick_libMagickCore_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sun.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sun.Plo
-	$(AM_V_CC) \
-	source='coders/sun.c' object='coders/magick_libMagickCore_la-sun.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-sun.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-sun.Tpo -c -o coders/magick_libMagickCore_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-sun.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-sun.Plo
+#	$(AM_V_CC) \
+#	source='coders/sun.c' object='coders/magick_libMagickCore_la-sun.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-sun.lo `test -f 'coders/sun.c' || echo '$(srcdir)/'`coders/sun.c
 
 coders/magick_libMagickCore_la-svg.lo: coders/svg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-svg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-svg.Tpo -c -o coders/magick_libMagickCore_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-svg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-svg.Plo
-	$(AM_V_CC) \
-	source='coders/svg.c' object='coders/magick_libMagickCore_la-svg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-svg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-svg.Tpo -c -o coders/magick_libMagickCore_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-svg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-svg.Plo
+#	$(AM_V_CC) \
+#	source='coders/svg.c' object='coders/magick_libMagickCore_la-svg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-svg.lo `test -f 'coders/svg.c' || echo '$(srcdir)/'`coders/svg.c
 
 coders/magick_libMagickCore_la-tga.lo: coders/tga.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tga.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tga.Tpo -c -o coders/magick_libMagickCore_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tga.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tga.Plo
-	$(AM_V_CC) \
-	source='coders/tga.c' object='coders/magick_libMagickCore_la-tga.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tga.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tga.Tpo -c -o coders/magick_libMagickCore_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tga.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tga.Plo
+#	$(AM_V_CC) \
+#	source='coders/tga.c' object='coders/magick_libMagickCore_la-tga.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tga.lo `test -f 'coders/tga.c' || echo '$(srcdir)/'`coders/tga.c
 
 coders/magick_libMagickCore_la-thumbnail.lo: coders/thumbnail.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-thumbnail.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-thumbnail.Tpo -c -o coders/magick_libMagickCore_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-thumbnail.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-thumbnail.Plo
-	$(AM_V_CC) \
-	source='coders/thumbnail.c' object='coders/magick_libMagickCore_la-thumbnail.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-thumbnail.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-thumbnail.Tpo -c -o coders/magick_libMagickCore_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-thumbnail.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-thumbnail.Plo
+#	$(AM_V_CC) \
+#	source='coders/thumbnail.c' object='coders/magick_libMagickCore_la-thumbnail.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-thumbnail.lo `test -f 'coders/thumbnail.c' || echo '$(srcdir)/'`coders/thumbnail.c
 
 coders/magick_libMagickCore_la-tile.lo: coders/tile.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tile.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tile.Tpo -c -o coders/magick_libMagickCore_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tile.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tile.Plo
-	$(AM_V_CC) \
-	source='coders/tile.c' object='coders/magick_libMagickCore_la-tile.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tile.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tile.Tpo -c -o coders/magick_libMagickCore_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tile.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tile.Plo
+#	$(AM_V_CC) \
+#	source='coders/tile.c' object='coders/magick_libMagickCore_la-tile.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tile.lo `test -f 'coders/tile.c' || echo '$(srcdir)/'`coders/tile.c
 
 coders/magick_libMagickCore_la-tim.lo: coders/tim.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tim.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tim.Tpo -c -o coders/magick_libMagickCore_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tim.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tim.Plo
-	$(AM_V_CC) \
-	source='coders/tim.c' object='coders/magick_libMagickCore_la-tim.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tim.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tim.Tpo -c -o coders/magick_libMagickCore_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tim.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tim.Plo
+#	$(AM_V_CC) \
+#	source='coders/tim.c' object='coders/magick_libMagickCore_la-tim.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tim.lo `test -f 'coders/tim.c' || echo '$(srcdir)/'`coders/tim.c
 
 coders/magick_libMagickCore_la-ttf.lo: coders/ttf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ttf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ttf.Tpo -c -o coders/magick_libMagickCore_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ttf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ttf.Plo
-	$(AM_V_CC) \
-	source='coders/ttf.c' object='coders/magick_libMagickCore_la-ttf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ttf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ttf.Tpo -c -o coders/magick_libMagickCore_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ttf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ttf.Plo
+#	$(AM_V_CC) \
+#	source='coders/ttf.c' object='coders/magick_libMagickCore_la-ttf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ttf.lo `test -f 'coders/ttf.c' || echo '$(srcdir)/'`coders/ttf.c
 
 coders/magick_libMagickCore_la-txt.lo: coders/txt.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-txt.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-txt.Tpo -c -o coders/magick_libMagickCore_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-txt.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-txt.Plo
-	$(AM_V_CC) \
-	source='coders/txt.c' object='coders/magick_libMagickCore_la-txt.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-txt.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-txt.Tpo -c -o coders/magick_libMagickCore_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-txt.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-txt.Plo
+#	$(AM_V_CC) \
+#	source='coders/txt.c' object='coders/magick_libMagickCore_la-txt.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-txt.lo `test -f 'coders/txt.c' || echo '$(srcdir)/'`coders/txt.c
 
 coders/magick_libMagickCore_la-uil.lo: coders/uil.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-uil.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-uil.Tpo -c -o coders/magick_libMagickCore_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-uil.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-uil.Plo
-	$(AM_V_CC) \
-	source='coders/uil.c' object='coders/magick_libMagickCore_la-uil.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-uil.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-uil.Tpo -c -o coders/magick_libMagickCore_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-uil.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-uil.Plo
+#	$(AM_V_CC) \
+#	source='coders/uil.c' object='coders/magick_libMagickCore_la-uil.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-uil.lo `test -f 'coders/uil.c' || echo '$(srcdir)/'`coders/uil.c
 
 coders/magick_libMagickCore_la-url.lo: coders/url.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-url.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-url.Tpo -c -o coders/magick_libMagickCore_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-url.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-url.Plo
-	$(AM_V_CC) \
-	source='coders/url.c' object='coders/magick_libMagickCore_la-url.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-url.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-url.Tpo -c -o coders/magick_libMagickCore_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-url.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-url.Plo
+#	$(AM_V_CC) \
+#	source='coders/url.c' object='coders/magick_libMagickCore_la-url.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-url.lo `test -f 'coders/url.c' || echo '$(srcdir)/'`coders/url.c
 
 coders/magick_libMagickCore_la-uyvy.lo: coders/uyvy.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-uyvy.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-uyvy.Tpo -c -o coders/magick_libMagickCore_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-uyvy.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-uyvy.Plo
-	$(AM_V_CC) \
-	source='coders/uyvy.c' object='coders/magick_libMagickCore_la-uyvy.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-uyvy.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-uyvy.Tpo -c -o coders/magick_libMagickCore_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-uyvy.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-uyvy.Plo
+#	$(AM_V_CC) \
+#	source='coders/uyvy.c' object='coders/magick_libMagickCore_la-uyvy.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-uyvy.lo `test -f 'coders/uyvy.c' || echo '$(srcdir)/'`coders/uyvy.c
 
 coders/magick_libMagickCore_la-vicar.lo: coders/vicar.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-vicar.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-vicar.Tpo -c -o coders/magick_libMagickCore_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-vicar.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-vicar.Plo
-	$(AM_V_CC) \
-	source='coders/vicar.c' object='coders/magick_libMagickCore_la-vicar.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-vicar.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-vicar.Tpo -c -o coders/magick_libMagickCore_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-vicar.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-vicar.Plo
+#	$(AM_V_CC) \
+#	source='coders/vicar.c' object='coders/magick_libMagickCore_la-vicar.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-vicar.lo `test -f 'coders/vicar.c' || echo '$(srcdir)/'`coders/vicar.c
 
 coders/magick_libMagickCore_la-vid.lo: coders/vid.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-vid.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-vid.Tpo -c -o coders/magick_libMagickCore_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-vid.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-vid.Plo
-	$(AM_V_CC) \
-	source='coders/vid.c' object='coders/magick_libMagickCore_la-vid.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-vid.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-vid.Tpo -c -o coders/magick_libMagickCore_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-vid.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-vid.Plo
+#	$(AM_V_CC) \
+#	source='coders/vid.c' object='coders/magick_libMagickCore_la-vid.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-vid.lo `test -f 'coders/vid.c' || echo '$(srcdir)/'`coders/vid.c
 
 coders/magick_libMagickCore_la-viff.lo: coders/viff.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-viff.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-viff.Tpo -c -o coders/magick_libMagickCore_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-viff.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-viff.Plo
-	$(AM_V_CC) \
-	source='coders/viff.c' object='coders/magick_libMagickCore_la-viff.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-viff.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-viff.Tpo -c -o coders/magick_libMagickCore_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-viff.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-viff.Plo
+#	$(AM_V_CC) \
+#	source='coders/viff.c' object='coders/magick_libMagickCore_la-viff.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-viff.lo `test -f 'coders/viff.c' || echo '$(srcdir)/'`coders/viff.c
 
 coders/magick_libMagickCore_la-wbmp.lo: coders/wbmp.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-wbmp.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-wbmp.Tpo -c -o coders/magick_libMagickCore_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-wbmp.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-wbmp.Plo
-	$(AM_V_CC) \
-	source='coders/wbmp.c' object='coders/magick_libMagickCore_la-wbmp.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-wbmp.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-wbmp.Tpo -c -o coders/magick_libMagickCore_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-wbmp.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-wbmp.Plo
+#	$(AM_V_CC) \
+#	source='coders/wbmp.c' object='coders/magick_libMagickCore_la-wbmp.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-wbmp.lo `test -f 'coders/wbmp.c' || echo '$(srcdir)/'`coders/wbmp.c
 
 coders/magick_libMagickCore_la-wpg.lo: coders/wpg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-wpg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-wpg.Tpo -c -o coders/magick_libMagickCore_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-wpg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-wpg.Plo
-	$(AM_V_CC) \
-	source='coders/wpg.c' object='coders/magick_libMagickCore_la-wpg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-wpg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-wpg.Tpo -c -o coders/magick_libMagickCore_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-wpg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-wpg.Plo
+#	$(AM_V_CC) \
+#	source='coders/wpg.c' object='coders/magick_libMagickCore_la-wpg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-wpg.lo `test -f 'coders/wpg.c' || echo '$(srcdir)/'`coders/wpg.c
 
 coders/magick_libMagickCore_la-xbm.lo: coders/xbm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xbm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xbm.Tpo -c -o coders/magick_libMagickCore_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xbm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xbm.Plo
-	$(AM_V_CC) \
-	source='coders/xbm.c' object='coders/magick_libMagickCore_la-xbm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xbm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xbm.Tpo -c -o coders/magick_libMagickCore_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xbm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xbm.Plo
+#	$(AM_V_CC) \
+#	source='coders/xbm.c' object='coders/magick_libMagickCore_la-xbm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xbm.lo `test -f 'coders/xbm.c' || echo '$(srcdir)/'`coders/xbm.c
 
 coders/magick_libMagickCore_la-xc.lo: coders/xc.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xc.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xc.Tpo -c -o coders/magick_libMagickCore_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xc.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xc.Plo
-	$(AM_V_CC) \
-	source='coders/xc.c' object='coders/magick_libMagickCore_la-xc.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xc.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xc.Tpo -c -o coders/magick_libMagickCore_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xc.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xc.Plo
+#	$(AM_V_CC) \
+#	source='coders/xc.c' object='coders/magick_libMagickCore_la-xc.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xc.lo `test -f 'coders/xc.c' || echo '$(srcdir)/'`coders/xc.c
 
 coders/magick_libMagickCore_la-xcf.lo: coders/xcf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xcf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xcf.Tpo -c -o coders/magick_libMagickCore_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xcf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xcf.Plo
-	$(AM_V_CC) \
-	source='coders/xcf.c' object='coders/magick_libMagickCore_la-xcf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xcf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xcf.Tpo -c -o coders/magick_libMagickCore_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xcf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xcf.Plo
+#	$(AM_V_CC) \
+#	source='coders/xcf.c' object='coders/magick_libMagickCore_la-xcf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xcf.lo `test -f 'coders/xcf.c' || echo '$(srcdir)/'`coders/xcf.c
 
 coders/magick_libMagickCore_la-xpm.lo: coders/xpm.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xpm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xpm.Tpo -c -o coders/magick_libMagickCore_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xpm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xpm.Plo
-	$(AM_V_CC) \
-	source='coders/xpm.c' object='coders/magick_libMagickCore_la-xpm.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xpm.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xpm.Tpo -c -o coders/magick_libMagickCore_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xpm.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xpm.Plo
+#	$(AM_V_CC) \
+#	source='coders/xpm.c' object='coders/magick_libMagickCore_la-xpm.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xpm.lo `test -f 'coders/xpm.c' || echo '$(srcdir)/'`coders/xpm.c
 
 coders/magick_libMagickCore_la-xps.lo: coders/xps.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xps.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xps.Tpo -c -o coders/magick_libMagickCore_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xps.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xps.Plo
-	$(AM_V_CC) \
-	source='coders/xps.c' object='coders/magick_libMagickCore_la-xps.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xps.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xps.Tpo -c -o coders/magick_libMagickCore_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xps.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xps.Plo
+#	$(AM_V_CC) \
+#	source='coders/xps.c' object='coders/magick_libMagickCore_la-xps.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xps.lo `test -f 'coders/xps.c' || echo '$(srcdir)/'`coders/xps.c
 
 coders/magick_libMagickCore_la-ycbcr.lo: coders/ycbcr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ycbcr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ycbcr.Tpo -c -o coders/magick_libMagickCore_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ycbcr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ycbcr.Plo
-	$(AM_V_CC) \
-	source='coders/ycbcr.c' object='coders/magick_libMagickCore_la-ycbcr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ycbcr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ycbcr.Tpo -c -o coders/magick_libMagickCore_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ycbcr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ycbcr.Plo
+#	$(AM_V_CC) \
+#	source='coders/ycbcr.c' object='coders/magick_libMagickCore_la-ycbcr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ycbcr.lo `test -f 'coders/ycbcr.c' || echo '$(srcdir)/'`coders/ycbcr.c
 
 coders/magick_libMagickCore_la-yuv.lo: coders/yuv.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-yuv.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-yuv.Tpo -c -o coders/magick_libMagickCore_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-yuv.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-yuv.Plo
-	$(AM_V_CC) \
-	source='coders/yuv.c' object='coders/magick_libMagickCore_la-yuv.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-yuv.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-yuv.Tpo -c -o coders/magick_libMagickCore_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-yuv.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-yuv.Plo
+#	$(AM_V_CC) \
+#	source='coders/yuv.c' object='coders/magick_libMagickCore_la-yuv.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-yuv.lo `test -f 'coders/yuv.c' || echo '$(srcdir)/'`coders/yuv.c
 
 coders/magick_libMagickCore_la-djvu.lo: coders/djvu.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-djvu.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-djvu.Tpo -c -o coders/magick_libMagickCore_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-djvu.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-djvu.Plo
-	$(AM_V_CC) \
-	source='coders/djvu.c' object='coders/magick_libMagickCore_la-djvu.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-djvu.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-djvu.Tpo -c -o coders/magick_libMagickCore_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-djvu.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-djvu.Plo
+#	$(AM_V_CC) \
+#	source='coders/djvu.c' object='coders/magick_libMagickCore_la-djvu.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-djvu.lo `test -f 'coders/djvu.c' || echo '$(srcdir)/'`coders/djvu.c
 
 coders/magick_libMagickCore_la-exr.lo: coders/exr.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-exr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-exr.Tpo -c -o coders/magick_libMagickCore_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-exr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-exr.Plo
-	$(AM_V_CC) \
-	source='coders/exr.c' object='coders/magick_libMagickCore_la-exr.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-exr.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-exr.Tpo -c -o coders/magick_libMagickCore_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-exr.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-exr.Plo
+#	$(AM_V_CC) \
+#	source='coders/exr.c' object='coders/magick_libMagickCore_la-exr.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-exr.lo `test -f 'coders/exr.c' || echo '$(srcdir)/'`coders/exr.c
 
 coders/magick_libMagickCore_la-fpx.lo: coders/fpx.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-fpx.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-fpx.Tpo -c -o coders/magick_libMagickCore_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-fpx.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-fpx.Plo
-	$(AM_V_CC) \
-	source='coders/fpx.c' object='coders/magick_libMagickCore_la-fpx.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-fpx.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-fpx.Tpo -c -o coders/magick_libMagickCore_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-fpx.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-fpx.Plo
+#	$(AM_V_CC) \
+#	source='coders/fpx.c' object='coders/magick_libMagickCore_la-fpx.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-fpx.lo `test -f 'coders/fpx.c' || echo '$(srcdir)/'`coders/fpx.c
 
 coders/magick_libMagickCore_la-clipboard.lo: coders/clipboard.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-clipboard.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-clipboard.Tpo -c -o coders/magick_libMagickCore_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-clipboard.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-clipboard.Plo
-	$(AM_V_CC) \
-	source='coders/clipboard.c' object='coders/magick_libMagickCore_la-clipboard.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-clipboard.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-clipboard.Tpo -c -o coders/magick_libMagickCore_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-clipboard.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-clipboard.Plo
+#	$(AM_V_CC) \
+#	source='coders/clipboard.c' object='coders/magick_libMagickCore_la-clipboard.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-clipboard.lo `test -f 'coders/clipboard.c' || echo '$(srcdir)/'`coders/clipboard.c
 
 coders/magick_libMagickCore_la-emf.lo: coders/emf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-emf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-emf.Tpo -c -o coders/magick_libMagickCore_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-emf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-emf.Plo
-	$(AM_V_CC) \
-	source='coders/emf.c' object='coders/magick_libMagickCore_la-emf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-emf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-emf.Tpo -c -o coders/magick_libMagickCore_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-emf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-emf.Plo
+#	$(AM_V_CC) \
+#	source='coders/emf.c' object='coders/magick_libMagickCore_la-emf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-emf.lo `test -f 'coders/emf.c' || echo '$(srcdir)/'`coders/emf.c
 
 coders/magick_libMagickCore_la-jbig.lo: coders/jbig.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-jbig.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-jbig.Tpo -c -o coders/magick_libMagickCore_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-jbig.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-jbig.Plo
-	$(AM_V_CC) \
-	source='coders/jbig.c' object='coders/magick_libMagickCore_la-jbig.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-jbig.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-jbig.Tpo -c -o coders/magick_libMagickCore_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-jbig.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-jbig.Plo
+#	$(AM_V_CC) \
+#	source='coders/jbig.c' object='coders/magick_libMagickCore_la-jbig.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-jbig.lo `test -f 'coders/jbig.c' || echo '$(srcdir)/'`coders/jbig.c
 
 coders/magick_libMagickCore_la-jpeg.lo: coders/jpeg.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-jpeg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-jpeg.Tpo -c -o coders/magick_libMagickCore_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-jpeg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-jpeg.Plo
-	$(AM_V_CC) \
-	source='coders/jpeg.c' object='coders/magick_libMagickCore_la-jpeg.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-jpeg.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-jpeg.Tpo -c -o coders/magick_libMagickCore_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-jpeg.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-jpeg.Plo
+#	$(AM_V_CC) \
+#	source='coders/jpeg.c' object='coders/magick_libMagickCore_la-jpeg.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-jpeg.lo `test -f 'coders/jpeg.c' || echo '$(srcdir)/'`coders/jpeg.c
 
 coders/magick_libMagickCore_la-jp2.lo: coders/jp2.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-jp2.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-jp2.Tpo -c -o coders/magick_libMagickCore_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-jp2.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-jp2.Plo
-	$(AM_V_CC) \
-	source='coders/jp2.c' object='coders/magick_libMagickCore_la-jp2.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-jp2.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-jp2.Tpo -c -o coders/magick_libMagickCore_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-jp2.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-jp2.Plo
+#	$(AM_V_CC) \
+#	source='coders/jp2.c' object='coders/magick_libMagickCore_la-jp2.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-jp2.lo `test -f 'coders/jp2.c' || echo '$(srcdir)/'`coders/jp2.c
 
 coders/magick_libMagickCore_la-png.lo: coders/png.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-png.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-png.Tpo -c -o coders/magick_libMagickCore_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-png.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-png.Plo
-	$(AM_V_CC) \
-	source='coders/png.c' object='coders/magick_libMagickCore_la-png.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-png.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-png.Tpo -c -o coders/magick_libMagickCore_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-png.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-png.Plo
+#	$(AM_V_CC) \
+#	source='coders/png.c' object='coders/magick_libMagickCore_la-png.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-png.lo `test -f 'coders/png.c' || echo '$(srcdir)/'`coders/png.c
 
 coders/magick_libMagickCore_la-ept.lo: coders/ept.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ept.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ept.Tpo -c -o coders/magick_libMagickCore_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ept.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ept.Plo
-	$(AM_V_CC) \
-	source='coders/ept.c' object='coders/magick_libMagickCore_la-ept.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-ept.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-ept.Tpo -c -o coders/magick_libMagickCore_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-ept.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-ept.Plo
+#	$(AM_V_CC) \
+#	source='coders/ept.c' object='coders/magick_libMagickCore_la-ept.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-ept.lo `test -f 'coders/ept.c' || echo '$(srcdir)/'`coders/ept.c
 
 coders/magick_libMagickCore_la-tiff.lo: coders/tiff.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tiff.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tiff.Tpo -c -o coders/magick_libMagickCore_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tiff.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tiff.Plo
-	$(AM_V_CC) \
-	source='coders/tiff.c' object='coders/magick_libMagickCore_la-tiff.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-tiff.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-tiff.Tpo -c -o coders/magick_libMagickCore_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-tiff.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-tiff.Plo
+#	$(AM_V_CC) \
+#	source='coders/tiff.c' object='coders/magick_libMagickCore_la-tiff.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-tiff.lo `test -f 'coders/tiff.c' || echo '$(srcdir)/'`coders/tiff.c
 
 coders/magick_libMagickCore_la-wmf.lo: coders/wmf.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-wmf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-wmf.Tpo -c -o coders/magick_libMagickCore_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-wmf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-wmf.Plo
-	$(AM_V_CC) \
-	source='coders/wmf.c' object='coders/magick_libMagickCore_la-wmf.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-wmf.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-wmf.Tpo -c -o coders/magick_libMagickCore_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-wmf.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-wmf.Plo
+#	$(AM_V_CC) \
+#	source='coders/wmf.c' object='coders/magick_libMagickCore_la-wmf.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-wmf.lo `test -f 'coders/wmf.c' || echo '$(srcdir)/'`coders/wmf.c
 
 coders/magick_libMagickCore_la-x.lo: coders/x.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-x.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-x.Tpo -c -o coders/magick_libMagickCore_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-x.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-x.Plo
-	$(AM_V_CC) \
-	source='coders/x.c' object='coders/magick_libMagickCore_la-x.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-x.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-x.Tpo -c -o coders/magick_libMagickCore_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-x.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-x.Plo
+#	$(AM_V_CC) \
+#	source='coders/x.c' object='coders/magick_libMagickCore_la-x.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-x.lo `test -f 'coders/x.c' || echo '$(srcdir)/'`coders/x.c
 
 coders/magick_libMagickCore_la-xwd.lo: coders/xwd.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xwd.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xwd.Tpo -c -o coders/magick_libMagickCore_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
-#	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xwd.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xwd.Plo
-	$(AM_V_CC) \
-	source='coders/xwd.c' object='coders/magick_libMagickCore_la-xwd.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT coders/magick_libMagickCore_la-xwd.lo -MD -MP -MF coders/$(DEPDIR)/magick_libMagickCore_la-xwd.Tpo -c -o coders/magick_libMagickCore_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
+	$(AM_V_at)$(am__mv) coders/$(DEPDIR)/magick_libMagickCore_la-xwd.Tpo coders/$(DEPDIR)/magick_libMagickCore_la-xwd.Plo
+#	$(AM_V_CC) \
+#	source='coders/xwd.c' object='coders/magick_libMagickCore_la-xwd.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o coders/magick_libMagickCore_la-xwd.lo `test -f 'coders/xwd.c' || echo '$(srcdir)/'`coders/xwd.c
 
 filters/magick_libMagickCore_la-analyze.lo: filters/analyze.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT filters/magick_libMagickCore_la-analyze.lo -MD -MP -MF filters/$(DEPDIR)/magick_libMagickCore_la-analyze.Tpo -c -o filters/magick_libMagickCore_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
-#	$(AM_V_at)$(am__mv) filters/$(DEPDIR)/magick_libMagickCore_la-analyze.Tpo filters/$(DEPDIR)/magick_libMagickCore_la-analyze.Plo
-	$(AM_V_CC) \
-	source='filters/analyze.c' object='filters/magick_libMagickCore_la-analyze.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o filters/magick_libMagickCore_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT filters/magick_libMagickCore_la-analyze.lo -MD -MP -MF filters/$(DEPDIR)/magick_libMagickCore_la-analyze.Tpo -c -o filters/magick_libMagickCore_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
+	$(AM_V_at)$(am__mv) filters/$(DEPDIR)/magick_libMagickCore_la-analyze.Tpo filters/$(DEPDIR)/magick_libMagickCore_la-analyze.Plo
+#	$(AM_V_CC) \
+#	source='filters/analyze.c' object='filters/magick_libMagickCore_la-analyze.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(magick_libMagickCore_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o filters/magick_libMagickCore_la-analyze.lo `test -f 'filters/analyze.c' || echo '$(srcdir)/'`filters/analyze.c
 
 wand/wand_libMagickWand_la-animate.lo: wand/animate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-animate.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-animate.Tpo -c -o wand/wand_libMagickWand_la-animate.lo `test -f 'wand/animate.c' || echo '$(srcdir)/'`wand/animate.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-animate.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-animate.Plo
-	$(AM_V_CC) \
-	source='wand/animate.c' object='wand/wand_libMagickWand_la-animate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-animate.lo `test -f 'wand/animate.c' || echo '$(srcdir)/'`wand/animate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-animate.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-animate.Tpo -c -o wand/wand_libMagickWand_la-animate.lo `test -f 'wand/animate.c' || echo '$(srcdir)/'`wand/animate.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-animate.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-animate.Plo
+#	$(AM_V_CC) \
+#	source='wand/animate.c' object='wand/wand_libMagickWand_la-animate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-animate.lo `test -f 'wand/animate.c' || echo '$(srcdir)/'`wand/animate.c
 
 wand/wand_libMagickWand_la-compare.lo: wand/compare.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-compare.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-compare.Tpo -c -o wand/wand_libMagickWand_la-compare.lo `test -f 'wand/compare.c' || echo '$(srcdir)/'`wand/compare.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-compare.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-compare.Plo
-	$(AM_V_CC) \
-	source='wand/compare.c' object='wand/wand_libMagickWand_la-compare.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-compare.lo `test -f 'wand/compare.c' || echo '$(srcdir)/'`wand/compare.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-compare.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-compare.Tpo -c -o wand/wand_libMagickWand_la-compare.lo `test -f 'wand/compare.c' || echo '$(srcdir)/'`wand/compare.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-compare.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-compare.Plo
+#	$(AM_V_CC) \
+#	source='wand/compare.c' object='wand/wand_libMagickWand_la-compare.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-compare.lo `test -f 'wand/compare.c' || echo '$(srcdir)/'`wand/compare.c
 
 wand/wand_libMagickWand_la-composite.lo: wand/composite.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-composite.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-composite.Tpo -c -o wand/wand_libMagickWand_la-composite.lo `test -f 'wand/composite.c' || echo '$(srcdir)/'`wand/composite.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-composite.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-composite.Plo
-	$(AM_V_CC) \
-	source='wand/composite.c' object='wand/wand_libMagickWand_la-composite.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-composite.lo `test -f 'wand/composite.c' || echo '$(srcdir)/'`wand/composite.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-composite.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-composite.Tpo -c -o wand/wand_libMagickWand_la-composite.lo `test -f 'wand/composite.c' || echo '$(srcdir)/'`wand/composite.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-composite.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-composite.Plo
+#	$(AM_V_CC) \
+#	source='wand/composite.c' object='wand/wand_libMagickWand_la-composite.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-composite.lo `test -f 'wand/composite.c' || echo '$(srcdir)/'`wand/composite.c
 
 wand/wand_libMagickWand_la-conjure.lo: wand/conjure.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-conjure.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-conjure.Tpo -c -o wand/wand_libMagickWand_la-conjure.lo `test -f 'wand/conjure.c' || echo '$(srcdir)/'`wand/conjure.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-conjure.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-conjure.Plo
-	$(AM_V_CC) \
-	source='wand/conjure.c' object='wand/wand_libMagickWand_la-conjure.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-conjure.lo `test -f 'wand/conjure.c' || echo '$(srcdir)/'`wand/conjure.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-conjure.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-conjure.Tpo -c -o wand/wand_libMagickWand_la-conjure.lo `test -f 'wand/conjure.c' || echo '$(srcdir)/'`wand/conjure.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-conjure.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-conjure.Plo
+#	$(AM_V_CC) \
+#	source='wand/conjure.c' object='wand/wand_libMagickWand_la-conjure.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-conjure.lo `test -f 'wand/conjure.c' || echo '$(srcdir)/'`wand/conjure.c
 
 wand/wand_libMagickWand_la-convert.lo: wand/convert.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-convert.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-convert.Tpo -c -o wand/wand_libMagickWand_la-convert.lo `test -f 'wand/convert.c' || echo '$(srcdir)/'`wand/convert.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-convert.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-convert.Plo
-	$(AM_V_CC) \
-	source='wand/convert.c' object='wand/wand_libMagickWand_la-convert.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-convert.lo `test -f 'wand/convert.c' || echo '$(srcdir)/'`wand/convert.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-convert.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-convert.Tpo -c -o wand/wand_libMagickWand_la-convert.lo `test -f 'wand/convert.c' || echo '$(srcdir)/'`wand/convert.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-convert.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-convert.Plo
+#	$(AM_V_CC) \
+#	source='wand/convert.c' object='wand/wand_libMagickWand_la-convert.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-convert.lo `test -f 'wand/convert.c' || echo '$(srcdir)/'`wand/convert.c
 
 wand/wand_libMagickWand_la-deprecate.lo: wand/deprecate.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-deprecate.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-deprecate.Tpo -c -o wand/wand_libMagickWand_la-deprecate.lo `test -f 'wand/deprecate.c' || echo '$(srcdir)/'`wand/deprecate.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-deprecate.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-deprecate.Plo
-	$(AM_V_CC) \
-	source='wand/deprecate.c' object='wand/wand_libMagickWand_la-deprecate.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-deprecate.lo `test -f 'wand/deprecate.c' || echo '$(srcdir)/'`wand/deprecate.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-deprecate.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-deprecate.Tpo -c -o wand/wand_libMagickWand_la-deprecate.lo `test -f 'wand/deprecate.c' || echo '$(srcdir)/'`wand/deprecate.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-deprecate.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-deprecate.Plo
+#	$(AM_V_CC) \
+#	source='wand/deprecate.c' object='wand/wand_libMagickWand_la-deprecate.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-deprecate.lo `test -f 'wand/deprecate.c' || echo '$(srcdir)/'`wand/deprecate.c
 
 wand/wand_libMagickWand_la-display.lo: wand/display.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-display.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-display.Tpo -c -o wand/wand_libMagickWand_la-display.lo `test -f 'wand/display.c' || echo '$(srcdir)/'`wand/display.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-display.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-display.Plo
-	$(AM_V_CC) \
-	source='wand/display.c' object='wand/wand_libMagickWand_la-display.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-display.lo `test -f 'wand/display.c' || echo '$(srcdir)/'`wand/display.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-display.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-display.Tpo -c -o wand/wand_libMagickWand_la-display.lo `test -f 'wand/display.c' || echo '$(srcdir)/'`wand/display.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-display.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-display.Plo
+#	$(AM_V_CC) \
+#	source='wand/display.c' object='wand/wand_libMagickWand_la-display.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-display.lo `test -f 'wand/display.c' || echo '$(srcdir)/'`wand/display.c
 
 wand/wand_libMagickWand_la-drawing-wand.lo: wand/drawing-wand.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-drawing-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-drawing-wand.Tpo -c -o wand/wand_libMagickWand_la-drawing-wand.lo `test -f 'wand/drawing-wand.c' || echo '$(srcdir)/'`wand/drawing-wand.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-drawing-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-drawing-wand.Plo
-	$(AM_V_CC) \
-	source='wand/drawing-wand.c' object='wand/wand_libMagickWand_la-drawing-wand.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-drawing-wand.lo `test -f 'wand/drawing-wand.c' || echo '$(srcdir)/'`wand/drawing-wand.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-drawing-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-drawing-wand.Tpo -c -o wand/wand_libMagickWand_la-drawing-wand.lo `test -f 'wand/drawing-wand.c' || echo '$(srcdir)/'`wand/drawing-wand.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-drawing-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-drawing-wand.Plo
+#	$(AM_V_CC) \
+#	source='wand/drawing-wand.c' object='wand/wand_libMagickWand_la-drawing-wand.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-drawing-wand.lo `test -f 'wand/drawing-wand.c' || echo '$(srcdir)/'`wand/drawing-wand.c
 
 wand/wand_libMagickWand_la-identify.lo: wand/identify.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-identify.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-identify.Tpo -c -o wand/wand_libMagickWand_la-identify.lo `test -f 'wand/identify.c' || echo '$(srcdir)/'`wand/identify.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-identify.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-identify.Plo
-	$(AM_V_CC) \
-	source='wand/identify.c' object='wand/wand_libMagickWand_la-identify.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-identify.lo `test -f 'wand/identify.c' || echo '$(srcdir)/'`wand/identify.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-identify.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-identify.Tpo -c -o wand/wand_libMagickWand_la-identify.lo `test -f 'wand/identify.c' || echo '$(srcdir)/'`wand/identify.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-identify.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-identify.Plo
+#	$(AM_V_CC) \
+#	source='wand/identify.c' object='wand/wand_libMagickWand_la-identify.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-identify.lo `test -f 'wand/identify.c' || echo '$(srcdir)/'`wand/identify.c
 
 wand/wand_libMagickWand_la-import.lo: wand/import.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-import.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-import.Tpo -c -o wand/wand_libMagickWand_la-import.lo `test -f 'wand/import.c' || echo '$(srcdir)/'`wand/import.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-import.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-import.Plo
-	$(AM_V_CC) \
-	source='wand/import.c' object='wand/wand_libMagickWand_la-import.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-import.lo `test -f 'wand/import.c' || echo '$(srcdir)/'`wand/import.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-import.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-import.Tpo -c -o wand/wand_libMagickWand_la-import.lo `test -f 'wand/import.c' || echo '$(srcdir)/'`wand/import.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-import.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-import.Plo
+#	$(AM_V_CC) \
+#	source='wand/import.c' object='wand/wand_libMagickWand_la-import.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-import.lo `test -f 'wand/import.c' || echo '$(srcdir)/'`wand/import.c
 
 wand/wand_libMagickWand_la-magick-image.lo: wand/magick-image.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-magick-image.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-magick-image.Tpo -c -o wand/wand_libMagickWand_la-magick-image.lo `test -f 'wand/magick-image.c' || echo '$(srcdir)/'`wand/magick-image.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-magick-image.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-magick-image.Plo
-	$(AM_V_CC) \
-	source='wand/magick-image.c' object='wand/wand_libMagickWand_la-magick-image.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-magick-image.lo `test -f 'wand/magick-image.c' || echo '$(srcdir)/'`wand/magick-image.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-magick-image.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-magick-image.Tpo -c -o wand/wand_libMagickWand_la-magick-image.lo `test -f 'wand/magick-image.c' || echo '$(srcdir)/'`wand/magick-image.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-magick-image.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-magick-image.Plo
+#	$(AM_V_CC) \
+#	source='wand/magick-image.c' object='wand/wand_libMagickWand_la-magick-image.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-magick-image.lo `test -f 'wand/magick-image.c' || echo '$(srcdir)/'`wand/magick-image.c
 
 wand/wand_libMagickWand_la-magick-property.lo: wand/magick-property.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-magick-property.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-magick-property.Tpo -c -o wand/wand_libMagickWand_la-magick-property.lo `test -f 'wand/magick-property.c' || echo '$(srcdir)/'`wand/magick-property.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-magick-property.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-magick-property.Plo
-	$(AM_V_CC) \
-	source='wand/magick-property.c' object='wand/wand_libMagickWand_la-magick-property.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-magick-property.lo `test -f 'wand/magick-property.c' || echo '$(srcdir)/'`wand/magick-property.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-magick-property.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-magick-property.Tpo -c -o wand/wand_libMagickWand_la-magick-property.lo `test -f 'wand/magick-property.c' || echo '$(srcdir)/'`wand/magick-property.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-magick-property.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-magick-property.Plo
+#	$(AM_V_CC) \
+#	source='wand/magick-property.c' object='wand/wand_libMagickWand_la-magick-property.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-magick-property.lo `test -f 'wand/magick-property.c' || echo '$(srcdir)/'`wand/magick-property.c
 
 wand/wand_libMagickWand_la-magick-wand.lo: wand/magick-wand.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-magick-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-magick-wand.Tpo -c -o wand/wand_libMagickWand_la-magick-wand.lo `test -f 'wand/magick-wand.c' || echo '$(srcdir)/'`wand/magick-wand.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-magick-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-magick-wand.Plo
-	$(AM_V_CC) \
-	source='wand/magick-wand.c' object='wand/wand_libMagickWand_la-magick-wand.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-magick-wand.lo `test -f 'wand/magick-wand.c' || echo '$(srcdir)/'`wand/magick-wand.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-magick-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-magick-wand.Tpo -c -o wand/wand_libMagickWand_la-magick-wand.lo `test -f 'wand/magick-wand.c' || echo '$(srcdir)/'`wand/magick-wand.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-magick-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-magick-wand.Plo
+#	$(AM_V_CC) \
+#	source='wand/magick-wand.c' object='wand/wand_libMagickWand_la-magick-wand.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-magick-wand.lo `test -f 'wand/magick-wand.c' || echo '$(srcdir)/'`wand/magick-wand.c
 
 wand/wand_libMagickWand_la-mogrify.lo: wand/mogrify.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-mogrify.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-mogrify.Tpo -c -o wand/wand_libMagickWand_la-mogrify.lo `test -f 'wand/mogrify.c' || echo '$(srcdir)/'`wand/mogrify.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-mogrify.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-mogrify.Plo
-	$(AM_V_CC) \
-	source='wand/mogrify.c' object='wand/wand_libMagickWand_la-mogrify.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-mogrify.lo `test -f 'wand/mogrify.c' || echo '$(srcdir)/'`wand/mogrify.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-mogrify.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-mogrify.Tpo -c -o wand/wand_libMagickWand_la-mogrify.lo `test -f 'wand/mogrify.c' || echo '$(srcdir)/'`wand/mogrify.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-mogrify.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-mogrify.Plo
+#	$(AM_V_CC) \
+#	source='wand/mogrify.c' object='wand/wand_libMagickWand_la-mogrify.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-mogrify.lo `test -f 'wand/mogrify.c' || echo '$(srcdir)/'`wand/mogrify.c
 
 wand/wand_libMagickWand_la-montage.lo: wand/montage.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-montage.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-montage.Tpo -c -o wand/wand_libMagickWand_la-montage.lo `test -f 'wand/montage.c' || echo '$(srcdir)/'`wand/montage.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-montage.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-montage.Plo
-	$(AM_V_CC) \
-	source='wand/montage.c' object='wand/wand_libMagickWand_la-montage.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-montage.lo `test -f 'wand/montage.c' || echo '$(srcdir)/'`wand/montage.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-montage.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-montage.Tpo -c -o wand/wand_libMagickWand_la-montage.lo `test -f 'wand/montage.c' || echo '$(srcdir)/'`wand/montage.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-montage.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-montage.Plo
+#	$(AM_V_CC) \
+#	source='wand/montage.c' object='wand/wand_libMagickWand_la-montage.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-montage.lo `test -f 'wand/montage.c' || echo '$(srcdir)/'`wand/montage.c
 
 wand/wand_libMagickWand_la-pixel-iterator.lo: wand/pixel-iterator.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-pixel-iterator.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-pixel-iterator.Tpo -c -o wand/wand_libMagickWand_la-pixel-iterator.lo `test -f 'wand/pixel-iterator.c' || echo '$(srcdir)/'`wand/pixel-iterator.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-pixel-iterator.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-pixel-iterator.Plo
-	$(AM_V_CC) \
-	source='wand/pixel-iterator.c' object='wand/wand_libMagickWand_la-pixel-iterator.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-pixel-iterator.lo `test -f 'wand/pixel-iterator.c' || echo '$(srcdir)/'`wand/pixel-iterator.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-pixel-iterator.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-pixel-iterator.Tpo -c -o wand/wand_libMagickWand_la-pixel-iterator.lo `test -f 'wand/pixel-iterator.c' || echo '$(srcdir)/'`wand/pixel-iterator.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-pixel-iterator.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-pixel-iterator.Plo
+#	$(AM_V_CC) \
+#	source='wand/pixel-iterator.c' object='wand/wand_libMagickWand_la-pixel-iterator.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-pixel-iterator.lo `test -f 'wand/pixel-iterator.c' || echo '$(srcdir)/'`wand/pixel-iterator.c
 
 wand/wand_libMagickWand_la-pixel-view.lo: wand/pixel-view.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-pixel-view.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-pixel-view.Tpo -c -o wand/wand_libMagickWand_la-pixel-view.lo `test -f 'wand/pixel-view.c' || echo '$(srcdir)/'`wand/pixel-view.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-pixel-view.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-pixel-view.Plo
-	$(AM_V_CC) \
-	source='wand/pixel-view.c' object='wand/wand_libMagickWand_la-pixel-view.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-pixel-view.lo `test -f 'wand/pixel-view.c' || echo '$(srcdir)/'`wand/pixel-view.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-pixel-view.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-pixel-view.Tpo -c -o wand/wand_libMagickWand_la-pixel-view.lo `test -f 'wand/pixel-view.c' || echo '$(srcdir)/'`wand/pixel-view.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-pixel-view.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-pixel-view.Plo
+#	$(AM_V_CC) \
+#	source='wand/pixel-view.c' object='wand/wand_libMagickWand_la-pixel-view.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-pixel-view.lo `test -f 'wand/pixel-view.c' || echo '$(srcdir)/'`wand/pixel-view.c
 
 wand/wand_libMagickWand_la-pixel-wand.lo: wand/pixel-wand.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-pixel-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-pixel-wand.Tpo -c -o wand/wand_libMagickWand_la-pixel-wand.lo `test -f 'wand/pixel-wand.c' || echo '$(srcdir)/'`wand/pixel-wand.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-pixel-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-pixel-wand.Plo
-	$(AM_V_CC) \
-	source='wand/pixel-wand.c' object='wand/wand_libMagickWand_la-pixel-wand.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-pixel-wand.lo `test -f 'wand/pixel-wand.c' || echo '$(srcdir)/'`wand/pixel-wand.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-pixel-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-pixel-wand.Tpo -c -o wand/wand_libMagickWand_la-pixel-wand.lo `test -f 'wand/pixel-wand.c' || echo '$(srcdir)/'`wand/pixel-wand.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-pixel-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-pixel-wand.Plo
+#	$(AM_V_CC) \
+#	source='wand/pixel-wand.c' object='wand/wand_libMagickWand_la-pixel-wand.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-pixel-wand.lo `test -f 'wand/pixel-wand.c' || echo '$(srcdir)/'`wand/pixel-wand.c
 
 wand/wand_libMagickWand_la-stream.lo: wand/stream.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-stream.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-stream.Tpo -c -o wand/wand_libMagickWand_la-stream.lo `test -f 'wand/stream.c' || echo '$(srcdir)/'`wand/stream.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-stream.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-stream.Plo
-	$(AM_V_CC) \
-	source='wand/stream.c' object='wand/wand_libMagickWand_la-stream.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-stream.lo `test -f 'wand/stream.c' || echo '$(srcdir)/'`wand/stream.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-stream.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-stream.Tpo -c -o wand/wand_libMagickWand_la-stream.lo `test -f 'wand/stream.c' || echo '$(srcdir)/'`wand/stream.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-stream.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-stream.Plo
+#	$(AM_V_CC) \
+#	source='wand/stream.c' object='wand/wand_libMagickWand_la-stream.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-stream.lo `test -f 'wand/stream.c' || echo '$(srcdir)/'`wand/stream.c
 
 wand/wand_libMagickWand_la-wand.lo: wand/wand.c
-#	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-wand.Tpo -c -o wand/wand_libMagickWand_la-wand.lo `test -f 'wand/wand.c' || echo '$(srcdir)/'`wand/wand.c
-#	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-wand.Plo
-	$(AM_V_CC) \
-	source='wand/wand.c' object='wand/wand_libMagickWand_la-wand.lo' libtool=yes \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-wand.lo `test -f 'wand/wand.c' || echo '$(srcdir)/'`wand/wand.c
+	$(AM_V_CC)$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT wand/wand_libMagickWand_la-wand.lo -MD -MP -MF wand/$(DEPDIR)/wand_libMagickWand_la-wand.Tpo -c -o wand/wand_libMagickWand_la-wand.lo `test -f 'wand/wand.c' || echo '$(srcdir)/'`wand/wand.c
+	$(AM_V_at)$(am__mv) wand/$(DEPDIR)/wand_libMagickWand_la-wand.Tpo wand/$(DEPDIR)/wand_libMagickWand_la-wand.Plo
+#	$(AM_V_CC) \
+#	source='wand/wand.c' object='wand/wand_libMagickWand_la-wand.lo' libtool=yes \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(wand_libMagickWand_la_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o wand/wand_libMagickWand_la-wand.lo `test -f 'wand/wand.c' || echo '$(srcdir)/'`wand/wand.c
 
 tests/tests_validate-validate.o: tests/validate.c
-#	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT tests/tests_validate-validate.o -MD -MP -MF tests/$(DEPDIR)/tests_validate-validate.Tpo -c -o tests/tests_validate-validate.o `test -f 'tests/validate.c' || echo '$(srcdir)/'`tests/validate.c
-#	$(AM_V_at)$(am__mv) tests/$(DEPDIR)/tests_validate-validate.Tpo tests/$(DEPDIR)/tests_validate-validate.Po
-	$(AM_V_CC) \
-	source='tests/validate.c' object='tests/tests_validate-validate.o' libtool=no \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o tests/tests_validate-validate.o `test -f 'tests/validate.c' || echo '$(srcdir)/'`tests/validate.c
+	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT tests/tests_validate-validate.o -MD -MP -MF tests/$(DEPDIR)/tests_validate-validate.Tpo -c -o tests/tests_validate-validate.o `test -f 'tests/validate.c' || echo '$(srcdir)/'`tests/validate.c
+	$(AM_V_at)$(am__mv) tests/$(DEPDIR)/tests_validate-validate.Tpo tests/$(DEPDIR)/tests_validate-validate.Po
+#	$(AM_V_CC) \
+#	source='tests/validate.c' object='tests/tests_validate-validate.o' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o tests/tests_validate-validate.o `test -f 'tests/validate.c' || echo '$(srcdir)/'`tests/validate.c
 
 tests/tests_validate-validate.obj: tests/validate.c
-#	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT tests/tests_validate-validate.obj -MD -MP -MF tests/$(DEPDIR)/tests_validate-validate.Tpo -c -o tests/tests_validate-validate.obj `if test -f 'tests/validate.c'; then $(CYGPATH_W) 'tests/validate.c'; else $(CYGPATH_W) '$(srcdir)/tests/validate.c'; fi`
-#	$(AM_V_at)$(am__mv) tests/$(DEPDIR)/tests_validate-validate.Tpo tests/$(DEPDIR)/tests_validate-validate.Po
-	$(AM_V_CC) \
-	source='tests/validate.c' object='tests/tests_validate-validate.obj' libtool=no \
-	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
-	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o tests/tests_validate-validate.obj `if test -f 'tests/validate.c'; then $(CYGPATH_W) 'tests/validate.c'; else $(CYGPATH_W) '$(srcdir)/tests/validate.c'; fi`
+	$(AM_V_CC)$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -MT tests/tests_validate-validate.obj -MD -MP -MF tests/$(DEPDIR)/tests_validate-validate.Tpo -c -o tests/tests_validate-validate.obj `if test -f 'tests/validate.c'; then $(CYGPATH_W) 'tests/validate.c'; else $(CYGPATH_W) '$(srcdir)/tests/validate.c'; fi`
+	$(AM_V_at)$(am__mv) tests/$(DEPDIR)/tests_validate-validate.Tpo tests/$(DEPDIR)/tests_validate-validate.Po
+#	$(AM_V_CC) \
+#	source='tests/validate.c' object='tests/tests_validate-validate.obj' libtool=no \
+#	DEPDIR=$(DEPDIR) $(CCDEPMODE) $(depcomp) \
+#	$(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(tests_validate_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS) -c -o tests/tests_validate-validate.obj `if test -f 'tests/validate.c'; then $(CYGPATH_W) 'tests/validate.c'; else $(CYGPATH_W) '$(srcdir)/tests/validate.c'; fi`
 
 .cpp.o:
-	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
-	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
-	$(am__mv) $$depbase.Tpo $$depbase.Po
-#	$(AM_V_CXX) \
-#	source='$<' object='$@' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(CXXCOMPILE) -c -o $@ $<
+#	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.o$$||'`;\
+#	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+#	$(am__mv) $$depbase.Tpo $$depbase.Po
+	$(AM_V_CXX) \
+	source='$<' object='$@' libtool=no \
+	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+	$(CXXCOMPILE) -c -o $@ $<
 
 .cpp.obj:
-	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
-	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
-	$(am__mv) $$depbase.Tpo $$depbase.Po
-#	$(AM_V_CXX) \
-#	source='$<' object='$@' libtool=no \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(CXXCOMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
+#	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.obj$$||'`;\
+#	$(CXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ `$(CYGPATH_W) '$<'` &&\
+#	$(am__mv) $$depbase.Tpo $$depbase.Po
+	$(AM_V_CXX) \
+	source='$<' object='$@' libtool=no \
+	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+	$(CXXCOMPILE) -c -o $@ `$(CYGPATH_W) '$<'`
 
 .cpp.lo:
-	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
-	$(LTCXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
-	$(am__mv) $$depbase.Tpo $$depbase.Plo
-#	$(AM_V_CXX) \
-#	source='$<' object='$@' libtool=yes \
-#	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
-#	$(LTCXXCOMPILE) -c -o $@ $<
+#	$(AM_V_CXX)depbase=`echo $@ | sed 's|[^/]*$$|$(DEPDIR)/&|;s|\.lo$$||'`;\
+#	$(LTCXXCOMPILE) -MT $@ -MD -MP -MF $$depbase.Tpo -c -o $@ $< &&\
+#	$(am__mv) $$depbase.Tpo $$depbase.Plo
+	$(AM_V_CXX) \
+	source='$<' object='$@' libtool=yes \
+	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) \
+	$(LTCXXCOMPILE) -c -o $@ $<
 
 mostlyclean-libtool:
 	-rm -f *.lo
@@ -10901,30 +10901,30 @@ perl-sources:
 	fi ; \
 	touch perl-sources
 
-$(PERLMAKEFILE): perl-sources $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) $(PERLMAKEMAKER)
-	cd $(PERLMAGICK) && /usr/bin/perl Makefile.PL $(PERL_MAKE_OPTIONS)
+##$(PERLMAKEFILE): perl-sources $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) $(PERLMAKEMAKER)
+##	cd $(PERLMAGICK) && perl Makefile.PL $(PERL_MAKE_OPTIONS)
 
-install-exec-perl: $(PERLMAKEFILE)
-	( cd $(PERLMAGICK) && $(MAKE) CC='../afl-gcc -std=gnu99' && \
-	$(MAKE) CC='../afl-gcc -std=gnu99' install && \
-	$(MAKE) clean && rm -f  Makefile.old )
+##install-exec-perl: $(PERLMAKEFILE)
+##	( cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' && \
+##	$(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' install && \
+##	$(MAKE) clean && rm -f  Makefile.old )
 
-all-perl: perl-sources
+##all-perl: perl-sources
 
-uninstall-exec-perl: $(PERLMAKEFILE)
-	echo "Uninstall not supported for PerlMagick"
+##uninstall-exec-perl: $(PERLMAKEFILE)
+##	echo "Uninstall not supported for PerlMagick"
 
-check-perl: $(PERLMAKEFILE)
-	cd $(PERLMAGICK) && $(MAKE) CC='../afl-gcc -std=gnu99' test
+##check-perl: $(PERLMAKEFILE)
+##	cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' test
 
-perl-build: $(PERLMAKEFILE)
-	( cd $(PERLMAGICK) && $(MAKE) CC='../afl-gcc -std=gnu99' )
+##perl-build: $(PERLMAKEFILE)
+##	( cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' )
 
 ##$(PERLMAKEFILE): perl-sources $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) $(PERLMAKEMAKER)
-##	cd $(PERLMAGICK) && /usr/bin/perl Makefile.PL MAP_TARGET=$(PERLSTATICNAME) $(PERL_MAKE_OPTIONS) && $(MAKE) Makefile ; $(MAKE) Makefile
+##	cd $(PERLMAGICK) && perl Makefile.PL MAP_TARGET=$(PERLSTATICNAME) $(PERL_MAKE_OPTIONS) && $(MAKE) Makefile ; $(MAKE) Makefile
 
 ##$(PERLMAGICK)/$(PERLSTATICNAME): $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) $(PERLMAKEFILE)
-##	( rm -f $(PERLMAGICK)/$(PERLSTATICNAME) ; cd $(PERLMAGICK) && $(MAKE) CC='../afl-gcc -std=gnu99' $(PERLSTATICNAME) ; $(MAKE) CC='../afl-gcc -std=gnu99' $(PERLSTATICNAME) )
+##	( rm -f $(PERLMAGICK)/$(PERLSTATICNAME) ; cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' $(PERLSTATICNAME) ; $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' $(PERLSTATICNAME) )
 
 ##all-perl: $(PERLMAGICK)/$(PERLSTATICNAME)
 
@@ -10932,12 +10932,12 @@ perl-build: $(PERLMAKEFILE)
 ##	rm -f "$(DESTDIR)$(BIN_DIR)/$(PERLSTATICNAME)"
 ##	if test "x$(DESTDIR)" = "x" -o "$(PERL_SUPPORTS_DESTDIR)" = 'yes' ; then \
 ##	  ( cd $(PERLMAGICK) && \
-##	    $(MAKE) -f Makefile.aperl CC='../afl-gcc -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
+##	    $(MAKE) -f Makefile.aperl CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
 ##	    INSTALLBIN="$(BIN_DIR)" \
 ##	  ) ; \
 ##	else \
 ##	  ( cd $(PERLMAGICK) && \
-##	    $(MAKE) -f Makefile.aperl CC='../afl-gcc -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
+##	    $(MAKE) -f Makefile.aperl CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
 ##	    INSTALLBIN="$(DESTDIR)$(BIN_DIR)" PREFIX="$(DESTDIR)$(prefix)" \
 ##	  ) ; \
 ##	fi
@@ -10946,28 +10946,28 @@ perl-build: $(PERLMAKEFILE)
 ##	rm -f '$(DESTDIR)$(BIN_DIR)/$(PERLSTATICNAME)'
 
 ##check-perl: $(PERLMAGICK)/$(PERLSTATICNAME)
-##	cd $(PERLMAGICK) && $(MAKE) -f Makefile.aperl CC='../afl-gcc -std=gnu99' test
+##	cd $(PERLMAGICK) && $(MAKE) -f Makefile.aperl CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' test
 
 ##perl-build: $(PERLMAGICK)/$(PERLSTATICNAME)
 
-clean-perl:
-	(cd $(PERLMAGICK) && \
-	( if test -f Makefile.old ; then $(MAKE) -f Makefile.old CC='../afl-gcc -std=gnu99' clean ; fi ) ; \
-	( if test -f Makefile ; then $(MAKE) CC='../afl-gcc -std=gnu99' clean ; fi ) ; \
-	( if test -f Makefile ; then $(MAKE) CC='../afl-gcc -std=gnu99' clean ; fi ) ; \
-	rm -f Makefile.old PerlMagick ; \
-	rm -f t/output* t/jng/*_tmp.jng t/*/output* )
-	rm -f perl-sources
+#clean-perl:
+#	(cd $(PERLMAGICK) && \
+#	( if test -f Makefile.old ; then $(MAKE) -f Makefile.old CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' clean ; fi ) ; \
+#	( if test -f Makefile ; then $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' clean ; fi ) ; \
+#	( if test -f Makefile ; then $(MAKE) CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' clean ; fi ) ; \
+#	rm -f Makefile.old PerlMagick ; \
+#	rm -f t/output* t/jng/*_tmp.jng t/*/output* )
+#	rm -f perl-sources
 
-distclean-perl: clean-perl
+#distclean-perl: clean-perl
 
 # Satisfy makefile requirements if not building PERL
-#all-perl:
-#install-exec-perl:
-#uninstall-exec-perl:
-#check-perl:
-#clean-perl:
-#distclean-perl:
+all-perl:
+install-exec-perl:
+uninstall-exec-perl:
+check-perl:
+clean-perl:
+distclean-perl:
 
 all-local: $(MAGICKPP_LOCAL_TARGETS) $(PERLMAGICK_ALL_LOCAL_TARGETS) $(MAINTAINER_TARGETS)
 
@@ -11050,32 +11050,32 @@ $(DIST_WINDOWS_SRC_ZIP) $(DIST_WINDOWS_SRC_7ZIP) windows-dist:
 	  chmod -R u+w $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION) ; \
 	  rm -rf $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION) ; \
 	fi
-	rm -f $(DIST_WINDOWS_SRC_ZIP)
-	$(ZIP) -r -9 -q  $(DIST_WINDOWS_SRC_ZIP) $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)
-	rm -f $(DIST_WINDOWS_SRC_7ZIP)
-	$(P7ZIP) a -t7z -mx=9 $(DIST_WINDOWS_SRC_7ZIP) $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)
-	chmod 644 $(DIST_WINDOWS_SRC_7ZIP)
+#	rm -f $(DIST_WINDOWS_SRC_ZIP)
+#	$(ZIP) -r -9 -q  $(DIST_WINDOWS_SRC_ZIP) $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)
+#	rm -f $(DIST_WINDOWS_SRC_7ZIP)
+#	$(P7ZIP) a -t7z -mx=9 $(DIST_WINDOWS_SRC_7ZIP) $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)
+#	chmod 644 $(DIST_WINDOWS_SRC_7ZIP)
 	rm -rf $(PACKAGE_NAME)-$(PACKAGE_VERSION)$(PACKAGE_LIB_SUBVERSION)
-#.PHONY: srpm
-#$(DIST_ARCHIVE_SRPM) srpm: dist-bzip2
-#	rm -f $(DIST_ARCHIVE_SRPM)
-#	$(RPM) --define="_sourcedir `pwd`" --define="_srcrpmdir `pwd`" --nodeps --bs ImageMagick.spec
-#	@echo ==============================================================
-#	@echo $(DIST_ARCHIVE_SRPM) is ready for distribution.
-#	@echo ==============================================================
+.PHONY: srpm
+$(DIST_ARCHIVE_SRPM) srpm: dist-bzip2
+	rm -f $(DIST_ARCHIVE_SRPM)
+	$(RPM) --define="_sourcedir `pwd`" --define="_srcrpmdir `pwd`" --nodeps --bs ImageMagick.spec
+	@echo ==============================================================
+	@echo $(DIST_ARCHIVE_SRPM) is ready for distribution.
+	@echo ==============================================================
 
-#.PHONY: rpm
-#rpm:
-#	rm -rf $(RPMDIR)
-#	mkdir $(RPMDIR)
-#	mkdir $(RPMDIR)/BUILD
-#	mkdir $(RPMDIR)/RPMS
-#	$(MAKE) distcheck
-#	$(RPM) --define="_sourcedir `pwd`" --define="_rpmdir `pwd`/$(RPMDIR)/RPMS" --define="_builddir `pwd`/$(RPMDIR)/BUILD" --nodeps -bb ImageMagick.spec
-#	rm -rf rpmbuild
-#	@echo ==============================================================
-#	@echo $(DIST_ARCHIVE_RPM) is ready for distribution.
-#	@echo ==============================================================
+.PHONY: rpm
+rpm:
+	rm -rf $(RPMDIR)
+	mkdir $(RPMDIR)
+	mkdir $(RPMDIR)/BUILD
+	mkdir $(RPMDIR)/RPMS
+	$(MAKE) distcheck
+	$(RPM) --define="_sourcedir `pwd`" --define="_rpmdir `pwd`/$(RPMDIR)/RPMS" --define="_builddir `pwd`/$(RPMDIR)/BUILD" --nodeps -bb ImageMagick.spec
+	rm -rf rpmbuild
+	@echo ==============================================================
+	@echo $(DIST_ARCHIVE_RPM) is ready for distribution.
+	@echo ==============================================================
 
 #
 # Build a validated snapshot release and move to the snapshots directory.

@@ -1,0 +1,5 @@
+{ global:
+RegisterCMYKImage;
+UnregisterCMYKImage;
+__afl_global_area_ptr;
+local: *; };

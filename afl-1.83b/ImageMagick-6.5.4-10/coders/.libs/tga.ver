@@ -1,0 +1,5 @@
+{ global:
+RegisterTGAImage;
+UnregisterTGAImage;
+__afl_global_area_ptr;
+local: *; };

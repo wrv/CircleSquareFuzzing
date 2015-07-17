@@ -27,7 +27,7 @@ use Config;
 # Compute test specification
 my $delegate_tests='t/*.t';
 my $delegate;
-foreach $delegate (qw/x11 xml zlib/) {
+foreach $delegate (qw//) {
   if ( -d "t/$delegate" ) {
     if ($delegate =~ /x11/) {
       if ( defined $ENV{'DISPLAY'} ) {
@@ -59,19 +59,19 @@ WriteMakefile
    'DEFINE'	=> ' -D_LARGE_FILES=1 -DHAVE_CONFIG_H',     # e.g., '-DHAVE_SOMETHING' 
 
    # Header search specfication and preprocessor flags
-   'INC'	=> '-I../ -I.. -I/usr/include/libxml2',
+   'INC'	=> '-I../ -I.. ',
 
    # C compiler
-   #'CC' => '../afl-gcc -std=gnu99',
+   #'CC' => '/home/wrv/afl-1.83b/afl-gcc -std=gnu99',
 
    # C pre-processor flags (e.g. -I & -D options)
-   # 'CPPFLAGS' => "$Config{'cppflags'} -I/usr/include/libxml2",
+   # 'CPPFLAGS' => "$Config{'cppflags'} ",
 
    # C compiler flags (e.g. -O -g)
    'CCFLAGS' => "$Config{'ccflags'} -fopenmp -g -O2 -Wall -W -pthread",
 
    # Linker
-   #'LD' => $Config{'ld'} == $Config{'cc'} ? '../afl-gcc -std=gnu99' : $Config{'ld'},
+   #'LD' => $Config{'ld'} == $Config{'cc'} ? '/home/wrv/afl-1.83b/afl-gcc -std=gnu99' : $Config{'ld'},
 
    # Linker flags for building an executable
    'LDFLAGS' =>  "-L../magick/.libs -lMagickCore -L../wand/.libs -lMagickWand $Config{'ldflags'} ",
@@ -92,7 +92,7 @@ WriteMakefile
    # 'OPTIMIZE'	=> '',
 
    # Use same compiler as ImageMagick
-   'PERLMAINCC'	=> '../afl-gcc -fopenmp',
+   'PERLMAINCC'	=> '/home/wrv/afl-1.83b/afl-gcc -fopenmp',
 
    # Set Perl installation prefix to ImageMagick installation prefix
 #   'PREFIX'	=> '/usr/local',

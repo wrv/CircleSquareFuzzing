@@ -78,4 +78,3 @@ id-tc26-gost-3410-2012-512-paramSetA: ........ ok
 id-tc26-gost-3410-2012-512-paramSetB: ........ ok
 
 ECDSA test passed
-PASS ecdsatest (exit status: 0)

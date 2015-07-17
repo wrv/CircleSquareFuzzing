@@ -7,4 +7,3 @@ test 5 ok
 test end processing ....................done
 test multi-call ....................done
 bulk test ok
-PASS rc4test (exit status: 0)

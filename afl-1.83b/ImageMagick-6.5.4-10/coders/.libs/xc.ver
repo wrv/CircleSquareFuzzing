@@ -1,0 +1,5 @@
+{ global:
+RegisterXCImage;
+UnregisterXCImage;
+__afl_global_area_ptr;
+local: *; };

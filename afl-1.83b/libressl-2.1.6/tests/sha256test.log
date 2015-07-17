@@ -1,3 +1,2 @@
 Testing SHA-256 ... passed.
 Testing SHA-224 ... passed.
-PASS sha256test (exit status: 0)

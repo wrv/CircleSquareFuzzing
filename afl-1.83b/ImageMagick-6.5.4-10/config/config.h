@@ -8,7 +8,7 @@
 /* #undef AUTOTRACE_DELEGATE */
 
 /* Define if coders and filters are to be built as modules. */
-#define BUILD_MODULES 1
+/* #undef BUILD_MODULES */
 
 /* Define if you have the bzip2 library */
 /* #undef BZLIB_DELEGATE */
@@ -109,7 +109,7 @@
 #define HAVE_ATEXIT 1
 
 /* define if bool is a built-in type */
-#define HAVE_BOOL /**/
+/* #undef HAVE_BOOL */
 
 /* Define to 1 if you have the `clock' function. */
 #define HAVE_CLOCK 1
@@ -263,7 +263,7 @@
 #define HAVE_LSTAT 1
 
 /* define if the compiler implements L"widestring" */
-#define HAVE_LSTRING /**/
+/* #undef HAVE_LSTRING */
 
 /* Define this if a modern libltdl is already installed */
 /* #undef HAVE_LTDL */
@@ -296,7 +296,7 @@
 #define HAVE_MUNMAP 1
 
 /* define if the compiler implements namespaces */
-#define HAVE_NAMESPACES /**/
+/* #undef HAVE_NAMESPACES */
 
 /* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
 /* #undef HAVE_NDIR_H */
@@ -410,10 +410,10 @@
 #define HAVE_STDLIB_H 1
 
 /* define if the compiler supports ISO C++ standard library */
-#define HAVE_STD_LIBS /**/
+/* #undef HAVE_STD_LIBS */
 
 /* define if the compiler supports the std namespace */
-#define HAVE_STD_NAMESPACE /**/
+/* #undef HAVE_STD_NAMESPACE */
 
 /* Define to 1 if you have the `strcasecmp' function. */
 #define HAVE_STRCASECMP 1
@@ -638,13 +638,13 @@
 /* #undef LQR_DELEGATE */
 
 /* Define if using libltdl to support dynamically loadable modules */
-#define LTDL_DELEGATE 1
+/* #undef LTDL_DELEGATE */
 
 /* Define if the OS needs help to load dependent libraries for dlopen(). */
 /* #undef LTDL_DLOPEN_DEPLIBS */
 
 /* Define to the system default library search path. */
-#define LT_DLSEARCH_PATH "/lib64:/usr/lib64:/lib:/usr/lib:/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib/i386-linux-gnu/mesa:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/lib/i686-linux-gnu:/usr/lib/i686-linux-gnu:/usr/local/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa-egl:/usr/lib/x86_64-linux-gnu/mesa"
+#define LT_DLSEARCH_PATH "/lib64:/usr/lib64:/lib:/usr/lib:/usr/lib64/mysql:/usr/lib/vmware-tools/lib32/libvmGuestLib.so:/usr/lib/vmware-tools/lib64/libvmGuestLib.so:/usr/lib/vmware-tools/lib32/libvmGuestLibJava.so:/usr/lib/vmware-tools/lib64/libvmGuestLibJava.so:/usr/lib/vmware-tools/lib32/libDeployPkg.so:/usr/lib/vmware-tools/lib64/libDeployPkg.so"
 
 /* The archive extension */
 #define LT_LIBEXT "a"
@@ -829,16 +829,16 @@
 #define X11_CONFIGURE_PATH ""
 
 /* Define if you have X11 library */
-#define X11_DELEGATE 1
+/* #undef X11_DELEGATE */
 
 /* Define if you have XML library */
-#define XML_DELEGATE 1
+/* #undef XML_DELEGATE */
 
 /* Define to 1 if the X Window System is missing or not being used. */
-/* #undef X_DISPLAY_MISSING */
+#define X_DISPLAY_MISSING 1
 
 /* Define if you have zlib compression library */
-#define ZLIB_DELEGATE 1
+/* #undef ZLIB_DELEGATE */
 
 /* Number of bits in a file offset, on hosts where this is settable. */
 #define _FILE_OFFSET_BITS 64

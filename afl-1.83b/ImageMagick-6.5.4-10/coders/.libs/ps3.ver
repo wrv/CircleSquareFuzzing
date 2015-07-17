@@ -1,0 +1,5 @@
+{ global:
+RegisterPS3Image;
+UnregisterPS3Image;
+__afl_global_area_ptr;
+local: *; };

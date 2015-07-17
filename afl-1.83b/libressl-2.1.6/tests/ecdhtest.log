@@ -16,4 +16,3 @@ Testing key generation with NIST Binary-Curve B-571 .... ok
 Testing ECDH shared secret with Brainpool Prime-Curve brainpoolP256r1 ok
 Testing ECDH shared secret with Brainpool Prime-Curve brainpoolP384r1 ok
 Testing ECDH shared secret with Brainpool Prime-Curve brainpoolP512r1 ok
-PASS ecdhtest (exit status: 0)

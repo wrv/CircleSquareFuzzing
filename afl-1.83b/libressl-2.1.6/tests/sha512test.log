@@ -1,3 +1,2 @@
 Testing SHA-512 ... passed.
 Testing SHA-384 ... passed.
-PASS sha512test (exit status: 0)

@@ -46,7 +46,7 @@ while test $# -gt 0; do
       echo "-I${includedir} -fopenmp"
       ;;
     --cxxflags)
-      echo '-g -O2 -Wall -W -pthread'
+      echo '-pthread'
       ;;
     --cppflags)
       echo '-I/usr/local/include/ImageMagick'
@@ -55,7 +55,7 @@ while test $# -gt 0; do
       echo '-L/usr/local/lib '
       ;;
     --libs)
-      echo "-L${libdir} -lMagick++ -lMagickWand -lMagickCore -lSM -lICE -lX11 -lXt -lz -lm -lgomp -lpthread "
+      echo "-L${libdir} -lMagick++ -lMagickWand -lMagickCore -lm -lgomp -lpthread "
       ;;
     *)
       echo "${usage}" 1>&2

@@ -1,0 +1,6 @@
+{ global:
+RegisterWPGImage;
+UnregisterWPGImage;
+WPG1_Palette;
+__afl_global_area_ptr;
+local: *; };

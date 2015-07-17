@@ -1,7 +1,7 @@
 camellia/libcrypto_la-cmll_ctr.lo: camellia/cmll_ctr.c \
  /usr/include/stdc-predef.h ../include/openssl/camellia.h \
  ../include/openssl/opensslconf.h ../include/openssl/opensslfeatures.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stddef.h \
  ../include/openssl/modes.h
 
 /usr/include/stdc-predef.h:
@@ -12,6 +12,6 @@ camellia/libcrypto_la-cmll_ctr.lo: camellia/cmll_ctr.c \
 
 ../include/openssl/opensslfeatures.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stddef.h:
 
 ../include/openssl/modes.h:

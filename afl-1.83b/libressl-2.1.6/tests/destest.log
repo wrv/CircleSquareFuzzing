@@ -14,4 +14,3 @@ Doing quad_cksum
 input word alignment test 0 1 2 3
 output word alignment test 0 1 2 3
 fast crypt test 
-PASS destest (exit status: 0)

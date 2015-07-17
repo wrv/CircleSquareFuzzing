@@ -1,4 +1,3 @@
-found 0x800050
-found 0x800070
-found 0x800030
-PASS pq_test.sh (exit status: 0)
+found 0x1bbf050
+found 0x1bbf070
+found 0x1bbf030

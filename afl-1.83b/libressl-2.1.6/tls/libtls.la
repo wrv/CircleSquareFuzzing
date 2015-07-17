@@ -17,7 +17,7 @@ old_library='libtls.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /home/willy/Desktop/afl-1.83b/libressl-2.1.6/ssl/libssl.la /home/willy/Desktop/afl-1.83b/libressl-2.1.6/crypto/libcrypto.la'
+dependency_libs=' /home/wrv/CircleSquareFuzzing/afl-1.83b/libressl-2.1.6/ssl/libssl.la /home/wrv/CircleSquareFuzzing/afl-1.83b/libressl-2.1.6/crypto/libcrypto.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -39,4 +39,4 @@ dlpreopen=''
 
 # Directory that this library needs to be installed in:
 libdir='/usr/local/lib'
-relink_command="(cd /home/willy/Desktop/afl-1.83b/libressl-2.1.6/tls; /bin/bash /home/willy/Desktop/afl-1.83b/libressl-2.1.6/libtool  --silent --tag CC --mode=relink /home/willy/Desktop/afl-1.83b/afl-gcc -Wall -std=gnu99 -g -O2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_POSIX_SOURCE -D_GNU_SOURCE -fno-strict-overflow -D_FORTIFY_SOURCE=2 -fstack-protector-all -Wno-pointer-sign -DHAVE_GNU_STACK -Wall -std=gnu99 -g -O2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_POSIX_SOURCE -D_GNU_SOURCE -fno-strict-overflow -D_FORTIFY_SOURCE=2 -fstack-protector-all -Wno-pointer-sign -DHAVE_GNU_STACK -version-info 3:0:0 -no-undefined -Wl,-z,relro -Wl,-z,now -o libtls.la -rpath /usr/local/lib libtls_la-tls.lo libtls_la-tls_client.lo libtls_la-tls_config.lo libtls_la-tls_server.lo libtls_la-tls_util.lo libtls_la-tls_verify.lo ../crypto/libcrypto.la ../ssl/libssl.la @inst_prefix_dir@)"
+relink_command="(cd /home/wrv/CircleSquareFuzzing/afl-1.83b/libressl-2.1.6/tls; /bin/sh /home/wrv/CircleSquareFuzzing/afl-1.83b/libressl-2.1.6/libtool  --silent --tag CC --mode=relink /home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -Wall -std=gnu99 -g -O2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_POSIX_SOURCE -D_GNU_SOURCE -fno-strict-overflow -D_FORTIFY_SOURCE=2 -fstack-protector-strong -Wno-pointer-sign -DHAVE_GNU_STACK -Wall -std=gnu99 -g -O2 -D_DEFAULT_SOURCE -D_BSD_SOURCE -D_POSIX_SOURCE -D_GNU_SOURCE -fno-strict-overflow -D_FORTIFY_SOURCE=2 -fstack-protector-strong -Wno-pointer-sign -DHAVE_GNU_STACK -version-info 3:0:0 -no-undefined -Wl,-z,relro -Wl,-z,now -o libtls.la -rpath /usr/local/lib libtls_la-tls.lo libtls_la-tls_client.lo libtls_la-tls_config.lo libtls_la-tls_server.lo libtls_la-tls_util.lo libtls_la-tls_verify.lo ../crypto/libcrypto.la ../ssl/libssl.la @inst_prefix_dir@)"

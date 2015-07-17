@@ -12,9 +12,7 @@
 /* #undef AUTOTRACE_DELEGATE */
 
 /* Define if coders and filters are to be built as modules. */
-#ifndef MAGICKCORE_BUILD_MODULES 
-#define MAGICKCORE_BUILD_MODULES  1 
-#endif
+/* #undef BUILD_MODULES */
 
 /* Define if you have the bzip2 library */
 /* #undef BZLIB_DELEGATE */
@@ -151,9 +149,7 @@
 #endif
 
 /* define if bool is a built-in type */
-#ifndef MAGICKCORE_HAVE_BOOL 
-#define MAGICKCORE_HAVE_BOOL  /**/ 
-#endif
+/* #undef HAVE_BOOL */
 
 /* Define to 1 if you have the `clock' function. */
 #ifndef MAGICKCORE_HAVE_CLOCK 
@@ -377,9 +373,7 @@
 #endif
 
 /* define if the compiler implements L"widestring" */
-#ifndef MAGICKCORE_HAVE_LSTRING 
-#define MAGICKCORE_HAVE_LSTRING  /**/ 
-#endif
+/* #undef HAVE_LSTRING */
 
 /* Define this if a modern libltdl is already installed */
 /* #undef HAVE_LTDL */
@@ -426,9 +420,7 @@
 #endif
 
 /* define if the compiler implements namespaces */
-#ifndef MAGICKCORE_HAVE_NAMESPACES 
-#define MAGICKCORE_HAVE_NAMESPACES  /**/ 
-#endif
+/* #undef HAVE_NAMESPACES */
 
 /* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
 /* #undef HAVE_NDIR_H */
@@ -602,14 +594,10 @@
 #endif
 
 /* define if the compiler supports ISO C++ standard library */
-#ifndef MAGICKCORE_HAVE_STD_LIBS 
-#define MAGICKCORE_HAVE_STD_LIBS  /**/ 
-#endif
+/* #undef HAVE_STD_LIBS */
 
 /* define if the compiler supports the std namespace */
-#ifndef MAGICKCORE_HAVE_STD_NAMESPACE 
-#define MAGICKCORE_HAVE_STD_NAMESPACE  /**/ 
-#endif
+/* #undef HAVE_STD_NAMESPACE */
 
 /* Define to 1 if you have the `strcasecmp' function. */
 #ifndef MAGICKCORE_HAVE_STRCASECMP 
@@ -926,16 +914,14 @@
 /* #undef LQR_DELEGATE */
 
 /* Define if using libltdl to support dynamically loadable modules */
-#ifndef MAGICKCORE_LTDL_DELEGATE 
-#define MAGICKCORE_LTDL_DELEGATE  1 
-#endif
+/* #undef LTDL_DELEGATE */
 
 /* Define if the OS needs help to load dependent libraries for dlopen(). */
 /* #undef LTDL_DLOPEN_DEPLIBS */
 
 /* Define to the system default library search path. */
 #ifndef MAGICKCORE_LT_DLSEARCH_PATH 
-#define MAGICKCORE_LT_DLSEARCH_PATH  "/lib64:/usr/lib64:/lib:/usr/lib:/usr/lib/x86_64-linux-gnu/libfakeroot:/usr/lib/i386-linux-gnu/mesa:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/lib/i686-linux-gnu:/usr/lib/i686-linux-gnu:/usr/local/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/mesa-egl:/usr/lib/x86_64-linux-gnu/mesa" 
+#define MAGICKCORE_LT_DLSEARCH_PATH  "/lib64:/usr/lib64:/lib:/usr/lib:/usr/lib64/mysql:/usr/lib/vmware-tools/lib32/libvmGuestLib.so:/usr/lib/vmware-tools/lib64/libvmGuestLib.so:/usr/lib/vmware-tools/lib32/libvmGuestLibJava.so:/usr/lib/vmware-tools/lib64/libvmGuestLibJava.so:/usr/lib/vmware-tools/lib32/libDeployPkg.so:/usr/lib/vmware-tools/lib64/libDeployPkg.so" 
 #endif
 
 /* The archive extension */
@@ -1183,22 +1169,18 @@
 #endif
 
 /* Define if you have X11 library */
-#ifndef MAGICKCORE_X11_DELEGATE 
-#define MAGICKCORE_X11_DELEGATE  1 
-#endif
+/* #undef X11_DELEGATE */
 
 /* Define if you have XML library */
-#ifndef MAGICKCORE_XML_DELEGATE 
-#define MAGICKCORE_XML_DELEGATE  1 
-#endif
+/* #undef XML_DELEGATE */
 
 /* Define to 1 if the X Window System is missing or not being used. */
-/* #undef X_DISPLAY_MISSING */
+#ifndef MAGICKCORE_X_DISPLAY_MISSING 
+#define MAGICKCORE_X_DISPLAY_MISSING  1 
+#endif
 
 /* Define if you have zlib compression library */
-#ifndef MAGICKCORE_ZLIB_DELEGATE 
-#define MAGICKCORE_ZLIB_DELEGATE  1 
-#endif
+/* #undef ZLIB_DELEGATE */
 
 /* Number of bits in a file offset, on hosts where this is settable. */
 #ifndef MAGICKCORE__FILE_OFFSET_BITS 

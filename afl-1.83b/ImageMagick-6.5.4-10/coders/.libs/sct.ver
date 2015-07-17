@@ -1,0 +1,5 @@
+{ global:
+RegisterSCTImage;
+UnregisterSCTImage;
+__afl_global_area_ptr;
+local: *; };

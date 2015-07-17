@@ -41,10 +41,10 @@ fi
 
 if test -x PerlMagick -a -f Makefile.aperl ; then
   # Static build test incantation
-  ${MAKE} -f Makefile.aperl CC='../afl-gcc -std=gnu99' test
+  ${MAKE} -f Makefile.aperl CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' test
 elif test -f Makefile -a -f Magick.o; then
   # Shared build test incantation
-  ${MAKE} CC='../afl-gcc -std=gnu99' test
+  ${MAKE} CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99' test
 else
   echo 'PerlMagick has not been built!'
   exit 1

@@ -65,7 +65,7 @@
   <delegate decode="dng:decode" command="&quot;ufraw-batch&quot; --silent --wb=camera --black-point=auto --exposure=auto --create-id=also --out-type=png --out-depth=16 &quot;--output=%u.png&quot; &quot;%i&quot;"/>
   <delegate decode="edit" stealth="True" command="&quot;xterm&quot; -title &quot;Edit Image Comment&quot; -e vi &quot;%o&quot;"/>
   <delegate decode="eps" encode="pdf" mode="bi" command="&quot;gs&quot; -q -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 &quot;-sDEVICE=pdfwrite&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
-  <delegate decode="eps" encode="ps" mode="bi" command="&quot;gs&quot; -q -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=nodevice&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
+  <delegate decode="eps" encode="ps" mode="bi" command="&quot;gs&quot; -q -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=pswrite&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
   <delegate decode="fig" command="&quot;fig2dev&quot; -L ps &quot;%i&quot; &quot;%o&quot;"/>
   <delegate decode="gplt" command="&quot;echo&quot; &quot;set size 1.25,0.62     set terminal postscript portrait color solid; set output &quot;%o&quot;; load &quot;%i&quot;&quot; &gt; &quot;%u&quot;;&quot;gnuplot&quot; &quot;%u&quot;"/>
   <delegate decode="hdr" command="&quot;ra_pfm&quot; &quot;%i&quot; &quot;%o&quot;"/>
@@ -82,7 +82,7 @@
   <delegate decode="pcl:cmyk" stealth="True" command="&quot;pcl6&quot; -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=bmpsep8&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="pcl:mono" stealth="True" command="&quot;pcl6&quot; -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=pbmraw&quot; -dTextAlphaBits=%u -dGraphicsAlphaBits=%u &quot;-r%s&quot; %s &quot;-sOutputFile=%s&quot; &quot;%s&quot;"/>
   <delegate decode="pdf" encode="eps" mode="bi" command="&quot;gs&quot; -q -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=epswrite&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
-  <delegate decode="pdf" encode="ps" mode="bi" command="&quot;gs&quot; -q -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=nodevice&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
+  <delegate decode="pdf" encode="ps" mode="bi" command="&quot;gs&quot; -q -dQUIET -dPARANOIDSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=0 &quot;-sDEVICE=pswrite&quot; &quot;-sOutputFile=%o&quot; &quot;-f%i&quot;"/>
   <delegate decode="pic" command="&quot;ra_pfm&quot; &quot;%i&quot; &quot;%o&quot;"/>
   <delegate decode="png" encode="launch" mode="encode" command="&quot;gimp&quot; &quot;%i&quot;"/>
   <delegate decode="pnm" encode="ilbm" mode="encode" command="&quot;ppmtoilbm&quot; -24if &quot;%i&quot; &gt; &quot;%o&quot;"/>
