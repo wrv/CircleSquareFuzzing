@@ -1,0 +1,206 @@
+﻿                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 1 days, 1 hrs, 27 min, 59 sec      │  cycles done : 3      │
+│   last new path : 0 days, 0 hrs, 29 min, 1 sec       │  total paths : 594    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 2 hrs, 1 min, 38 sec       │   uniq hangs : 52     │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 507* (85.35%)     │    map density : 2651 (4.05%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 1.56 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : interest 32/8         │ favored paths : 90 (15.15%)            │
+│ stage execs : 8364/24.5k (34.14%)   │  new edges on : 137 (23.06%)           │
+│ total execs : 7.03M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 71.65/sec (slow!)     │   total hangs : 534 (52 unique)        │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 0/327k, 0/327k, 0/327k                │    levels : 6          │
+│  byte flips : 0/41.0k, 1/30.6k, 0/30.8k             │   pending : 357        │
+│ arithmetics : 4/1.70M, 0/134k, 0/12.6k              │  pend fav : 0          │
+│  known ints : 0/189k, 0/845k, 0/1.33M               │ own finds : 82         │
+│  dictionary : 0/0, 0/0, 0/122k                      │  imported : n/a        │
+│       havoc : 72/1.56M, 0/0                         │  variable : 0          │
+│        trim : 39.94%/29.3k, 25.14%                  ├────────────────────────┘
+^C────────────────────────────────────────────────────┘             [cpu:134%]
+
++++ Testing aborted by user +++
+[+] We're done here. Have a nice day!
+
+
+willy@Ghengis3:~/Desktop/CircleSquare/afl-1.83b/libressl-2.1.6$ ../afl-fuzz -i - -o outkey -- ~/testing/usr/local/bin/openssl x509 -in @@ -text -noout^C
+
+
+                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 1 days, 0 hrs, 32 min, 50 sec      │  cycles done : 0      │
+│   last new path : 0 days, 2 hrs, 9 min, 49 sec       │  total paths : 694    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 1 hrs, 50 min, 0 sec       │   uniq hangs : 71     │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 145 (20.89%)      │    map density : 5573 (8.50%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 1.93 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : havoc                 │ favored paths : 244 (35.16%)           │
+│ stage execs : 1792/2500 (71.68%)    │  new edges on : 333 (47.98%)           │
+│ total execs : 6.64M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 121.1/sec             │   total hangs : 521 (71 unique)        │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 301/293k, 20/293k, 20/293k            │    levels : 3          │
+│  byte flips : 0/36.7k, 2/36.3k, 4/36.2k             │   pending : 640        │
+│ arithmetics : 40/2.03M, 0/32.1k, 0/0                │  pend fav : 204        │
+│  known ints : 14/225k, 1/1.02M, 4/1.59M             │ own finds : 693        │
+│  dictionary : 0/0, 0/0, 9/143k                      │  imported : n/a        │
+│       havoc : 256/589k, 0/0                         │  variable : 0          │
+│        trim : 3.68%/17.7k, 0.85%                    ├────────────────────────┘
+^C────────────────────────────────────────────────────┘             [cpu: 39%]
+
++++ Testing aborted by user +++
+
+[!] Stopped during the first cycle, results may be incomplete.
+    (For info on resuming, see /usr/local/share/doc/afl/README.)
+[+] We're done here. Have a nice day!
+
+willy@Ghengis3:~/Desktop/CircleSquare/afl-1.83b/libressl-2.1.6$ ../afl-fuzz -i incrt -o outcrt -- ~/testing/usr/local/bin/openssl x509 -in @@ -text -noout
+
+
+
+
+
+
+
+                       american fuzzy lop 1.83b (convert)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 0 days, 4 hrs, 22 min, 35 sec      │  cycles done : 0      │
+│   last new path : 0 days, 0 hrs, 0 min, 1 sec        │  total paths : 1346   │
+│ last uniq crash : 0 days, 0 hrs, 26 min, 26 sec      │ uniq crashes : 5      │
+│  last uniq hang : 0 days, 0 hrs, 0 min, 0 sec        │   uniq hangs : 85     │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 623 (46.29%)      │    map density : 7921 (12.09%)         │
+│ paths timed out : 0 (0.00%)         │ count coverage : 2.91 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : havoc                 │ favored paths : 276 (20.51%)           │
+│ stage execs : 350/10.0k (3.50%)     │  new edges on : 439 (32.62%)           │
+│ total execs : 4.90M                 │ total crashes : 5 (5 unique)           │
+│  exec speed : 37.84/sec (slow!)     │   total hangs : 781 (85 unique)        │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 49/66.0k, 12/66.0k, 12/65.8k          │    levels : 3          │
+│  byte flips : 2/8255, 0/6085, 1/5976                │   pending : 1264       │
+│ arithmetics : 66/342k, 2/158k, 0/62.0k              │  pend fav : 218        │
+│  known ints : 7/30.9k, 22/137k, 14/236k             │ own finds : 1088       │
+│  dictionary : 0/0, 0/0, 2/104k                      │  imported : n/a        │
+│       havoc : 902/3.59M, 0/0                        │  variable : 162        │
+│        trim : 8.59%/3480, 24.79%                    ├────────────────────────┘
+└─────────────────────────────────────────────────────┘             [cpu:164%]
+[-]  SYSTEM ERROR : Unable to create 'outimage/hangs/id:000085,src:000623,op:havoc,rep:32'
+    Stop location : save_if_interesting(), afl-fuzz.c:3051
+       OS message : No space left on device
+[wrv@pseudopolis utilities]$
+
+
+------------------------------------------------
+
+
+                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 0 days, 6 hrs, 6 min, 54 sec       │  cycles done : 1      │
+│   last new path : 0 days, 3 hrs, 38 min, 17 sec      │  total paths : 694    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 0 hrs, 0 min, 18 sec       │   uniq hangs : 3      │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 615* (88.62%)     │    map density : 1959 (2.99%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 1.79 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : arith 8/8             │ favored paths : 91 (13.11%)            │
+│ stage execs : 47.9k/62.6k (76.56%)  │  new edges on : 136 (19.60%)           │
+│ total execs : 4.92M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 181.3/sec             │   total hangs : 50 (3 unique)          │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 0/203k, 0/203k, 0/203k                │    levels : 6          │
+│  byte flips : 0/25.5k, 0/19.9k, 0/20.2k             │   pending : 530        │
+│ arithmetics : 0/1.04M, 0/215k, 0/26.1k              │  pend fav : 0          │
+│  known ints : 0/110k, 0/509k, 0/833k                │ own finds : 4          │
+│  dictionary : 0/0, 0/0, 0/59.5k                     │  imported : n/a        │
+│       havoc : 4/1.36M, 0/0                          │  variable : 0          │
+│        trim : 37.89%/24.1k, 22.15%                  ├────────────────────────┘
+└─────────────────────────────────────────────────────┘             [cpu:170%]
+[-]  SYSTEM ERROR : Unable to create 'outkey/.cur_input'
+    Stop location : write_to_testcase(), afl-fuzz.c:2301
+       OS message : No space left on device
+[wrv@pseudopolis libressl-2.1.6]$
+
+
+
+
+----------------------------------------------------
+
+
+
+                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 0 days, 5 hrs, 56 min, 15 sec      │  cycles done : 0      │
+│   last new path : 0 days, 0 hrs, 27 min, 29 sec      │  total paths : 1212   │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 0 hrs, 0 min, 32 sec       │   uniq hangs : 4      │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 1162 (95.87%)     │    map density : 5039 (7.69%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 2.20 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : interest 32/8         │ favored paths : 309 (25.50%)           │
+│ stage execs : 20.9k/32.5k (64.45%)  │  new edges on : 484 (39.93%)           │
+│ total execs : 4.72M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 29.88/sec (slow!)     │   total hangs : 49 (4 unique)          │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 27/197k, 5/197k, 5/197k               │    levels : 7          │
+│  byte flips : 0/24.6k, 0/24.6k, 0/24.5k             │   pending : 1176       │
+│ arithmetics : 5/1.37M, 0/22.9k, 0/210               │  pend fav : 289        │
+│  known ints : 0/153k, 0/688k, 0/1.05M               │ own finds : 53         │
+│  dictionary : 0/0, 0/0, 2/165k                      │  imported : n/a        │
+│       havoc : 4/557k, 0/0                           │  variable : 0          │
+│        trim : 0.15%/11.8k, 0.00%                    ├────────────────────────┘
+└─────────────────────────────────────────────────────┘             [cpu:174%]
+[-]  SYSTEM ERROR : Unable to create 'outcrt/.cur_input'
+    Stop location : write_to_testcase(), afl-fuzz.c:2301
+       OS message : No space left on device
+[wrv@pseudopolis libressl-2.1.6]$
+
+
+
+
+-------------------------------------------------------------
+
+
+
+
+                       american fuzzy lop 1.83b (openssl)
+
+┌─ process timing ─────────────────────────────────────┬─ overall results ─────┐
+│        run time : 0 days, 6 hrs, 0 min, 14 sec       │  cycles done : 0      │
+│   last new path : 0 days, 0 hrs, 1 min, 29 sec       │  total paths : 807    │
+│ last uniq crash : none seen yet                      │ uniq crashes : 0      │
+│  last uniq hang : 0 days, 0 hrs, 0 min, 32 sec       │   uniq hangs : 4      │
+├─ cycle progress ────────────────────┬─ map coverage ─┴───────────────────────┤
+│  now processing : 271 (33.58%)      │    map density : 4825 (7.36%)          │
+│ paths timed out : 0 (0.00%)         │ count coverage : 2.15 bits/tuple       │
+├─ stage progress ────────────────────┼─ findings in depth ────────────────────┤
+│  now trying : arith 8/8             │ favored paths : 235 (29.12%)           │
+│ stage execs : 22.3k/52.4k (42.49%)  │  new edges on : 362 (44.86%)           │
+│ total execs : 4.74M                 │ total crashes : 0 (0 unique)           │
+│  exec speed : 177.5/sec             │   total hangs : 32 (4 unique)          │
+├─ fuzzing strategy yields ───────────┴───────────────┬─ path geometry ────────┤
+│   bit flips : 35/218k, 6/218k, 6/218k               │    levels : 3          │
+│  byte flips : 0/27.3k, 0/27.1k, 0/27.0k             │   pending : 774        │
+│ arithmetics : 11/1.46M, 0/22.4k, 0/0                │  pend fav : 218        │
+│  known ints : 0/162k, 0/734k, 0/1.15M               │ own finds : 85         │
+│  dictionary : 0/0, 0/0, 1/78.2k                     │  imported : n/a        │
+│       havoc : 17/344k, 0/0                          │  variable : 0          │
+│        trim : 3.23%/13.2k, 0.76%                    ├────────────────────────┘
+└─────────────────────────────────────────────────────┘             [cpu:167%]
+[-]  SYSTEM ERROR : Unable to create 'outcsr/.cur_input'
+    Stop location : write_to_testcase(), afl-fuzz.c:2301
+       OS message : No space left on device
+[wrv@pseudopolis libressl-2.1.6]$
+
