@@ -1,6 +1,6 @@
 Command line used to find this crash:
 
-../../afl-fuzz -i gif/full/images/ -o outimage -- ./convert @@ @@.png
+../../afl-fuzz -i - -o outimage -- ./convert @@ @@.png
 
 If you can't reproduce a bug outside of afl-fuzz, be sure to set the same
 memory limit. The limit used for this fuzzing session was 50.0 MB.
