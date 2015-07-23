@@ -1,0 +1,521 @@
+utilities/conjure.o: utilities/conjure.c /usr/include/stdc-predef.h \
+ wand/studio.h magick/magick-config.h magick/magick-baseconfig.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stdarg.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/sys/stat.h /usr/include/time.h \
+ /usr/include/bits/stat.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/memory.h /usr/include/string.h /usr/include/bits/string.h \
+ /usr/include/bits/string2.h /usr/include/strings.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/ctype.h \
+ /usr/include/locale.h /usr/include/bits/locale.h /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h /usr/include/bits/timex.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/limits.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+ /usr/include/assert.h /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/sched.h /usr/include/bits/setjmp.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/omp.h \
+ /usr/include/sys/timeb.h /usr/include/dirent.h \
+ /usr/include/bits/dirent.h /usr/include/sys/wait.h /usr/include/pwd.h \
+ wand/MagickWand.h wand/method-attribute.h magick/MagickCore.h \
+ magick/method-attribute.h magick/magick-type.h magick/accelerate.h \
+ magick/morphology.h magick/geometry.h magick/animate.h magick/annotate.h \
+ magick/draw.h magick/image.h magick/color.h magick/pixel.h \
+ magick/colorspace.h magick/constitute.h magick/exception.h \
+ magick/semaphore.h magick/blob.h magick/stream.h magick/cache-view.h \
+ magick/composite.h magick/compress.h magick/effect.h magick/layer.h \
+ magick/locale_.h magick/hashmap.h magick/monitor.h magick/profile.h \
+ magick/string_.h magick/quantum.h magick/resample.h magick/resize.h \
+ magick/timer.h magick/type.h magick/artifact.h magick/attribute.h \
+ magick/cache.h magick/channel.h magick/cipher.h magick/client.h \
+ magick/coder.h magick/colormap.h magick/compare.h magick/configure.h \
+ magick/decorate.h magick/delegate.h magick/deprecate.h magick/quantize.h \
+ magick/registry.h magick/display.h magick/distort.h \
+ magick/distribute-cache.h magick/enhance.h magick/feature.h \
+ magick/fourier.h magick/fx.h magick/gem.h magick/random_.h \
+ magick/histogram.h magick/identify.h magick/image-view.h magick/list.h \
+ magick/log.h magick/magic.h magick/magick.h magick/matrix.h \
+ magick/memory_.h magick/module.h magick/version.h magick/mime.h \
+ magick/montage.h magick/option.h magick/paint.h magick/pixel-accessor.h \
+ magick/policy.h magick/prepress.h magick/property.h magick/resource_.h \
+ magick/segment.h magick/shear.h magick/signature.h magick/splay-tree.h \
+ magick/statistic.h magick/token.h magick/transform.h magick/threshold.h \
+ magick/utility.h magick/xml-tree.h magick/xwindow.h wand/animate.h \
+ wand/compare.h wand/composite.h wand/conjure.h wand/convert.h \
+ wand/deprecate.h wand/drawing-wand.h wand/pixel-wand.h \
+ wand/magick-wand.h wand/pixel-iterator.h wand/display.h wand/identify.h \
+ wand/import.h wand/magick-property.h wand/magick-image.h wand/mogrify.h \
+ wand/montage.h wand/stream.h wand/wand-view.h /usr/include/sys/time.h \
+ /usr/include/sys/times.h /usr/include/sys/resource.h \
+ /usr/include/bits/resource.h /usr/include/sys/mman.h \
+ /usr/include/bits/mman.h
+
+/usr/include/stdc-predef.h:
+
+wand/studio.h:
+
+magick/magick-config.h:
+
+magick/magick-baseconfig.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stdarg.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/memory.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/strings.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/ctype.h:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/bits/timex.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/limits.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/assert.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.3/include/omp.h:
+
+/usr/include/sys/timeb.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/pwd.h:
+
+wand/MagickWand.h:
+
+wand/method-attribute.h:
+
+magick/MagickCore.h:
+
+magick/method-attribute.h:
+
+magick/magick-type.h:
+
+magick/accelerate.h:
+
+magick/morphology.h:
+
+magick/geometry.h:
+
+magick/animate.h:
+
+magick/annotate.h:
+
+magick/draw.h:
+
+magick/image.h:
+
+magick/color.h:
+
+magick/pixel.h:
+
+magick/colorspace.h:
+
+magick/constitute.h:
+
+magick/exception.h:
+
+magick/semaphore.h:
+
+magick/blob.h:
+
+magick/stream.h:
+
+magick/cache-view.h:
+
+magick/composite.h:
+
+magick/compress.h:
+
+magick/effect.h:
+
+magick/layer.h:
+
+magick/locale_.h:
+
+magick/hashmap.h:
+
+magick/monitor.h:
+
+magick/profile.h:
+
+magick/string_.h:
+
+magick/quantum.h:
+
+magick/resample.h:
+
+magick/resize.h:
+
+magick/timer.h:
+
+magick/type.h:
+
+magick/artifact.h:
+
+magick/attribute.h:
+
+magick/cache.h:
+
+magick/channel.h:
+
+magick/cipher.h:
+
+magick/client.h:
+
+magick/coder.h:
+
+magick/colormap.h:
+
+magick/compare.h:
+
+magick/configure.h:
+
+magick/decorate.h:
+
+magick/delegate.h:
+
+magick/deprecate.h:
+
+magick/quantize.h:
+
+magick/registry.h:
+
+magick/display.h:
+
+magick/distort.h:
+
+magick/distribute-cache.h:
+
+magick/enhance.h:
+
+magick/feature.h:
+
+magick/fourier.h:
+
+magick/fx.h:
+
+magick/gem.h:
+
+magick/random_.h:
+
+magick/histogram.h:
+
+magick/identify.h:
+
+magick/image-view.h:
+
+magick/list.h:
+
+magick/log.h:
+
+magick/magic.h:
+
+magick/magick.h:
+
+magick/matrix.h:
+
+magick/memory_.h:
+
+magick/module.h:
+
+magick/version.h:
+
+magick/mime.h:
+
+magick/montage.h:
+
+magick/option.h:
+
+magick/paint.h:
+
+magick/pixel-accessor.h:
+
+magick/policy.h:
+
+magick/prepress.h:
+
+magick/property.h:
+
+magick/resource_.h:
+
+magick/segment.h:
+
+magick/shear.h:
+
+magick/signature.h:
+
+magick/splay-tree.h:
+
+magick/statistic.h:
+
+magick/token.h:
+
+magick/transform.h:
+
+magick/threshold.h:
+
+magick/utility.h:
+
+magick/xml-tree.h:
+
+magick/xwindow.h:
+
+wand/animate.h:
+
+wand/compare.h:
+
+wand/composite.h:
+
+wand/conjure.h:
+
+wand/convert.h:
+
+wand/deprecate.h:
+
+wand/drawing-wand.h:
+
+wand/pixel-wand.h:
+
+wand/magick-wand.h:
+
+wand/pixel-iterator.h:
+
+wand/display.h:
+
+wand/identify.h:
+
+wand/import.h:
+
+wand/magick-property.h:
+
+wand/magick-image.h:
+
+wand/mogrify.h:
+
+wand/montage.h:
+
+wand/stream.h:
+
+wand/wand-view.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/times.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/bits/resource.h:
+
+/usr/include/sys/mman.h:
+
+/usr/include/bits/mman.h:
