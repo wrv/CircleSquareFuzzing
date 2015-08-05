@@ -9,12 +9,12 @@
   <configure name="NAME" value="ImageMagick"/>
   <configure name="LIB_VERSION" value="0x654"/>
   <configure name="LIB_VERSION_NUMBER" value="6,5,4,10"/>
-  <configure name="RELEASE_DATE" value="2015-07-16"/>
-  <configure name="CONFIGURE" value="./configure  '--disable-shared' 'CC=/home/wrv/afl-1.83b/afl-gcc'"/>
+  <configure name="RELEASE_DATE" value="2015-08-04"/>
+  <configure name="CONFIGURE" value="./configure  '--disable-shared' 'CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc'"/>
   <configure name="PREFIX" value="/usr/local"/>
   <configure name="EXEC-PREFIX" value="/usr/local"/>
   <configure name="VERSION" value="6.5.4"/>
-  <configure name="CC" value="/home/wrv/afl-1.83b/afl-gcc -std=gnu99"/>
+  <configure name="CC" value="/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99"/>
   <configure name="CFLAGS" value="-fopenmp -g -O2 -Wall -W -pthread"/>
   <configure name="CPPFLAGS" value="-I/usr/local/include/ImageMagick"/>
   <configure name="PCFLAGS" value="-fopenmp"/>
@@ -23,7 +23,7 @@
   <configure name="LIBS" value="-lMagickCore -lm -lgomp -lpthread "/>
   <configure name="CXX" value="g++"/>
   <configure name="CXXFLAGS" value="-pthread"/>
-  <configure name="DISTCHECK_CONFIG_FLAGS" value="'CC=/home/wrv/afl-1.83b/afl-gcc' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-wmf=no --with-xml=no"/>
+  <configure name="DISTCHECK_CONFIG_FLAGS" value="'CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-wmf=no --with-xml=no"/>
   <configure name="HOST" value="x86_64-unknown-linux-gnu"/>
   <configure name="DELEGATES" value=""/>
   <configure name="COPYRIGHT" value="Copyright (C) 1999-2009 ImageMagick Studio LLC"/>

@@ -62,7 +62,7 @@ WriteMakefile
    'INC'	=> '-I../ -I.. ',
 
    # C compiler
-   #'CC' => '/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99',
+   #'CC' => '/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99',
 
    # C pre-processor flags (e.g. -I & -D options)
    # 'CPPFLAGS' => "$Config{'cppflags'} ",
@@ -71,7 +71,7 @@ WriteMakefile
    'CCFLAGS' => "$Config{'ccflags'} -fopenmp -g -O2 -Wall -W -pthread",
 
    # Linker
-   #'LD' => $Config{'ld'} == $Config{'cc'} ? '/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99' : $Config{'ld'},
+   #'LD' => $Config{'ld'} == $Config{'cc'} ? '/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99' : $Config{'ld'},
 
    # Linker flags for building an executable
    'LDFLAGS' =>  "-L../magick/.libs -lMagickCore -L../wand/.libs -lMagickWand $Config{'ldflags'} ",
@@ -92,7 +92,7 @@ WriteMakefile
    # 'OPTIMIZE'	=> '',
 
    # Use same compiler as ImageMagick
-   'PERLMAINCC'	=> '/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -fopenmp',
+   'PERLMAINCC'	=> '/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -fopenmp',
 
    # Set Perl installation prefix to ImageMagick installation prefix
 #   'PREFIX'	=> '/usr/local',

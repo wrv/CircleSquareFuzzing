@@ -57,16 +57,16 @@ configure:3881: result: gawk
 configure:3892: checking whether make sets $(MAKE)
 configure:3914: result: yes
 configure:4157: checking for gcc
-configure:4184: result: /home/wrv/afl-1.83b/afl-gcc
+configure:4184: result: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc
 configure:4413: checking for C compiler version
-configure:4422: /home/wrv/afl-1.83b/afl-gcc --version >&5
+configure:4422: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc --version >&5
 gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9)
 Copyright (C) 2013 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 configure:4433: $? = 0
-configure:4422: /home/wrv/afl-1.83b/afl-gcc -v >&5
+configure:4422: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -v >&5
 Using built-in specs.
 COLLECT_GCC=gcc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.3/lto-wrapper
@@ -75,54 +75,54 @@ Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/u
 Thread model: posix
 gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) 
 configure:4433: $? = 0
-configure:4422: /home/wrv/afl-1.83b/afl-gcc -V >&5
+configure:4422: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -V >&5
 gcc: error: unrecognized command line option '-V'
 gcc: fatal error: no input files
 compilation terminated.
 configure:4433: $? = 4
-configure:4422: /home/wrv/afl-1.83b/afl-gcc -qversion >&5
+configure:4422: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -qversion >&5
 gcc: error: unrecognized command line option '-qversion'
 gcc: fatal error: no input files
 compilation terminated.
 configure:4433: $? = 4
 configure:4453: checking whether the C compiler works
-configure:4475: /home/wrv/afl-1.83b/afl-gcc    conftest.c  >&5
+configure:4475: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc    conftest.c  >&5
 configure:4479: $? = 0
 configure:4527: result: yes
 configure:4530: checking for C compiler default output file name
 configure:4532: result: a.out
 configure:4538: checking for suffix of executables
-configure:4545: /home/wrv/afl-1.83b/afl-gcc -o conftest    conftest.c  >&5
+configure:4545: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -o conftest    conftest.c  >&5
 configure:4549: $? = 0
 configure:4571: result: 
 configure:4593: checking whether we are cross compiling
-configure:4601: /home/wrv/afl-1.83b/afl-gcc -o conftest    conftest.c  >&5
+configure:4601: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -o conftest    conftest.c  >&5
 configure:4605: $? = 0
 configure:4612: ./conftest
 configure:4616: $? = 0
 configure:4631: result: no
 configure:4636: checking for suffix of object files
-configure:4658: /home/wrv/afl-1.83b/afl-gcc -c   conftest.c >&5
+configure:4658: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -c   conftest.c >&5
 configure:4662: $? = 0
 configure:4683: result: o
 configure:4687: checking whether we are using the GNU C compiler
-configure:4706: /home/wrv/afl-1.83b/afl-gcc -c   conftest.c >&5
+configure:4706: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -c   conftest.c >&5
 configure:4706: $? = 0
 configure:4715: result: yes
-configure:4724: checking whether /home/wrv/afl-1.83b/afl-gcc accepts -g
-configure:4744: /home/wrv/afl-1.83b/afl-gcc -c -g  conftest.c >&5
+configure:4724: checking whether /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc accepts -g
+configure:4744: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -c -g  conftest.c >&5
 configure:4744: $? = 0
 configure:4785: result: yes
-configure:4802: checking for /home/wrv/afl-1.83b/afl-gcc option to accept ISO C89
-configure:4865: /home/wrv/afl-1.83b/afl-gcc  -c -g -O2  conftest.c >&5
+configure:4802: checking for /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc option to accept ISO C89
+configure:4865: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc  -c -g -O2  conftest.c >&5
 configure:4865: $? = 0
 configure:4878: result: none needed
 configure:4909: checking for style of include used by make
 configure:4937: result: GNU
-configure:4962: checking dependency style of /home/wrv/afl-1.83b/afl-gcc
+configure:4962: checking dependency style of /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc
 configure:5072: result: gcc3
-configure:5091: checking for /home/wrv/afl-1.83b/afl-gcc option to accept ISO C99
-configure:5240: /home/wrv/afl-1.83b/afl-gcc  -c -g -O2  conftest.c >&5
+configure:5091: checking for /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc option to accept ISO C99
+configure:5240: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc  -c -g -O2  conftest.c >&5
 conftest.c:59:29: error: expected ';', ',' or ')' before 'text'
  test_restrict (ccp restrict text)
                              ^
@@ -282,15 +282,15 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:5240: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2  conftest.c >&5
+configure:5240: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2  conftest.c >&5
 configure:5240: $? = 0
 configure:5260: result: -std=gnu99
-configure:5361: checking for /home/wrv/afl-1.83b/afl-gcc -std=gnu99 option to accept ISO Standard C
+configure:5361: checking for /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 option to accept ISO Standard C
 configure:5375: result: -std=gnu99
 configure:5384: checking how to run the C preprocessor
-configure:5415: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:5415: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:5415: $? = 0
-configure:5429: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:5429: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:9:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -306,10 +306,10 @@ configure: failed program was:
 | #define PACKAGE_URL ""
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:5454: result: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E
-configure:5474: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:5454: result: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E
+configure:5474: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:5474: $? = 0
-configure:5488: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:5488: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:9:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -333,17 +333,17 @@ configure:5661: checking for egrep
 configure:5723: result: /usr/bin/grep -E
 configure:5728: checking for fgrep
 configure:5790: result: /usr/bin/grep -F
-configure:5825: checking for ld used by /home/wrv/afl-1.83b/afl-gcc -std=gnu99
+configure:5825: checking for ld used by /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99
 configure:5892: result: /usr/bin/ld
 configure:5899: checking if the linker (/usr/bin/ld) is GNU ld
 configure:5914: result: yes
 configure:5969: checking for ranlib
 configure:5985: found /usr/bin/ranlib
 configure:5996: result: ranlib
-configure:6020: checking whether /home/wrv/afl-1.83b/afl-gcc -std=gnu99 and cc understand -c and -o together
-configure:6051: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c conftest.c -o conftest2.o >&5
+configure:6020: checking whether /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 and cc understand -c and -o together
+configure:6051: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c conftest.c -o conftest2.o >&5
 configure:6055: $? = 0
-configure:6061: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c conftest.c -o conftest2.o >&5
+configure:6061: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c conftest.c -o conftest2.o >&5
 configure:6065: $? = 0
 configure:6076: cc -c conftest.c >&5
 configure:6080: $? = 0
@@ -494,51 +494,51 @@ configure:6718: result: /usr/bin/pkg-config
 configure:6743: checking pkg-config is at least version 0.9.0
 configure:6746: result: yes
 configure:6761: checking for ANSI C header files
-configure:6781: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6781: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6781: $? = 0
-configure:6854: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W   conftest.c  >&5
+configure:6854: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W   conftest.c  >&5
 configure:6854: $? = 0
 configure:6854: ./conftest
 configure:6854: $? = 0
 configure:6865: result: yes
 configure:6878: checking for sys/types.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for sys/stat.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for stdlib.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for string.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for memory.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for strings.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for inttypes.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for stdint.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6878: checking for unistd.h
-configure:6878: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6878: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6878: $? = 0
 configure:6878: result: yes
 configure:6891: checking minix/config.h usability
-configure:6891: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6891: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 conftest.c:52:26: fatal error: minix/config.h: No such file or directory
  #include <minix/config.h>
                           ^
@@ -599,7 +599,7 @@ configure: failed program was:
 | #include <minix/config.h>
 configure:6891: result: no
 configure:6891: checking minix/config.h presence
-configure:6891: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:6891: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:19:26: fatal error: minix/config.h: No such file or directory
  #include <minix/config.h>
                           ^
@@ -629,13 +629,13 @@ configure:6891: result: no
 configure:6891: checking for minix/config.h
 configure:6891: result: no
 configure:6912: checking whether it is safe to define __EXTENSIONS__
-configure:6930: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
+configure:6930: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -g -O2 -Wall -W  conftest.c >&5
 configure:6930: $? = 0
 configure:6937: result: yes
 configure:7059: checking for linker lazyload option
 configure:7075: result: none
 configure:7299: checking for the pthreads library -lpthreads
-configure:7332: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W    conftest.c -lpthreads  >&5
+configure:7332: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W    conftest.c -lpthreads  >&5
 conftest.c: In function 'main':
 conftest.c:29:22: warning: null argument where non-null required (argument 1) [-Wnonnull]
                       pthread_attr_init(0); pthread_cleanup_push(0, 0);
@@ -686,7 +686,7 @@ configure: failed program was:
 | }
 configure:7341: result: no
 configure:7244: checking whether pthreads work without any flags
-configure:7332: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W    conftest.c   >&5
+configure:7332: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W    conftest.c   >&5
 conftest.c: In function 'main':
 conftest.c:29:22: warning: null argument where non-null required (argument 1) [-Wnonnull]
                       pthread_attr_init(0); pthread_cleanup_push(0, 0);
@@ -698,7 +698,7 @@ conftest.c:30:22: warning: null argument where non-null required (argument 3) [-
 conftest.c:28:27: warning: 'th' is used uninitialized in this function [-Wuninitialized]
  pthread_t th; pthread_join(th, 0);
                            ^
-/tmp/ccbKIU3N.o: In function `main':
+/tmp/cc6U7IeQ.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:28: undefined reference to `pthread_join'
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:29: undefined reference to `__pthread_register_cancel'
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:30: undefined reference to `pthread_create'
@@ -741,7 +741,7 @@ configure: failed program was:
 | }
 configure:7341: result: no
 configure:7249: checking whether pthreads work with -Kthread
-configure:7332: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -Kthread   conftest.c   >&5
+configure:7332: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -Kthread   conftest.c   >&5
 gcc: error: unrecognized command line option '-Kthread'
 configure:7332: $? = 1
 configure: failed program was:
@@ -780,7 +780,7 @@ configure: failed program was:
 | }
 configure:7341: result: no
 configure:7249: checking whether pthreads work with -kthread
-configure:7332: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -kthread   conftest.c   >&5
+configure:7332: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -kthread   conftest.c   >&5
 gcc: error: unrecognized command line option '-kthread'
 configure:7332: $? = 1
 configure: failed program was:
@@ -819,7 +819,7 @@ configure: failed program was:
 | }
 configure:7341: result: no
 configure:7299: checking for the pthreads library -llthread
-configure:7332: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W    conftest.c -llthread  >&5
+configure:7332: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W    conftest.c -llthread  >&5
 conftest.c: In function 'main':
 conftest.c:29:22: warning: null argument where non-null required (argument 1) [-Wnonnull]
                       pthread_attr_init(0); pthread_cleanup_push(0, 0);
@@ -870,7 +870,7 @@ configure: failed program was:
 | }
 configure:7341: result: no
 configure:7249: checking whether pthreads work with -pthread
-configure:7332: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread   conftest.c   >&5
+configure:7332: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread   conftest.c   >&5
 conftest.c: In function 'main':
 conftest.c:29:22: warning: null argument where non-null required (argument 1) [-Wnonnull]
                       pthread_attr_init(0); pthread_cleanup_push(0, 0);
@@ -885,13 +885,13 @@ conftest.c:28:27: warning: 'th' is used uninitialized in this function [-Wuninit
 configure:7332: $? = 0
 configure:7341: result: yes
 configure:7360: checking for joinable pthread attribute
-configure:7375: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread   conftest.c   >&5
+configure:7375: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread   conftest.c   >&5
 configure:7375: $? = 0
 configure:7381: result: PTHREAD_CREATE_JOINABLE
 configure:7391: checking if more special flags are required for pthreads
 configure:7398: result: no
-configure:7593: checking for /home/wrv/afl-1.83b/afl-gcc -std=gnu99 option to support OpenMP
-configure:7608: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread   conftest.c  >&5
+configure:7593: checking for /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 option to support OpenMP
+configure:7608: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread   conftest.c  >&5
 conftest.c:27:2: error: unknown type name 'choke'
   choke me
   ^
@@ -932,21 +932,21 @@ configure: failed program was:
 | #include <omp.h>
 | int main () { return omp_get_num_threads (); }
 | 
-configure:7626: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread -fopenmp   conftest.c  >&5
+configure:7626: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -g -O2 -Wall -W -pthread -fopenmp   conftest.c  >&5
 configure:7626: $? = 0
 configure:7640: result: -fopenmp
 configure:7667: checking for special C compiler options needed for large files
 configure:7712: result: no
 configure:7718: checking for _FILE_OFFSET_BITS value needed for large files
-configure:7743: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:7743: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:7743: $? = 0
 configure:7775: result: no
 configure:7860: checking for _LARGEFILE_SOURCE value needed for large files
-configure:7879: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
+configure:7879: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
 configure:7879: $? = 0
 configure:7907: result: no
 configure:7933: checking for native large file support
-configure:7948: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
+configure:7948: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
 conftest.c:27:11: warning: return type defaults to 'int' [enabled by default]
            main () {
            ^
@@ -962,7 +962,7 @@ configure:7951: result: yes
 configure:8004: checking for BSD- or MS-compatible name lister (nm)
 configure:8053: result: /usr/bin/nm -B
 configure:8171: checking the name lister (/usr/bin/nm -B) interface
-configure:8178: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:8178: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:8181: /usr/bin/nm -B "conftest.o"
 configure:8184: output
 0000000000000000 B some_variable
@@ -988,18 +988,18 @@ configure:8896: found /usr/bin/strip
 configure:8907: result: strip
 configure:8979: checking for ranlib
 configure:9006: result: ranlib
-configure:9096: checking command to parse /usr/bin/nm -B output from /home/wrv/afl-1.83b/afl-gcc -std=gnu99 object
-configure:9214: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:9096: checking command to parse /usr/bin/nm -B output from /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 object
+configure:9214: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:9217: $? = 0
 configure:9221: /usr/bin/nm -B conftest.o \| sed -n -e 's/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' \> conftest.nm
 configure:9224: $? = 0
-configure:9278: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c conftstm.o >&5
+configure:9278: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c conftstm.o >&5
 configure:9281: $? = 0
 configure:9319: result: ok
-configure:9414: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:9414: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:9417: $? = 0
 configure:10124: checking for dlfcn.h
-configure:10124: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:10124: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:10124: $? = 0
 configure:10124: result: yes
 configure:10249: checking for C++ compiler version
@@ -1023,36 +1023,36 @@ configure:10396: checking dependency style of g++
 configure:10506: result: none
 configure:11131: checking for objdir
 configure:11146: result: .libs
-configure:11442: checking if /home/wrv/afl-1.83b/afl-gcc -std=gnu99 supports -fno-rtti -fno-exceptions
-configure:11460: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -fno-rtti -fno-exceptions conftest.c >&5
+configure:11442: checking if /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 supports -fno-rtti -fno-exceptions
+configure:11460: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -fno-rtti -fno-exceptions conftest.c >&5
 cc1: warning: command line option '-fno-rtti' is valid for C++/ObjC++ but not for C [enabled by default]
 configure:11464: $? = 0
 configure:11477: result: no
-configure:11497: checking for /home/wrv/afl-1.83b/afl-gcc -std=gnu99 option to produce PIC
+configure:11497: checking for /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 option to produce PIC
 configure:11769: result: -fPIC -DPIC
-configure:11781: checking if /home/wrv/afl-1.83b/afl-gcc -std=gnu99 PIC flag -fPIC -DPIC works
-configure:11799: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -fPIC -DPIC -DPIC conftest.c >&5
+configure:11781: checking if /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 PIC flag -fPIC -DPIC works
+configure:11799: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -fPIC -DPIC -DPIC conftest.c >&5
 configure:11803: $? = 0
 configure:11816: result: yes
-configure:11840: checking if /home/wrv/afl-1.83b/afl-gcc -std=gnu99 static flag -static works
+configure:11840: checking if /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 static flag -static works
 configure:11868: result: no
-configure:11883: checking if /home/wrv/afl-1.83b/afl-gcc -std=gnu99 supports -c -o file.o
-configure:11904: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -o out/conftest2.o conftest.c >&5
+configure:11883: checking if /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 supports -c -o file.o
+configure:11904: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -o out/conftest2.o conftest.c >&5
 configure:11908: $? = 0
 configure:11930: result: yes
-configure:11938: checking if /home/wrv/afl-1.83b/afl-gcc -std=gnu99 supports -c -o file.o
+configure:11938: checking if /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 supports -c -o file.o
 configure:11985: result: yes
-configure:12018: checking whether the /home/wrv/afl-1.83b/afl-gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries
+configure:12018: checking whether the /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries
 configure:13004: result: yes
 configure:13243: checking dynamic linker characteristics
-configure:13676: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   -Wl,-rpath -Wl,/foo conftest.c  >&5
+configure:13676: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   -Wl,-rpath -Wl,/foo conftest.c  >&5
 configure:13676: $? = 0
 configure:13897: result: GNU/Linux ld.so
 configure:13999: checking how to hardcode library paths into programs
 configure:14024: result: immediate
 configure:14118: checking for shl_load
-configure:14118: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
-/tmp/ccqabPOx.o: In function `main':
+configure:14118: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
+/tmp/ccnZt4tO.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:63: undefined reference to `shl_load'
 collect2: error: ld returned 1 exit status
 configure:14118: $? = 1
@@ -1125,7 +1125,7 @@ configure: failed program was:
 | }
 configure:14118: result: no
 configure:14122: checking for shl_load in -ldld
-configure:14147: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldld   >&5
+configure:14147: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldld   >&5
 /usr/bin/ld: cannot find -ldld
 collect2: error: ld returned 1 exit status
 configure:14147: $? = 1
@@ -1175,8 +1175,8 @@ configure: failed program was:
 | }
 configure:14156: result: no
 configure:14161: checking for dlopen
-configure:14161: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
-/tmp/ccnoEiXC.o: In function `main':
+configure:14161: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
+/tmp/ccVcWnvT.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:63: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:14161: $? = 1
@@ -1249,11 +1249,11 @@ configure: failed program was:
 | }
 configure:14161: result: no
 configure:14165: checking for dlopen in -ldl
-configure:14190: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl   >&5
+configure:14190: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl   >&5
 configure:14190: $? = 0
 configure:14199: result: yes
 configure:14318: checking whether a program can dlopen itself
-configure:14388: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -DHAVE_DLFCN_H  -Wl,--export-dynamic conftest.c -ldl  >&5
+configure:14388: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -DHAVE_DLFCN_H  -Wl,--export-dynamic conftest.c -ldl  >&5
 configure: In function 'fnord':
 configure:14369:20: warning: unused variable 'i' [-Wunused-variable]
  
@@ -1261,7 +1261,7 @@ configure:14369:20: warning: unused variable 'i' [-Wunused-variable]
 configure:14391: $? = 0
 configure:14409: result: yes
 configure:14414: checking whether a statically linked program can dlopen itself
-configure:14484: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -DHAVE_DLFCN_H  -Wl,--export-dynamic  conftest.c -ldl  >&5
+configure:14484: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -DHAVE_DLFCN_H  -Wl,--export-dynamic  conftest.c -ldl  >&5
 configure: In function 'fnord':
 configure:14465:20: warning: unused variable 'i' [-Wunused-variable]
  
@@ -1283,8 +1283,8 @@ configure:17526: result: LD_LIBRARY_PATH
 configure:17536: checking for the default library search path
 configure:17543: result: /lib64 /usr/lib64 /lib /usr/lib /usr/lib64/mysql /usr/lib/vmware-tools/lib32/libvmGuestLib.so /usr/lib/vmware-tools/lib64/libvmGuestLib.so /usr/lib/vmware-tools/lib32/libvmGuestLibJava.so /usr/lib/vmware-tools/lib64/libvmGuestLibJava.so /usr/lib/vmware-tools/lib32/libDeployPkg.so /usr/lib/vmware-tools/lib64/libDeployPkg.so 
 configure:17573: checking for library containing dlopen
-configure:17604: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
-/tmp/cc3ueGhQ.o: In function `main':
+configure:17604: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c  >&5
+/tmp/ccMGAruZ.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:43: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:17604: $? = 1
@@ -1335,11 +1335,11 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:17604: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl   >&5
+configure:17604: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl   >&5
 configure:17604: $? = 0
 configure:17621: result: -ldl
 configure:17711: checking for dlerror
-configure:17711: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  -ldl >&5
+configure:17711: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  -ldl >&5
 configure:17711: $? = 0
 configure:17711: result: yes
 configure:17725: checking for shl_load
@@ -1347,7 +1347,7 @@ configure:17725: result: no
 configure:17732: checking for shl_load in -ldld
 configure:17766: result: no
 configure:17812: checking for dld_link in -ldld
-configure:17837: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldld  -ldl  >&5
+configure:17837: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldld  -ldl  >&5
 /usr/bin/ld: cannot find -ldld
 collect2: error: ld returned 1 exit status
 configure:17837: $? = 1
@@ -1402,7 +1402,7 @@ configure: failed program was:
 | }
 configure:17846: result: no
 configure:17880: checking for _ prefix in compiled symbols
-configure:17890: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:17890: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:2:12: warning: statement with no effect [-Wunused-value]
  int main(){nm_test_func;return 0;}
@@ -1414,13 +1414,13 @@ configure:17922: result: no
 configure:18036: checking whether deplibs are loaded by dlopen
 configure:18130: result: yes
 configure:18142: checking for argz.h
-configure:18142: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18142: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:18142: $? = 0
 configure:18142: result: yes
 configure:18154: checking for error_t
-configure:18154: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18154: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:18154: $? = 0
-configure:18154: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18154: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:43:22: error: expected expression before ')' token
  if (sizeof ((error_t)))
@@ -1476,31 +1476,31 @@ configure: failed program was:
 | }
 configure:18154: result: yes
 configure:18180: checking for argz_add
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18180: checking for argz_append
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18180: checking for argz_count
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18180: checking for argz_create_sep
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18180: checking for argz_insert
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18180: checking for argz_next
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18180: checking for argz_stringify
-configure:18180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18180: $? = 0
 configure:18180: result: yes
 configure:18196: checking if argz actually works
@@ -1508,7 +1508,7 @@ configure:18227: result: yes
 configure:18244: checking whether libtool supports -dlopen/-dlpreopen
 configure:18256: result: yes
 configure:18285: checking for ltdl.h
-configure:18285: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18285: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:81:18: fatal error: ltdl.h: No such file or directory
  #include <ltdl.h>
                   ^
@@ -1604,7 +1604,7 @@ configure:18428: result: ${top_build_prefix}ltdl/libltdlc.la
 configure:18477: checking for unistd.h
 configure:18477: result: yes
 configure:18477: checking for dl.h
-configure:18477: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18477: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:81:16: fatal error: dl.h: No such file or directory
  #include <dl.h>
                 ^
@@ -1694,7 +1694,7 @@ configure: failed program was:
 | #include <dl.h>
 configure:18477: result: no
 configure:18477: checking for sys/dl.h
-configure:18477: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18477: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:81:20: fatal error: sys/dl.h: No such file or directory
  #include <sys/dl.h>
                     ^
@@ -1784,7 +1784,7 @@ configure: failed program was:
 | #include <sys/dl.h>
 configure:18477: result: no
 configure:18477: checking for dld.h
-configure:18477: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18477: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:81:17: fatal error: dld.h: No such file or directory
  #include <dld.h>
                  ^
@@ -1874,7 +1874,7 @@ configure: failed program was:
 | #include <dld.h>
 configure:18477: result: no
 configure:18477: checking for mach-o/dyld.h
-configure:18477: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18477: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:81:25: fatal error: mach-o/dyld.h: No such file or directory
  #include <mach-o/dyld.h>
                          ^
@@ -1964,24 +1964,24 @@ configure: failed program was:
 | #include <mach-o/dyld.h>
 configure:18477: result: no
 configure:18477: checking for dirent.h
-configure:18477: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:18477: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:18477: $? = 0
 configure:18477: result: yes
 configure:18492: checking for closedir
-configure:18492: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18492: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18492: $? = 0
 configure:18492: result: yes
 configure:18492: checking for opendir
-configure:18492: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18492: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18492: $? = 0
 configure:18492: result: yes
 configure:18492: checking for readdir
-configure:18492: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:18492: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:18492: $? = 0
 configure:18492: result: yes
 configure:18509: checking for strlcat
-configure:18509: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccNKOtm2.o: In function `main':
+configure:18509: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccJbdv1v.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:85: undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:18509: $? = 1
@@ -2076,8 +2076,8 @@ configure: failed program was:
 | }
 configure:18509: result: no
 configure:18509: checking for strlcpy
-configure:18509: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/cc3DAGaY.o: In function `main':
+configure:18509: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/cc1cAsdB.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:85: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:18509: $? = 1
@@ -2173,20 +2173,20 @@ configure: failed program was:
 configure:18509: result: no
 configure:18746: checking whether to enable maintainer-specific portions of Makefiles
 configure:18755: result: no
-configure:18964: checking whether /home/wrv/afl-1.83b/afl-gcc -std=gnu99 needs -traditional
+configure:18964: checking whether /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 needs -traditional
 configure:18998: result: no
 configure:19043: checking for ANSI C header files
 configure:19147: result: yes
 configure:19166: checking for dirent.h that defines DIR
-configure:19185: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19185: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19185: $? = 0
 configure:19193: result: yes
 configure:19206: checking for library containing opendir
-configure:19237: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:19237: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:19237: $? = 0
 configure:19254: result: none required
 configure:19326: checking arm/limits.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:90:24: fatal error: arm/limits.h: No such file or directory
  #include <arm/limits.h>
                         ^
@@ -2285,7 +2285,7 @@ configure: failed program was:
 | #include <arm/limits.h>
 configure:19326: result: no
 configure:19326: checking arm/limits.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:57:24: fatal error: arm/limits.h: No such file or directory
  #include <arm/limits.h>
                         ^
@@ -2353,31 +2353,31 @@ configure:19326: result: no
 configure:19326: checking for arm/limits.h
 configure:19326: result: no
 configure:19326: checking complex.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking complex.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for complex.h
 configure:19326: result: yes
 configure:19326: checking errno.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking errno.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for errno.h
 configure:19326: result: yes
 configure:19326: checking fcntl.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking fcntl.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for fcntl.h
@@ -2385,37 +2385,37 @@ configure:19326: result: yes
 configure:19326: checking for inttypes.h
 configure:19326: result: yes
 configure:19326: checking limits.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking limits.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for limits.h
 configure:19326: result: yes
 configure:19326: checking linux/unistd.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking linux/unistd.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for linux/unistd.h
 configure:19326: result: yes
 configure:19326: checking locale.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking locale.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for locale.h
 configure:19326: result: yes
 configure:19326: checking machine/param.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:97:27: fatal error: machine/param.h: No such file or directory
  #include <machine/param.h>
                            ^
@@ -2521,7 +2521,7 @@ configure: failed program was:
 | #include <machine/param.h>
 configure:19326: result: no
 configure:19326: checking machine/param.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:64:27: fatal error: machine/param.h: No such file or directory
  #include <machine/param.h>
                            ^
@@ -2598,7 +2598,7 @@ configure:19326: result: no
 configure:19326: checking for mach-o/dyld.h
 configure:19326: result: no
 configure:19326: checking OS.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:97:16: fatal error: OS.h: No such file or directory
  #include <OS.h>
                 ^
@@ -2704,7 +2704,7 @@ configure: failed program was:
 | #include <OS.h>
 configure:19326: result: no
 configure:19326: checking OS.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:64:16: fatal error: OS.h: No such file or directory
  #include <OS.h>
                 ^
@@ -2779,21 +2779,21 @@ configure:19326: result: no
 configure:19326: checking for OS.h
 configure:19326: result: no
 configure:19326: checking stdarg.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking stdarg.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for stdarg.h
 configure:19326: result: yes
 configure:19326: checking stddef.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking stddef.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for stddef.h
@@ -2803,27 +2803,27 @@ configure:19326: result: yes
 configure:19326: checking for strings.h
 configure:19326: result: yes
 configure:19326: checking sys/ipc.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking sys/ipc.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for sys/ipc.h
 configure:19326: result: yes
 configure:19326: checking sys/resource.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking sys/resource.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for sys/resource.h
 configure:19326: result: yes
 configure:19326: checking sys/syslimits.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:103:27: fatal error: sys/syslimits.h: No such file or directory
  #include <sys/syslimits.h>
                            ^
@@ -2935,7 +2935,7 @@ configure: failed program was:
 | #include <sys/syslimits.h>
 configure:19326: result: no
 configure:19326: checking sys/syslimits.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:70:27: fatal error: sys/syslimits.h: No such file or directory
  #include <sys/syslimits.h>
                            ^
@@ -3016,31 +3016,31 @@ configure:19326: result: no
 configure:19326: checking for sys/syslimits.h
 configure:19326: result: no
 configure:19326: checking sys/time.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking sys/time.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for sys/time.h
 configure:19326: result: yes
 configure:19326: checking sys/timeb.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking sys/timeb.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for sys/timeb.h
 configure:19326: result: yes
 configure:19326: checking sys/times.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking sys/times.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for sys/times.h
@@ -3048,11 +3048,11 @@ configure:19326: result: yes
 configure:19326: checking for sys/types.h
 configure:19326: result: yes
 configure:19326: checking sys/wait.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking sys/wait.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for sys/wait.h
@@ -3060,17 +3060,17 @@ configure:19326: result: yes
 configure:19326: checking for unistd.h
 configure:19326: result: yes
 configure:19326: checking wchar.h usability
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking wchar.h presence
-configure:19326: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:19326: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:19326: $? = 0
 configure:19326: result: yes
 configure:19326: checking for wchar.h
 configure:19326: result: yes
 configure:19343: checking for stdbool.h that conforms to C99
-configure:19410: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19410: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:126:14: warning: the address of 's' will always evaluate as 'true' [-Waddress]
               bool e = &s;
@@ -3108,9 +3108,9 @@ conftest.c:131:39: warning: the address of 'p' will always evaluate as 'true' [-
 configure:19410: $? = 0
 configure:19417: result: yes
 configure:19419: checking for _Bool
-configure:19419: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19419: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19419: $? = 0
-configure:19419: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19419: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:113:20: error: expected expression before ')' token
  if (sizeof ((_Bool)))
@@ -3236,39 +3236,39 @@ configure: failed program was:
 | }
 configure:19419: result: yes
 configure:19436: checking for working volatile
-configure:19455: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19455: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19455: $? = 0
 configure:19462: result: yes
 configure:19470: checking for preprocessor stringizing operator
 configure:19490: result: yes
 configure:19498: checking whether stat file-mode macros are broken
-configure:19525: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19525: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19525: $? = 0
 configure:19532: result: no
 configure:19540: checking whether time.h and sys/time.h may both be included
-configure:19560: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19560: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19560: $? = 0
 configure:19567: result: yes
 configure:19575: checking whether struct tm is in sys/time.h or time.h
-configure:19595: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19595: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19595: $? = 0
 configure:19602: result: time.h
 configure:19610: checking whether #! works in shell scripts
 configure:19627: result: yes
 configure:19634: checking for an ANSI C-conforming const
-configure:19700: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19700: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19700: $? = 0
 configure:19707: result: yes
 configure:19719: checking for inline
-configure:19735: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19735: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19735: $? = 0
 configure:19743: result: inline
 configure:19765: checking for C/C++ restrict keyword
-configure:19790: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19790: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19790: $? = 0
 configure:19798: result: __restrict
 configure:19814: checking whether byte ordering is bigendian
-configure:19829: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19829: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:83:9: error: unknown type name 'not'
          not a universal capable compiler
          ^
@@ -3364,9 +3364,9 @@ configure: failed program was:
 | 	     #endif
 | 	     typedef int dummy;
 | 
-configure:19874: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19874: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:19874: $? = 0
-configure:19892: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:19892: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:89:4: error: unknown type name 'not'
     not big endian
@@ -3472,9 +3472,9 @@ configure: failed program was:
 | }
 configure:20020: result: no
 configure:20040: checking for mode_t
-configure:20040: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20040: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20040: $? = 0
-configure:20040: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20040: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:118:21: error: expected expression before ')' token
  if (sizeof ((mode_t)))
@@ -3605,9 +3605,9 @@ configure: failed program was:
 | }
 configure:20040: result: yes
 configure:20053: checking for off_t
-configure:20053: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20053: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20053: $? = 0
-configure:20053: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20053: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:118:20: error: expected expression before ')' token
  if (sizeof ((off_t)))
@@ -3738,9 +3738,9 @@ configure: failed program was:
 | }
 configure:20053: result: yes
 configure:20066: checking for pid_t
-configure:20066: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20066: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20066: $? = 0
-configure:20066: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20066: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:118:20: error: expected expression before ')' token
  if (sizeof ((pid_t)))
@@ -3871,9 +3871,9 @@ configure: failed program was:
 | }
 configure:20066: result: yes
 configure:20079: checking for size_t
-configure:20079: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20079: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20079: $? = 0
-configure:20079: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20079: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:118:21: error: expected expression before ')' token
  if (sizeof ((size_t)))
@@ -4004,9 +4004,9 @@ configure: failed program was:
 | }
 configure:20079: result: yes
 configure:20092: checking for ssize_t
-configure:20092: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20092: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20092: $? = 0
-configure:20092: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20092: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:118:22: error: expected expression before ')' token
  if (sizeof ((ssize_t)))
@@ -4137,75 +4137,75 @@ configure: failed program was:
 | }
 configure:20092: result: yes
 configure:20107: checking for long double with more range or precision than double
-configure:20143: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20143: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20143: $? = 0
 configure:20150: result: yes
 configure:20161: checking whether char is unsigned
-configure:20180: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20180: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20180: $? = 0
 configure:20187: result: no
 configure:20200: checking size of signed short
-configure:20205: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20205: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20205: $? = 0
 configure:20205: ./conftest
 configure:20205: $? = 0
 configure:20219: result: 2
 configure:20235: checking size of unsigned short
-configure:20240: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20240: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20240: $? = 0
 configure:20240: ./conftest
 configure:20240: $? = 0
 configure:20254: result: 2
 configure:20270: checking size of signed int
-configure:20275: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20275: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20275: $? = 0
 configure:20275: ./conftest
 configure:20275: $? = 0
 configure:20289: result: 4
 configure:20305: checking size of unsigned int
-configure:20310: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20310: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20310: $? = 0
 configure:20310: ./conftest
 configure:20310: $? = 0
 configure:20324: result: 4
 configure:20340: checking size of signed long
-configure:20345: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20345: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20345: $? = 0
 configure:20345: ./conftest
 configure:20345: $? = 0
 configure:20359: result: 8
 configure:20375: checking size of unsigned long
-configure:20380: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20380: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20380: $? = 0
 configure:20380: ./conftest
 configure:20380: $? = 0
 configure:20394: result: 8
 configure:20411: checking size of signed long long
-configure:20416: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20416: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20416: $? = 0
 configure:20416: ./conftest
 configure:20416: $? = 0
 configure:20430: result: 8
 configure:20448: checking size of unsigned long long
-configure:20453: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20453: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20453: $? = 0
 configure:20453: ./conftest
 configure:20453: $? = 0
 configure:20467: result: 8
 configure:20483: checking size of off_t
-configure:20488: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20488: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20488: $? = 0
 configure:20488: ./conftest
 configure:20488: $? = 0
 configure:20502: result: 8
 configure:20518: checking size of size_t
-configure:20523: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20523: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20523: $? = 0
 configure:20523: ./conftest
 configure:20523: $? = 0
 configure:20537: result: 8
 configure:20553: checking size of unsigned int*
-configure:20558: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20558: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20558: $? = 0
 configure:20558: ./conftest
 configure:20558: $? = 0
@@ -4231,7 +4231,7 @@ configure:20671: result: unsigned long
 configure:20675: checking for pointer difference type
 configure:20683: result: unsigned long
 configure:20687: checking whether our compiler supports __func__
-configure:20700: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20700: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20700: $? = 0
 configure:20701: result: yes
 configure:20744: checking for stdlib.h
@@ -4239,17 +4239,17 @@ configure:20744: result: yes
 configure:20744: checking for unistd.h
 configure:20744: result: yes
 configure:20756: checking for getpagesize
-configure:20756: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20756: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20756: $? = 0
 configure:20756: result: yes
 configure:20765: checking for working mmap file i/o
-configure:20884: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20884: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20884: $? = 0
 configure:20884: ./conftest
 configure:20884: $? = 0
 configure:20894: result: yes
 configure:20903: checking whether closedir returns void
-configure:20927: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:20927: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:20927: $? = 0
 configure:20927: ./conftest
 configure:20927: $? = 0
@@ -4259,19 +4259,19 @@ configure:20951: result: yes
 configure:20951: checking for unistd.h
 configure:20951: result: yes
 configure:20951: checking for sys/param.h
-configure:20951: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:20951: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:20951: $? = 0
 configure:20951: result: yes
 configure:20971: checking for getpagesize
 configure:20971: result: yes
 configure:20980: checking for working mmap
-configure:21127: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21127: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21127: $? = 0
 configure:21127: ./conftest
 configure:21127: $? = 0
 configure:21137: result: yes
 configure:21148: checking vfork.h usability
-configure:21148: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21148: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:136:19: fatal error: vfork.h: No such file or directory
  #include <vfork.h>
                    ^
@@ -4416,7 +4416,7 @@ configure: failed program was:
 | #include <vfork.h>
 configure:21148: result: no
 configure:21148: checking vfork.h presence
-configure:21148: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:21148: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:103:19: fatal error: vfork.h: No such file or directory
  #include <vfork.h>
                    ^
@@ -4530,18 +4530,18 @@ configure:21148: result: no
 configure:21148: checking for vfork.h
 configure:21148: result: no
 configure:21161: checking for fork
-configure:21161: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21161: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:126:6: warning: conflicting types for built-in function 'fork' [enabled by default]
  char fork ();
       ^
 configure:21161: $? = 0
 configure:21161: result: yes
 configure:21161: checking for vfork
-configure:21161: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21161: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21161: $? = 0
 configure:21161: result: yes
 configure:21171: checking for working fork
-configure:21193: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21193: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21193: $? = 0
 configure:21193: ./conftest
 configure:21193: $? = 0
@@ -4549,37 +4549,37 @@ configure:21203: result: yes
 configure:21224: checking for working vfork
 configure:21334: result: yes
 configure:21359: checking for working memcmp
-configure:21402: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21402: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21402: $? = 0
 configure:21402: ./conftest
 configure:21402: $? = 0
 configure:21412: result: yes
 configure:21424: checking sys/select.h usability
-configure:21424: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21424: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:21424: $? = 0
 configure:21424: result: yes
 configure:21424: checking sys/select.h presence
-configure:21424: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:21424: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:21424: $? = 0
 configure:21424: result: yes
 configure:21424: checking for sys/select.h
 configure:21424: result: yes
 configure:21424: checking sys/socket.h usability
-configure:21424: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21424: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:21424: $? = 0
 configure:21424: result: yes
 configure:21424: checking sys/socket.h presence
-configure:21424: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:21424: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 configure:21424: $? = 0
 configure:21424: result: yes
 configure:21424: checking for sys/socket.h
 configure:21424: result: yes
 configure:21434: checking types of arguments for select
-configure:21462: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21462: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:21462: $? = 0
 configure:21473: result: int,fd_set *,struct timeval *
 configure:21503: checking return type of signal handlers
-configure:21521: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21521: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:118:1: error: void value not ignored as it ought to be
  return *(signal (0, 0)) (0) == 1;
@@ -4709,21 +4709,21 @@ configure: failed program was:
 | }
 configure:21528: result: void
 configure:21536: checking for working strtod
-configure:21577: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21577: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21577: $? = 0
 configure:21577: ./conftest
 configure:21577: $? = 0
 configure:21587: result: yes
 configure:21651: checking for vprintf
-configure:21651: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21651: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:136:6: warning: conflicting types for built-in function 'vprintf' [enabled by default]
  char vprintf ();
       ^
 configure:21651: $? = 0
 configure:21651: result: yes
 configure:21657: checking for _doprnt
-configure:21657: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/cckf6MTS.o: In function `main':
+configure:21657: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccdPLcy5.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:148: undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:21657: $? = 1
@@ -4881,27 +4881,27 @@ configure: failed program was:
 | }
 configure:21657: result: no
 configure:21672: checking for _exit
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:137:6: warning: conflicting types for built-in function '_exit' [enabled by default]
  char _exit ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for atexit
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for clock
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for clock_gettime
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for directio
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccadETm6.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/cczYD87p.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:152: undefined reference to `directio'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -5063,18 +5063,18 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for execvp
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:141:6: warning: conflicting types for built-in function 'execvp' [enabled by default]
  char execvp ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for floor
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:142:6: warning: conflicting types for built-in function 'floor' [enabled by default]
  char floor ();
       ^
-/tmp/cc8kke4f.o: In function `main':
+/tmp/ccTd7aDx.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:153: undefined reference to `floor'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -5239,24 +5239,24 @@ configure:21672: result: no
 configure:21672: checking for fork
 configure:21672: result: yes
 configure:21672: checking for ftime
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for ftruncate
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for getcwd
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for getpid
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for getexecname
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccS4Dt5m.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccIcp4wF.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:158: undefined reference to `getexecname'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -5424,56 +5424,56 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for getdtablesize
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for getpagesize
 configure:21672: result: yes
 configure:21672: checking for getrusage
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for gettimeofday
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for gmtime_r
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for localtime_r
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for lstat
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for memmove
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:154:6: warning: conflicting types for built-in function 'memmove' [enabled by default]
  char memmove ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for memset
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:155:6: warning: conflicting types for built-in function 'memset' [enabled by default]
  char memset ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for mkstemp
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for munmap
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for _NSGetExecutablePath
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccAFwjZU.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccGbTX9m.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:169: undefined reference to `_NSGetExecutablePath'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -5652,12 +5652,12 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for pclose
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for _pclose
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/cchxdFz3.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccQaZlcv.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:170: undefined reference to `_pclose'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -5837,16 +5837,16 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for poll
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for popen
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for _popen
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccznIEQ9.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccPxYVMw.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:172: undefined reference to `_popen'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -6028,27 +6028,27 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for posix_fadvise
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for posix_fallocate
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for posix_madvise
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for posix_memalign
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for pow
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:165:6: warning: conflicting types for built-in function 'pow' [enabled by default]
  char pow ();
       ^
-/tmp/ccGkrTYp.o: In function `main':
+/tmp/ccz6u2fS.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:176: undefined reference to `pow'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -6234,51 +6234,51 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for pread
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for pwrite
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for raise
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for rand_r
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for readlink
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for readdir_r
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for realpath
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for select
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for seekdir
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for setlocale
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for sqrt
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:175:6: warning: conflicting types for built-in function 'sqrt' [enabled by default]
  char sqrt ();
       ^
-/tmp/ccRqiLxR.o: In function `main':
+/tmp/ccDsKfHx.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:186: undefined reference to `sqrt'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -6474,88 +6474,88 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for setvbuf
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for stat
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strchr
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:177:6: warning: conflicting types for built-in function 'strchr' [enabled by default]
  char strchr ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strerror_r
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strrchr
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:179:6: warning: conflicting types for built-in function 'strrchr' [enabled by default]
  char strrchr ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strcspn
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:180:6: warning: conflicting types for built-in function 'strcspn' [enabled by default]
  char strcspn ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strdup
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:181:6: warning: conflicting types for built-in function 'strdup' [enabled by default]
  char strdup ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strpbrk
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:182:6: warning: conflicting types for built-in function 'strpbrk' [enabled by default]
  char strpbrk ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strspn
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:183:6: warning: conflicting types for built-in function 'strspn' [enabled by default]
  char strspn ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strstr
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:184:6: warning: conflicting types for built-in function 'strstr' [enabled by default]
  char strstr ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strtol
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for symlink
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for sysconf
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for sigemptyset
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for sigaction
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strerror
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strlcat
@@ -6563,56 +6563,56 @@ configure:21672: result: no
 configure:21672: checking for strlcpy
 configure:21672: result: no
 configure:21672: checking for strcasecmp
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:191:6: warning: conflicting types for built-in function 'strcasecmp' [enabled by default]
  char strcasecmp ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for strncasecmp
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:192:6: warning: conflicting types for built-in function 'strncasecmp' [enabled by default]
  char strncasecmp ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for telldir
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for tempnam
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for times
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for usleep
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for vsprintf
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:197:6: warning: conflicting types for built-in function 'vsprintf' [enabled by default]
  char vsprintf ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for vsnprintf
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 conftest.c:198:6: warning: conflicting types for built-in function 'vsnprintf' [enabled by default]
  char vsnprintf ();
       ^
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for waitpid
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
 configure:21672: $? = 0
 configure:21672: result: yes
 configure:21672: checking for _wfopen
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccVNDm31.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccrN6bLz.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:211: undefined reference to `_wfopen'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -6833,8 +6833,8 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21672: checking for _wstat
-configure:21672: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
-/tmp/ccY48Di5.o: In function `main':
+configure:21672: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldl  >&5
+/tmp/ccJ6UbQG.o: In function `main':
 /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.5.4-10/conftest.c:211: undefined reference to `_wstat'
 collect2: error: ld returned 1 exit status
 configure:21672: $? = 1
@@ -7055,15 +7055,15 @@ configure: failed program was:
 | }
 configure:21672: result: no
 configure:21688: checking whether pread is declared
-configure:21688: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21688: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:21688: $? = 0
 configure:21688: result: yes
 configure:21700: checking whether pwrite is declared
-configure:21700: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21700: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:21700: $? = 0
 configure:21700: result: yes
 configure:21714: checking whether strlcpy is declared
-configure:21714: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21714: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:189:10: error: 'strlcpy' undeclared (first use in this function)
    (void) strlcpy;
@@ -7268,7 +7268,7 @@ configure: failed program was:
 | }
 configure:21714: result: no
 configure:21728: checking whether vsnprintf is declared
-configure:21728: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:21728: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 configure:21728: $? = 0
 configure:21728: result: yes
 configure:21880: checking for C++ compiler version
@@ -10182,11 +10182,11 @@ configure:22468: result: no (failed tests)
 configure:22529: checking for X11 configure files
 configure:22579: result: 
 configure:22599: checking for GOMP_parallel_start in -lgomp
-configure:22624: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lgomp  -ldl  >&5
+configure:22624: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lgomp  -ldl  >&5
 configure:22624: $? = 0
 configure:22633: result: yes
 configure:22853: checking for the pthreads library -lpthread
-configure:22871: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lgomp -ldl  -lpthread >&5
+configure:22871: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lgomp -ldl  -lpthread >&5
 conftest.c: In function 'main':
 conftest.c:188:3: warning: null argument where non-null required (argument 1) [-Wnonnull]
    pthread_attr_init(0);
@@ -10201,7 +10201,7 @@ conftest.c:187:15: warning: 'th' is used uninitialized in this function [-Wunini
 configure:22871: $? = 0
 configure:22877: result: yes
 configure:23154: checking for sqrt in -lm
-configure:23179: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lm  -lgomp -ldl  -lpthread >&5
+configure:23179: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lm  -lgomp -ldl  -lpthread >&5
 conftest.c:189:6: warning: conflicting types for built-in function 'sqrt' [enabled by default]
  char sqrt ();
       ^
@@ -10211,7 +10211,7 @@ configure:23218: result: -------------------------------------------------------
 configure:23220: checking for BZLIB
 configure:23222: result: 
 configure:23227: checking bzlib.h usability
-configure:23227: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:23227: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:215:19: fatal error: bzlib.h: No such file or directory
  #include <bzlib.h>
                    ^
@@ -10435,7 +10435,7 @@ configure: failed program was:
 | #include <bzlib.h>
 configure:23227: result: no
 configure:23227: checking bzlib.h presence
-configure:23227: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:23227: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:182:19: fatal error: bzlib.h: No such file or directory
  #include <bzlib.h>
                    ^
@@ -10628,7 +10628,7 @@ configure:23227: result: no
 configure:23227: checking for bzlib.h
 configure:23227: result: no
 configure:23235: checking for BZ2_bzDecompress in -lbz2
-configure:23260: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lbz2  -lm -lgomp -ldl  -lpthread >&5
+configure:23260: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lbz2  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lbz2
 collect2: error: ld returned 1 exit status
 configure:23260: $? = 1
@@ -10833,7 +10833,7 @@ configure:23269: result: no
 configure:23322: checking if BZLIB package is complete
 configure:23340: result: no
 configure:23361: checking for X
-configure:23469: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:23469: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:182:22: fatal error: X11/Xlib.h: No such file or directory
  #include <X11/Xlib.h>
                       ^
@@ -11022,7 +11022,7 @@ configure: failed program was:
 | #define X11_CONFIGURE_PATH ""
 | /* end confdefs.h.  */
 | #include <X11/Xlib.h>
-configure:23500: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lX11 -lm -lgomp -ldl  -lpthread >&5
+configure:23500: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lX11 -lm -lgomp -ldl  -lpthread >&5
 conftest.c:182:22: fatal error: X11/Xlib.h: No such file or directory
  #include <X11/Xlib.h>
                       ^
@@ -11223,7 +11223,7 @@ configure:24265: result: -------------------------------------------------------
 configure:24267: checking for ZLIB
 configure:24269: result: 
 configure:24274: checking zconf.h usability
-configure:24274: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:24274: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:19: fatal error: zconf.h: No such file or directory
  #include <zconf.h>
                    ^
@@ -11448,7 +11448,7 @@ configure: failed program was:
 | #include <zconf.h>
 configure:24274: result: no
 configure:24274: checking zconf.h presence
-configure:24274: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:24274: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:19: fatal error: zconf.h: No such file or directory
  #include <zconf.h>
                    ^
@@ -11642,7 +11642,7 @@ configure:24274: result: no
 configure:24274: checking for zconf.h
 configure:24274: result: no
 configure:24282: checking zlib.h usability
-configure:24282: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:24282: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:18: fatal error: zlib.h: No such file or directory
  #include <zlib.h>
                   ^
@@ -11867,7 +11867,7 @@ configure: failed program was:
 | #include <zlib.h>
 configure:24282: result: no
 configure:24282: checking zlib.h presence
-configure:24282: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:24282: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:18: fatal error: zlib.h: No such file or directory
  #include <zlib.h>
                   ^
@@ -12061,7 +12061,7 @@ configure:24282: result: no
 configure:24282: checking for zlib.h
 configure:24282: result: no
 configure:24290: checking for compress in -lz
-configure:24315: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
+configure:24315: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lz
 collect2: error: ld returned 1 exit status
 configure:24315: $? = 1
@@ -12265,7 +12265,7 @@ configure: failed program was:
 | }
 configure:24324: result: no
 configure:24332: checking for uncompress in -lz
-configure:24357: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
+configure:24357: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lz
 collect2: error: ld returned 1 exit status
 configure:24357: $? = 1
@@ -12469,7 +12469,7 @@ configure: failed program was:
 | }
 configure:24366: result: no
 configure:24374: checking for deflate in -lz
-configure:24399: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
+configure:24399: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lz
 collect2: error: ld returned 1 exit status
 configure:24399: $? = 1
@@ -12673,7 +12673,7 @@ configure: failed program was:
 | }
 configure:24408: result: no
 configure:24416: checking for inflate in -lz
-configure:24441: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
+configure:24441: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lz
 collect2: error: ld returned 1 exit status
 configure:24441: $? = 1
@@ -12877,7 +12877,7 @@ configure: failed program was:
 | }
 configure:24450: result: no
 configure:24458: checking for gzseek in -lz
-configure:24483: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
+configure:24483: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lz
 collect2: error: ld returned 1 exit status
 configure:24483: $? = 1
@@ -13081,7 +13081,7 @@ configure: failed program was:
 | }
 configure:24492: result: no
 configure:24500: checking for gztell in -lz
-configure:24525: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
+configure:24525: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lz  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lz
 collect2: error: ld returned 1 exit status
 configure:24525: $? = 1
@@ -13290,7 +13290,7 @@ configure:24759: result: -------------------------------------------------------
 configure:24761: checking for DPS
 configure:24763: result: 
 configure:24769: checking DPS/dpsXclient.h usability
-configure:24769: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11 conftest.c >&5
+configure:24769: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11 conftest.c >&5
 conftest.c:216:28: fatal error: DPS/dpsXclient.h: No such file or directory
  #include <DPS/dpsXclient.h>
                             ^
@@ -13515,7 +13515,7 @@ configure: failed program was:
 | #include <DPS/dpsXclient.h>
 configure:24769: result: no
 configure:24769: checking DPS/dpsXclient.h presence
-configure:24769: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  -Ino/X11 conftest.c
+configure:24769: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  -Ino/X11 conftest.c
 conftest.c:183:28: fatal error: DPS/dpsXclient.h: No such file or directory
  #include <DPS/dpsXclient.h>
                             ^
@@ -13709,7 +13709,7 @@ configure:24769: result: no
 configure:24769: checking for DPS/dpsXclient.h
 configure:24769: result: no
 configure:24784: checking for DPSInitialize in -ldps
-configure:24809: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11  conftest.c -ldps  -lm -lgomp -ldl  -lpthread >&5
+configure:24809: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11  conftest.c -ldps  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ldps
 collect2: error: ld returned 1 exit status
 configure:24809: $? = 1
@@ -13913,7 +13913,7 @@ configure: failed program was:
 | }
 configure:24818: result: no
 configure:24829: checking for DPSInitialize in -ldps
-configure:24854: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11  conftest.c -ldps -lXt -lm -lgomp -ldl  -lpthread >&5
+configure:24854: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11  conftest.c -ldps -lXt -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ldps
 /usr/bin/ld: cannot find -lXt
 collect2: error: ld returned 1 exit status
@@ -14118,7 +14118,7 @@ configure: failed program was:
 | }
 configure:24863: result: no
 configure:24880: checking for XDPSPixelsPerPoint in -ldpstk
-configure:24905: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11  conftest.c -ldpstk -ldps  -lm -lgomp -ldl  -lpthread >&5
+configure:24905: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread  -Ino/X11  conftest.c -ldpstk -ldps  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ldpstk
 /usr/bin/ld: cannot find -ldps
 collect2: error: ld returned 1 exit status
@@ -14328,7 +14328,7 @@ configure:24976: result: -------------------------------------------------------
 configure:24978: checking for DJVU
 configure:24980: result: 
 configure:24984: checking libdjvu/ddjvuapi.h usability
-configure:24984: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:24984: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:30: fatal error: libdjvu/ddjvuapi.h: No such file or directory
  #include <libdjvu/ddjvuapi.h>
                               ^
@@ -14553,7 +14553,7 @@ configure: failed program was:
 | #include <libdjvu/ddjvuapi.h>
 configure:24984: result: no
 configure:24984: checking libdjvu/ddjvuapi.h presence
-configure:24984: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:24984: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:30: fatal error: libdjvu/ddjvuapi.h: No such file or directory
  #include <libdjvu/ddjvuapi.h>
                               ^
@@ -14747,7 +14747,7 @@ configure:24984: result: no
 configure:24984: checking for libdjvu/ddjvuapi.h
 configure:24984: result: no
 configure:24992: checking for ddjvu_context_create in -ldjvulibre
-configure:25017: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldjvulibre  -lm -lgomp -ldl  -lpthread >&5
+configure:25017: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ldjvulibre  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ldjvulibre
 collect2: error: ld returned 1 exit status
 configure:25017: $? = 1
@@ -14956,7 +14956,7 @@ configure:25086: result: -------------------------------------------------------
 configure:25088: checking for FFTW
 configure:25090: result: 
 configure:25094: checking fftw3.h usability
-configure:25094: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:25094: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:19: fatal error: fftw3.h: No such file or directory
  #include <fftw3.h>
                    ^
@@ -15181,7 +15181,7 @@ configure: failed program was:
 | #include <fftw3.h>
 configure:25094: result: no
 configure:25094: checking fftw3.h presence
-configure:25094: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:25094: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:19: fatal error: fftw3.h: No such file or directory
  #include <fftw3.h>
                    ^
@@ -15375,7 +15375,7 @@ configure:25094: result: no
 configure:25094: checking for fftw3.h
 configure:25094: result: no
 configure:25102: checking for fftw_execute in -lfftw3
-configure:25127: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lfftw3  -lm -lgomp -ldl  -lpthread >&5
+configure:25127: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lfftw3  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lfftw3
 collect2: error: ld returned 1 exit status
 configure:25127: $? = 1
@@ -16207,7 +16207,7 @@ configure:25439: result:
 configure:25453: checking for freetype-config
 configure:25483: result: no
 configure:25499: checking for FT_Init_FreeType in -lfreetype
-configure:25524: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lfreetype  -lm -lgomp -ldl  -lpthread >&5
+configure:25524: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lfreetype  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lfreetype
 collect2: error: ld returned 1 exit status
 configure:25524: $? = 1
@@ -16411,7 +16411,7 @@ configure: failed program was:
 | }
 configure:25533: result: no
 configure:25547: checking ft2build.h usability
-configure:25547: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:25547: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:22: fatal error: ft2build.h: No such file or directory
  #include <ft2build.h>
                       ^
@@ -16636,7 +16636,7 @@ configure: failed program was:
 | #include <ft2build.h>
 configure:25547: result: no
 configure:25547: checking ft2build.h presence
-configure:25547: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:25547: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:22: fatal error: ft2build.h: No such file or directory
  #include <ft2build.h>
                       ^
@@ -16830,7 +16830,7 @@ configure:25547: result: no
 configure:25547: checking for ft2build.h
 configure:25547: result: no
 configure:25555: checking for freetype/freetype.h
-configure:25555: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:25555: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:185:31: fatal error: freetype/freetype.h: No such file or directory
  #include <freetype/freetype.h>
                                ^
@@ -17046,7 +17046,7 @@ configure:25943: result: -------------------------------------------------------
 configure:25945: checking for JBIG
 configure:25947: result: 
 configure:25951: checking jbig.h usability
-configure:25951: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:25951: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:18: fatal error: jbig.h: No such file or directory
  #include <jbig.h>
                   ^
@@ -17271,7 +17271,7 @@ configure: failed program was:
 | #include <jbig.h>
 configure:25951: result: no
 configure:25951: checking jbig.h presence
-configure:25951: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:25951: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:18: fatal error: jbig.h: No such file or directory
  #include <jbig.h>
                   ^
@@ -17465,7 +17465,7 @@ configure:25951: result: no
 configure:25951: checking for jbig.h
 configure:25951: result: no
 configure:25959: checking for jbg_dec_init in -ljbig
-configure:25984: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ljbig  -lm -lgomp -ldl  -lpthread >&5
+configure:25984: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ljbig  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ljbig
 collect2: error: ld returned 1 exit status
 configure:25984: $? = 1
@@ -17674,7 +17674,7 @@ configure:26053: result: -------------------------------------------------------
 configure:26055: checking for JPEG
 configure:26057: result: 
 configure:26061: checking jconfig.h usability
-configure:26061: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26061: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:21: fatal error: jconfig.h: No such file or directory
  #include <jconfig.h>
                      ^
@@ -17899,7 +17899,7 @@ configure: failed program was:
 | #include <jconfig.h>
 configure:26061: result: no
 configure:26061: checking jconfig.h presence
-configure:26061: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26061: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:21: fatal error: jconfig.h: No such file or directory
  #include <jconfig.h>
                      ^
@@ -18093,7 +18093,7 @@ configure:26061: result: no
 configure:26061: checking for jconfig.h
 configure:26061: result: no
 configure:26069: checking jerror.h usability
-configure:26069: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26069: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:20: fatal error: jerror.h: No such file or directory
  #include <jerror.h>
                     ^
@@ -18318,7 +18318,7 @@ configure: failed program was:
 | #include <jerror.h>
 configure:26069: result: no
 configure:26069: checking jerror.h presence
-configure:26069: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26069: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:20: fatal error: jerror.h: No such file or directory
  #include <jerror.h>
                     ^
@@ -18512,7 +18512,7 @@ configure:26069: result: no
 configure:26069: checking for jerror.h
 configure:26069: result: no
 configure:26077: checking jmorecfg.h usability
-configure:26077: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26077: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:22: fatal error: jmorecfg.h: No such file or directory
  #include <jmorecfg.h>
                       ^
@@ -18737,7 +18737,7 @@ configure: failed program was:
 | #include <jmorecfg.h>
 configure:26077: result: no
 configure:26077: checking jmorecfg.h presence
-configure:26077: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26077: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:22: fatal error: jmorecfg.h: No such file or directory
  #include <jmorecfg.h>
                       ^
@@ -18931,7 +18931,7 @@ configure:26077: result: no
 configure:26077: checking for jmorecfg.h
 configure:26077: result: no
 configure:26085: checking jpeglib.h usability
-configure:26085: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26085: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:21: fatal error: jpeglib.h: No such file or directory
  #include <jpeglib.h>
                      ^
@@ -19156,7 +19156,7 @@ configure: failed program was:
 | #include <jpeglib.h>
 configure:26085: result: no
 configure:26085: checking jpeglib.h presence
-configure:26085: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26085: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:21: fatal error: jpeglib.h: No such file or directory
  #include <jpeglib.h>
                      ^
@@ -19350,7 +19350,7 @@ configure:26085: result: no
 configure:26085: checking for jpeglib.h
 configure:26085: result: no
 configure:26093: checking for jpeg_read_header in -ljpeg
-configure:26118: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ljpeg  -lm -lgomp -ldl  -lpthread >&5
+configure:26118: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ljpeg  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ljpeg
 collect2: error: ld returned 1 exit status
 configure:26118: $? = 1
@@ -19554,7 +19554,7 @@ configure: failed program was:
 | }
 configure:26127: result: no
 configure:26138: checking for JPEG library is version 6b or later
-configure:26162: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26162: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:185:21: fatal error: jpeglib.h: No such file or directory
  #include <jpeglib.h>
                      ^
@@ -19766,7 +19766,7 @@ configure:26224: result: -------------------------------------------------------
 configure:26226: checking for JPEG Version 2
 configure:26228: result: 
 configure:26232: checking jasper/jasper.h usability
-configure:26232: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26232: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:27: fatal error: jasper/jasper.h: No such file or directory
  #include <jasper/jasper.h>
                            ^
@@ -19991,7 +19991,7 @@ configure: failed program was:
 | #include <jasper/jasper.h>
 configure:26232: result: no
 configure:26232: checking jasper/jasper.h presence
-configure:26232: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26232: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:27: fatal error: jasper/jasper.h: No such file or directory
  #include <jasper/jasper.h>
                            ^
@@ -20185,7 +20185,7 @@ configure:26232: result: no
 configure:26232: checking for jasper/jasper.h
 configure:26232: result: no
 configure:26240: checking for jas_stream_fopen in -ljasper
-configure:26265: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ljasper  -lm -lgomp -ldl  -lpthread >&5
+configure:26265: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ljasper  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ljasper
 collect2: error: ld returned 1 exit status
 configure:26265: $? = 1
@@ -20394,7 +20394,7 @@ configure:26334: result: -------------------------------------------------------
 configure:26336: checking for LCMS
 configure:26338: result: 
 configure:26343: checking lcms.h usability
-configure:26343: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26343: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:18: fatal error: lcms.h: No such file or directory
  #include <lcms.h>
                   ^
@@ -20619,7 +20619,7 @@ configure: failed program was:
 | #include <lcms.h>
 configure:26343: result: no
 configure:26343: checking lcms.h presence
-configure:26343: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26343: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:18: fatal error: lcms.h: No such file or directory
  #include <lcms.h>
                   ^
@@ -20813,7 +20813,7 @@ configure:26343: result: no
 configure:26343: checking for lcms.h
 configure:26343: result: no
 configure:26355: checking lcms/lcms.h usability
-configure:26355: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26355: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:23: fatal error: lcms/lcms.h: No such file or directory
  #include <lcms/lcms.h>
                        ^
@@ -21038,7 +21038,7 @@ configure: failed program was:
 | #include <lcms/lcms.h>
 configure:26355: result: no
 configure:26355: checking lcms/lcms.h presence
-configure:26355: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26355: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:23: fatal error: lcms/lcms.h: No such file or directory
  #include <lcms/lcms.h>
                        ^
@@ -21232,7 +21232,7 @@ configure:26355: result: no
 configure:26355: checking for lcms/lcms.h
 configure:26355: result: no
 configure:26370: checking for cmsOpenProfileFromMem in -llcms
-configure:26395: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -llcms  -lm -lgomp -ldl  -lpthread >&5
+configure:26395: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -llcms  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -llcms
 collect2: error: ld returned 1 exit status
 configure:26395: $? = 1
@@ -21475,7 +21475,7 @@ configure:26692: result: -------------------------------------------------------
 configure:26694: checking for PNG
 configure:26696: result: 
 configure:26700: checking png.h usability
-configure:26700: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:26700: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:17: fatal error: png.h: No such file or directory
  #include <png.h>
                  ^
@@ -21700,7 +21700,7 @@ configure: failed program was:
 | #include <png.h>
 configure:26700: result: no
 configure:26700: checking png.h presence
-configure:26700: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:26700: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:17: fatal error: png.h: No such file or directory
  #include <png.h>
                  ^
@@ -21894,7 +21894,7 @@ configure:26700: result: no
 configure:26700: checking for png.h
 configure:26700: result: no
 configure:26708: checking for png_get_io_ptr in -lpng
-configure:26733: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lpng  -lm -lgomp -ldl  -lpthread >&5
+configure:26733: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -lpng  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -lpng
 collect2: error: ld returned 1 exit status
 configure:26733: $? = 1
@@ -22103,7 +22103,7 @@ configure:27004: result: -------------------------------------------------------
 configure:27006: checking for TIFF
 configure:27008: result: 
 configure:27012: checking tiff.h usability
-configure:27012: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:27012: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:18: fatal error: tiff.h: No such file or directory
  #include <tiff.h>
                   ^
@@ -22328,7 +22328,7 @@ configure: failed program was:
 | #include <tiff.h>
 configure:27012: result: no
 configure:27012: checking tiff.h presence
-configure:27012: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:27012: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:18: fatal error: tiff.h: No such file or directory
  #include <tiff.h>
                   ^
@@ -22522,7 +22522,7 @@ configure:27012: result: no
 configure:27012: checking for tiff.h
 configure:27012: result: no
 configure:27020: checking tiffio.h usability
-configure:27020: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
+configure:27020: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -c -fopenmp -g -O2 -Wall -W -pthread  conftest.c >&5
 conftest.c:216:20: fatal error: tiffio.h: No such file or directory
  #include <tiffio.h>
                     ^
@@ -22747,7 +22747,7 @@ configure: failed program was:
 | #include <tiffio.h>
 configure:27020: result: no
 configure:27020: checking tiffio.h presence
-configure:27020: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E  conftest.c
+configure:27020: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E  conftest.c
 conftest.c:183:20: fatal error: tiffio.h: No such file or directory
  #include <tiffio.h>
                     ^
@@ -22941,7 +22941,7 @@ configure:27020: result: no
 configure:27020: checking for tiffio.h
 configure:27020: result: no
 configure:27028: checking for TIFFOpen in -ltiff
-configure:27053: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
+configure:27053: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ltiff
 collect2: error: ld returned 1 exit status
 configure:27053: $? = 1
@@ -23145,7 +23145,7 @@ configure: failed program was:
 | }
 configure:27062: result: no
 configure:27070: checking for TIFFClientOpen in -ltiff
-configure:27095: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
+configure:27095: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ltiff
 collect2: error: ld returned 1 exit status
 configure:27095: $? = 1
@@ -23349,7 +23349,7 @@ configure: failed program was:
 | }
 configure:27104: result: no
 configure:27112: checking for TIFFIsByteSwapped in -ltiff
-configure:27137: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
+configure:27137: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ltiff
 collect2: error: ld returned 1 exit status
 configure:27137: $? = 1
@@ -23553,7 +23553,7 @@ configure: failed program was:
 | }
 configure:27146: result: no
 configure:27154: checking for TIFFReadRGBATile in -ltiff
-configure:27179: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
+configure:27179: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ltiff
 collect2: error: ld returned 1 exit status
 configure:27179: $? = 1
@@ -23757,7 +23757,7 @@ configure: failed program was:
 | }
 configure:27188: result: no
 configure:27196: checking for TIFFReadRGBAStrip in -ltiff
-configure:27221: /home/wrv/afl-1.83b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
+configure:27221: /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -o conftest -fopenmp -g -O2 -Wall -W -pthread   conftest.c -ltiff  -lm -lgomp -ldl  -lpthread >&5
 /usr/bin/ld: cannot find -ltiff
 collect2: error: ld returned 1 exit status
 configure:27221: $? = 1
@@ -24001,7 +24001,8 @@ configure:28489: result: display
 configure:28499: checking for mogrify
 configure:28530: result: mogrify
 configure:28540: checking for gnuplot
-configure:28571: result: gnuplot
+configure:28558: found /usr/bin/gnuplot
+configure:28571: result: /usr/bin/gnuplot
 configure:28581: checking for ra_pfm
 configure:28612: result: ra_pfm
 configure:28622: checking for hp2xx
@@ -24140,8 +24141,10 @@ config.status:1654: creating wand/MagickWand.pc
 config.status:1654: creating wand/Wand-config
 config.status:1654: creating wand/Wand.pc
 config.status:1654: creating config/config.h
+config.status:1835: config/config.h is unchanged
 config.status:1883: executing magick/magick-config.h commands
 config.status:1921: creating magick/magick-config.h - prefix MAGICKCORE for config/config.h defines
+config.status:1943: magick/magick-config.h is unchanged
 config.status:1883: executing depfiles commands
 config.status:1883: executing libtool commands
 config.status:1883: executing default commands
@@ -24210,7 +24213,7 @@ Options used to compile and link:
   PREFIX          = /usr/local
   EXEC-PREFIX     = /usr/local
   VERSION         = 6.5.4
-  CC              = /home/wrv/afl-1.83b/afl-gcc -std=gnu99
+  CC              = /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99
   CFLAGS          = -fopenmp -g -O2 -Wall -W -pthread
   MAGICK_CFLAGS   = -fopenmp -g -O2 -Wall -W -pthread
   CPPFLAGS        = -I/usr/local/include/ImageMagick
@@ -24253,7 +24256,7 @@ ac_cv_env_CAIRO_SVG_LIBS_value=
 ac_cv_env_CCC_set=
 ac_cv_env_CCC_value=
 ac_cv_env_CC_set=set
-ac_cv_env_CC_value=/home/wrv/afl-1.83b/afl-gcc
+ac_cv_env_CC_value=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc
 ac_cv_env_CFLAGS_set=
 ac_cv_env_CFLAGS_value=
 ac_cv_env_CPPFLAGS_set=
@@ -24519,7 +24522,7 @@ ac_cv_path_FGREP='/usr/bin/grep -F'
 ac_cv_path_FIGDecodeDelegate=fig2dev
 ac_cv_path_GREP=/usr/bin/grep
 ac_cv_path_GVCDecodeDelegate=dot
-ac_cv_path_GnuplotDecodeDelegate=gnuplot
+ac_cv_path_GnuplotDecodeDelegate=/usr/bin/gnuplot
 ac_cv_path_HDRDecodeDelegate=ra_pfm
 ac_cv_path_HPGLDecodeDelegate=hp2xx
 ac_cv_path_HTMLDecodeDelegate=html2ps
@@ -24551,17 +24554,17 @@ ac_cv_path_ac_pt_PKG_CONFIG=/usr/bin/pkg-config
 ac_cv_path_install='/usr/bin/install -c'
 ac_cv_path_mkdir=/usr/bin/mkdir
 ac_cv_prog_AWK=gawk
-ac_cv_prog_CPP='/home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E'
+ac_cv_prog_CPP='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E'
 ac_cv_prog_PERL=perl
 ac_cv_prog_RPM=rpm
 ac_cv_prog_TAR=gtar
 ac_cv_prog_ac_ct_AR=ar
-ac_cv_prog_ac_ct_CC=/home/wrv/afl-1.83b/afl-gcc
+ac_cv_prog_ac_ct_CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc
 ac_cv_prog_ac_ct_OBJDUMP=objdump
 ac_cv_prog_ac_ct_RANLIB=ranlib
 ac_cv_prog_ac_ct_STRIP=strip
 ac_cv_prog_c_openmp=-fopenmp
-ac_cv_prog_cc__home_wrv_afl_1_83b_afl_gcc_c_o=yes
+ac_cv_prog_cc__home_wrv_CircleSquareFuzzing_afl_1_85b_afl_gcc_c_o=yes
 ac_cv_prog_cc_c89=
 ac_cv_prog_cc_c99=-std=gnu99
 ac_cv_prog_cc_g=yes
@@ -24669,18 +24672,18 @@ CAIRO_DELEGATE_FALSE=''
 CAIRO_DELEGATE_TRUE='#'
 CAIRO_SVG_CFLAGS=''
 CAIRO_SVG_LIBS=''
-CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99'
+CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99'
 CCDEPMODE='depmode=gcc3'
 CCMALLOCDelegate=''
 CFLAGS='-fopenmp -g -O2 -Wall -W -pthread'
 CGMDecodeDelegate='ralcgm'
 CODER_PATH='/usr/local/lib/ImageMagick-6.5.4/modules-Q16/coders'
-CONFIGURE_ARGS='./configure  '\''--disable-shared'\'' '\''CC=/home/wrv/afl-1.83b/afl-gcc'\'''
+CONFIGURE_ARGS='./configure  '\''--disable-shared'\'' '\''CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc'\'''
 CONFIGURE_PATH='/usr/local/lib/ImageMagick-6.5.4/config/'
 CONFIG_STATUS_DEPENDENCIES='$(top_srcdir)/version.sh'
 CONVENIENCE_LTDL_FALSE='#'
 CONVENIENCE_LTDL_TRUE=''
-CPP='/home/wrv/afl-1.83b/afl-gcc -std=gnu99 -E'
+CPP='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -E'
 CPPFLAGS=''
 CXX='g++'
 CXXCPP=''
@@ -24696,7 +24699,7 @@ DEFS='-DHAVE_CONFIG_H'
 DELEGATES=''
 DEPDIR='.deps'
 DIRSEP=':'
-DISTCHECK_CONFIG_FLAGS=''\''CC=/home/wrv/afl-1.83b/afl-gcc'\'' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-wmf=no --with-xml=no'
+DISTCHECK_CONFIG_FLAGS=''\''CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc'\'' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-wmf=no --with-xml=no'
 DJVU_DELEGATE_FALSE=''
 DJVU_DELEGATE_TRUE='#'
 DJVU_LIBS=''
@@ -24884,7 +24887,7 @@ PACKAGE_LIB_VERSION='0x654'
 PACKAGE_LIB_VERSION_NUMBER='6,5,4,10'
 PACKAGE_NAME='ImageMagick'
 PACKAGE_RELEASE='10'
-PACKAGE_RELEASE_DATE='2015-07-16'
+PACKAGE_RELEASE_DATE='2015-08-04'
 PACKAGE_STRING='ImageMagick 6.5.4'
 PACKAGE_TARNAME='ImageMagick'
 PACKAGE_URL=''
@@ -24896,7 +24899,7 @@ PCLDelegate='pcl6'
 PCLMonoDevice='pbmraw'
 PCLVersion='unknown'
 PERL='perl'
-PERLMAINCC='/home/wrv/afl-1.83b/afl-gcc'
+PERLMAINCC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc'
 PERL_MAKE_OPTIONS=''
 PERL_SUPPORTS_DESTDIR=''
 PERSISTINCLUDE_DIR='/usr/include'
@@ -24909,7 +24912,7 @@ POVDelegate='povray'
 POW_LIB=''
 PREFIX_DIR='/usr/local'
 PSDelegate='gs'
-PTHREAD_CC='/home/wrv/afl-1.83b/afl-gcc -std=gnu99'
+PTHREAD_CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99'
 PTHREAD_CFLAGS='-pthread'
 PTHREAD_CXX='g++'
 PTHREAD_LIBS='-lpthread'
@@ -24999,7 +25002,7 @@ ZLIB_DELEGATE_FALSE=''
 ZLIB_DELEGATE_TRUE='#'
 ZLIB_LIBS=''
 ZipDelegate='gzip'
-ac_ct_CC='/home/wrv/afl-1.83b/afl-gcc'
+ac_ct_CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc'
 ac_ct_CXX=''
 ac_ct_DUMPBIN=''
 acx_pthread_config=''

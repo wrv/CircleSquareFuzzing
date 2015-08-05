@@ -2274,7 +2274,7 @@ BlenderDecodeDelegate = blender
 BrowseDelegate = xdg-open
 CAIRO_SVG_CFLAGS = 
 CAIRO_SVG_LIBS = 
-CC = /home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99
+CC = /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99
 CCDEPMODE = depmode=gcc3
 CCMALLOCDelegate = 
 CFLAGS = -fopenmp -g -O2 -Wall -pthread
@@ -2282,10 +2282,10 @@ CGMDecodeDelegate = ralcgm
 CL_CFLAGS = 
 CL_LIBS = 
 CODER_PATH = /usr/local/lib/ImageMagick-6.7.0/modules-Q16/coders
-CONFIGURE_ARGS = ./configure  '--disable-shared' 'CC=/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc'
+CONFIGURE_ARGS = ./configure  '--disable-shared' 'CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc'
 CONFIGURE_PATH = /usr/local/etc/ImageMagick/
 CONFIG_STATUS_DEPENDENCIES = $(top_srcdir)/version.sh
-CPP = /home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -E
+CPP = /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -E
 CPPFLAGS = 
 CXX = g++
 CXXCPP = 
@@ -2299,7 +2299,7 @@ DEFS = -DHAVE_CONFIG_H
 DELEGATES = 
 DEPDIR = .deps
 DIRSEP = :
-DISTCHECK_CONFIG_FLAGS = 'CC=/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-xml=no --with-perl=no
+DISTCHECK_CONFIG_FLAGS = 'CC=/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc' --disable-deprecated --with-quantum-depth=16 --with-umem=no --with-autotrace=no --with-fontconfig=no --with-gslib=no --with-fontpath= --with-rsvg=no --with-xml=no --with-perl=no
 DJVU_LIBS = 
 DLLDFLAGS = 
 DLLTOOL = false
@@ -2464,7 +2464,7 @@ PACKAGE_LIB_VERSION = 0x670
 PACKAGE_LIB_VERSION_NUMBER = 6,7,0,10
 PACKAGE_NAME = ImageMagick
 PACKAGE_RELEASE = 10
-PACKAGE_RELEASE_DATE = 2015-07-22
+PACKAGE_RELEASE_DATE = 2015-08-04
 PACKAGE_STRING = ImageMagick 6.7.0
 PACKAGE_TARNAME = ImageMagick-6.7.0
 PACKAGE_URL = 
@@ -2477,7 +2477,7 @@ PCLDelegate = pcl6
 PCLMonoDevice = pbmraw
 PCLVersion = unknown
 PERL = perl
-PERLMAINCC = /home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc
+PERLMAINCC = /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc
 PERL_MAKE_OPTIONS = 
 PERL_SUPPORTS_DESTDIR = no
 PERL_VERSION = 
@@ -2489,7 +2489,7 @@ POVDelegate = povray
 POW_LIB = 
 PREFIX_DIR = /usr/local
 PSDelegate = gs
-PTHREAD_CC = /home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99
+PTHREAD_CC = /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99
 PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = -lpthread
 PrintDelegate = lpr
@@ -2554,7 +2554,7 @@ abs_srcdir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.7.0-10
 abs_top_builddir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.7.0-10
 abs_top_srcdir = /home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.7.0-10
 ac_ct_AR = ar
-ac_ct_CC = /home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc
+ac_ct_CC = /home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc
 ac_ct_CXX = 
 ac_ct_DUMPBIN = 
 am__include = include
@@ -11357,8 +11357,8 @@ perl-sources:
 ##	cd $(PERLMAGICK) && perl Makefile.PL $(PERL_MAKE_OPTIONS)
 
 ##install-exec-perl: $(PERLMAKEFILE)
-##	( cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' && \
-##	$(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' install )
+##	( cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' && \
+##	$(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' install )
 
 ##all-perl: perl-sources
 
@@ -11366,16 +11366,16 @@ perl-sources:
 ##	echo "Uninstall not supported for PerlMagick"
 
 ##check-perl: $(PERLMAKEFILE)
-##	cd $(PERLMAGICK) && $(abs_top_builddir)/magick.sh $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' test
+##	cd $(PERLMAGICK) && $(abs_top_builddir)/magick.sh $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' test
 
 ##perl-build: $(PERLMAKEFILE)
-##	( cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' )
+##	( cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' )
 
 ##$(PERLMAKEFILE): perl-sources $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) $(PERLMAKEMAKER)
 ##	cd $(PERLMAGICK) && perl Makefile.PL MAP_TARGET=$(PERLSTATICNAME) $(PERL_MAKE_OPTIONS) && $(MAKE) Makefile ; $(MAKE) Makefile
 
 ##$(PERLMAGICK)/$(PERLSTATICNAME): $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS) $(PERLMAKEFILE)
-##	( rm -f $(PERLMAGICK)/$(PERLSTATICNAME) ; cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' $(PERLSTATICNAME) ; $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' $(PERLSTATICNAME) )
+##	( rm -f $(PERLMAGICK)/$(PERLSTATICNAME) ; cd $(PERLMAGICK) && $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' $(PERLSTATICNAME) ; $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' $(PERLSTATICNAME) )
 
 ##all-perl: $(PERLMAGICK)/$(PERLSTATICNAME)
 
@@ -11383,12 +11383,12 @@ perl-sources:
 ##	rm -f "$(DESTDIR)$(BIN_DIR)/$(PERLSTATICNAME)"
 ##	if test "x$(DESTDIR)" = "x" -o "$(PERL_SUPPORTS_DESTDIR)" = 'yes' ; then \
 ##	  ( cd $(PERLMAGICK) && \
-##	    $(MAKE) -f Makefile.aperl CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
+##	    $(MAKE) -f Makefile.aperl CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
 ##	    INSTALLBIN="$(BIN_DIR)" \
 ##	  ) ; \
 ##	else \
 ##	  ( cd $(PERLMAGICK) && \
-##	    $(MAKE) -f Makefile.aperl CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
+##	    $(MAKE) -f Makefile.aperl CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' inst_perl MAP_TARGET=$(PERLSTATICNAME) \
 ##	    INSTALLBIN="$(DESTDIR)$(BIN_DIR)" PREFIX="$(DESTDIR)$(prefix)" \
 ##	  ) ; \
 ##	fi
@@ -11397,15 +11397,15 @@ perl-sources:
 ##	rm -f '$(DESTDIR)$(BIN_DIR)/$(PERLSTATICNAME)'
 
 ##check-perl: $(PERLMAGICK)/$(PERLSTATICNAME)
-##	cd $(PERLMAGICK) && $(abs_top_builddir)/magick.sh $(MAKE) -f Makefile.aperl CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' test
+##	cd $(PERLMAGICK) && $(abs_top_builddir)/magick.sh $(MAKE) -f Makefile.aperl CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' test
 
 ##perl-build: $(PERLMAGICK)/$(PERLSTATICNAME)
 
 #clean-perl:
 #	(cd $(PERLMAGICK) && \
-#	( if test -f Makefile.old ; then $(MAKE) -f Makefile.old CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' clean ; fi ) ; \
-#	( if test -f Makefile ; then $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' clean ; fi ) ; \
-#	( if test -f Makefile ; then $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.83b/afl-gcc -std=gnu99 -std=gnu99' clean ; fi ) ; \
+#	( if test -f Makefile.old ; then $(MAKE) -f Makefile.old CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' clean ; fi ) ; \
+#	( if test -f Makefile ; then $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' clean ; fi ) ; \
+#	( if test -f Makefile ; then $(MAKE) CC='/home/wrv/CircleSquareFuzzing/afl-1.85b/afl-gcc -std=gnu99 -std=gnu99' clean ; fi ) ; \
 #	rm -f Makefile.old PerlMagick ; \
 #	rm -f t/output* t/jng/*_tmp.jng t/*/output* )
 #	rm -f perl-sources
