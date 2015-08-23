@@ -1,0 +1,5 @@
+{ global:
+RegisterCLIPImage;
+UnregisterCLIPImage;
+__afl_global_area_ptr;
+local: *; };

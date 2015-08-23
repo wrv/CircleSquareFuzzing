@@ -1,0 +1,16 @@
+Doing cbcm
+Doing ecb
+Doing ede ecb
+Doing cbc
+Doing desx cbc
+Doing ede cbc
+Doing pcbc
+Doing cfb8 cfb16 cfb32 cfb48 cfb64 cfb64() ede_cfb64() done
+Doing ofb
+Doing ofb64
+Doing ede_ofb64
+Doing cbc_cksum
+Doing quad_cksum
+input word alignment test 0 1 2 3
+output word alignment test 0 1 2 3
+fast crypt test 

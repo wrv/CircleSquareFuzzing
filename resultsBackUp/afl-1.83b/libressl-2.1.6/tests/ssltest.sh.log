@@ -1,0 +1,374 @@
+WARNING: can't open config file: /etc/ssl/openssl.cnf
+test sslv3
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 with server authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 with client authentication
+client authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 with both client and server authentication
+client authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with server authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with client authentication
+client authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with both client and server authentication
+client authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 via BIO pair
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 with server authentication via BIO pair
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 with client authentication via BIO pair
+client authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv3 with both client and server authentication via BIO pair
+client authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 via BIO pair
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 w/o (EC)DHE via BIO pair
+TLSv1.2, cipher TLSv1/SSLv3 AES256-GCM-SHA384, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with 1024bit DHE via BIO pair
+DONE via BIO pair: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with server authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with client authentication via BIO pair
+client authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with both client and server authentication via BIO pair
+client authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+test sslv2/sslv3 with both client and server authentication via BIO pair and app verify
+client authentication
+server authentication
+In app_verify_callback, allowing cert. Arg is: Test Callback Argument
+Finished printing do we have a context? 0x0x7fff54e9f470 a cert? 0x0x2475920
+cert depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+In app_verify_callback, allowing cert. Arg is: Test Callback Argument
+Finished printing do we have a context? 0x0x7fff54e9f470 a cert? 0x0x247a360
+cert depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ciphersuites
+Testing ciphersuites for SSLv3
+WARNING: can't open config file: /etc/ssl/openssl.cnf
+Testing ECDHE-RSA-AES256-SHA
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-AES256-SHA
+SSLv3, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-CAMELLIA256-SHA
+SSLv3, cipher TLSv1/SSLv3 DHE-RSA-CAMELLIA256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES256-SHA
+SSLv3, cipher TLSv1/SSLv3 AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing CAMELLIA256-SHA
+SSLv3, cipher TLSv1/SSLv3 CAMELLIA256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-AES128-SHA
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-AES128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-AES128-SHA
+SSLv3, cipher TLSv1/SSLv3 DHE-RSA-AES128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-CAMELLIA128-SHA
+SSLv3, cipher TLSv1/SSLv3 DHE-RSA-CAMELLIA128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES128-SHA
+SSLv3, cipher TLSv1/SSLv3 AES128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing CAMELLIA128-SHA
+SSLv3, cipher TLSv1/SSLv3 CAMELLIA128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing IDEA-CBC-SHA
+SSLv3, cipher TLSv1/SSLv3 IDEA-CBC-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-RC4-SHA
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-RC4-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing RC4-SHA
+SSLv3, cipher TLSv1/SSLv3 RC4-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing RC4-MD5
+SSLv3, cipher TLSv1/SSLv3 RC4-MD5, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-DES-CBC3-SHA
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-DES-CBC3-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing EDH-RSA-DES-CBC3-SHA
+SSLv3, cipher TLSv1/SSLv3 EDH-RSA-DES-CBC3-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DES-CBC3-SHA
+SSLv3, cipher TLSv1/SSLv3 DES-CBC3-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing EDH-RSA-DES-CBC-SHA
+SSLv3, cipher TLSv1/SSLv3 EDH-RSA-DES-CBC-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DES-CBC-SHA
+SSLv3, cipher TLSv1/SSLv3 DES-CBC-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-NULL-SHA
+SSLv3, cipher TLSv1/SSLv3 ECDHE-RSA-NULL-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing NULL-SHA
+SSLv3, cipher TLSv1/SSLv3 NULL-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing NULL-MD5
+SSLv3, cipher TLSv1/SSLv3 NULL-MD5, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ciphersuites for TLSv1.2
+WARNING: can't open config file: /etc/ssl/openssl.cnf
+Testing ECDHE-RSA-CHACHA20-POLY1305
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-CHACHA20-POLY1305
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-CHACHA20-POLY1305, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-AES256-GCM-SHA384
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-AES256-SHA384
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA384, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-AES256-GCM-SHA384
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-AES256-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-CAMELLIA256-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-CAMELLIA256-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES256-GCM-SHA384
+TLSv1.2, cipher TLSv1/SSLv3 AES256-GCM-SHA384, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES256-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 AES256-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing CAMELLIA256-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 CAMELLIA256-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-AES128-GCM-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES128-GCM-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing ECDHE-RSA-AES128-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES128-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-AES128-GCM-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES128-GCM-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-AES128-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-AES128-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DHE-RSA-CAMELLIA128-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 DHE-RSA-CAMELLIA128-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES128-GCM-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 AES128-GCM-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES128-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 AES128-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing CAMELLIA128-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 CAMELLIA128-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing NULL-SHA256
+TLSv1.2, cipher TLSv1/SSLv3 NULL-SHA256, 2048 bit RSA
+1 handshakes of 256 bytes done
+WARNING: can't open config file: /etc/ssl/openssl.cnf
+dh
+test tls1 with 1024bit anonymous DH, multiple handshakes
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+DONE via BIO pair: TLSv1, cipher TLSv1/SSLv3 ADH-AES256-SHA
+10 handshakes of 256 bytes done
+Approximate total server time:   0.01 s
+Approximate total client time:   0.02 s
+test dtlsv1
+DTLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test dtlsv1 with server authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+DTLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test dtlsv1 with client authentication
+client authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+DTLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+test dtlsv1 with both client and server authentication
+client authentication
+server authentication
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+depth=2 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Root CA
+depth=1 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=OpenSSL Test Intermediate CA
+depth=0 /C=UK/O=OpenSSL Group/OU=FOR TESTING PURPOSES ONLY/CN=Test Server Cert
+DTLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DTLS ciphersuites
+Testing ciphersuites for SSLv3
+WARNING: can't open config file: /etc/ssl/openssl.cnf
+Testing AES256-SHA
+DTLSv1, cipher TLSv1/SSLv3 AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing CAMELLIA256-SHA
+DTLSv1, cipher TLSv1/SSLv3 CAMELLIA256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing AES128-SHA
+DTLSv1, cipher TLSv1/SSLv3 AES128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing CAMELLIA128-SHA
+DTLSv1, cipher TLSv1/SSLv3 CAMELLIA128-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing IDEA-CBC-SHA
+DTLSv1, cipher TLSv1/SSLv3 IDEA-CBC-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DES-CBC3-SHA
+DTLSv1, cipher TLSv1/SSLv3 DES-CBC3-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing DES-CBC-SHA
+DTLSv1, cipher TLSv1/SSLv3 DES-CBC-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing NULL-SHA
+DTLSv1, cipher TLSv1/SSLv3 NULL-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing NULL-MD5
+DTLSv1, cipher TLSv1/SSLv3 NULL-MD5, 2048 bit RSA
+1 handshakes of 256 bytes done
+Testing NPN...
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Client NPN: testproto
+Server NPN: testproto
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+Client NPN: testproto
+Server NPN: testproto
+Client NPN: testproto
+Server NPN: testproto
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+2 handshakes of 256 bytes done
+Client NPN: testproto
+Server NPN: testproto
+Client NPN: testproto
+Server NPN: testproto
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+2 handshakes of 256 bytes done
+Testing ALPN...
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done
+TLSv1, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-SHA, 2048 bit RSA
+1 handshakes of 256 bytes done

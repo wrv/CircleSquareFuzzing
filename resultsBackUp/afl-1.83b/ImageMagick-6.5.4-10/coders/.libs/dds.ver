@@ -1,0 +1,5 @@
+{ global:
+RegisterDDSImage;
+UnregisterDDSImage;
+__afl_global_area_ptr;
+local: *; };

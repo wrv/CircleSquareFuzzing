@@ -1,0 +1,5 @@
+{ global:
+RegisterMPRImage;
+UnregisterMPRImage;
+__afl_global_area_ptr;
+local: *; };

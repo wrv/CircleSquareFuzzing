@@ -1,0 +1,25 @@
+start_time     : 1439507814
+last_update    : 1439532996
+fuzzer_pid     : 25606
+cycles_done    : 0
+execs_done     : 8362151
+execs_per_sec  : 258.53
+paths_total    : 3012
+paths_favored  : 579
+paths_found    : 2227
+paths_imported : 784
+max_depth      : 4
+cur_path       : 1108
+pending_favs   : 454
+pending_total  : 2827
+variable_paths : 931
+bitmap_cvg     : 42.03%
+unique_crashes : 38
+unique_hangs   : 500
+last_path      : 1439532996
+last_crash     : 1439532343
+last_hang      : 1439529833
+exec_timeout   : 20
+afl_banner     : fuzz70
+afl_version    : 1.85b
+command_line   : ../afl-1.85b/afl-fuzz -i inimage -o syncimage -M fuzz70 -- ./ImageMagick-6.7.0-10/utilities/convert @@ @@.png

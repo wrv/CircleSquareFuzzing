@@ -1,0 +1,5 @@
+{ global:
+RegisterSTEGANOImage;
+UnregisterSTEGANOImage;
+__afl_global_area_ptr;
+local: *; };

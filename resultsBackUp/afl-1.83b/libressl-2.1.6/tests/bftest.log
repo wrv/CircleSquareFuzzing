@@ -1,0 +1,6 @@
+testing blowfish in raw ecb mode
+testing blowfish in ecb mode
+testing blowfish set_key
+testing blowfish in cbc mode
+testing blowfish in cfb64 mode
+testing blowfish in ofb64

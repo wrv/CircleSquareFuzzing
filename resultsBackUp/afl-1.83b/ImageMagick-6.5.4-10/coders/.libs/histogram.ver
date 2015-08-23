@@ -1,0 +1,5 @@
+{ global:
+RegisterHISTOGRAMImage;
+UnregisterHISTOGRAMImage;
+__afl_global_area_ptr;
+local: *; };

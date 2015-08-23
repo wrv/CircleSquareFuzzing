@@ -1,0 +1,5 @@
+{ global:
+RegisterSGIImage;
+UnregisterSGIImage;
+__afl_global_area_ptr;
+local: *; };

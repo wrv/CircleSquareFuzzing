@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10'
+top_builddir='/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10'
+
+set -a
+COMPARE="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/compare"
+COMPOSITE="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/composite"
+CONJURE="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/conjure"
+CONVERT="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/convert"
+DISPLAY="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/display"
+IDENTIFY="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/identify"
+MONTAGE="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities/montage" 
+VALIDATE="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/tests/validate"
+DRAWTEST="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/tests/drawtest"
+WANDTEST="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/tests/wandtest"
+LD_LIBRARY_PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/coders"
+MAGICK_CONFIGURE_PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/config:/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/config"
+MAGICK_FILTER_MODULE_PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/filters"
+PATH="/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/utilities:/home/wrv/CircleSquareFuzzing/afl-1.83b/ImageMagick-6.8.6-10/tests:${PATH}"
+set +a

@@ -1,0 +1,36 @@
+
+enginetest beginning
+
+listing available engine types
+end of list
+listing available engine types
+engine 0, id = "test_id0", name = "First test item"
+end of list
+listing available engine types
+end of list
+listing available engine types
+engine 0, id = "test_id2", name = "Third test item"
+engine 1, id = "test_id1", name = "Second test item"
+end of list
+listing available engine types
+engine 0, id = "test_id2", name = "Third test item"
+end of list
+listing available engine types
+engine 0, id = "test_id2", name = "Third test item"
+engine 1, id = "test_id3", name = "Fourth test item"
+end of list
+Add that should fail did.
+Remove that should fail did.
+listing available engine types
+engine 0, id = "test_id3", name = "Fourth test item"
+end of list
+listing available engine types
+end of list
+listing available engine types
+end of list
+Successfully added and removed to an empty list!
+About to beef up the engine-type list
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+About to empty the engine-type list
+................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Tests completed happily
