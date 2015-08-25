@@ -1,4 +1,4 @@
-import subprocess, sys, os, time, shutil
+import subprocess, sys, os, time, shutil, signal
 
 from os import listdir, makedirs
 from os.path import isfile, join, exists
@@ -11,6 +11,8 @@ fuzzerPro = "" # the link to the fuzzer program
 secondProgs = [] # the list of secondary programs to test
 
 verificationRun = 12 # the number of times to rerun the same file for verification
+
+gdbOutputs = {}
 
 usageString = '''Usage: ScriptName -pi </lol/input> -po </lol/output> -p </lol/program> -f </lol/fuzz> -o </lol/lol/> -s <lol1> <lol2> ...
 	-pi <input folder for the program to fuzz> 
@@ -25,6 +27,13 @@ usageString = '''Usage: ScriptName -pi </lol/input> -po </lol/output> -p </lol/p
 def printUsageAndExit(missingElem):
 	print "Error: " + missingElem
 	print usageString
+	sys.exit(0)
+
+##
+# In case of Interrupt being pressed, we save our intermediate responses
+def signal_handler(signal,frame):
+	print "Ctrl+C Pressed! Saving current work"
+	writeResultsToFile()
 	sys.exit(0)
 
 ##
@@ -59,12 +68,21 @@ def folderMonitor(path):
 # Run the programs in secondProgs list against the files gotten from
 # folderMonitor. We run each program in gdb 
 def runProg(files, filepath):
+	global gdbOutputs
+
 	command1 = "echo run | gdb --args "
 	command2 = " lol.png"
 	
+	curResults = []
+
 	for prog in secondProgs:
-		for f in files:
+		#gdbOutputs[prog] = []
+		curResults.append(0) # initialize the curResults
+		
+	for f in files:
+		for prog in secondProgs:
 			ffpath = join(filepath,f) #full file path
+			verRuns = []
 			for i in range(verificationRun):
 				
 				lecommand = command1 + prog + " " + ffpath + command2
@@ -73,7 +91,35 @@ def runProg(files, filepath):
 				
 				# Run the program with the input
 				cmdOutput = subprocess.check_output(lecommand, shell=True)
-				writeResultsToFile(cleanUpText(cmdOutput))
+				#gdbCleaned = cleanUpText(cmdOutput)
+
+				## we only care about crashes, or segmentation faults (SIGSEGV)
+				if "SIGSEGV" in cmdOutput:
+					verRuns.append(1)
+				else:
+					verRuns.append(0)
+				## we now keep track of the different outputs
+				#if gdbCleaned not in gdbOutputs[prog]:
+				#	gdbOutputs[prog].append(gdbCleaned)
+
+			#we assume that if more than half of the runs resulted in a crash then it's a valid crash
+			if sum(verRuns) >= verificationRun/2:
+				curResults[secondProgs.index(prog)] = 1
+			else:
+				curResults[secondProgs.index(prog)] = 0
+		# We want to store the results if we had a crash
+		if 1 in curResults:
+			gdbOutputs[f] = curResults # the file is the key to the run results
+			saveFile(ffpath)
+
+
+##
+# takes in the filepath of an interesting file and saves it in
+# outDir/coolFiles/
+def saveFile(filePath):
+	os.system('cp ' + filePath + ' ' + join(outDir,"coolFiles"))
+
+
 ##
 # parses the gdboutput to only keep info we care about
 # we want to be able to organize the results of each run through version
@@ -81,17 +127,26 @@ def runProg(files, filepath):
 def cleanUpText(gdbOutput):
 	cleanedUp = ''
 	lines = gdbOutput.split('\n')
+	if "exited normally" in gdbOutput:
+		return "exited normally"
+
 	for i in range(len(lines)):
-		if i > 9 && len(lines)-i > 2: # we want to skip the first 9 lines as well as the last 2
+		if i > 10  and len(lines)-i > 3: # we want to skip the first 10 lines as well as the last 3
 			cleanedUp += lines[i] + '\n'
 	return cleanedUp
 
 ##
 # Writes the gdb output to a file for later analysis
 #
-def writeResultsToFile(output):
-	f = open(join(outDir,"gdbOutput"),'a')
-	f.write(output + '\n\n')
+def writeResultsToFile():
+	global gdbOutputs
+	f = open(join(outDir,"gdbOutput"),'w')
+	f.write(' '.join(secondProgs) + '\n')
+
+	for key, value in gdbOutputs.iteritems():
+		toWrite = (key,value)
+		f.write(str(toWrite) + '\n')
+
 
 ##
 # begin the fuzzer which should be generating the files for testing
@@ -160,7 +215,11 @@ def parseArgs(args):
 	
 	beginFuzzer(fuzzerPro=fuzzerPro, curPro=curPro, fuzzInDir=fuzzInDir, fuzzOutDir=fuzzOutDir)
 
+
+signal.signal(signal.SIGINT, signal_handler)
+
 ##
 # so we can run the script from terminal
 if __name__ == "__main__":
 	parseArgs(sys.argv[1:]) # ignore the program name
+
